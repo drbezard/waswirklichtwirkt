@@ -7,8 +7,6 @@ excerpt: "Evidenzbasierte Analyse der LASIK/LASEK-Operation – Erfolgsraten, Ri
 reviewed: false
 ---
 
-# Augenlaser-Operation: Was die Studien wirklich zeigen
-
 Fachgebiet: Augenheilkunde | Evidenzgrad: Stark | Lesedauer: ca. 9 Minuten
 
 Dr. Georg Bézard

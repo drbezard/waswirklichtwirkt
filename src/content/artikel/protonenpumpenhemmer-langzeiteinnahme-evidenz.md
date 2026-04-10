@@ -7,8 +7,6 @@ excerpt: "Pantoprazol & Co. langfristig: Die Risiken sind geringer als gedacht �
 reviewed: false
 ---
 
-# Protonenpumpenhemmer: Wie gefährlich ist die Langzeiteinnahme wirklich?
-
 Protonenpumpenhemmer wie Pantoprazol oder Omeprazol sind bei klarer Indikation auch langfristig deutlich sicherer als ihr Ruf — aber bei bis zu zwei Dritteln aller Langzeitanwender fehlt ein dokumentierter Grund für die Einnahme.
 
 Das ist das zentrale Problem: Nicht die Medikamente selbst sind das Risiko, sondern ihre unkritische Dauerverordnung ohne Indikation. Die einzige große randomisierte Studie — der COMPASS-Trial mit 17.598 Patienten über drei Jahre — fand unter Pantoprazol im Vergleich zu Placebo keine signifikant erhöhten Raten von Nierenerkrankungen, Knochenbrüchen oder Krebs. Die alarmierende Schlagzeilenlage basiert fast ausschließlich auf Beobachtungsstudien, deren Evidenzqualität nach dem GRADE-System (einem standardisierten Bewertungssystem für die Qualität medizinischer Evidenz) durchgehend als „sehr niedrig“ eingestuft wird. Gleichzeitig empfiehlt die American Gastroenterological Association (AGA), bei jedem Langzeitanwender die Indikation regelmäßig zu überprüfen — und die Therapie zu beenden, wenn kein klarer Grund mehr besteht.

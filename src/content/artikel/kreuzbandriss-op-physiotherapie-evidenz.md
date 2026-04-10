@@ -7,8 +7,6 @@ excerpt: "Kreuzbandriss bedeutet nicht automatisch OP. Zwei große RCTs zeigen: 
 reviewed: false
 ---
 
-# Kreuzbandriss: Wann ist die OP wirklich nötig?
-
 Ein Kreuzbandriss bedeutet nicht automatisch, dass Sie operiert werden müssen. Für viele Patienten ist strukturierte Physiotherapie eine gleichwertige Alternative zur Kreuzband-Rekonstruktion.
 
 Das zeigen zwei große randomisierte kontrollierte Studien (RCTs — das höchste Evidenzlevel in der Medizin): Die KANON-Studie (Frobell et al., BMJ 2013) mit 121 Patienten fand nach fünf Jahren keinen Unterschied in der Kniefunktion zwischen sofortiger OP und zunächst konservativer Therapie — etwa die Hälfte der Nicht-Operierten kam dauerhaft ohne OP aus. Die ACL-SNNAP-Studie (Beard et al., Lancet 2022) mit 320 Patienten zeigte allerdings, dass bei chronischer Instabilität (also anhaltendem Wegknicken trotz Physiotherapie) die Rekonstruktion überlegen war. Die Entscheidung hängt also nicht davon ab, ob das Band gerissen ist — sondern davon, wie Ihr Knie auf die Rehabilitation reagiert, welchen Sport Sie betreiben und ob Begleitverletzungen vorliegen.

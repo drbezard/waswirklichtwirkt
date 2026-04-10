@@ -7,8 +7,6 @@ excerpt: "MRT bei Rückenschmerzen zeigt oft Befunde, die keine Schmerzursache s
 reviewed: false
 ---
 
-# Rückenschmerzen und MRT: Warum Bildgebung oft mehr schadet als hilft
-
 Ein MRT bei unkomplizierten Rückenschmerzen verbessert weder Ihre Schmerzen noch Ihre Genesung — es kann Ihren Verlauf sogar verschlechtern.
 
 Das klingt zunächst widersinnig. Aber die Evidenz ist eindeutig — zumindest für eine bestimmte, sehr häufige Gruppe: Patienten mit nicht-spezifischem Kreuzschmerz (Rückenschmerzen ohne Ausstrahlung ins Bein und ohne neurologische Ausfälle). Das betrifft etwa 85–90 % aller Rückenschmerzpatienten. Für diese Gruppe zeigen randomisierte Studien und Meta-Analysen mit über 1.800 Patienten, dass sofortige Bildgebung keinen Vorteil gegenüber einer Behandlung ohne MRT bringt. Gleichzeitig belegt eine systematische Übersicht mit über 3.100 beschwerdefreien Personen, dass degenerative Befunde wie Bandscheibenvorwölbungen oder -degenerationen bei fast jedem Menschen im MRT sichtbar sind — auch ohne jede Beschwerde. Diese Zufallsbefunde führen nachweislich zu unnötiger Angst, mehr Operationen, längerer Arbeitsunfähigkeit und höheren Kosten. Anders ist die Situation bei Rückenschmerzen mit Ausstrahlung ins Bein (Radikulopathie) und neurologischen Ausfällen — hier kann ein MRT nach erfolgloser konservativer Therapie oder bei progredienten Lähmungen sehr wohl sinnvoll sein. Die Nationale VersorgungsLeitlinie Kreuzschmerz (AWMF), das American College of Physicians (ACP) und das britische NICE differenzieren deshalb klar zwischen diesen beiden Gruppen.

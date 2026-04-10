@@ -7,8 +7,6 @@ excerpt: "Katheterablation bei Vorhofflimmern: Wann sie wirklich hilft, wann Med
 reviewed: false
 ---
 
-# Katheterablation bei Vorhofflimmern: Für wen ist sie wirklich sinnvoll?
-
 Die Katheterablation bei Vorhofflimmern ist kein Allheilmittel — aber für bestimmte Patienten ein klar belegter Vorteil gegenüber Medikamenten allein.
 
 Das zeigt die aktuelle Studienlage aus mehreren großen randomisierten Studien und Meta-Analysen. Bei Patienten mit Vorhofflimmern und gleichzeitiger Herzinsuffizienz (Herzschwäche mit eingeschränkter Pumpfunktion) senkt die Ablation die Sterblichkeit und die Zahl der Krankenhausaufenthalte deutlich — das belegt insbesondere die CASTLE-AF-Studie (Marrouche et al., 2018). Bei Patienten ohne Herzinsuffizienz zeigt die bisher größte Studie — CABANA (Packer et al., 2019) — zwar eine bessere Rhythmuskontrolle und Lebensqualität, aber keinen eindeutigen Vorteil bei Tod oder Schlaganfall. Eine umfassende Meta-Analyse im Annals of Internal Medicine (2025) bestätigt: Die Ablation senkt langfristig das Schlaganfall- und Sterberisiko, erhöht aber kurzfristig das Schlaganfallrisiko während des Eingriffs. Die ESC-Leitlinie 2024 und die deutsche AWMF-S3-Leitlinie 2025 empfehlen die Ablation inzwischen als Erstlinientherapie bei paroxysmalem Vorhofflimmern — aber die Entscheidung bleibt individuell.

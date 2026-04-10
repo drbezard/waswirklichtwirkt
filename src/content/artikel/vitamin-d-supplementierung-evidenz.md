@@ -7,8 +7,6 @@ excerpt: "Vitamin-D-Pillen schützen Gesunde kaum vor Krebs, Herzkrankheiten ode
 reviewed: false
 ---
 
-# Vitamin D: Wundermittel oder Hype? Was die Evidenz wirklich zeigt
-
 Für die meisten gesunden Erwachsenen bringt die Einnahme von Vitamin-D-Präparaten keinen nachweisbaren gesundheitlichen Vorteil — weder zum Schutz vor Krebs noch vor Herzinfarkt, Schlaganfall oder Knochenbrüchen.
 
 Das zeigen die bisher größten und methodisch besten Studien: Der VITAL-Trial (Manson et al., 2019) mit über 25.000 Teilnehmern fand keinen Nutzen von 2.000 IE Vitamin D täglich gegenüber Placebo für Krebs oder Herz-Kreislauf-Erkrankungen. Eine Meta-Analyse von 81 randomisierten Studien mit über 53.000 Teilnehmern (Bolland et al., 2018) zeigte: Vitamin D schützt nicht vor Knochenbrüchen, Stürzen oder Knochendichteverlust. Die Endocrine Society rät seit 2024 davon ab, gesunden Erwachsenen unter 75 Jahren Vitamin D über die normale Tagesempfehlung hinaus zu geben. Der deutsche IGeL-Monitor bewertet das routinemäßige Vitamin-D-Screening bei Gesunden als „unklar“ — es fehlen Belege, dass die Messung zu besseren Gesundheitsergebnissen führt. Vitamin D ist kein Wundermittel. Es ist ein Hormon, das bei echtem Mangel ersetzt werden sollte — aber nicht bei jedem.

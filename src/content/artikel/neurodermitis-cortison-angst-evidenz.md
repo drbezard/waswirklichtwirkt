@@ -7,8 +7,6 @@ excerpt: "Cortison-Angst bei Neurodermitis führt oft zu schlechteren Verläufen
 reviewed: false
 ---
 
-# Neurodermitis und Cortison: Warum die Angst oft mehr schadet als die Creme
-
 Topische Kortikosteroide (Cortison-Cremes) sind die am besten untersuchte und wirksamste Erstlinientherapie bei Neurodermitis — und bei korrekter Anwendung deutlich sicherer, als die meisten Patienten glauben.
 
 Das zeigen über 290 randomisierte Studien mit mehr als 45.000 Patientinnen und Patienten, ausgewertet in Cochrane-Reviews und Netzwerk-Meta-Analysen. Gleichzeitig leiden 21 bis 84 Prozent der Betroffenen an sogenannter Kortikophobie (Cortison-Angst) — einer Furcht vor Nebenwirkungen, die dazu führt, dass sie die verordnete Therapie zu selten, zu kurz oder gar nicht anwenden. Die Folge: schlechtere Krankheitskontrolle, mehr Schübe, mehr Leidensdruck. Alle großen Leitlinien — die deutsche AWMF-S3-Leitlinie (2023), die europäische EuroGuiDerm-Leitlinie (2025) und die britische NICE-Leitlinie — empfehlen topische Kortikosteroide als Therapie der ersten Wahl bei Neurodermitis. Die Angst vor Cortison ist nachvollziehbar, aber in den meisten Fällen unbegründet — und sie richtet mehr Schaden an als die Creme selbst.

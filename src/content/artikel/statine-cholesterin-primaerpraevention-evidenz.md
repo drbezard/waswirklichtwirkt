@@ -7,8 +7,6 @@ excerpt: "Statine senken das Herzrisiko — aber nicht bei jedem gleich stark. W
 reviewed: false
 ---
 
-# Statine bei leicht erhöhtem Cholesterin: Wann wirklich nötig — und wann Übertherapie?
-
 Statine gehören zu den am besten untersuchten Medikamenten der Welt — und sie wirken. Aber ob Sie persönlich davon profitieren, hängt nicht von Ihrem Cholesterinwert ab, sondern von Ihrem Gesamtrisiko für Herzinfarkt und Schlaganfall.
 
 Die größte verfügbare Auswertung — eine Meta-Analyse mit Daten von über 174.000 Patientinnen und Patienten aus 27 randomisierten Studien — zeigt: Pro 1 mmol/L LDL-Senkung (das sogenannte „schlechte“ Cholesterin) sinkt das Risiko für schwere Herz-Kreislauf-Ereignisse um etwa 20 %. Klingt beeindruckend — aber die absolute Zahl der verhinderten Ereignisse hängt vom Ausgangspunkt ab. Bei Menschen mit niedrigem Risiko bedeutet das: Von 1.000 Behandelten über fünf Jahre profitieren etwa 11 messbar, während 989 das Medikament genommen hätten, ohne einen konkreten Nutzen zu erleben. Gleichzeitig sind schwere Nebenwirkungen selten, und die häufig berichteten Muskelschmerzen gehen überwiegend auf den Nocebo-Effekt (die Erwartung von Nebenwirkungen verursacht die Beschwerden) zurück. Die entscheidende Frage ist also nicht „Ist mein Cholesterin zu hoch?“, sondern „Wie hoch ist mein Gesamtrisiko — und rechtfertigt es eine lebenslange Medikamenteneinnahme?“

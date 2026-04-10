@@ -7,8 +7,6 @@ excerpt: "Katarakt-OP ist hochwirksam — doch welche Linse brauchen Sie wirklic
 reviewed: false
 ---
 
-# Grauer Star: Wann ist die OP sinnvoll — und welche Linse brauche ich wirklich?
-
 Die Katarakt-Operation ist einer der wirksamsten und sichersten chirurgischen Eingriffe in der Medizin — aber die Wahl der richtigen Kunstlinse wird oft von finanziellen Interessen beeinflusst statt von Evidenz.
 
 Das ist keine pauschale Kritik an der Augenheilkunde — es ist das Ergebnis systematischer Auswertungen. Die OP selbst ist hervorragend belegt: In Deutschland werden jährlich 600.000 bis 800.000 Katarakt-Operationen durchgeführt (Lapp et al., 2023), mit einer Erfolgsrate von über 95 %. Die entscheidende Frage für Patienten ist nicht ob, sondern wann operiert werden soll — und vor allem: welche Kunstlinse (Intraokularlinse, IOL) wirklich nötig ist. Denn während die gesetzliche Krankenkasse die Standard-Monofokallinse vollständig bezahlt, kosten sogenannte Premiumlinsen (Multifokal-, EDOF- oder torische Linsen) zwischen 500 und 2.500 Euro Aufpreis pro Auge — als Selbstzahlerleistung. Ein Cochrane Review (de Silva et al., 2016) und aktuelle Meta-Analysen zeigen: Multifokallinsen reduzieren die Brillenabhängigkeit, verursachen aber häufiger störende Lichtphänomene wie Halos (Lichtringe) und Blendung. Für die meisten Patienten liefert die Standardlinse exzellente Ergebnisse.

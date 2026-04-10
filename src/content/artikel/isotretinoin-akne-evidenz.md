@@ -7,8 +7,6 @@ excerpt: "Isotretinoin gilt als gefährlich – doch bei schwerer Akne ist es di
 reviewed: false
 ---
 
-# Isotretinoin bei Akne: Gefährlich oder unterschätzt?
-
 Isotretinoin ist das wirksamste Medikament gegen schwere Akne — und sein Ruf als „gefährliche Chemiekeule“ wird durch die aktuelle Evidenz nicht gestützt.
 
 Kaum ein Medikament in der Dermatologie ist so gefürchtet und gleichzeitig so wirksam wie Isotretinoin (bekannt unter früheren Markennamen wie Roaccutan oder Accutane). Es ist das einzige Arzneimittel, das alle vier Ursachen der Akne gleichzeitig bekämpft — und es erreicht dauerhafte Remissionsraten (anhaltende Beschwerdefreiheit) von 80–90 %. Trotzdem zögern viele Patienten und Ärzte, weil hartnäckige Mythen über schwere psychiatrische Nebenwirkungen kursieren. Die größte verfügbare Meta-Analyse (Tan et al., 2024, JAMA Dermatology) mit über 1,6 Millionen Teilnehmern fand jedoch kein erhöhtes Risiko für Suizid oder psychiatrische Erkrankungen unter Isotretinoin. Die American Academy of Dermatology (AAD, 2024) und das britische NICE empfehlen Isotretinoin ausdrücklich bei schwerer Akne, bei Akne mit Narbenbildung und bei Versagen der Standardtherapie. Das eigentliche Risiko liegt nicht in dem Medikament — sondern darin, es aus unbegründeter Angst vorzuenthalten.
