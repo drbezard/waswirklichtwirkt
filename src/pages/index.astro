@@ -87,9 +87,9 @@ const hasMore = sortedArticles.length > 5;
 
   <!-- Neueste Artikel -->
   <section class="pb-16 md:pb-24">
-    <div class="max-w-4xl mx-auto px-5">
-      <h2 class="text-base font-bold uppercase tracking-widest text-text-muted mb-8">Neueste Artikel</h2>
-      <div class="space-y-4" id="articles-list">
+    <div class="max-w-5xl mx-auto px-5">
+      <h2 class="text-lg font-bold uppercase tracking-widest text-gray-400 mb-10 text-center">Neueste Artikel</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="articles-list">
         {articles.map((article) => (
           <ArticleCard
             title={article.data.title}
