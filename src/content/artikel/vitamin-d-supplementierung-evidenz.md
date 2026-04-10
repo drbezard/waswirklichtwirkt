@@ -5,6 +5,7 @@ date: "2026-04-07"
 category: "Innere Medizin"
 excerpt: "Vitamin-D-Pillen schützen Gesunde kaum vor Krebs, Herzkrankheiten oder Knochenbrüchen. Was die größten Studien wirklich zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/vitamin-d-supplementierung-evidenz_100289bd.png"
 ---
 
 Für die meisten gesunden Erwachsenen bringt die Einnahme von Vitamin-D-Präparaten keinen nachweisbaren gesundheitlichen Vorteil — weder zum Schutz vor Krebs noch vor Herzinfarkt, Schlaganfall oder Knochenbrüchen.

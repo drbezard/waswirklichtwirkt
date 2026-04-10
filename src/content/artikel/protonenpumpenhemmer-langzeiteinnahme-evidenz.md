@@ -5,6 +5,7 @@ date: "2026-04-08"
 category: "Innere Medizin"
 excerpt: "Pantoprazol & Co. langfristig: Die Risiken sind geringer als gedacht — aber oft fehlt die Indikation. Was Studien zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/protonenpumpenhemmer-langzeiteinnahme-evidenz_1611e9b2.png"
 ---
 
 Protonenpumpenhemmer wie Pantoprazol oder Omeprazol sind bei klarer Indikation auch langfristig deutlich sicherer als ihr Ruf — aber bei bis zu zwei Dritteln aller Langzeitanwender fehlt ein dokumentierter Grund für die Einnahme.

@@ -5,6 +5,7 @@ date: "2026-04-06"
 category: "Augenheilkunde"
 excerpt: "Katarakt-OP ist hochwirksam — doch welche Linse brauchen Sie wirklich? Was Studien zu Multifokal- vs. Monofokallinsen zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/grauer-star-katarakt-op-linse-evidenz_83f18eaa.png"
 ---
 
 Die Katarakt-Operation ist einer der wirksamsten und sichersten chirurgischen Eingriffe in der Medizin — aber die Wahl der richtigen Kunstlinse wird oft von finanziellen Interessen beeinflusst statt von Evidenz.

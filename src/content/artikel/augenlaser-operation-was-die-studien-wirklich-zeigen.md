@@ -5,6 +5,7 @@ date: "2026-03-09"
 category: "Augenheilkunde"
 excerpt: "Evidenzbasierte Analyse der LASIK/LASEK-Operation – Erfolgsraten, Risiken und wer wirklich geeignet ist."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/augenlaser-operation-was-die-studien-wirklich-zeigen_fdb4e7f8.png"
 ---
 
 Fachgebiet: Augenheilkunde | Evidenzgrad: Stark | Lesedauer: ca. 9 Minuten

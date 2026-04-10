@@ -5,6 +5,7 @@ date: "2026-04-05"
 category: "Dermatologie"
 excerpt: "Isotretinoin gilt als gefährlich – doch bei schwerer Akne ist es die wirksamste Therapie. Was Studien über Risiken und Nutzen zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/isotretinoin-akne-evidenz_52044f64.png"
 ---
 
 Isotretinoin ist das wirksamste Medikament gegen schwere Akne — und sein Ruf als „gefährliche Chemiekeule“ wird durch die aktuelle Evidenz nicht gestützt.

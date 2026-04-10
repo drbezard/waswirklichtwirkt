@@ -5,6 +5,7 @@ date: "2026-04-04"
 category: "Dermatologie"
 excerpt: "Cortison-Angst bei Neurodermitis führt oft zu schlechteren Verläufen. Was 291 Studien über Wirksamkeit und Sicherheit zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/neurodermitis-cortison-angst-evidenz_76a9774b.png"
 ---
 
 Topische Kortikosteroide (Cortison-Cremes) sind die am besten untersuchte und wirksamste Erstlinientherapie bei Neurodermitis — und bei korrekter Anwendung deutlich sicherer, als die meisten Patienten glauben.

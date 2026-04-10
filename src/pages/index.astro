@@ -4,7 +4,9 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 
 const allArticles = await getCollection('artikel');
-const articles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const sortedArticles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const articles = sortedArticles.slice(0, 5);
+const hasMore = sortedArticles.length > 5;
 ---
 
 <Base title="Was Wirklich Wirkt">
@@ -86,7 +88,7 @@ const articles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - ne
   <!-- Neueste Artikel -->
   <section class="pb-16 md:pb-24">
     <div class="max-w-4xl mx-auto px-5">
-      <h2 class="text-sm font-bold uppercase tracking-widest text-text-muted mb-8">Neueste Artikel</h2>
+      <h2 class="text-base font-bold uppercase tracking-widest text-text-muted mb-8">Neueste Artikel</h2>
       <div class="space-y-4" id="articles-list">
         {articles.map((article) => (
           <ArticleCard
@@ -97,9 +99,19 @@ const articles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - ne
             excerpt={article.data.excerpt}
             reviewed={article.data.reviewed}
             reviewer={article.data.reviewer}
+            reviewerPhoto={article.data.reviewerPhoto}
+            image={article.data.image}
           />
         ))}
       </div>
+      {hasMore && (
+        <div class="mt-8 text-center">
+          <a href="/fachgebiete" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border text-sm font-medium text-text hover:bg-bg-subtle hover:border-border/80 transition-all no-underline">
+            Alle Artikel nach Fachgebiet
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </div>
+      )}
     </div>
   </section>
 

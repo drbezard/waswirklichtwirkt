@@ -4,7 +4,13 @@ slug: "schulter-impingement-subakromiale-dekompression"
 date: "2026-03-24"
 category: "Orthopädie"
 excerpt: "Die arthroskopische subakromiale Dekompression wirkt nicht besser als eine Schein-OP. Zwei große Placebo-kontrollierte Studien und ein 10-Jahres-Follow-up bestätigen: Physiotherapie ist die empfohlene Erstbehandlung."
-reviewed: false
+reviewed: true
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/schulter-impingement-subakromiale-dekompression_9275cf60.png"
+reviewer: "Dr. Georg Bézard"
+reviewerTitle: "Facharzt für Unfallchirurgie & Orthopädie · Wien"
+reviewerPhoto: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/dr-bezard_f81ad623.jpg"
+reviewerUrl: "https://www.drbezard.com"
+reviewDate: "April 2026"
 ---
 
 ## Kernaussage

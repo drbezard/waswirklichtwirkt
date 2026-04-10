@@ -4,7 +4,13 @@ slug: "kreuzbandriss-op-physiotherapie-evidenz"
 date: "2026-03-27"
 category: "Orthopädie"
 excerpt: "Kreuzbandriss bedeutet nicht automatisch OP. Zwei große RCTs zeigen: Physiotherapie ist für viele Patienten gleichwertig."
-reviewed: false
+reviewed: true
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/kreuzbandriss-op-physiotherapie-evidenz_d1575534.png"
+reviewer: "Dr. Georg Bézard"
+reviewerTitle: "Facharzt für Unfallchirurgie & Orthopädie · Wien"
+reviewerPhoto: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/dr-bezard_f81ad623.jpg"
+reviewerUrl: "https://www.drbezard.com"
+reviewDate: "April 2026"
 ---
 
 Ein Kreuzbandriss bedeutet nicht automatisch, dass Sie operiert werden müssen. Für viele Patienten ist strukturierte Physiotherapie eine gleichwertige Alternative zur Kreuzband-Rekonstruktion.

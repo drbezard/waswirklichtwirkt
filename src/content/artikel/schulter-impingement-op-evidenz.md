@@ -4,7 +4,13 @@ slug: "schulter-impingement-op-evidenz"
 date: "2026-03-17"
 category: "Orthopädie"
 excerpt: "Die subakromiale Dekompression wirkt nicht besser als eine Schein-OP. Zwei Placebo-kontrollierte Studien und ein Cochrane Review belegen: Physiotherapie ist gleichwertig."
-reviewed: false
+reviewed: true
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/schulter-impingement-op-evidenz_5f7a64a3.png"
+reviewer: "Dr. Georg Bézard"
+reviewerTitle: "Facharzt für Unfallchirurgie & Orthopädie · Wien"
+reviewerPhoto: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/dr-bezard_f81ad623.jpg"
+reviewerUrl: "https://www.drbezard.com"
+reviewDate: "April 2026"
 ---
 
 Fachgebiet: Orthopädie | Evidenzgrad: Stark | Lesedauer: ca. 10 Minuten

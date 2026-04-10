@@ -5,6 +5,7 @@ date: "2026-04-03"
 category: "Kardiologie"
 excerpt: "Katheterablation bei Vorhofflimmern: Wann sie wirklich hilft, wann Medikamente reichen. Die Evidenz aus großen Studien."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/vorhofflimmern-katheterablation-evidenz_602b5cd4.png"
 ---
 
 Die Katheterablation bei Vorhofflimmern ist kein Allheilmittel — aber für bestimmte Patienten ein klar belegter Vorteil gegenüber Medikamenten allein.

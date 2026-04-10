@@ -4,7 +4,13 @@ slug: "rueckenschmerzen-mrt-bildgebung-evidenz"
 date: "2026-03-30"
 category: "Orthopädie"
 excerpt: "MRT bei Rückenschmerzen zeigt oft Befunde, die keine Schmerzursache sind. Was Studien mit über 3.000 Beschwerdefreien belegen."
-reviewed: false
+reviewed: true
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/rueckenschmerzen-mrt-bildgebung-evidenz_18d42315.png"
+reviewer: "Dr. Georg Bézard"
+reviewerTitle: "Facharzt für Unfallchirurgie & Orthopädie · Wien"
+reviewerPhoto: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/dr-bezard_f81ad623.jpg"
+reviewerUrl: "https://www.drbezard.com"
+reviewDate: "April 2026"
 ---
 
 Ein MRT bei unkomplizierten Rückenschmerzen verbessert weder Ihre Schmerzen noch Ihre Genesung — es kann Ihren Verlauf sogar verschlechtern.

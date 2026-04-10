@@ -5,6 +5,7 @@ date: "2026-04-01"
 category: "Kardiologie"
 excerpt: "Statine senken das Herzrisiko — aber nicht bei jedem gleich stark. Was große Studien mit über 170.000 Patienten zeigen."
 reviewed: false
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/statine-cholesterin-primaerpraevention-evidenz_5367dd66.png"
 ---
 
 Statine gehören zu den am besten untersuchten Medikamenten der Welt — und sie wirken. Aber ob Sie persönlich davon profitieren, hängt nicht von Ihrem Cholesterinwert ab, sondern von Ihrem Gesamtrisiko für Herzinfarkt und Schlaganfall.

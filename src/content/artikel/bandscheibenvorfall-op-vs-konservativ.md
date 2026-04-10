@@ -4,7 +4,13 @@ slug: "bandscheibenvorfall-op-vs-konservativ"
 date: "2026-03-13"
 category: "Orthopädie"
 excerpt: "Die meisten Bandscheibenvorfälle heilen ohne Operation. Die OP bringt schnellere Schmerzlinderung, aber nach einem Jahr sind die Ergebnisse gleichwertig."
-reviewed: false
+reviewed: true
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/bandscheibenvorfall-op-vs-konservativ_b7f40a84.png"
+reviewer: "Dr. Georg Bézard"
+reviewerTitle: "Facharzt für Unfallchirurgie & Orthopädie · Wien"
+reviewerPhoto: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/dr-bezard_f81ad623.jpg"
+reviewerUrl: "https://www.drbezard.com"
+reviewDate: "April 2026"
 ---
 
 Fachgebiet: Orthopädie | Evidenzgrad: Stark | Lesedauer: ca. 10 Minuten
