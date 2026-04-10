@@ -40,3 +40,97 @@
     background: oklch(0.55 0.2 260 / 0.15);
   }
 }
+
+/* Studien-Boxen – exakt wie WordPress */
+.studie {
+  background: #F5F7FA;
+  border: 1px solid #D4D4D4;
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+
+.studie-name {
+  color: #0D6EBD;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.studie .studie-details {
+  font-size: 0.85rem;
+  color: #6B7280;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.studie p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #3D3D3F;
+  margin: 0;
+}
+
+/* Kernaussage – exakt wie WordPress */
+.kernaussage {
+  background: #E8F1FA;
+  border-left: 4px solid #0D6EBD;
+  border-radius: 0 6px 6px 0;
+  padding: 24px 28px;
+  margin: 0 0 40px 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #3D3D3F;
+}
+
+.kernaussage p {
+  margin: 0 0 12px 0;
+}
+
+.kernaussage p:last-child {
+  margin-bottom: 0;
+}
+
+/* Artikel-Inhalt Prose Overrides */
+.article-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+.article-content h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  color: #111;
+  letter-spacing: -0.02em;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-bottom: 14px;
+  color: #222;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
+
+.article-content strong {
+  font-weight: 600;
+  color: #111;
+}
+
+.article-content a {
+  color: #0D6EBD;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.article-content a:hover {
+  color: #0956a0;
+}
