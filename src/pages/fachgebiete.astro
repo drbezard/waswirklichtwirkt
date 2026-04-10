@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('artikel');
+
+// Kategorien mit Artikelzahl sammeln
+const categoryMap = new Map<string, number>();
+allArticles.forEach(a => {
+  const cat = a.data.category;
+  categoryMap.set(cat, (categoryMap.get(cat) || 0) + 1);
+});
+
+const categories = Array.from(categoryMap.entries())
+  .sort((a, b) => b[1] - a[1])
+  .map(([name, count]) => ({
+    name,
+    count,
+    slug: name.toLowerCase().replace(/\s+/g, '-').replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue'),
+  }));
+---
+
+<Base title="Fachgebiete" description="Alle medizinischen Fachgebiete mit evidenzbasierten Artikeln.">
+  <section class="py-12 md:py-16">
+    <div class="max-w-4xl mx-auto px-5">
+      <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">Fachgebiete</h1>
+      <p class="text-text-secondary mb-10">Wählen Sie ein Fachgebiet, um alle zugehörigen Artikel zu sehen.</p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {categories.map(cat => (
+          <a href={`/fachgebiet/${cat.slug}`}
+             class="group flex items-center justify-between p-5 rounded-xl border border-border bg-bg-card hover:border-primary/30 hover:shadow-md transition-all no-underline">
+            <div>
+              <h2 class="text-lg font-bold text-text group-hover:text-primary transition-colors">{cat.name}</h2>
+              <p class="text-sm text-text-muted mt-0.5">{cat.count} {cat.count === 1 ? 'Artikel' : 'Artikel'}</p>
+            </div>
+            <svg class="w-5 h-5 text-text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

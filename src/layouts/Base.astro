@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+}
+
+const { title, description = 'Keine Meinungen. Nur was die Wissenschaft belegt.', canonical } = Astro.props;
+const siteTitle = 'Was Wirklich Wirkt';
+const fullTitle = title === siteTitle ? `${siteTitle} – ${description}` : `${title} | ${siteTitle}`;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{fullTitle}</title>
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body class="min-h-screen flex flex-col bg-bg">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-border-light">
+      <div class="max-w-4xl mx-auto px-5 h-14 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 no-underline">
+          <span class="text-lg font-bold tracking-tight text-text">Was Wirklich Wirkt</span>
+        </a>
+        <nav class="flex items-center gap-6">
+          <a href="/fachgebiete" class="text-sm font-medium text-text-secondary hover:text-primary transition-colors no-underline">
+            Fachgebiete
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="border-t border-border-light mt-20">
+      <div class="max-w-4xl mx-auto px-5 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-muted">
+        <span>Erstellt: April 2026 · Betreiber: Bezard Media GmbH</span>
+        <a href="/impressum" class="hover:text-primary transition-colors no-underline">Impressum</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('artikel');
+
+  const categoryMap = new Map<string, typeof allArticles>();
+  allArticles.forEach(a => {
+    const cat = a.data.category;
+    if (!categoryMap.has(cat)) categoryMap.set(cat, []);
+    categoryMap.get(cat)!.push(a);
+  });
+
+  return Array.from(categoryMap.entries()).map(([name, articles]) => {
+    const slug = name.toLowerCase().replace(/\s+/g, '-').replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue');
+    return {
+      params: { slug },
+      props: {
+        categoryName: name,
+        articles: articles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()),
+      },
+    };
+  });
+}
+
+const { categoryName, articles } = Astro.props;
+---
+
+<Base title={categoryName} description={`Alle evidenzbasierten Artikel zum Fachgebiet ${categoryName}.`}>
+  <section class="py-12 md:py-16">
+    <div class="max-w-4xl mx-auto px-5">
+      <a href="/fachgebiete" class="text-sm font-medium text-primary hover:text-primary-dark transition-colors no-underline mb-6 inline-block">
+        ← Alle Fachgebiete
+      </a>
+
+      <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">{categoryName}</h1>
+      <p class="text-text-secondary mb-10">{articles.length} {articles.length === 1 ? 'Artikel' : 'Artikel'} in diesem Fachgebiet.</p>
+
+      <div class="space-y-4">
+        {articles.map((article: any) => (
+          <ArticleCard
+            title={article.data.title}
+            slug={article.data.slug}
+            date={article.data.date}
+            category={article.data.category}
+            excerpt={article.data.excerpt}
+            reviewed={article.data.reviewed}
+            reviewer={article.data.reviewer}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

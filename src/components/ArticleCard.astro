@@ -1,0 +1,64 @@
+---
+interface Props {
+  title: string;
+  slug: string;
+  date: string;
+  category: string;
+  excerpt: string;
+  reviewed: boolean;
+  reviewer?: string;
+}
+
+const { title, slug, date, category, excerpt, reviewed, reviewer } = Astro.props;
+
+const formattedDate = new Date(date).toLocaleDateString('de-DE', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+
+const reviewLabel = reviewed ? 'Geprüft' : 'Ausstehend – wartet auf Arzt-Review';
+---
+
+<article class="group border border-border rounded-xl p-6 hover:shadow-md hover:border-border/80 transition-all duration-300 bg-bg-card">
+  <div class="flex items-center gap-3 mb-3 text-sm">
+    <span class="inline-block px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-semibold text-xs uppercase tracking-wide">
+      {category}
+    </span>
+    <span class="text-text-muted">{formattedDate}</span>
+    <span class={`text-xs font-medium ${reviewed ? 'text-success' : 'text-text-muted'}`}>
+      {reviewLabel}
+    </span>
+  </div>
+
+  <a href={`/artikel/${slug}`} class="no-underline block">
+    <h3 class="text-xl font-bold text-text group-hover:text-primary transition-colors mb-2 leading-snug">
+      {title}
+    </h3>
+  </a>
+
+  <p class="text-text-secondary text-base leading-relaxed mb-4">{excerpt}</p>
+
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      {reviewed ? (
+        <span class="flex items-center gap-1.5 text-sm text-success font-medium">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Geprüft{reviewer ? ` von ${reviewer}` : ''}
+        </span>
+      ) : (
+        <span class="flex items-center gap-1.5 text-sm text-text-muted">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Wartet auf Fachprüfung
+        </span>
+      )}
+    </div>
+    <a href={`/artikel/${slug}`} class="text-sm font-medium text-primary hover:text-primary-dark transition-colors no-underline">
+      Artikel lesen →
+    </a>
+  </div>
+</article>

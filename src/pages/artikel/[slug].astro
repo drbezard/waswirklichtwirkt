@@ -1,0 +1,116 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('artikel');
+  return articles.map((article) => ({
+    params: { slug: article.data.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const formattedDate = new Date(article.data.date).toLocaleDateString('de-DE', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<Base
+  title={article.data.seoTitle || article.data.title}
+  description={article.data.seoDescription || article.data.excerpt}
+>
+  <article class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-5">
+      <!-- Meta -->
+      <div class="flex items-center gap-3 mb-4 text-sm">
+        <a href={`/fachgebiet/${article.data.category.toLowerCase().replace(/\s+/g, '-').replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue')}`}
+           class="inline-block px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-semibold text-xs uppercase tracking-wide no-underline hover:bg-primary/20 transition-colors">
+          {article.data.category}
+        </a>
+        <span class="text-text-muted">{formattedDate}</span>
+      </div>
+
+      <h1 class="text-3xl md:text-4xl font-bold text-text leading-tight mb-4">
+        {article.data.title}
+      </h1>
+
+      <p class="text-lg text-text-secondary mb-8 leading-relaxed">
+        {article.data.excerpt}
+      </p>
+
+      <!-- Review Status -->
+      <div class="flex items-center gap-3 mb-8 p-4 rounded-xl border border-border-light bg-bg-subtle">
+        {article.data.reviewed ? (
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span class="text-sm font-medium text-success">
+              Geprüft{article.data.reviewer ? ` von ${article.data.reviewer}` : ''}{article.data.reviewDate ? ` am ${article.data.reviewDate}` : ''}
+            </span>
+          </div>
+        ) : (
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span class="text-sm text-text-muted">Ausstehend – wartet auf Arzt-Review</span>
+          </div>
+        )}
+      </div>
+
+      <!-- Artikel-Inhalt -->
+      <div class="prose prose-gray max-w-none
+        prose-headings:text-text prose-headings:font-bold
+        prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+        prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+        prose-p:text-text-secondary prose-p:leading-relaxed
+        prose-a:text-primary prose-a:no-underline hover:prose-a:underline
+        prose-strong:text-text
+        prose-li:text-text-secondary
+        prose-blockquote:border-primary prose-blockquote:text-text-secondary
+        prose-table:text-sm
+        prose-th:text-text prose-th:font-semibold
+        prose-td:text-text-secondary
+      ">
+        <Content />
+      </div>
+
+      <!-- KI-Prompt (wenn vorhanden) -->
+      {article.data.prompt && (
+        <details class="mt-12 border border-border rounded-xl overflow-hidden">
+          <summary class="px-6 py-4 bg-bg-subtle cursor-pointer text-sm font-medium text-text hover:bg-border-light transition-colors">
+            KI-Prompt anzeigen (Transparenz)
+          </summary>
+          <div class="px-6 py-4 text-sm text-text-secondary bg-white whitespace-pre-wrap font-mono leading-relaxed">
+            {article.data.prompt}
+          </div>
+        </details>
+      )}
+
+      <!-- Quellen (wenn vorhanden) -->
+      {article.data.sources && article.data.sources.length > 0 && (
+        <div class="mt-10 border-t border-border-light pt-8">
+          <h2 class="text-lg font-bold text-text mb-4">Quellen</h2>
+          <ol class="space-y-2 text-sm text-text-secondary">
+            {article.data.sources.map((source: string) => (
+              <li class="leading-relaxed">{source}</li>
+            ))}
+          </ol>
+        </div>
+      )}
+
+      <!-- Zurück -->
+      <div class="mt-12 pt-8 border-t border-border-light">
+        <a href="/" class="text-sm font-medium text-primary hover:text-primary-dark transition-colors no-underline">
+          ← Zurück zur Übersicht
+        </a>
+      </div>
+    </div>
+  </article>
+</Base>

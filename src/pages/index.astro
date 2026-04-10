@@ -1,0 +1,196 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('artikel');
+const articles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<Base title="Was Wirklich Wirkt">
+  <!-- Hero -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="bg-bg-card border border-border rounded-2xl p-8 md:p-12 text-center shadow-sm">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-text mb-3" style="font-family: var(--font-display);">
+          Medizin ohne Mythen.
+        </h1>
+        <p class="text-lg text-text-secondary mb-8">
+          Keine Meinungen. Nur was die Wissenschaft belegt.
+        </p>
+        <div class="max-w-xl mx-auto relative" id="search-container">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Thema suchen – z.B. Augenlaser, Meniskus, Hypertonie …"
+            class="w-full pl-4 pr-28 py-3.5 rounded-xl border border-border bg-white text-base text-text placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+          />
+          <button
+            id="search-btn"
+            class="absolute right-1.5 top-1/2 -translate-y-1/2 px-6 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors text-sm"
+          >
+            Suchen
+          </button>
+          <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-2 bg-white border border-border rounded-xl shadow-lg z-50 max-h-80 overflow-y-auto"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drei-Säulen-Prinzip -->
+  <section class="pb-16 md:pb-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-text mb-4">
+          Irren ist menschlich.<br />
+          Daher werden unsere Artikel <em class="text-primary not-italic font-bold">ausschließlich von KI</em> recherchiert.
+        </h2>
+        <p class="text-text-secondary max-w-2xl mx-auto text-base">
+          Irrtum, Interessenkonflikt und wirtschaftliche Abhängigkeit sind menschliche Konstanten –
+          auch in der Medizin. Eine KI hat keine Karriere zu schützen, keine Pharmasponsoren und
+          verdient nichts an einer Operation. Sie wertet objektiv aus, was die Wissenschaft sagt.
+        </p>
+      </div>
+      <div class="space-y-4 max-w-2xl mx-auto">
+        <div class="flex items-start gap-4 p-5 rounded-xl border border-border-light bg-bg-subtle">
+          <span class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm">1</span>
+          <div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-primary mb-1">Zwei unabhängige KI-Modelle</h3>
+            <p class="text-sm text-text-secondary leading-relaxed">Jeder Artikel wird von zwei der besten, voneinander unabhängigen KI-Modelle erstellt und gegengeprüft – für maximale Objektivität.</p>
+          </div>
+        </div>
+        <div class="flex justify-center text-border">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
+        </div>
+        <div class="flex items-start gap-4 p-5 rounded-xl border border-border-light bg-bg-subtle">
+          <span class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm">2</span>
+          <div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-primary mb-1">Facharzt als Prüfinstanz</h3>
+            <p class="text-sm text-text-secondary leading-relaxed">KI kann halluzinieren. Daher prüft ein Facharzt die klinische Korrektheit – kann aber den Text nicht direkt ändern, nur den Prompt anpassen.</p>
+          </div>
+        </div>
+        <div class="flex justify-center text-border">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
+        </div>
+        <div class="flex items-start gap-4 p-5 rounded-xl border border-border-light bg-bg-subtle">
+          <span class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm">3</span>
+          <div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-primary mb-1">Volle Transparenz</h3>
+            <p class="text-sm text-text-secondary leading-relaxed">Jeder Artikel zeigt den exakten KI-Prompt – damit ist ausgeschlossen, dass der Prompt manipuliert wurde. Jeder kann das Ergebnis selbst nachprüfen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neueste Artikel -->
+  <section class="pb-16 md:pb-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <h2 class="text-sm font-bold uppercase tracking-widest text-text-muted mb-8">Neueste Artikel</h2>
+      <div class="space-y-4" id="articles-list">
+        {articles.map((article) => (
+          <ArticleCard
+            title={article.data.title}
+            slug={article.data.slug}
+            date={article.data.date}
+            category={article.data.category}
+            excerpt={article.data.excerpt}
+            reviewed={article.data.reviewed}
+            reviewer={article.data.reviewer}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Über dieses Projekt -->
+  <section class="pb-16 md:pb-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="border border-border rounded-2xl p-8 md:p-10 bg-bg-card">
+        <span class="text-xs font-bold uppercase tracking-widest text-text-muted block mb-2">Über dieses Projekt</span>
+        <h2 class="text-2xl font-bold text-text mb-6">Warum „Was wirklich wirkt"?</h2>
+        <div class="text-text-secondary text-base leading-relaxed space-y-4">
+          <p>Das Gesundheitssystem ist durchzogen von Interessen: Pharmaunternehmen finanzieren Studien, Ärzte erhalten Honorare von Herstellern, Medien leben von Klicks durch Angst und Hoffnung. Das Ergebnis: Patienten wissen nicht mehr, was wirklich stimmt – und was nur gut klingt.</p>
+          <p><strong class="text-text">Was wirklich wirkt</strong> ist ein Gegenentwurf. Jeder Artikel wird von zwei der besten, voneinander unabhängigen KI-Modellen nach einem streng evidenzbasierten Prompt verfasst – ohne Meinung, ohne Interessenkonflikt, ohne Werbung. Nur Studien zählen: RCTs, Cochrane-Reviews, Meta-Analysen. Schwache Evidenz wird als solche benannt. Werbeversprechen werden kritisch hinterfragt.</p>
+        </div>
+        <hr class="my-8 border-border-light" />
+        <h3 class="text-lg font-bold text-text mb-4">Das Drei-Säulen-Prinzip:</h3>
+        <div class="space-y-4 text-sm text-text-secondary leading-relaxed">
+          <p><strong class="text-text">1. Zwei KI-Modelle als neutrale Instanz.</strong> Zwei der leistungsfähigsten, voneinander unabhängigen KI-Modelle erstellen und prüfen jeden Artikel gegenseitig. Eine KI hat keine Karriere zu schützen, keine Pharmasponsoren, keine Angst vor Kollegen und verdient nichts an einer Operation. Sie wertet aus, was die Wissenschaft sagt – nicht was die Industrie wünscht.</p>
+          <p><strong class="text-text">2. Facharzt als Korrektiv.</strong> KI kann halluzinieren – Fakten erfinden, die plausibel klingen aber falsch sind. Daher prüft ein Facharzt die klinische Korrektheit jedes Artikels. Wichtig: Der Arzt kann den Artikel nicht direkt verändern – er kann nur den Prompt anpassen. So bleibt die KI die einzige Quelle des Textes, und persönliche Meinungen oder Interessenkonflikte bleiben draussen.</p>
+          <p><strong class="text-text">3. Volle Transparenz durch öffentliche Prompts.</strong> Der exakte KI-Prompt ist bei jedem Artikel öffentlich einsehbar. Damit ist ausgeschlossen, dass der Prompt heimlich manipuliert wurde. Jeder kann das Ergebnis mit einer anderen KI selbst nachprüfen – und so die Qualität des Artikels unabhängig verifizieren.</p>
+        </div>
+        <hr class="my-8 border-border-light" />
+        <div class="grid grid-cols-3 gap-4 text-center">
+          <div>
+            <span class="text-3xl font-bold text-primary">2 KI</span>
+            <p class="text-xs text-text-muted mt-1">Unabhängige Modelle erstellen und prüfen jeden Artikel gegenseitig</p>
+          </div>
+          <div>
+            <span class="text-3xl font-bold text-primary">0</span>
+            <p class="text-xs text-text-muted mt-1">Werbepartner, Sponsoren oder kommerzielle Interessen</p>
+          </div>
+          <div>
+            <span class="text-3xl font-bold text-primary">Offen</span>
+            <p class="text-xs text-text-muted mt-1">Jeder Prompt ist öffentlich – das Ergebnis ist selbst nachprüfbar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="pb-16 md:pb-24">
+    <div class="max-w-4xl mx-auto px-5">
+      <div class="rounded-xl border border-disclaimer-border bg-disclaimer-bg p-6 md:p-8">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-disclaimer-text mb-3">Wichtiger Hinweis – Kein Ersatz für ärztliche Beratung</h3>
+        <div class="text-sm text-disclaimer-text leading-relaxed space-y-3">
+          <p>Die Inhalte auf dieser Website werden vollständig von zwei unabhängigen KI-Modellen (Large Language Models) auf Basis eines evidenzbasierten Prompts generiert und anschließend von einem Facharzt auf klinische Korrektheit geprüft. Sie dienen ausschließlich der allgemeinen Information und Aufklärung.</p>
+          <p><strong>Die hier veröffentlichten Artikel ersetzen in keinem Fall eine individuelle ärztliche Untersuchung, Diagnose oder Behandlung.</strong> Medizinische Entscheidungen sollten stets in Absprache mit einer qualifizierten Ärztin oder einem qualifizierten Arzt getroffen werden, die Ihre persönliche Krankengeschichte und Situation kennen.</p>
+          <p>Trotz sorgfältiger Auswahl der zugrundeliegenden Studien und kritischer Bewertung der Evidenz kann keine Garantie für die Vollständigkeit, Aktualität oder Fehlerfreiheit der Inhalte übernommen werden. Medizinisches Wissen entwickelt sich kontinuierlich weiter – Leitlinien und Empfehlungen können sich ändern.</p>
+          <p>Sollten Sie Fehler in einem Artikel feststellen oder veraltete Informationen entdecken, bitten wir um eine Rückmeldung mit Quellenangabe (bitte nur mit zitierfähigen Quellen: DOI, PubMed-ID oder Leitlinienreferenz). Wir prüfen jeden Hinweis und aktualisieren Inhalte bei bestätigter Evidenz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const searchBtn = document.getElementById('search-btn');
+    const searchResults = document.getElementById('search-results');
+    const articleCards = document.querySelectorAll('#articles-list article');
+
+    const articles = Array.from(articleCards).map(card => ({
+      title: card.querySelector('h3')?.textContent || '',
+      href: card.querySelector('a[href^="/artikel/"]')?.getAttribute('href') || '',
+      category: card.querySelector('.rounded-full')?.textContent?.trim() || '',
+      excerpt: card.querySelector('p')?.textContent || '',
+    }));
+
+    function doSearch() {
+      const q = searchInput.value.toLowerCase().trim();
+      if (!q || !searchResults) return;
+      const matches = articles.filter(a =>
+        a.title.toLowerCase().includes(q) || a.category.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q)
+      );
+      if (matches.length === 0) {
+        searchResults.innerHTML = '<div class="p-4 text-sm text-gray-500">Keine Artikel gefunden.</div>';
+      } else {
+        searchResults.innerHTML = matches.map(m =>
+          `<a href="${m.href}" class="block p-4 hover:bg-gray-50 border-b border-gray-100 last:border-0 no-underline">
+            <span class="text-xs font-semibold text-blue-600 uppercase">${m.category}</span>
+            <div class="font-medium text-gray-900 mt-0.5">${m.title}</div>
+          </a>`
+        ).join('');
+      }
+      searchResults.classList.remove('hidden');
+    }
+
+    searchBtn?.addEventListener('click', doSearch);
+    searchInput?.addEventListener('keydown', (e: KeyboardEvent) => { if (e.key === 'Enter') doSearch(); });
+    searchInput?.addEventListener('input', () => { if (!searchInput.value.trim()) searchResults?.classList.add('hidden'); });
+    document.addEventListener('click', (e) => {
+      if (!document.getElementById('search-container')?.contains(e.target as Node)) searchResults?.classList.add('hidden');
+    });
+  </script>
+</Base>
