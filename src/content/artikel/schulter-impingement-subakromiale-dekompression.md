@@ -20,6 +20,8 @@ Eine Cochrane-Analyse von 2019 bestätigt: Es gibt keine klinisch relevanten Vor
 
 Faustregel: Impingement ohne Sehnenriss → mindestens 3–6 Monate konsequente Physiotherapie. OP erst erwägen, wenn konservative Therapie wirklich ausgeschöpft ist — und auch dann kritisch hinterfragen.
 
+</section>
+
 ## Was Patienten glauben — und was die Studien zeigen
 
 ### Die verbreitete Überzeugung
@@ -31,8 +33,10 @@ Das sogenannte subakromiale Impingement-Syndrom (Einklemmung von Sehnen und Schl
 ### Die CSAW-Studie — Placebo-kontrolliert (2018)
 
 <div class="studie">
-<span class="studie-name">CSAW: Can Shoulder Arthroscopy Work?
+<span class="studie-name">CSAW: Can Shoulder Arthroscopy Work?</span>
 
+
+</div>
 
 <div class="studie">
 <span class="studie-name">Beard, D. J. et al. (2018). Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. The Lancet, 391(10118), 329–338. DOI: 10.1016/S0140-6736(17)32457-1</span>
@@ -109,7 +113,7 @@ Die Evidenz gegen die subakromiale Dekompression bedeutet nicht, dass Schulter-O
 
 <div class="studie">
 <span class="studie-name">- **Versagen konsequenter Physiotherapie:** Wenn nach 3–6 Monaten strukturierter, supervidierter Physiotherapie (nicht nur ein paar Übungsblätter) keine Besserung eintritt, kann eine operative Abklärung gerechtfertigt sein. Laut AWMF-Leitlinie und BESS-Empfehlungen (British Elbow and Shoulder Society) ist dies der Zeitpunkt, an dem chirurgische Optionen in Betracht gezogen werden sollten.</span>
-<div class="studie-details">- <em><em>Knöcherne Anomalien:</em></em> Ein stark hakenfömiges Akromion (Typ III nach Bigliani) oder ein os acromiale (nicht verwachsener Knochen) kann in seltenen Fällen eine echte strukturelle Enge verursachen, die operativ korrigiert werden kann.</div>
+<div class="studie-details">- *Knöcherne Anomalien:* Ein stark hakenfömiges Akromion (Typ III nach Bigliani) oder ein os acromiale (nicht verwachsener Knochen) kann in seltenen Fällen eine echte strukturelle Enge verursachen, die operativ korrigiert werden kann.</div>
 
 - **Kalkschulter (Tendinitis calcarea):** Bei großen, symptomatischen Kalkdepots in der Sehne kann die arthroskopische Kalkentfernung (nicht identisch mit der Dekompression) wirksam sein — hier gibt es eigene Evidenz.
 **Wichtig:** Die Diagnose „Impingement“ ist oft unscharf. Bildgebende Verfahren (MRT, Ultraschall) zeigen bei über 50-Jährigen häufig „Auffälligkeiten“ an Sehnen und Schleimbeutel — auch bei Menschen ohne jegliche Beschwerden. Ein MRT-Befund allein ist keine Indikation für eine Operation. Die AWMF-Leitlinie betont die Notwendigkeit einer differenzierten Diagnostik und Klassifikation.
@@ -120,48 +124,20 @@ Die Evidenz gegen die subakromiale Dekompression bedeutet nicht, dass Schulter-O
 
 #### Konkrete Fragen für Ihr Arztgespräch:
 
-                    - **„Welche genaue Diagnose habe ich — Impingement, Bursitis, Teilriss, Komplettriss?“** — „Impingement“ ist ein Sammelbegriff. Die Behandlung hängt von der genauen Ursache ab. Nur bei einem echten Sehnenriss ist eine OP-Diskussion sinnvoll.
-
-<div class="studie">
-<span class="studie-name">- **„Kennen Sie die CSAW- und FIMPACT-Studien? Wie ordnen Sie deren Ergebnisse ein?“** — Diese Frage zeigt, dass Sie informiert sind. Ein guter Arzt wird die Studien kennen und erklären, warum er im konkreten Fall dennoch (oder nicht) zur OP rät.</span>
-<div class="studie-details">- <em><em>„Habe ich bereits eine strukturierte Physiotherapie über mindestens 3 Monate durchgeführt?“</em></em> — Gemeint ist keine Wärmeanwendung mit Ultraschall, sondern ein progressives Kräftigungsprogramm unter Anleitung. Leitlinien fordern dies als Erstbehandlung.</div>
+            - **„Welche genaue Diagnose habe ich — Impingement, Bursitis, Teilriss, Komplettriss?“** — „Impingement“ ist ein Sammelbegriff. Die Behandlung hängt von der genauen Ursache ab. Nur bei einem echten Sehnenriss ist eine OP-Diskussion sinnvoll.
+- **„Kennen Sie die CSAW- und FIMPACT-Studien? Wie ordnen Sie deren Ergebnisse ein?“** — Diese Frage zeigt, dass Sie informiert sind. Ein guter Arzt wird die Studien kennen und erklären, warum er im konkreten Fall dennoch (oder nicht) zur OP rät.
+- **„Habe ich bereits eine strukturierte Physiotherapie über mindestens 3 Monate durchgeführt?“* — Gemeint ist keine Wärmeanwendung mit Ultraschall, sondern ein progressives Kräftigungsprogramm unter Anleitung. Leitlinien fordern dies als Erstbehandlung.
 
 - **„Was genau wird bei der OP gemacht — und was ist das erwartbare Ergebnis im Vergleich zur Physiotherapie?“** — Wenn der Arzt nur „Platz schaffen“ sagt, fragen Sie nach: Die Evidenz zeigt, dass „Platz schaffen“ nicht besser wirkt als eine Schein-OP.
 - **„Welche Risiken hat der Eingriff — und wie wahrscheinlich sind sie?“** — Jede Arthroskopie birgt Risiken: Infektion (ca. 0,5–1%), Schultersteife, Nervenverletzung, Narkoserisiko. Diese Risiken stehen einem fraglichen Nutzen gegenüber.
 - **„Gibt es einen finanziellen Anreiz für diese Empfehlung?“** — Eine direkte, aber berechtigte Frage. In Systemen mit Einzelleistungsvergütung verdient der Chirurg an der OP. Das heißt nicht, dass jede Empfehlung finanziell motiviert ist — aber Transparenz ist wichtig.
 - **„Darf ich eine Zweitmeinung einholen, bevor ich mich entscheide?“** — Jeder Patient hat das Recht auf eine unabhängige Zweitmeinung. Seriöse Ärzte unterstützen dies.
 
-</div>
-
 ### Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- Beard, D. J. et al. (2018). Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. *The Lancet*, 391(10118), 329–338. [DOI: 10.1016/S0140-6736(17)32457-1](https://doi.org/10.1016/S0140-6736(17)32457-1)</span>
-<div class="studie-details">- Paavola, M. et al. (2018). Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: randomised, placebo surgery controlled clinical trial. <em>BMJ</em>, 362, k2860. [DOI: 10.1136/bmj.k2860](https://doi.org/10.1136/bmj.k2860)</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- Paavola, M. et al. (2021). Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: a 5-year follow-up of a randomised, placebo surgery controlled clinical trial. *BMJ*, 372, m4497. [DOI: 10.1136/bmj.m4497](https://doi.org/10.1136/bmj.m4497)</span>
-<div class="studie-details">- Karjalainen, T. V. et al. (2019). Subacromial decompression surgery for rotator cuff disease. <em>Cochrane Database of Systematic Reviews</em>, Issue 1, CD005619. [DOI: 10.1002/14651858.CD005619.pub3](https://doi.org/10.1002/14651858.CD005619.pub3)</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- Hallgren, H. C. B. et al. (2024). No need for subacromial decompression in responders to specific exercise treatment: a 10-year follow-up of a randomized controlled trial. *Journal of Shoulder and Elbow Surgery*. [DOI: 10.1016/j.jse.2024.11.014](https://doi.org/10.1016/j.jse.2024.11.014)</span>
-<div class="studie-details">- AWMF (2021). S2e-Leitlinie Subacromiales Impingement. AWMF-Register Nr. 033-056. [AWMF-Register](https://register.awmf.org/de/leitlinien/detail/033-056)</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- Kanto, K. et al. (2025). Arthroscopic subacromial decompression versus placebo surgery for subacromial pain syndrome: 10 year follow-up of the FIMPACT randomised, placebo surgery controlled trial. *BMJ*, 391, bmj-2025-086201. [DOI: 10.1136/bmj-2025-086201](https://doi.org/10.1136/bmj-2025-086201)</span>
-
-
-</div>
+- Beard, D. J. et al. (2018). Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. *The Lancet*, 391(10118), 329–338. [DOI: 10.1016/S0140-6736(17)32457-1](https://doi.org/10.1016/S0140-6736(17)32457-1)
+- Paavola, M. et al. (2018). Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: randomised, placebo surgery controlled clinical trial. <em>BMJ</em>, 362, k2860. [DOI: 10.1136/bmj.k2860](https://doi.org/10.1136/bmj.k2860)
+- Paavola, M. et al. (2021). Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: a 5-year follow-up of a randomised, placebo surgery controlled clinical trial. *BMJ*, 372, m4497. [DOI: 10.1136/bmj.m4497](https://doi.org/10.1136/bmj.m4497)
+- Karjalainen, T. V. et al. (2019). Subacromial decompression surgery for rotator cuff disease. <em>Cochrane Database of Systematic Reviews</em>, Issue 1, CD005619. [DOI: 10.1002/14651858.CD005619.pub3](https://doi.org/10.1002/14651858.CD005619.pub3)
+- Hallgren, H. C. B. et al. (2024). No need for subacromial decompression in responders to specific exercise treatment: a 10-year follow-up of a randomized controlled trial. *Journal of Shoulder and Elbow Surgery*. [DOI: 10.1016/j.jse.2024.11.014](https://doi.org/10.1016/j.jse.2024.11.014)
+- AWMF (2021). S2e-Leitlinie Subacromiales Impingement. AWMF-Register Nr. 033-056. [AWMF-Register](https://register.awmf.org/de/leitlinien/detail/033-056)
+- Kanto, K. et al. (2025). Arthroscopic subacromial decompression versus placebo surgery for subacromial pain syndrome: 10 year follow-up of the FIMPACT randomised, placebo surgery controlled trial. *BMJ*, 391, bmj-2025-086201. [DOI: 10.1136/bmj-2025-086201](https://doi.org/10.1136/bmj-2025-086201)

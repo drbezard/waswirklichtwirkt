@@ -6,10 +6,6 @@ category: "Dermatologie"
 excerpt: "Cortison-Angst bei Neurodermitis führt oft zu schlechteren Verläufen. Was 291 Studien über Wirksamkeit und Sicherheit zeigen."
 image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/neurodermitis-cortison-angst-evidenz_20dbaff1.png"
 reviewed: false
-reviewer: ""
-reviewerTitle: ""
-reviewerPhoto: ""
-reviewerUrl: ""
 ---
 
 <section class="kernaussage">
@@ -17,6 +13,8 @@ reviewerUrl: ""
 Topische Kortikosteroide (Cortison-Cremes) sind die am besten untersuchte und wirksamste Erstlinientherapie bei Neurodermitis — und bei korrekter Anwendung deutlich sicherer, als die meisten Patienten glauben.
 
 Das zeigen über 290 randomisierte Studien mit mehr als 45.000 Patientinnen und Patienten, ausgewertet in Cochrane-Reviews und Netzwerk-Meta-Analysen. Gleichzeitig leiden 21 bis 84 Prozent der Betroffenen an sogenannter Kortikophobie (Cortison-Angst) — einer Furcht vor Nebenwirkungen, die dazu führt, dass sie die verordnete Therapie zu selten, zu kurz oder gar nicht anwenden. Die Folge: schlechtere Krankheitskontrolle, mehr Schübe, mehr Leidensdruck. Alle großen Leitlinien — die deutsche AWMF-S3-Leitlinie (2023), die europäische EuroGuiDerm-Leitlinie (2025) und die britische NICE-Leitlinie — empfehlen topische Kortikosteroide als Therapie der ersten Wahl bei Neurodermitis. Die Angst vor Cortison ist nachvollziehbar, aber in den meisten Fällen unbegründet — und sie richtet mehr Schaden an als die Creme selbst.
+
+</section>
 
 ## Cortison bei Neurodermitis: Was Patienten glauben — und was die Studien zeigen
 
@@ -31,34 +29,44 @@ Dieses Phänomen hat einen eigenen Fachbegriff: Kortikophobie (englisch: cortico
 Topische Kortikosteroide sind seit den 1950er-Jahren im Einsatz und gehören zu den am intensivsten untersuchten Medikamenten der Dermatologie. Die Evidenz ist eindeutig: Sie sind hochwirksam gegen die Entzündung bei Neurodermitis — und bei leitliniengerechter Anwendung sehr sicher.
 
 <div class="studie">
-<span class="studie-name">Cochrane Netzwerk-Meta-Analyse: Lax et al. (2024)
+<span class="studie-name">Cochrane Netzwerk-Meta-Analyse: Lax et al. (2024)</span>
 <div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · <em>Cochrane Database of Systematic Reviews</em> · 291 randomisierte kontrollierte Studien (RCTs), 45.846 Patienten</div>
 
 Dies ist die bislang umfassendste Auswertung topischer Behandlungen bei Neurodermitis. Ergebnis: Potente topische Kortikosteroide (Wirkstärke der Klasse III nach europäischer Klassifikation, z. B. Mometasonfuroat oder Betamethasonvalerat) gehörten zusammen mit JAK-Inhibitoren (Januskinase-Hemmer, eine neuere Wirkstoffklasse) und Tacrolimus 0,1 % (ein Calcineurin-Inhibitor, der die Immunreaktion in der Haut hemmt) zu den wirksamsten topischen Therapien. Die Wirksamkeit ist konsistent über zahlreiche Studien hinweg belegt.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Systematische Übersicht zur Langzeitsicherheit: Harvey et al. (2023)
-<div class="studie-details">Systematische Übersicht · <em>Skin Health and Disease</em> · 7 Studien (2 RCTs mit n = 2.570, davon 1.288 mit topischen Kortikosteroiden; 5 Beobachtungsstudien)
+<span class="studie-name">Systematische Übersicht zur Langzeitsicherheit: Harvey et al. (2023)</span>
+<div class="studie-details">Systematische Übersicht · <em>Skin Health and Disease</em> · 7 Studien (2 RCTs mit n = 2.570, davon 1.288 mit topischen Kortikosteroiden; 5 Beobachtungsstudien)</div>
 
 Diese Übersicht untersuchte gezielt die Frage, die Patienten am meisten beschäftigt: Ist Cortison-Creme bei längerer Anwendung gefährlich? Die zentralen Ergebnisse: Zwei große RCTs über 3 und 5 Jahre (bei Kindern) verglichen topische Kortikosteroide mit Calcineurin-Inhibitoren. Intermittierende Anwendung (also: bei Schüben auftragen, dazwischen pausieren) führte zu keinem erhöhten Risiko für Wachstumsstörungen, Hautinfektionen, beeinträchtigte Impfantwort oder Lymphome. In der 5-Jahres-Studie mit 1.213 Kindern, die milde bis mittelstarke Kortikosteroide verwendeten, trat ein einziger Fall von milder Hautatrophie auf. Kein Fall von klinisch relevanter Nebenniereninsuffizienz (Störung der körpereigenen Cortisol-Produktion) wurde beobachtet.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Netzwerk-Meta-Analyse: Chu et al. (2023)
+<span class="studie-name">Netzwerk-Meta-Analyse: Chu et al. (2023)</span>
 <div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · <em>Journal of Allergy and Clinical Immunology</em> · 219 RCTs, 43.123 Patienten, 68 verschiedene Interventionen</div>
 
 Diese Analyse wurde im Rahmen der Leitlinienentwicklung der American Academy of Allergy, Asthma & Immunology (AAAAI) durchgeführt und bewertete alle verfügbaren topischen Therapien hinsichtlich Schweregrad, Juckreiz, Schlafqualität, Lebensqualität, Schübe und Nebenwirkungen. Topische Kortikosteroide waren über alle Endpunkte hinweg eine der wirksamsten Therapieoptionen — und zeigten bei korrekter Anwendung ein günstiges Nutzen-Risiko-Verhältnis.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Cochrane Review: Lax et al. (2022)
+<span class="studie-name">Cochrane Review: Lax et al. (2022)</span>
 <div class="studie-details">Cochrane Systematic Review · <em>Cochrane Database of Systematic Reviews</em> · 104 RCTs, 8.443 Patienten</div>
 
 Dieser Review untersuchte speziell die Frage, wie topische Kortikosteroide bei Ekzemen am besten angewendet werden. Zentrale Ergebnisse: Einmal tägliches Auftragen ist ebenso wirksam wie zweimal tägliches Auftragen. Proaktive Therapie (ein- bis zweimal wöchentliches Auftragen nach Abklingen des Schubs auf ehemals betroffene Stellen) reduziert Rückfälle signifikant gegenüber rein reaktiver Behandlung. Milde bis mittelstarke Präparate sind für die meisten Patienten ausreichend.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">AWMF-S3-Leitlinie Atopische Dermatitis, Teil 1 (2023)
+<span class="studie-name">AWMF-S3-Leitlinie Atopische Dermatitis, Teil 1 (2023)</span>
 <div class="studie-details">Evidenz- und konsensbasierte Leitlinie · <em>JDDG: Journal der Deutschen Dermatologischen Gesellschaft</em> · AWMF-Register Nr. 013-027</div>
 
 Die aktuelle deutsche S3-Leitlinie — die höchste Evidenzstufe im deutschen Leitliniensystem — empfiehlt topische Kortikosteroide als Erstlinientherapie bei Neurodermitis ab leichtem bis mittlerem Schweregrad. Bei Unverträglichkeit oder an empfindlichen Stellen wie Gesicht, Körperfalten (intertriginöse Areale) und Anogenitalbereich werden Calcineurin-Inhibitoren als Alternative empfohlen.
+
+</div>
 
 ### Warum haben trotzdem so viele Angst vor Cortison?
 
@@ -104,27 +112,9 @@ Die Evidenz zeigt, dass Cortison-Cremes bei Neurodermitis die Therapie der erste
           Neurodermitis erfordert oft ein Stufenschema mit regelmäßiger Anpassung. Ein einmaliges Rezept ohne Nachkontrolle reicht bei mittlerer bis schwerer Neurodermitis nicht aus.
 
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Jiyad Z, Flohr C, Thomas KS, Chalmers JR. (2024).** Topical anti-inflammatory treatments for eczema: a Cochrane systematic review and network meta-analysis. *Cochrane Database of Systematic Reviews*. DOI: 10.1002/14651858.CD015064.pub2</span>
-<div class="studie-details">- <em><em>Harvey J, Lax SJ, Sherrat A, Lawton S, Sherrat A, Axon E, Flohr C, Chalmers JR, Thomas KS. (2023).</em><em> The long-term safety of topical corticosteroids in atopic dermatitis: A systematic review. </em>Skin Health and Disease</em>, 3(5), e268. DOI: 10.1002/ski2.268</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Chu DK, Schneider L, Asiniwasis RN, Boguniewicz M, De Benedetto A, Ellison K, Guyatt GH, Lio PA, Mark BJ, Shand S, et al. (2023).** Topical treatments for atopic dermatitis (eczema): Systematic review and network meta-analysis of randomized trials. *Journal of Allergy and Clinical Immunology*, 152(6), 1493–1519. DOI: 10.1016/j.jaci.2023.08.030</span>
-<div class="studie-details">- <em><em>Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Flohr C, Thomas KS, Chalmers JR. (2022).</em><em> Strategies for using topical corticosteroids in children and adults with eczema. </em>Cochrane Database of Systematic Reviews</em>, Issue 3, Art. No.: CD013356. DOI: 10.1002/14651858.CD013356.pub2</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Werfel T, Heratizadeh A, Aberer W, Augustin M, Biedermann T, Bauer A, et al. (2024).** S3-Leitlinie Atopische Dermatitis: Teil 1 — Allgemeine Aspekte, topische und nichtmedikamentöse Therapien, besondere Patientengruppen. *JDDG: Journal der Deutschen Dermatologischen Gesellschaft*, 22(1), 137–209. AWMF-Register Nr. 013-027. DOI: 10.1111/ddg.15230_g</span>
-<div class="studie-details">- <em><em>Wollenberg A, Kinberger M, Arents B, Aszodi N, Avila Valle G, Barbarot S, et al. (2025).</em><em> European Guideline (EuroGuiDerm) on atopic eczema: Living update. </em>Journal of the European Academy of Dermatology and Venereology</em>. DOI: 10.1111/jdv.20639</div>
-
-
-</div>
+- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Jiyad Z, Flohr C, Thomas KS, Chalmers JR. (2024).** Topical anti-inflammatory treatments for eczema: a Cochrane systematic review and network meta-analysis. *Cochrane Database of Systematic Reviews*. DOI: 10.1002/14651858.CD015064.pub2
+- **Harvey J, Lax SJ, Sherrat A, Lawton S, Sherrat A, Axon E, Flohr C, Chalmers JR, Thomas KS. (2023).** The long-term safety of topical corticosteroids in atopic dermatitis: A systematic review. *Skin Health and Disease*, , 3(5), e268. DOI: 10.1002/ski2.268
+- **Chu DK, Schneider L, Asiniwasis RN, Boguniewicz M, De Benedetto A, Ellison K, Guyatt GH, Lio PA, Mark BJ, Shand S, et al. (2023).** Topical treatments for atopic dermatitis (eczema): Systematic review and network meta-analysis of randomized trials. *Journal of Allergy and Clinical Immunology*, 152(6), 1493–1519. DOI: 10.1016/j.jaci.2023.08.030
+- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Flohr C, Thomas KS, Chalmers JR. (2022).** Strategies for using topical corticosteroids in children and adults with eczema. *Cochrane Database of Systematic Reviews*, , Issue 3, Art. No.: CD013356. DOI: 10.1002/14651858.CD013356.pub2
+- **Werfel T, Heratizadeh A, Aberer W, Augustin M, Biedermann T, Bauer A, et al. (2024).** S3-Leitlinie Atopische Dermatitis: Teil 1 — Allgemeine Aspekte, topische und nichtmedikamentöse Therapien, besondere Patientengruppen. *JDDG: Journal der Deutschen Dermatologischen Gesellschaft*, 22(1), 137–209. AWMF-Register Nr. 013-027. DOI: 10.1111/ddg.15230_g
+- **Wollenberg A, Kinberger M, Arents B, Aszodi N, Avila Valle G, Barbarot S, et al. (2025).** European Guideline (EuroGuiDerm) on atopic eczema: Living update. *Journal of the European Academy of Dermatology and Venereology*, . DOI: 10.1111/jdv.20639

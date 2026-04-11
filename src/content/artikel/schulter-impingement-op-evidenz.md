@@ -92,34 +92,20 @@ Die Evidenz spricht klar gegen die Routine-OP bei subakromialem Impingement. Abe
 ## Schulter-OP beim Orthopäden: Welche Fragen Sie stellen sollten
 
 - **„Kennen Sie die CSAW- und FIMPACT-Studien, die zeigen, dass die subakromiale Dekompression nicht besser wirkt als eine Schein-OP?“**
-
-<div class="studie">
-<span class="studie-name">Ein Schulterchirurg, der diese Studien nicht kennt, ist nicht auf dem aktuellen Stand. Die Studien sind seit 2018 publiziert und haben die internationalen Leitlinien verändert.</span>
-<div class="studie-details">- <em><em>„Habe ich wirklich ein subakromiales Impingement — oder könnte es eine andere Ursache für meine Schulterschmerzen geben?“</em></em></div>
+Ein Schulterchirurg, der diese Studien nicht kennt, ist nicht auf dem aktuellen Stand. Die Studien sind seit 2018 publiziert und haben die internationalen Leitlinien verändert.
+- **„Habe ich wirklich ein subakromiales Impingement — oder könnte es eine andere Ursache für meine Schulterschmerzen geben?“*
 
 Schulterschmerzen haben viele mögliche Ursachen: Rotatorenmanschettenriss, Kalkschulter, Frozen Shoulder, Arthrose des Schultereckgelenks. Die Behandlung unterscheidet sich erheblich — und nicht jede Diagnose profitiert gleich (wenig) von einer Dekompression.
 - **„Welche konservative Therapie wurde bisher versucht — und war sie ausreichend strukturiert und lang genug?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Die Leitlinien fordern mindestens 6 Monate konsequente Übungstherapie. Wenn das noch nicht geschehen ist, ist eine OP verfrüht — unabhängig davon, was das MRT zeigt.</span>
-<div class="studie-details">- <em><em>„Was genau planen Sie zu operieren — und würde die OP auch ohne den MRT-Befund Sinn ergeben?“</em></em></div>
+Die Leitlinien fordern mindestens 6 Monate konsequente Übungstherapie. Wenn das noch nicht geschehen ist, ist eine OP verfrüht — unabhängig davon, was das MRT zeigt.
+- **„Was genau planen Sie zu operieren — und würde die OP auch ohne den MRT-Befund Sinn ergeben?“*
 
 Ein Knochensporn im MRT ist kein automatischer Grund für eine OP. Solche Befunde finden sich auch bei schmerzfreien Menschen. Die Frage ist: Gibt es einen funktionellen Grund für den Eingriff, oder reagieren wir nur auf ein Bild?
 - **„Welche Komplikationen kann die OP haben — und wie rechtfertigen Sie die Risiken angesichts der Evidenzlage?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Auch „kleine“ arthroskopische Eingriffe haben Risiken: Frozen Shoulder (3 % der Fälle laut Cochrane Review), Infektion, Nervenschäden. Bei einem Eingriff ohne nachgewiesenen Zusatznutzen gegenüber Placebo ist jede Komplikation eine zu viel.</span>
-<div class="studie-details">- <em><em>„Würden Sie mir ein strukturiertes Physiotherapie-Programm verschreiben, bevor wir über eine OP sprechen?“</em></em></div>
+Auch „kleine“ arthroskopische Eingriffe haben Risiken: Frozen Shoulder (3 % der Fälle laut Cochrane Review), Infektion, Nervenschäden. Bei einem Eingriff ohne nachgewiesenen Zusatznutzen gegenüber Placebo ist jede Komplikation eine zu viel.
+- **„Würden Sie mir ein strukturiertes Physiotherapie-Programm verschreiben, bevor wir über eine OP sprechen?“*
 
 Die beste verfügbare Evidenz zeigt, dass Übungstherapie genauso wirksam ist wie die OP. Wenn Ihr Arzt sofort zur OP rät, ohne Physiotherapie ernsthaft zu versuchen, holen Sie eine Zweitmeinung ein.
-
-</div>
 
 ## Quellenverzeichnis
 

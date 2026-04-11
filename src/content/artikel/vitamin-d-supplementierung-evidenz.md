@@ -6,10 +6,6 @@ category: "Innere Medizin"
 excerpt: "Vitamin-D-Pillen schützen Gesunde kaum vor Krebs, Herzkrankheiten oder Knochenbrüchen. Was die größten Studien wirklich zeigen."
 image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/vitamin-d-supplementierung-evidenz_cc23cffa.png"
 reviewed: false
-reviewer: ""
-reviewerTitle: ""
-reviewerPhoto: ""
-reviewerUrl: ""
 ---
 
 <section class="kernaussage">
@@ -17,6 +13,8 @@ reviewerUrl: ""
 Für die meisten gesunden Erwachsenen bringt die Einnahme von Vitamin-D-Präparaten keinen nachweisbaren gesundheitlichen Vorteil — weder zum Schutz vor Krebs noch vor Herzinfarkt, Schlaganfall oder Knochenbrüchen.
 
 Das zeigen die bisher größten und methodisch besten Studien: Der VITAL-Trial (Manson et al., 2019) mit über 25.000 Teilnehmern fand keinen Nutzen von 2.000 IE Vitamin D täglich gegenüber Placebo für Krebs oder Herz-Kreislauf-Erkrankungen. Eine Meta-Analyse von 81 randomisierten Studien mit über 53.000 Teilnehmern (Bolland et al., 2018) zeigte: Vitamin D schützt nicht vor Knochenbrüchen, Stürzen oder Knochendichteverlust. Die Endocrine Society rät seit 2024 davon ab, gesunden Erwachsenen unter 75 Jahren Vitamin D über die normale Tagesempfehlung hinaus zu geben. Der deutsche IGeL-Monitor bewertet das routinemäßige Vitamin-D-Screening bei Gesunden als „unklar“ — es fehlen Belege, dass die Messung zu besseren Gesundheitsergebnissen führt. Vitamin D ist kein Wundermittel. Es ist ein Hormon, das bei echtem Mangel ersetzt werden sollte — aber nicht bei jedem.
+
+</section>
 
 ## Vitamin-D-Supplementierung: Was Patienten glauben — und was die Studien zeigen
 
@@ -31,34 +29,44 @@ Die Logik erscheint schlüssig. Beobachtungsstudien zeigen tatsächlich, dass Me
 Dass Menschen mit niedrigem Vitamin-D-Spiegel häufiger krank sind, bedeutet nicht, dass der niedrige Spiegel die Krankheit verursacht. Der Zusammenhang könnte umgekehrt sein: Wer chronisch krank ist, bewegt sich weniger, geht seltener nach draußen und bildet deshalb weniger Vitamin D in der Haut. Oder ein dritter Faktor — etwa Übergewicht, Bewegungsmangel oder Alter — verursacht sowohl den niedrigen Spiegel als auch die Krankheit. Um zu klären, ob Vitamin D wirklich schützt, braucht man randomisierte kontrollierte Studien (RCTs), in denen eine Gruppe Vitamin D bekommt und die andere ein Placebo (ein Scheinpräparat ohne Wirkstoff). Die Ergebnisse dieser Studien sind ernüchternd.
 
 <div class="studie">
-<span class="studie-name">RCT: Manson et al. — VITAL-Studie (2019)
-<div class="studie-details">Randomisierte, placebokontrollierte Studie · <em>New England Journal of Medicine</em> · 25.871 Teilnehmer (Männer ≥50 Jahre, Frauen ≥55 Jahre)
+<span class="studie-name">RCT: Manson et al. — VITAL-Studie (2019)</span>
+<div class="studie-details">Randomisierte, placebokontrollierte Studie · <em>New England Journal of Medicine</em> · 25.871 Teilnehmer (Männer ≥50 Jahre, Frauen ≥55 Jahre)</div>
 
 Die VITAL-Studie ist die bisher größte randomisierte Studie zur Vitamin-D-Supplementierung bei Gesunden. Die Teilnehmer erhielten über einen Median von 5,3 Jahren täglich 2.000 IE Vitamin D3 oder Placebo. Ergebnis: Vitamin D senkte weder die Rate invasiver Krebserkrankungen (Hazard Ratio 0,96; 95%-Konfidenzintervall 0,88–1,06) noch schwerer Herz-Kreislauf-Ereignisse wie Herzinfarkt oder Schlaganfall (HR 0,97; 0,85–1,12). Auch die Gesamtsterblichkeit blieb unverändert (HR 0,99; 0,87–1,12). Ein Hinweis auf eine mögliche Senkung der Krebssterblichkeit zeigte sich erst nach Ausschluss der ersten zwei Jahre — ein interessantes Signal, aber kein Beweis.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Meta-Analyse: Bolland et al. (2018)
+<span class="studie-name">Meta-Analyse: Bolland et al. (2018)</span>
 <div class="studie-details">Systematische Übersicht, Meta-Analyse und Trial Sequential Analysis · <em>The Lancet Diabetes & Endocrinology</em> · 81 RCTs, 53.537 Teilnehmer</div>
 
 Diese umfassende Meta-Analyse untersuchte, ob Vitamin D die Knochen- und Muskelgesundheit verbessert — das Argument, mit dem Vitamin D am häufigsten beworben wird. Das Ergebnis war eindeutig: Vitamin D hatte keinen Effekt auf Frakturen insgesamt (relatives Risiko 1,00; 0,93–1,07), Hüftfrakturen (RR 1,11; 0,97–1,26) oder Stürze (RR 0,97; 0,93–1,02). Auch die Knochendichte (BMD, Bone Mineral Density — ein Maß für die Knochenstärke) verbesserte sich nicht klinisch relevant. Diese Ergebnisse waren unabhängig von der Dosis — auch Dosen über 800 IE täglich halfen nicht.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Cochrane Review: Bjelakovic et al. (2014)
+<span class="studie-name">Cochrane Review: Bjelakovic et al. (2014)</span>
 <div class="studie-details">Cochrane Systematic Review · <em>Cochrane Database of Systematic Reviews</em> · 56 RCTs, 95.286 Teilnehmer</div>
 
 Der bisher größte Cochrane Review zur Vitamin-D-Supplementierung und Sterblichkeit fand einen kleinen, aber statistisch signifikanten Effekt: Vitamin D3 senkte die Gesamtsterblichkeit geringfügig (relatives Risiko 0,94; 0,91–0,98). Das bedeutet: Etwa 150 Personen müssten über fünf Jahre supplementiert werden, damit ein zusätzlicher Todesfall verhindert wird. Wichtig: Die meisten Teilnehmer waren ältere Frauen über 70 in Pflegeeinrichtungen — eine Hochrisikogruppe für echten Vitamin-D-Mangel. Ob dieser Befund auf jüngere, gesunde Erwachsene übertragbar ist, bleibt offen. Der Review bewertete die Evidenzqualität zudem als niedrig.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">Leitlinie: Endocrine Society — Demay et al. (2024)
+<span class="studie-name">Leitlinie: Endocrine Society — Demay et al. (2024)</span>
 <div class="studie-details">Klinische Praxisleitlinie · <em>Journal of Clinical Endocrinology & Metabolism</em> · Systematische Evidenzauswertung</div>
 
 Die Endocrine Society — eine der weltweit führenden endokrinologischen Fachgesellschaften — überarbeitete 2024 ihre Vitamin-D-Leitlinie grundlegend. Die zentrale Botschaft: Für gesunde Erwachsene unter 75 Jahren wird von einer Supplementierung über die normale Tagesempfehlung (600–800 IE, je nach Alter) hinaus abgeraten. Routinemäßige Bluttests auf 25-Hydroxyvitamin D (25(OH)D — die Speicherform von Vitamin D im Blut) werden nicht empfohlen. Die Gesellschaft hat sich bewusst von früheren Zielwerten (30 ng/ml) distanziert und definiert keine Schwellenwerte für „Suffizienz“ oder „Insuffizienz“ mehr — weil die Evidenz solche Grenzwerte nicht stützt.
 
+</div>
+
 <div class="studie">
-<span class="studie-name">IGeL-Monitor-Bewertung (2022)
+<span class="studie-name">IGeL-Monitor-Bewertung (2022)</span>
 <div class="studie-details">Evidenzbewertung des Medizinischen Dienstes Bund · Deutschland</div>
 
 Der IGeL-Monitor, der in Deutschland Selbstzahlerleistungen bewertet, stufte das routinemäßige Screening auf Vitamin-D-Mangel bei beschwerdefreien Erwachsenen als „unklar“ ein. Es gibt keine Studien, die belegen, dass ein Vitamin-D-Screening bei Gesunden zu besseren Gesundheitsergebnissen führt. Die Früherkennungsuntersuchung auf Vitamin-D-Mangel gehörte 2020 dennoch zu den 20 am häufigsten nachgefragten IGeL-Leistungen.
+
+</div>
 
 ### Warum glauben trotzdem so viele, dass es hilft?
 
@@ -93,46 +101,25 @@ Die Kritik richtet sich nicht gegen Vitamin D als Substanz, sondern gegen die un
 **Wann Vitamin D definitiv nicht indiziert ist:** Bei gesunden Erwachsenen unter 75 Jahren als „Gesundheitsvorsorge“ ohne spezifische Indikation. Hochdosierte Supplementierung (über 4.000 IE/Tag) ohne ärztliche Überwachung — dies kann zu Hyperkalzämie (erhöhtem Kalziumspiegel) mit Übelkeit, Nierensteinen und in schweren Fällen Nierenschäden führen. Einzelne Studien zeigten bei hohen Einzeldosen sogar ein paradox erhöhtes Sturzrisiko.
 
 ## Vitamin-D-Test und Supplementierung: Welche Fragen Sie Ihrem Arzt stellen sollten
-
-
-<div class="studie">
-<span class="studie-name">- **„Gibt es große randomisierte Studien, die zeigen, dass Vitamin-D-Pillen Gesunde wie mich vor Krebs, Herzinfarkt oder Knochenbrüchen schützen?“**</span>
-<div class="studie-details">Die ehrliche Antwort ist: Die VITAL-Studie mit über 25.000 Teilnehmern und die Meta-Analyse von Bolland mit über 53.000 Teilnehmern zeigen keinen solchen Schutz. Wenn Ihr Arzt das anders sieht, bitten Sie um konkrete Studien.</div>
+- **„Gibt es große randomisierte Studien, die zeigen, dass Vitamin-D-Pillen Gesunde wie mich vor Krebs, Herzinfarkt oder Knochenbrüchen schützen?“**
+Die ehrliche Antwort ist: Die VITAL-Studie mit über 25.000 Teilnehmern und die Meta-Analyse von Bolland mit über 53.000 Teilnehmern zeigen keinen solchen Schutz. Wenn Ihr Arzt das anders sieht, bitten Sie um konkrete Studien.
 
 - **„Warum empfehlen Sie mir den Vitamin-D-Bluttest — und ändert das Ergebnis meine Behandlung?“**
 Wenn die Antwort „um zu sehen, ob Sie einen Mangel haben“ lautet, fragen Sie weiter: Was genau würde sich an Ihrer Therapie ändern? Die Endocrine Society rät seit 2024 von routinemäßigem Screening bei Gesunden ab.
 - **„Habe ich Risikofaktoren für einen echten Vitamin-D-Mangel — etwa hohes Alter, dunkle Hautfarbe, kaum Sonnenlicht oder eine Darmerkrankung?“**
 Diese Frage ist wichtig, weil sie klärt, ob Sie zur Zielgruppe gehören, für die Supplementierung tatsächlich empfohlen wird — oder ob Sie ein gesunder Erwachsener ohne spezifischen Bedarf sind.
 - **„Welcher Grenzwert wurde für die Bewertung meines Bluttests verwendet — und auf welcher Evidenz basiert er?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Grenzwerte variieren zwischen 20 und 30 ng/ml, je nach Labor und Leitlinie. Die Endocrine Society definiert seit 2024 bewusst keine festen Grenzwerte mehr für die Allgemeinbevölkerung. Ein Wert von 22 ng/ml ist nach manchen Kriterien „Mangel“, nach anderen „normal“.</span>
-<div class="studie-details">- <em><em>„Welche Dosis empfehlen Sie — und gibt es Risiken bei zu hoher Einnahme?“</em></em></div>
+Grenzwerte variieren zwischen 20 und 30 ng/ml, je nach Labor und Leitlinie. Die Endocrine Society definiert seit 2024 bewusst keine festen Grenzwerte mehr für die Allgemeinbevölkerung. Ein Wert von 22 ng/ml ist nach manchen Kriterien „Mangel“, nach anderen „normal“.
+- **„Welche Dosis empfehlen Sie — und gibt es Risiken bei zu hoher Einnahme?“*
 
 Hochdosierte Vitamin-D-Einnahme kann zu Hyperkalzämie führen. Fragen Sie nach der empfohlenen Tagesdosis (600–800 IE für die meisten Erwachsenen) und ob eine höhere Dosis wirklich nötig ist.
 - **„Zahlt meine Krankenkasse diesen Test und das Präparat — und wenn nicht, warum nicht?“**
 Gesetzliche Kassen übernehmen den Vitamin-D-Test nur bei begründetem Verdacht. Wenn die Kasse nicht zahlt, hat das einen evidenzbasierten Grund: Der Nutzen ist bei Gesunden nicht belegt.
 
-</div>
-
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al. (2019).** Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. *New England Journal of Medicine*, 380(1), 33–44. DOI: 10.1056/NEJMoa1809944</span>
-<div class="studie-details">- <em><em>Bolland MJ, Grey A, Avenell A. (2018).</em><em> Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. </em>The Lancet Diabetes & Endocrinology</em>, 6(11), 847–858. DOI: 10.1016/S2213-8587(18)30265-1</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG et al. (2014).** Vitamin D supplementation for prevention of mortality in adults. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD007470. DOI: 10.1002/14651858.CD007470.pub3</span>
-<div class="studie-details">- <em><em>Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al. (2024).</em><em> Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. </em>Journal of Clinical Endocrinology & Metabolism</em>, 109(8), 1907–1947. DOI: 10.1210/clinem/dgae290</div>
+- **Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al. (2019).** Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. *New England Journal of Medicine*, 380(1), 33–44. DOI: 10.1056/NEJMoa1809944
+- **Bolland MJ, Grey A, Avenell A. (2018).** Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. *The Lancet Diabetes & Endocrinology*, , 6(11), 847–858. DOI: 10.1016/S2213-8587(18)30265-1
+- **Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG et al. (2014).** Vitamin D supplementation for prevention of mortality in adults. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD007470. DOI: 10.1002/14651858.CD007470.pub3
+- **Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al. (2024).** Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. *Journal of Clinical Endocrinology & Metabolism*, , 109(8), 1907–1947. DOI: 10.1210/clinem/dgae290
 
 - **IGeL-Monitor / Medizinischer Dienst Bund. (2022).** Früherkennungsuntersuchung auf Vitamin-D-Mangel — Bewertung: unklar. [https://www.igel-monitor.de](https://www.igel-monitor.de/igel-a-z/igel/show/frueherkennungsuntersuchung-auf-vitamin-d-mangel.html)
-
-</div>
