@@ -31,31 +31,31 @@ Verstärkt wird diese Überzeugung durch die Sportmedizin-Berichterstattung: Wen
 Die entscheidende Frage in der Medizin ist nicht „Kann man operieren?“, sondern „Ist das Ergebnis mit OP besser als ohne?“ Bei Kreuzbandrissen gibt es dazu mittlerweile zwei hochwertige randomisierte kontrollierte Studien — also Studien, in denen Patienten per Zufall einer OP-Gruppe oder einer Physiotherapie-Gruppe zugewiesen wurden. Das ist der Goldstandard, weil er Verzerrungen minimiert.
 
 <div class="studie">
-<span class="studie-name">RCT (KANON-Studie): Frobell et al. (2010/2013)</span>
+<span class="studie-name">RCT (KANON-Studie): Frobell et al. (2010/2013)
 <div class="studie-details">Randomisierte kontrollierte Studie · <em>New England Journal of Medicine</em> (2010) und <em>BMJ</em> (2013) · 121 junge, sportlich aktive Patienten mit akutem VKB-Riss</div>
 
 Diese schwedische Studie verglich zwei Strategien: sofortige Kreuzband-Rekonstruktion plus Rehabilitation versus zunächst nur Rehabilitation — mit der Option, später doch noch zu operieren, falls das Knie instabil blieb. Ergebnis nach fünf Jahren: Kein Unterschied in der vom Patienten berichteten Kniefunktion (KOOS-Score). Die Differenz betrug nur 2,0 Punkte (95-%-Konfidenzintervall: −8,5 bis 4,5; p = 0,54) — klinisch bedeutungslos. Von den 59 Patienten, die zunächst nur Physiotherapie erhielten, kamen 29 (49 %) dauerhaft ohne OP aus. Die übrigen 30 (51 %) wurden im Verlauf doch operiert, meist wegen anhaltender Instabilität.
 
 <div class="studie">
-<span class="studie-name">RCT (ACL-SNNAP-Studie): Beard et al. (2022)</span>
-<div class="studie-details">Pragmatische randomisierte kontrollierte Studie · <em>The Lancet</em>, 400(10352), 605–615 · 320 Patienten mit nicht-akutem VKB-Riss und anhaltender Instabilität, 29 Kliniken (UK)</div>
+<span class="studie-name">RCT (ACL-SNNAP-Studie): Beard et al. (2022)
+<div class="studie-details">Pragmatische randomisierte kontrollierte Studie · <em>The Lancet</em>, 400(10352), 605–615 · 320 Patienten mit nicht-akutem VKB-Riss und anhaltender Instabilität, 29 Kliniken (UK)
 
 Diese britische Studie untersuchte Patienten, die bereits seit mindestens sechs Wochen einen Kreuzbandriss hatten und trotzdem instabile Knie meldeten. Hier war das Ergebnis anders als bei KANON: Die Gruppe mit Kreuzband-Rekonstruktion hatte nach 18 Monaten signifikant bessere Ergebnisse in der Kniefunktion (KOOS4-Score) als die Gruppe mit reiner Rehabilitation. Die OP war zudem kosteneffektiver. Wichtig: Diese Studie untersuchte gezielt Patienten mit anhaltenden Beschwerden — also genau die Gruppe, bei der Physiotherapie allein nicht ausreichte.
 
 <div class="studie">
-<span class="studie-name">Meta-Analyse: Cuzzolin et al. (2021)</span>
+<span class="studie-name">Meta-Analyse: Cuzzolin et al. (2021)
 <div class="studie-details">Systematische Übersicht und Meta-Analyse · <em>Cartilage</em>, 13(1_suppl), 19476035211046041 · 12 Vergleichsstudien</div>
 
 Diese Meta-Analyse verglich langfristige Ergebnisse von Kreuzband-Rekonstruktion und konservativer Behandlung. Ergebnis: Operierte Patienten hatten eine bessere objektive Kniestabilität und brauchten seltener eine spätere Meniskus-OP (etwa halb so häufig wie Nicht-Operierte). Aber — und das ist der entscheidende Punkt — es gab keinen Unterschied in der Arthrose-Rate (RR = 0,93; p = 0,19), auch nicht bei Studien mit über 10 Jahren Nachbeobachtung. Die OP schützt also nicht vor Arthrose.
 
 <div class="studie">
-<span class="studie-name">Meta-Analyse: Filbay et al. (2025)</span>
+<span class="studie-name">Meta-Analyse: Filbay et al. (2025)
 <div class="studie-details">Systematische Übersicht und Meta-Analyse · <em>Sports Medicine</em> · 15 Studien (davon 2 RCTs), Rekonstruktion vs. Rehabilitation</div>
 
 Diese aktuelle Analyse untersuchte, ob operierte Patienten häufiger zum Sport zurückkehren. Ergebnis: Kein signifikanter Unterschied in der Return-to-Sport-Rate und im Aktivitätsniveau zwischen operierten und konservativ behandelten Patienten. Das widerspricht der verbreiteten Annahme, dass eine OP zwingend nötig ist, um wieder Sport treiben zu können.
 
 <div class="studie">
-<span class="studie-name">AAOS Clinical Practice Guideline (2022)</span>
+<span class="studie-name">AAOS Clinical Practice Guideline (2022)
 <div class="studie-details">Klinische Praxisleitlinie · American Academy of Orthopaedic Surgeons · Systematische Evidenzauswertung</div>
 
 Die AAOS — die größte orthopädische Fachgesellschaft weltweit — aktualisierte 2022 ihre Leitlinie zur Behandlung von Kreuzbandrissen. Zentrale Empfehlungen: Bei einer OP sollte eine Rekonstruktion mit körpereigenem Gewebe (Autograft, also Sehne aus dem eigenen Körper) einer Spendersehne (Allograft) vorgezogen werden, insbesondere bei jungen und aktiven Patienten. Die Leitlinie empfiehlt keine pauschale sofortige OP für alle Patienten, sondern betont die individuelle Entscheidungsfindung.
@@ -89,67 +89,48 @@ Die Evidenz zeigt nicht, dass eine Kreuzband-OP grundsätzlich unnötig ist. Sie
 ## Kreuzbandriss: Welche Fragen Sie Ihrem Arzt stellen sollten
 
         - **„Muss ich wirklich sofort operiert werden — oder kann ich erst Physiotherapie versuchen und später entscheiden?“**
-          Die KANON-Studie zeigt, dass eine Strategie „Reha zuerst, OP nur bei Bedarf“ gleichwertige Ergebnisse liefert. Wenn Ihr Arzt auf sofortige OP drängt, ohne diese Option zu erwähnen, fragen Sie nach.
-        - **„Wie definieren Sie ‚Instabilität‘ — und wie testen Sie diese objektiv?“**
-          Instabilität sollte nicht nur auf Ihr subjektives Gefühl basieren, sondern klinisch getestet werden (Lachman-Test, Pivot-Shift-Test). Diese Tests sind entscheidend für die Therapieentscheidung.
-        - **„Gibt es bei mir Begleitverletzungen — Meniskus, Seitenbänder, Knorpel — die die Entscheidung beeinflussen?“**
-          Begleitverletzungen können die OP-Indikation verändern. Ein isolierter Kreuzbandriss ohne Begleitverletzung hat eine andere Prognose als eine kombinierte Verletzung.
-        - **„Welche Sportarten und welches Aktivitätsniveau strebe ich an — und ist das ohne OP realistisch?“**
-          Für Joggen, Radfahren oder Schwimmen brauchen die meisten Patienten kein rekonstruiertes Kreuzband. Für Fußball oder Skifahren auf hohem Niveau sieht die Abwägung anders aus.
-        - **„Schützt die OP mein Knie vor Arthrose?“**
-          Die ehrliche Antwort ist: Nein. Meta-Analysen zeigen keine Unterschiede in der Arthrose-Rate. Wenn Ihr Arzt die OP mit Arthrose-Prävention begründet, fehlt dafür die Evidenz.
-        - **„Welches Transplantat empfehlen Sie — und warum?“**
-          Die AAOS empfiehlt körpereigenes Gewebe (Autograft) statt Spendergewebe (Allograft), besonders bei jungen Patienten. Falls Ihr Arzt ein Allograft vorschlägt, sollten Sie nach der Begründung fragen.
-        - **„Wie sieht die Rehabilitation nach der OP aus — und wie lange dauert es realistisch, bis ich wieder Sport machen kann?“**
-          Die Rückkehr zum Kontaktsport dauert nach einer Kreuzband-OP in der Regel 9 bis 12 Monate. Wenn Ihr Arzt deutlich kürzere Zeiträume verspricht, ist Vorsicht geboten.
+
+<div class="studie">
+<span class="studie-name">Die KANON-Studie zeigt, dass eine Strategie „Reha zuerst, OP nur bei Bedarf“ gleichwertige Ergebnisse liefert. Wenn Ihr Arzt auf sofortige OP drängt, ohne diese Option zu erwähnen, fragen Sie nach.</span>
+<div class="studie-details">- <em><em>„Wie definieren Sie ‚Instabilität‘ — und wie testen Sie diese objektiv?“</em></em></div>
+
+Instabilität sollte nicht nur auf Ihr subjektives Gefühl basieren, sondern klinisch getestet werden (Lachman-Test, Pivot-Shift-Test). Diese Tests sind entscheidend für die Therapieentscheidung.
+- **„Gibt es bei mir Begleitverletzungen — Meniskus, Seitenbänder, Knorpel — die die Entscheidung beeinflussen?“**
+Begleitverletzungen können die OP-Indikation verändern. Ein isolierter Kreuzbandriss ohne Begleitverletzung hat eine andere Prognose als eine kombinierte Verletzung.
+- **„Welche Sportarten und welches Aktivitätsniveau strebe ich an — und ist das ohne OP realistisch?“**
+Für Joggen, Radfahren oder Schwimmen brauchen die meisten Patienten kein rekonstruiertes Kreuzband. Für Fußball oder Skifahren auf hohem Niveau sieht die Abwägung anders aus.
+- **„Schützt die OP mein Knie vor Arthrose?“**
+Die ehrliche Antwort ist: Nein. Meta-Analysen zeigen keine Unterschiede in der Arthrose-Rate. Wenn Ihr Arzt die OP mit Arthrose-Prävention begründet, fehlt dafür die Evidenz.
+- **„Welches Transplantat empfehlen Sie — und warum?“**
+Die AAOS empfiehlt körpereigenes Gewebe (Autograft) statt Spendergewebe (Allograft), besonders bei jungen Patienten. Falls Ihr Arzt ein Allograft vorschlägt, sollten Sie nach der Begründung fragen.
+- **„Wie sieht die Rehabilitation nach der OP aus — und wie lange dauert es realistisch, bis ich wieder Sport machen kann?“**
+Die Rückkehr zum Kontaktsport dauert nach einer Kreuzband-OP in der Regel 9 bis 12 Monate. Wenn Ihr Arzt deutlich kürzere Zeiträume verspricht, ist Vorsicht geboten.
+
+</div>
 
 ## Quellenverzeichnis
 
         - **Frobell RB, Roos EM, Roos HP, Ranstam J, Lohmander LS. (2010).** A Randomized Trial of Treatment for Acute Anterior Cruciate Ligament Tears. *New England Journal of Medicine*, 363(4), 331–342. DOI: 10.1056/NEJMoa0907797
         - **Frobell RB, Roos HP, Roos EM, Roemer FW, Ranstam J, Lohmander LS. (2013).** Treatment for acute anterior cruciate ligament tear: five year outcome of randomised trial. *BMJ*, 346, f232. DOI: 10.1136/bmj.f232
-        - **Beard DJ, Davies LJ, Cook JA, Stokes J, Leal J, Fletcher H, Abram S, et al. (2022).** Rehabilitation versus surgical reconstruction for non-acute anterior cruciate ligament injury (ACL SNNAP): a pragmatic randomised controlled trial. *The Lancet*, 400(10352), 605–615. DOI: 10.1016/S0140-6736(22)01424-6
-        - **Cuzzolin M, Previtali D, Zaffagnini S, Deabate L, Candrian C, Filardo G. (2021).** Anterior Cruciate Ligament Reconstruction versus Nonoperative Treatment: Better Function and Less Secondary Meniscectomies But No Difference in Knee Osteoarthritis — A Meta-Analysis. *Cartilage*, 13(1_suppl), 19476035211046041. DOI: 10.1177/19476035211046041
-        - **Filbay SR, Bullock G, Russell S, et al. (2025).** No Difference in Return-to-Sport Rate or Activity Level in People with ACL Injury Managed with ACL Reconstruction or Rehabilitation Alone: A Systematic Review and Meta-Analysis. *Sports Medicine*, 55, 2191–2205. DOI: 10.1007/s40279-025-02268-5
-        - **American Academy of Orthopaedic Surgeons (AAOS). (2022).** Management of Anterior Cruciate Ligament Injuries: Evidence-Based Clinical Practice Guideline. [https://www.aaos.org/aclcpg](https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/aclcpg.pdf)
-        - **AWMF. (2019, derzeit in Überarbeitung).** S1-Leitlinie Vordere Kreuzbandruptur. Registernummer 187-012. [https://register.awmf.org/de/leitlinien/detail/187-012](https://register.awmf.org/de/leitlinien/detail/187-012)
 
-## Experten-Review
+<div class="studie">
+<span class="studie-name">- **Beard DJ, Davies LJ, Cook JA, Stokes J, Leal J, Fletcher H, Abram S, et al. (2022).** Rehabilitation versus surgical reconstruction for non-acute anterior cruciate ligament injury (ACL SNNAP): a pragmatic randomised controlled trial. *The Lancet*, 400(10352), 605–615. DOI: 10.1016/S0140-6736(22)01424-6</span>
+<div class="studie-details">- <em><em>Cuzzolin M, Previtali D, Zaffagnini S, Deabate L, Candrian C, Filardo G. (2021).</em><em> Anterior Cruciate Ligament Reconstruction versus Nonoperative Treatment: Better Function and Less Secondary Meniscectomies But No Difference in Knee Osteoarthritis — A Meta-Analysis. </em>Cartilage</em>, 13(1_suppl), 19476035211046041. DOI: 10.1177/19476035211046041</div>
 
-**Dieser Artikel wurde geprüft von:**
 
-[Name des Facharztes/der Fachärztin]
-      [Fachgebiet, Qualifikation]
-      [Praxis/Klinik, Ort]
-      [Link zur Praxis-Homepage]
+</div>
 
-*„[Platz für ein 1–2-Satz-Statement des Reviewers zum Artikel]“*
 
-*(Hinweis: Dieser Abschnitt wird nach dem ärztlichen Review ausgefüllt.)*
+<div class="studie">
+<span class="studie-name">- **Filbay SR, Bullock G, Russell S, et al. (2025).** No Difference in Return-to-Sport Rate or Activity Level in People with ACL Injury Managed with ACL Reconstruction or Rehabilitation Alone: A Systematic Review and Meta-Analysis. *Sports Medicine*, 55, 2191–2205. DOI: 10.1007/s40279-025-02268-5</span>
+<div class="studie-details">- <em><em>American Academy of Orthopaedic Surgeons (AAOS). (2022).</em></em> Management of Anterior Cruciate Ligament Injuries: Evidence-Based Clinical Practice Guideline. [https://www.aaos.org/aclcpg](https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/aclcpg.pdf)</div>
 
-### Ergänzung des prüfenden Facharztes
 
-*[Hier kann der Reviewer zusätzliche Anweisungen, fachliche Schwerpunkte oder Korrekturen eintragen, die bei der Artikelerstellung berücksichtigt werden sollen. Wenn nichts ergänzt wird, bleibt dieser Abschnitt leer.]*
+</div>
 
-## Überprüfen Sie diesen Artikel selbst
 
-Kopieren Sie den folgenden Prompt in ChatGPT, Claude oder eine andere KI Ihrer Wahl:
+<div class="studie">
+<span class="studie-name">- **AWMF. (2019, derzeit in Überarbeitung).** S1-Leitlinie Vordere Kreuzbandruptur. Registernummer 187-012. [https://register.awmf.org/de/leitlinien/detail/187-012](https://register.awmf.org/de/leitlinien/detail/187-012)</span>
 
-      Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne Abschwächung.
 
-Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum Thema: **Kreuzbandriss: Sofort operieren oder abwarten und trainieren? Was die Evidenz zur Kreuzband-Rekonstruktion vs. Physiotherapie zeigt.**
-
-Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal, Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären; erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5) QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews, Leitlinien.
-
-Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung zwischen „belegt“/„unklar“/„widerlegt“, Benennung von Interessenkonflikten, bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt“, ein Patient würde sagen „jetzt verstehe ich meine Optionen“.
-
-Ergänzung des prüfenden Facharztes: Keine Ergänzung hinzugefügt.</div>
-
-Wir glauben an Transparenz. Wenn dieser Artikel etwas falsch darstellt, wollen wir, dass Sie es herausfinden.
-
-### Verwandte Artikel
-
-        - [Meniskusriss: OP vs. Physiotherapie — wann ist die Arthroskopie wirklich nötig?](/meniskusriss-op-physiotherapie-evidenz)
-        - [Schulter-Impingement: Subakromiale Dekompression — sinnvoll oder Schein-OP?](/schulter-impingement-subakromiale-dekompression-evidenz)
-        - [Rückenschmerzen und MRT: Warum Bildgebung oft mehr schadet als hilft](/rueckenschmerzen-mrt-bildgebung-evidenz)
+</div>

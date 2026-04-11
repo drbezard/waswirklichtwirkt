@@ -36,30 +36,30 @@ Fast alle alarmierenden PPI-Risiken stammen aus Beobachtungsstudien. Die wenigen
 
 <div class="studie">
 <span class="studie-name">Randomisierte kontrollierte Studie: Moayyedi et al. (2019) — COMPASS-Trial</span>
-<div class="studie-details">Doppelblinde, placebokontrollierte RCT · <em>Gastroenterology</em> · 17.598 Patienten, mediane Nachbeobachtung 3,01 Jahre (53.152 Patientenjahre)</div>
+<div class="studie-details">Doppelblinde, placebokontrollierte RCT · <em>Gastroenterology</em> · 17.598 Patienten, mediane Nachbeobachtung 3,01 Jahre (53.152 Patientenjahre)
 
 Dies ist die bisher größte und wichtigste randomisierte Studie zur PPI-Sicherheit. 8.791 Patienten erhielten Pantoprazol 40 mg täglich, 8.807 ein Placebo. Ergebnis: Kein signifikanter Unterschied zwischen den Gruppen bei Knochenbrüchen, chronischer Nierenerkrankung, Demenz, Diabetes, COPD (chronisch obstruktive Lungenerkrankung), Krebs jeder Art oder Gesamtsterblichkeit. Einzige Ausnahme: Darminfektionen (enterische Infektionen) traten unter Pantoprazol häufiger auf (OR 1,33; 95-%-Konfidenzintervall 1,01–1,75). Bedeutung: Diese Studie entkräftet direkt die meisten Risikobehauptungen aus Beobachtungsstudien.
 
 <div class="studie">
-<span class="studie-name">Umbrella-Review: Salvo et al. (2021)</span>
+<span class="studie-name">Umbrella-Review: Salvo et al. (2021)
 <div class="studie-details">Systematischer Überblick über 42 systematische Reviews mit Meta-Analysen · <em>Alimentary Pharmacology & Therapeutics</em>, 54, 129–143</div>
 
 Dieses Review fasste die gesamte verfügbare Meta-Analytik zusammen. Ergebnis: Statistisch signifikante Assoziationen fanden sich für Hüftfrakturen (RR 1,20), akute Nierenschädigung (RR 1,61), Clostridioides-difficile-Infektionen (eine schwere Darminfektion; OR 1,99), Magenkrebs (OR 2,50) und Magenpolypen (Gewebswucherungen in der Magenschleimhaut; OR 2,46). Aber — und das ist entscheidend: Die Evidenzqualität nach GRADE war für fast alle Endpunkte „sehr niedrig“. Kein Zusammenhang wurde für nicht-gastrische Krebsarten oder neurologische Erkrankungen wie Demenz gefunden. Die Autoren betonten, dass die beobachteten Assoziationen durch Störfaktoren erklärt werden könnten.
 
 <div class="studie">
-<span class="studie-name">Kohortenstudie: Xie et al. (2019)</span>
+<span class="studie-name">Kohortenstudie: Xie et al. (2019)
 <div class="studie-details">Retrospektive Kohortenstudie des US-Veteranen-Systems · <em>BMJ</em> · 157.625 PPI-Anwender vs. 56.842 H2-Blocker-Anwender</div>
 
 Diese vielzitierte Studie fand 45,2 zusätzliche Todesfälle pro 1.000 PPI-Anwender über einen Beobachtungszeitraum von mehreren Jahren, insbesondere durch Herz-Kreislauf-Erkrankungen, Nierenerkrankungen und Krebs. Allerdings: Die Studie verglich PPI-Anwender mit H2-Blocker-Anwendern (nicht mit Nicht-Anwendern) in einer Population von überwiegend älteren, multimorbiden (an mehreren Erkrankungen gleichzeitig leidenden) Veteranen. Die Ergebnisse widersprechen direkt dem COMPASS-Trial, was stark darauf hindeutet, dass die beobachteten Unterschiede durch die unterschiedliche Krankheitslast der Gruppen erklärt werden — nicht durch die PPI selbst.
 
 <div class="studie">
-<span class="studie-name">AGA Best Practice Advice: Freedberg, Kim & Yang (2017)</span>
+<span class="studie-name">AGA Best Practice Advice: Freedberg, Kim & Yang (2017)
 <div class="studie-details">Expertenreview und Praxisempfehlungen · <em>Gastroenterology</em>, 152(4), 706–715</div>
 
 Die American Gastroenterological Association (AGA) — eine der weltweit führenden gastroenterologischen Fachgesellschaften — bewertete systematisch alle verfügbaren Risikodaten. Fazit: Die Qualität der Evidenz für die meisten postulierten Risiken ist niedrig bis sehr niedrig. PPI sollten bei klarer Indikation in der niedrigsten wirksamen Dosis eingesetzt werden. Bei Langzeitanwendern ohne klare Indikation sollte ein Absetzversuch unternommen werden. Routinemäßige Laborkontrollen (z. B. Magnesium, Vitamin B12) bei asymptomatischen Patienten werden nicht empfohlen.
 
 <div class="studie">
-<span class="studie-name">AGA Clinical Practice Update: Targownik, Fisher & Saini (2022)</span>
+<span class="studie-name">AGA Clinical Practice Update: Targownik, Fisher & Saini (2022)
 <div class="studie-details">Klinisches Praxis-Update zum Absetzen von PPI · <em>Gastroenterology</em>, 162(4), 1334–1342</div>
 
 Dieses aktualisierte Praxis-Update der AGA widmete sich explizit dem De-Prescribing (dem strukturierten Absetzen) von PPI. Kernaussagen: Bei allen PPI-Anwendern sollte regelmäßig überprüft werden, ob die Indikation noch besteht. Patienten ohne klare Dauerindikation sollten einen Absetzversuch erhalten — schrittweise, um ein Rebound-Phänomen (eine vorübergehende Übersäuerung nach Absetzen, die durch eine reaktive Überproduktion von Magensäure entsteht) zu vermeiden. Patienten auf doppelter Dosis sollten zunächst auf einmal täglich reduziert werden.
@@ -110,46 +110,10 @@ Bei klarer Indikation sind PPI hochwirksame Medikamente, deren Nutzen die potenz
         - **Moayyedi P, Eikelboom JW, Bosch J, Connolly SJ, Dyal L, Shestakovska O, Leong D, Anand SS, Störk S, Branch KRH, Bhatt DL, Verma S, Hart RG, Yusuf S; COMPASS Investigators. (2019).** Safety of Proton Pump Inhibitors Based on a Large, Multi-Year, Randomized Trial of Patients Receiving Rivaroxaban or Aspirin. *Gastroenterology*, 157(3), 682–691.e2. DOI: 10.1053/j.gastro.2019.05.056
         - **Salvo EM, Ferko NC, Cash SB, Gonzalez A, Kahrilas PJ. (2021).** Umbrella review of 42 systematic reviews with meta-analyses: the safety of proton pump inhibitors. *Alimentary Pharmacology & Therapeutics*, 54, 129–143. DOI: 10.1111/apt.16407
         - **Xie Y, Bowe B, Yan Y, Xian H, Li T, Al-Aly Z. (2019).** Estimates of all cause mortality and cause specific mortality associated with proton pump inhibitors among US veterans: cohort study. *BMJ*, 365, l1580. DOI: 10.1136/bmj.l1580
-        - **Freedberg DE, Kim LS, Yang YX. (2017).** The Risks and Benefits of Long-term Use of Proton Pump Inhibitors: Expert Review and Best Practice Advice From the American Gastroenterological Association. *Gastroenterology*, 152(4), 706–715. DOI: 10.1053/j.gastro.2017.01.031
-        - **Targownik LE, Fisher DA, Saini SD. (2022).** AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. *Gastroenterology*, 162(4), 1334–1342. DOI: 10.1053/j.gastro.2021.12.247
 
-## Experten-Review
+<div class="studie">
+<span class="studie-name">- **Freedberg DE, Kim LS, Yang YX. (2017).** The Risks and Benefits of Long-term Use of Proton Pump Inhibitors: Expert Review and Best Practice Advice From the American Gastroenterological Association. *Gastroenterology*, 152(4), 706–715. DOI: 10.1053/j.gastro.2017.01.031</span>
+<div class="studie-details">- <em><em>Targownik LE, Fisher DA, Saini SD. (2022).</em><em> AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. </em>Gastroenterology</em>, 162(4), 1334–1342. DOI: 10.1053/j.gastro.2021.12.247</div>
 
-**Dieser Artikel wurde geprüft von:**
 
-[Name des Facharztes/der Fachärztin]
-      [Fachgebiet, Qualifikation]
-      [Praxis/Klinik, Ort]
-      [Link zur Praxis-Homepage]
-
-*„[Platz für ein 1–2-Satz-Statement des Reviewers zum Artikel]“*
-
-*(Hinweis: Dieser Abschnitt wird nach dem ärztlichen Review ausgefüllt.)*
-
-### Ergänzung des prüfenden Facharztes
-
-*[Hier kann der Reviewer zusätzliche Anweisungen, fachliche Schwerpunkte oder Korrekturen eintragen, die bei der Artikelerstellung berücksichtigt werden sollen. Wenn nichts ergänzt wird, bleibt dieser Abschnitt leer.]*
-
-## Überprüfen Sie diesen Artikel selbst
-
-Kopieren Sie den folgenden Prompt in ChatGPT, Claude oder eine andere KI Ihrer Wahl:
-
-      Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne Abschwächung.
-
-Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum Thema: **Protonenpumpenhemmer (Pantoprazol, Omeprazol & Co.): Wie gefährlich ist die Langzeiteinnahme wirklich?**
-
-Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal, Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären; erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5) QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews, Leitlinien.
-
-Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung zwischen „belegt“/„unklar“/„widerlegt“, Benennung von Interessenkonflikten, bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt“, ein Patient würde sagen „jetzt verstehe ich meine Optionen“.
-
-Ergänzung des prüfenden Facharztes: Keine Ergänzung hinzugefügt.</div>
-
-Wir glauben an Transparenz. Wenn dieser Artikel etwas falsch darstellt, wollen wir, dass Sie es herausfinden.
-
-### Verwandte Artikel
-
-        - [Vitamin-D-Supplementierung: Wundermittel oder Hype ohne Evidenz?](/vitamin-d-supplementierung-evidenz)
-        - [Statine bei leicht erhöhtem Cholesterin: Wann wirklich nötig — und wann Übertherapie?](/statine-cholesterin-evidenz)
-        - [Eiseninfusion vs. Eisentabletten: Wann ist die Infusion wirklich besser?](/eiseninfusion-eisentabletten-evidenz)
+</div>

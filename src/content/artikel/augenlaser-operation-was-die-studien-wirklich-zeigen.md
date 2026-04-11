@@ -11,14 +11,11 @@ reviewerTitle: ""
 reviewerPhoto: ""
 reviewerUrl: ""
 ---
-
-Fachgebiet: Augenheilkunde | Evidenzgrad: Stark</span> | Lesedauer: ca. 9 Minuten
-
       Dr. Georg Bézard</span>
       ✓ Geprüft</span>
 
     Facharzt für Unfallchirurgie & Orthopädie · Wien</div>
-    Oberarzt für Orthopädie & Traumatologie sowie Facharzt für Unfallchirurgie in Wien. Spezialisiert auf minimalinvasive Schulter-, Hand- und Kniechirurgie. Privatpraxis für evidenzbasierte Orthopädie in Wien-Döbling und Tulln.</div>
+    Oberarzt für Orthopädie & Traumatologie sowie Facharzt für Unfallchirurgie in Wien. Spezialisiert auf minimalinvasive Schulter-, Hand- und Kniechirurgie. Privatpraxis für evidenzbasierte Orthopädie in Wien-Döbling und Tulln.
     [→ www.drbezard.com](https://www.drbezard.com)
 
 ## Was glauben viele Patienten – und was stimmt wirklich?

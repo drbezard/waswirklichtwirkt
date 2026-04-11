@@ -6,10 +6,17 @@ import { getCollection } from 'astro:content';
 const allArticles = await getCollection('artikel');
 const sortedArticles = allArticles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const articles = sortedArticles.slice(0, 5);
-const hasMore = sortedArticles.length > 5;
+
+// Prepare search data – only title, slug, category, excerpt (NO reviewer photo)
+const searchData = sortedArticles.map(a => ({
+  title: a.data.title,
+  slug: a.data.slug,
+  category: a.data.category,
+  excerpt: a.data.excerpt,
+}));
 ---
 
-<Base title="Was Wirklich Wirkt">
+<Base title="Was Wirklich Wirkt – Evidenzbasierte Medizin für Patienten">
   <!-- Hero -->
   <section class="py-16 md:py-24">
     <div class="max-w-4xl mx-auto px-5">
@@ -104,14 +111,12 @@ const hasMore = sortedArticles.length > 5;
           />
         ))}
       </div>
-      {hasMore && (
-        <div class="mt-8 text-center">
-          <a href="/fachgebiete" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border text-sm font-medium text-text hover:bg-bg-subtle hover:border-border/80 transition-all no-underline">
-            Alle Artikel nach Fachgebiet
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-          </a>
-        </div>
-      )}
+      <div class="mt-8 text-center">
+        <a href="/fachgebiete" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border text-sm font-medium text-text hover:bg-bg-subtle hover:border-border/80 transition-all no-underline">
+          Alle Artikel nach Fachgebiet
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -166,45 +171,64 @@ const hasMore = sortedArticles.length > 5;
     </div>
   </section>
 
-  <script define:vars={{ allArticlesData: sortedArticles.map(a => ({ title: a.data.title, slug: a.data.slug, category: a.data.category, excerpt: a.data.excerpt })) }}>
+  <!-- Search Script: Inline JSON data to avoid define:vars issues -->
+  <script is:inline define:vars={{ searchData }}>
+    window.__searchArticles = searchData;
   </script>
   <script>
-    const searchInput = document.getElementById('search-input') as HTMLInputElement;
-    const searchBtn = document.getElementById('search-btn');
-    const searchResults = document.getElementById('search-results');
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('search-input') as HTMLInputElement;
+      const searchBtn = document.getElementById('search-btn');
+      const searchResults = document.getElementById('search-results');
+      
+      // Get articles from the inline script
+      const articles = (window as any).__searchArticles || [];
 
-    // @ts-ignore - injected by define:vars
-    const articles = (window as any).allArticlesData || Array.from(document.querySelectorAll('#articles-list article')).map(card => ({
-      title: card.querySelector('h3')?.textContent || '',
-      slug: card.querySelector('a[href^="/artikel/"]')?.getAttribute('href')?.replace('/artikel/', '') || '',
-      category: card.querySelector('.rounded-full')?.textContent?.trim() || '',
-      excerpt: card.querySelector('p')?.textContent || '',
-    }));
-
-    function doSearch() {
-      const q = searchInput.value.toLowerCase().trim();
-      if (!q || !searchResults) return;
-      const matches = articles.filter((a: any) =>
-        a.title.toLowerCase().includes(q) || a.category.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q)
-      );
-      if (matches.length === 0) {
-        searchResults.innerHTML = '<div class="p-4 text-sm text-gray-500">Keine Artikel gefunden.</div>';
-      } else {
-        searchResults.innerHTML = matches.map((m: any) =>
-          `<a href="/artikel/${m.slug}" class="block p-4 hover:bg-gray-50 border-b border-gray-100 last:border-0 no-underline">
-            <span class="text-xs font-semibold text-blue-600 uppercase">${m.category}</span>
-            <div class="font-medium text-gray-900 mt-0.5">${m.title}</div>
-          </a>`
-        ).join('');
+      function doSearch() {
+        const q = searchInput?.value?.toLowerCase().trim();
+        if (!q || !searchResults) return;
+        
+        const matches = articles.filter((a: any) => {
+          const titleMatch = a.title?.toLowerCase().includes(q);
+          const categoryMatch = a.category?.toLowerCase().includes(q);
+          const excerptMatch = a.excerpt?.toLowerCase().includes(q);
+          const slugMatch = a.slug?.toLowerCase().includes(q);
+          return titleMatch || categoryMatch || excerptMatch || slugMatch;
+        });
+        
+        if (matches.length === 0) {
+          searchResults.innerHTML = '<div class="p-4 text-sm text-gray-500 text-center">Keine Artikel gefunden.</div>';
+        } else {
+          searchResults.innerHTML = matches.map((m: any) =>
+            `<a href="/artikel/${m.slug}" class="block p-4 hover:bg-gray-50 border-b border-gray-100 last:border-0 no-underline transition-colors">
+              <span class="text-xs font-semibold text-blue-600 uppercase tracking-wide">${m.category}</span>
+              <div class="font-semibold text-gray-900 mt-1 text-[0.95rem] leading-snug">${m.title}</div>
+              <p class="text-sm text-gray-500 mt-1 line-clamp-2">${m.excerpt}</p>
+            </a>`
+          ).join('');
+        }
+        searchResults.classList.remove('hidden');
       }
-      searchResults.classList.remove('hidden');
-    }
 
-    searchBtn?.addEventListener('click', doSearch);
-    searchInput?.addEventListener('keydown', (e: KeyboardEvent) => { if (e.key === 'Enter') doSearch(); });
-    searchInput?.addEventListener('input', () => { if (!searchInput.value.trim()) searchResults?.classList.add('hidden'); });
-    document.addEventListener('click', (e) => {
-      if (!document.getElementById('search-container')?.contains(e.target as Node)) searchResults?.classList.add('hidden');
+      searchBtn?.addEventListener('click', doSearch);
+      searchInput?.addEventListener('keydown', (e: KeyboardEvent) => { if (e.key === 'Enter') doSearch(); });
+      
+      // Live search on typing (with debounce)
+      let debounceTimer: any;
+      searchInput?.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        if (!searchInput.value.trim()) {
+          searchResults?.classList.add('hidden');
+          return;
+        }
+        debounceTimer = setTimeout(doSearch, 200);
+      });
+      
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('search-container')?.contains(e.target as Node)) {
+          searchResults?.classList.add('hidden');
+        }
+      });
     });
   </script>
 </Base>
