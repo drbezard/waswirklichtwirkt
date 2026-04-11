@@ -112,27 +112,9 @@ Die Evidenz zeigt, dass Cortison-Cremes bei Neurodermitis die Therapie der erste
           Neurodermitis erfordert oft ein Stufenschema mit regelmäßiger Anpassung. Ein einmaliges Rezept ohne Nachkontrolle reicht bei mittlerer bis schwerer Neurodermitis nicht aus.
 
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Jiyad Z, Flohr C, Thomas KS, Chalmers JR. (2024).** Topical anti-inflammatory treatments for eczema: a Cochrane systematic review and network meta-analysis. *Cochrane Database of Systematic Reviews*. DOI: 10.1002/14651858.CD015064.pub2</span>
-<div class="studie-details">- <em><em>Harvey J, Lax SJ, Sherrat A, Lawton S, Sherrat A, Axon E, Flohr C, Chalmers JR, Thomas KS. (2023).</em><em> The long-term safety of topical corticosteroids in atopic dermatitis: A systematic review. </em>Skin Health and Disease</em>, 3(5), e268. DOI: 10.1002/ski2.268</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Chu DK, Schneider L, Asiniwasis RN, Boguniewicz M, De Benedetto A, Ellison K, Guyatt GH, Lio PA, Mark BJ, Shand S, et al. (2023).** Topical treatments for atopic dermatitis (eczema): Systematic review and network meta-analysis of randomized trials. *Journal of Allergy and Clinical Immunology*, 152(6), 1493–1519. DOI: 10.1016/j.jaci.2023.08.030</span>
-<div class="studie-details">- <em><em>Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Flohr C, Thomas KS, Chalmers JR. (2022).</em><em> Strategies for using topical corticosteroids in children and adults with eczema. </em>Cochrane Database of Systematic Reviews</em>, Issue 3, Art. No.: CD013356. DOI: 10.1002/14651858.CD013356.pub2</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Werfel T, Heratizadeh A, Aberer W, Augustin M, Biedermann T, Bauer A, et al. (2024).** S3-Leitlinie Atopische Dermatitis: Teil 1 — Allgemeine Aspekte, topische und nichtmedikamentöse Therapien, besondere Patientengruppen. *JDDG: Journal der Deutschen Dermatologischen Gesellschaft*, 22(1), 137–209. AWMF-Register Nr. 013-027. DOI: 10.1111/ddg.15230_g</span>
-<div class="studie-details">- <em><em>Wollenberg A, Kinberger M, Arents B, Aszodi N, Avila Valle G, Barbarot S, et al. (2025).</em><em> European Guideline (EuroGuiDerm) on atopic eczema: Living update. </em>Journal of the European Academy of Dermatology and Venereology</em>. DOI: 10.1111/jdv.20639</div>
-
-
-</div>
+- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Jiyad Z, Flohr C, Thomas KS, Chalmers JR. (2024).** Topical anti-inflammatory treatments for eczema: a Cochrane systematic review and network meta-analysis. *Cochrane Database of Systematic Reviews*. DOI: 10.1002/14651858.CD015064.pub2
+- **Harvey J, Lax SJ, Sherrat A, Lawton S, Sherrat A, Axon E, Flohr C, Chalmers JR, Thomas KS. (2023).** The long-term safety of topical corticosteroids in atopic dermatitis: A systematic review. *Skin Health and Disease*, , 3(5), e268. DOI: 10.1002/ski2.268
+- **Chu DK, Schneider L, Asiniwasis RN, Boguniewicz M, De Benedetto A, Ellison K, Guyatt GH, Lio PA, Mark BJ, Shand S, et al. (2023).** Topical treatments for atopic dermatitis (eczema): Systematic review and network meta-analysis of randomized trials. *Journal of Allergy and Clinical Immunology*, 152(6), 1493–1519. DOI: 10.1016/j.jaci.2023.08.030
+- **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Flohr C, Thomas KS, Chalmers JR. (2022).** Strategies for using topical corticosteroids in children and adults with eczema. *Cochrane Database of Systematic Reviews*, , Issue 3, Art. No.: CD013356. DOI: 10.1002/14651858.CD013356.pub2
+- **Werfel T, Heratizadeh A, Aberer W, Augustin M, Biedermann T, Bauer A, et al. (2024).** S3-Leitlinie Atopische Dermatitis: Teil 1 — Allgemeine Aspekte, topische und nichtmedikamentöse Therapien, besondere Patientengruppen. *JDDG: Journal der Deutschen Dermatologischen Gesellschaft*, 22(1), 137–209. AWMF-Register Nr. 013-027. DOI: 10.1111/ddg.15230_g
+- **Wollenberg A, Kinberger M, Arents B, Aszodi N, Avila Valle G, Barbarot S, et al. (2025).** European Guideline (EuroGuiDerm) on atopic eczema: Living update. *Journal of the European Academy of Dermatology and Venereology*, . DOI: 10.1111/jdv.20639

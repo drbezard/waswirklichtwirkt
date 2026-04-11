@@ -88,28 +88,18 @@ Die Evidenz spricht klar gegen die Routine-OP bei unkomplizierten Bandscheibenvo
 ## Bandscheibenvorfall beim Arzt: Welche Fragen Sie stellen sollten
 
 - **„Ist dies ein Notfall — liegen Zeichen eines Cauda-equina-Syndroms oder einer progressiven Lähmung vor?“**
-          Die Antwort sollte schnell und klar sein. Wenn ja: sofortige Überweisung in die Neurochirurgie. Wenn nein: kein Grund zur Eile — konservative Therapie hat Zeit.
+  Die Antwort sollte schnell und klar sein. Wenn ja: sofortige Überweisung in die Neurochirurgie. Wenn nein: kein Grund zur Eile — konservative Therapie hat Zeit.
 - **„Korreliert der MRT-Befund mit meinen Symptomen — oder könnte es ein Zufallsbefund sein?“**
-          Ein Bandscheibenvorfall im MRT beweist nicht, dass er die Ursache der Schmerzen ist. Der Befund muss zum klinischen Bild passen: Beinschmerz im typischen Versorgungsgebiet, positiver Straight-Leg-Raise-Test, ggf. neurologische Ausfälle.
+  Ein Bandscheibenvorfall im MRT beweist nicht, dass er die Ursache der Schmerzen ist. Der Befund muss zum klinischen Bild passen: Beinschmerz im typischen Versorgungsgebiet, positiver Straight-Leg-Raise-Test, ggf. neurologische Ausfälle.
 - **„Kennen Sie die Leiden-Studie (Peul et al., NEJM), die zeigt, dass nach einem Jahr kein Unterschied zwischen OP und konservativer Therapie besteht?“**
-
-<div class="studie">
-<span class="studie-name">Ein Wirbelsäulenchirurg, der diese Studie nicht kennt, ist nicht auf dem aktuellen Stand. Sie wurde 2007 im New England Journal of Medicine publiziert und ist eine der wichtigsten Studien zu dieser Frage.</span>
-<div class="studie-details">- <em><em>„Wie lange sollte ich konservative Therapie versuchen, bevor wir über eine OP sprechen?“</em></em></div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Die Leitlinien empfehlen 6–12 Wochen. Wenn Ihr Arzt nach 2–3 Wochen zur OP rät (ohne Notfallsymptome), fragen Sie nach dem Grund.</span>
-<div class="studie-details">- <em><em>„Welche Komplikationen hat die Diskektomie — und wie hoch ist die Rezidiv-Rate?“</em></em></div>
+Ein Wirbelsäulenchirurg, der diese Studie nicht kennt, ist nicht auf dem aktuellen Stand. Sie wurde 2007 im New England Journal of Medicine publiziert und ist eine der wichtigsten Studien zu dieser Frage.
+- **„Wie lange sollte ich konservative Therapie versuchen, bevor wir über eine OP sprechen?“*
+Die Leitlinien empfehlen 6–12 Wochen. Wenn Ihr Arzt nach 2–3 Wochen zur OP rät (ohne Notfallsymptome), fragen Sie nach dem Grund.
+- **„Welche Komplikationen hat die Diskektomie — und wie hoch ist die Rezidiv-Rate?“*
 
 Mögliche Komplikationen: Infektion, Nervenschäden, Narbengewebe (Epiduralfibrose), erneuter Vorfall am selben Segment (Rezidiv-Rate 5–15 %). Bei einem Eingriff, der langfristig keine besseren Ergebnisse liefert als Abwarten, sollte jedes Risiko sorgfältig abgewogen werden.
 - **„Welche konservativen Optionen haben wir noch nicht ausgeschöpft?“**
 Strukturierte Physiotherapie, epidurale Steroidinjektionen, optimierte Schmerzmedikation, psychologische Unterstützung bei Schmerzkatastrophisierung — oft gibt es noch unversuchte Ansätze, bevor eine OP nötig wird.
-
-</div>
 
 ## Quellenverzeichnis
 

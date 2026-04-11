@@ -116,51 +116,25 @@ Die Kritik gilt der routinemäßigen, ungezielten Bildgebung — nicht der Bildg
 
 ## MRT bei Rückenschmerzen: Welche Fragen Sie Ihrem Arzt stellen sollten
 
-        - **„Welchen konkreten Verdacht haben Sie, der ein MRT jetzt schon rechtfertigt?“**
-
-<div class="studie">
-<span class="studie-name">Wenn die ehrliche Antwort „keinen konkreten Verdacht — wir wollen nur mal schauen“ lautet, ist das laut Leitlinien keine ausreichende Indikation. Fragen Sie nach Red Flags.</span>
-<div class="studie-details">- <em><em>„Würde das MRT-Ergebnis meine Behandlung in den nächsten Wochen tatsächlich verändern?“</em></em></div>
+- **„Welchen konkreten Verdacht haben Sie, der ein MRT jetzt schon rechtfertigt?“**
+Wenn die ehrliche Antwort „keinen konkreten Verdacht — wir wollen nur mal schauen“ lautet, ist das laut Leitlinien keine ausreichende Indikation. Fragen Sie nach Red Flags.
+- **„Würde das MRT-Ergebnis meine Behandlung in den nächsten Wochen tatsächlich verändern?“*
 
 Wenn die Therapie ohnehin Bewegung, Physiotherapie und Schmerzmanagement ist — egal was das MRT zeigt —, bringt die Bildgebung keinen Informationsgewinn. Und unnötige Befunde können schaden.
 - **„Was bedeutet es, wenn das MRT degenerative Veränderungen zeigt — und wie wahrscheinlich ist das?“**
 Sehr wahrscheinlich. Bei den meisten Erwachsenen ab 30 findet ein MRT Bandscheibenveränderungen. Das ist normal. Aber diese Befunde können Angst machen und zu unnötigen Behandlungen führen, wenn sie nicht richtig eingeordnet werden.
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **„Gibt es Studien, die zeigen, dass ein frühes MRT bei Rückenschmerzen wie meinen die Ergebnisse verbessert?“**</span>
-<div class="studie-details">Bei unkomplizierten Rückenschmerzen lautet die Antwort: nein. Die Lancet-Meta-Analyse von Chou et al. (2009) ist hier die Referenz. Wenn Ihr Arzt anderer Meinung ist, bitten Sie um die konkrete Studiengrundlage.</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **„Was empfiehlt die aktuelle Nationale VersorgungsLeitlinie Kreuzschmerz in meinem Fall?“**</span>
-<div class="studie-details">Die NVL ist die höchste deutsche Leitlinie zu diesem Thema. Sie empfiehlt bei nicht-spezifischen Rückenschmerzen ausdrücklich keine Bildgebung in den ersten 4–6 Wochen. Wenn Ihr Arzt davon abweicht, sollte er den Grund erklären können.</div>
+- **„Gibt es Studien, die zeigen, dass ein frühes MRT bei Rückenschmerzen wie meinen die Ergebnisse verbessert?“**
+Bei unkomplizierten Rückenschmerzen lautet die Antwort: nein. Die Lancet-Meta-Analyse von Chou et al. (2009) ist hier die Referenz. Wenn Ihr Arzt anderer Meinung ist, bitten Sie um die konkrete Studiengrundlage.
+- **„Was empfiehlt die aktuelle Nationale VersorgungsLeitlinie Kreuzschmerz in meinem Fall?“**
+Die NVL ist die höchste deutsche Leitlinie zu diesem Thema. Sie empfiehlt bei nicht-spezifischen Rückenschmerzen ausdrücklich keine Bildgebung in den ersten 4–6 Wochen. Wenn Ihr Arzt davon abweicht, sollte er den Grund erklären können.
 
 - **„Welche nicht-bildgebenden Maßnahmen kann ich in den nächsten Wochen ergreifen, bevor wir über ein MRT nachdenken?“**
 Strukturierte Bewegungstherapie, Physiotherapie und bei Bedarf zeitlich begrenzte Schmerzmedikation sind die evidenzbasierte Erstbehandlung. In den meisten Fällen bessern sich die Schmerzen damit deutlich.
 
-</div>
-
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Brinjikji W, Luetmer PH, Comstock B, Bresnahan BW, Chen LE, Deyo RA, Halabi S, Turner JA, Avins AL, James K, Wald JT, Kallmes DF, Jarvik JG. (2015).** Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations. *American Journal of Neuroradiology (AJNR)*, 36(4), 811–816. DOI: 10.3174/ajnr.A4173</span>
-<div class="studie-details">- <em><em>Chou R, Fu R, Carrino JA, Deyo RA. (2009).</em><em> Imaging strategies for low-back pain: systematic review and meta-analysis. </em>The Lancet</em>, 373(9662), 463–472. DOI: 10.1016/S0140-6736(09)60172-0</div>
+- **Brinjikji W, Luetmer PH, Comstock B, Bresnahan BW, Chen LE, Deyo RA, Halabi S, Turner JA, Avins AL, James K, Wald JT, Kallmes DF, Jarvik JG. (2015).** Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations. *American Journal of Neuroradiology (AJNR)*, 36(4), 811–816. DOI: 10.3174/ajnr.A4173
+- **Chou R, Fu R, Carrino JA, Deyo RA. (2009).** Imaging strategies for low-back pain: systematic review and meta-analysis. *The Lancet*, , 373(9662), 463–472. DOI: 10.1016/S0140-6736(09)60172-0
 
 - **Jarvik JG, Hollingworth W, Martin B, Emerson SS, Gray DT, Overman S, Robinson D, Staiger T, Wessbecher F, Sullivan SD, Kreuter W, Deyo RA. (2003).** Rapid magnetic resonance imaging vs radiographs for patients with low back pain: a randomized controlled trial. *JAMA*, 289(21), 2810–2818. DOI: 10.1001/jama.289.21.2810
 - **Webster BS, Bauer AZ, Choi Y, Cifuentes M, Pransky GS. (2013).** Iatrogenic consequences of early magnetic resonance imaging in acute, work-related, disabling low back pain. *Spine*, 38(22), 1939–1946. DOI: 10.1097/BRS.0b013e3182a42eb6
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF. (2017).** Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage. AWMF-Register Nr. nvl-007. [https://register.awmf.org/de/leitlinien/detail/nvl-007](https://register.awmf.org/de/leitlinien/detail/nvl-007)</span>
-
-
-</div>
+- **Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF. (2017).** Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage. AWMF-Register Nr. nvl-007. [https://register.awmf.org/de/leitlinien/detail/nvl-007](https://register.awmf.org/de/leitlinien/detail/nvl-007)

@@ -101,46 +101,25 @@ Die Kritik richtet sich nicht gegen Vitamin D als Substanz, sondern gegen die un
 **Wann Vitamin D definitiv nicht indiziert ist:** Bei gesunden Erwachsenen unter 75 Jahren als „Gesundheitsvorsorge“ ohne spezifische Indikation. Hochdosierte Supplementierung (über 4.000 IE/Tag) ohne ärztliche Überwachung — dies kann zu Hyperkalzämie (erhöhtem Kalziumspiegel) mit Übelkeit, Nierensteinen und in schweren Fällen Nierenschäden führen. Einzelne Studien zeigten bei hohen Einzeldosen sogar ein paradox erhöhtes Sturzrisiko.
 
 ## Vitamin-D-Test und Supplementierung: Welche Fragen Sie Ihrem Arzt stellen sollten
-
-
-<div class="studie">
-<span class="studie-name">- **„Gibt es große randomisierte Studien, die zeigen, dass Vitamin-D-Pillen Gesunde wie mich vor Krebs, Herzinfarkt oder Knochenbrüchen schützen?“**</span>
-<div class="studie-details">Die ehrliche Antwort ist: Die VITAL-Studie mit über 25.000 Teilnehmern und die Meta-Analyse von Bolland mit über 53.000 Teilnehmern zeigen keinen solchen Schutz. Wenn Ihr Arzt das anders sieht, bitten Sie um konkrete Studien.</div>
+- **„Gibt es große randomisierte Studien, die zeigen, dass Vitamin-D-Pillen Gesunde wie mich vor Krebs, Herzinfarkt oder Knochenbrüchen schützen?“**
+Die ehrliche Antwort ist: Die VITAL-Studie mit über 25.000 Teilnehmern und die Meta-Analyse von Bolland mit über 53.000 Teilnehmern zeigen keinen solchen Schutz. Wenn Ihr Arzt das anders sieht, bitten Sie um konkrete Studien.
 
 - **„Warum empfehlen Sie mir den Vitamin-D-Bluttest — und ändert das Ergebnis meine Behandlung?“**
 Wenn die Antwort „um zu sehen, ob Sie einen Mangel haben“ lautet, fragen Sie weiter: Was genau würde sich an Ihrer Therapie ändern? Die Endocrine Society rät seit 2024 von routinemäßigem Screening bei Gesunden ab.
 - **„Habe ich Risikofaktoren für einen echten Vitamin-D-Mangel — etwa hohes Alter, dunkle Hautfarbe, kaum Sonnenlicht oder eine Darmerkrankung?“**
 Diese Frage ist wichtig, weil sie klärt, ob Sie zur Zielgruppe gehören, für die Supplementierung tatsächlich empfohlen wird — oder ob Sie ein gesunder Erwachsener ohne spezifischen Bedarf sind.
 - **„Welcher Grenzwert wurde für die Bewertung meines Bluttests verwendet — und auf welcher Evidenz basiert er?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Grenzwerte variieren zwischen 20 und 30 ng/ml, je nach Labor und Leitlinie. Die Endocrine Society definiert seit 2024 bewusst keine festen Grenzwerte mehr für die Allgemeinbevölkerung. Ein Wert von 22 ng/ml ist nach manchen Kriterien „Mangel“, nach anderen „normal“.</span>
-<div class="studie-details">- <em><em>„Welche Dosis empfehlen Sie — und gibt es Risiken bei zu hoher Einnahme?“</em></em></div>
+Grenzwerte variieren zwischen 20 und 30 ng/ml, je nach Labor und Leitlinie. Die Endocrine Society definiert seit 2024 bewusst keine festen Grenzwerte mehr für die Allgemeinbevölkerung. Ein Wert von 22 ng/ml ist nach manchen Kriterien „Mangel“, nach anderen „normal“.
+- **„Welche Dosis empfehlen Sie — und gibt es Risiken bei zu hoher Einnahme?“*
 
 Hochdosierte Vitamin-D-Einnahme kann zu Hyperkalzämie führen. Fragen Sie nach der empfohlenen Tagesdosis (600–800 IE für die meisten Erwachsenen) und ob eine höhere Dosis wirklich nötig ist.
 - **„Zahlt meine Krankenkasse diesen Test und das Präparat — und wenn nicht, warum nicht?“**
 Gesetzliche Kassen übernehmen den Vitamin-D-Test nur bei begründetem Verdacht. Wenn die Kasse nicht zahlt, hat das einen evidenzbasierten Grund: Der Nutzen ist bei Gesunden nicht belegt.
 
-</div>
-
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al. (2019).** Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. *New England Journal of Medicine*, 380(1), 33–44. DOI: 10.1056/NEJMoa1809944</span>
-<div class="studie-details">- <em><em>Bolland MJ, Grey A, Avenell A. (2018).</em><em> Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. </em>The Lancet Diabetes & Endocrinology</em>, 6(11), 847–858. DOI: 10.1016/S2213-8587(18)30265-1</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG et al. (2014).** Vitamin D supplementation for prevention of mortality in adults. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD007470. DOI: 10.1002/14651858.CD007470.pub3</span>
-<div class="studie-details">- <em><em>Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al. (2024).</em><em> Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. </em>Journal of Clinical Endocrinology & Metabolism</em>, 109(8), 1907–1947. DOI: 10.1210/clinem/dgae290</div>
+- **Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al. (2019).** Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. *New England Journal of Medicine*, 380(1), 33–44. DOI: 10.1056/NEJMoa1809944
+- **Bolland MJ, Grey A, Avenell A. (2018).** Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. *The Lancet Diabetes & Endocrinology*, , 6(11), 847–858. DOI: 10.1016/S2213-8587(18)30265-1
+- **Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG et al. (2014).** Vitamin D supplementation for prevention of mortality in adults. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD007470. DOI: 10.1002/14651858.CD007470.pub3
+- **Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al. (2024).** Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. *Journal of Clinical Endocrinology & Metabolism*, , 109(8), 1907–1947. DOI: 10.1210/clinem/dgae290
 
 - **IGeL-Monitor / Medizinischer Dienst Bund. (2022).** Früherkennungsuntersuchung auf Vitamin-D-Mangel — Bewertung: unklar. [https://www.igel-monitor.de](https://www.igel-monitor.de/igel-a-z/igel/show/frueherkennungsuntersuchung-auf-vitamin-d-mangel.html)
-
-</div>

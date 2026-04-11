@@ -72,43 +72,36 @@ Diese Übersicht verglich verschiedene Dosierungsschemata von Isotretinoin. Erge
 
 Die Angst vor Isotretinoin ist nachvollziehbar — aber sie beruht auf einer Verwechslung von Korrelation (gleichzeitiges Auftreten) und Kausalität (ursächlicher Zusammenhang) sowie auf mehreren systematischen Verzerrungen.
 
-*<em>Schwere Akne selbst verursacht Depressionen.</em><em> Patienten mit schwerer Akne haben ein zwei- bis dreifach erhöhtes Risiko für Depressionen, Angststörungen und Suizidgedanken — allein durch die Erkrankung. Wenn ein Patient mit schwerer Akne Isotretinoin bekommt und gleichzeitig depressive Symptome zeigt, ist es naheliegend, das Medikament verantwortlich zu machen. Aber die Meta-Analysen zeigen: Die Depression war wahrscheinlich schon vorher da — oder wäre auch ohne Isotretinoin aufgetreten.
+**Schwere Akne selbst verursacht Depressionen.** Patienten mit schwerer Akne haben ein zwei- bis dreifach erhöhtes Risiko für Depressionen, Angststörungen und Suizidgedanken — allein durch die Erkrankung. Wenn ein Patient mit schwerer Akne Isotretinoin bekommt und gleichzeitig depressive Symptome zeigt, ist es naheliegend, das Medikament verantwortlich zu machen. Aber die Meta-Analysen zeigen: Die Depression war wahrscheinlich schon vorher da — oder wäre auch ohne Isotretinoin aufgetreten.
 
-</em><em>Anekdotische Evidenz (Einzelfallberichte) verzerrt die Wahrnehmung.</em><em> Dramatische Einzelfälle — ein Teenager, der während der Isotretinoin-Therapie Suizid begeht — erzeugen starke emotionale Reaktionen und prägen sich ein. In einer Bevölkerungsgruppe von Millionen junger Menschen treten solche tragischen Ereignisse statistisch gesehen auch ohne Isotretinoin auf. Ohne eine Kontrollgruppe (Vergleichsgruppe ohne Medikament) lässt sich kein ursächlicher Zusammenhang herstellen. Genau das haben die großen Meta-Analysen getan — und keinen kausalen Zusammenhang gefunden.
+** Anekdotische Evidenz (Einzelfallberichte) verzerrt die Wahrnehmung.** Dramatische Einzelfälle — ein Teenager, der während der Isotretinoin-Therapie Suizid begeht — erzeugen starke emotionale Reaktionen und prägen sich ein. In einer Bevölkerungsgruppe von Millionen junger Menschen treten solche tragischen Ereignisse statistisch gesehen auch ohne Isotretinoin auf. Ohne eine Kontrollgruppe (Vergleichsgruppe ohne Medikament) lässt sich kein ursächlicher Zusammenhang herstellen. Genau das haben die großen Meta-Analysen getan — und keinen kausalen Zusammenhang gefunden.
 
-</em><em>Die Angst vor Nebenwirkungen verursacht reale Schäden.</em><em> Wenn Patienten aus Angst auf Isotretinoin verzichten, bleibt die schwere Akne unbehandelt. Die Folge: dauerhafte Narben, anhaltende psychische Belastung und wiederholte, oft erfolglose Antibiotika-Therapien, die zur Resistenzbildung (Unwirksamwerden der Antibiotika) beitragen. Die unbegründete Angst vor dem Medikament kann also paradoxerweise mehr Schaden anrichten als das Medikament selbst.
+** Die Angst vor Nebenwirkungen verursacht reale Schäden.** Wenn Patienten aus Angst auf Isotretinoin verzichten, bleibt die schwere Akne unbehandelt. Die Folge: dauerhafte Narben, anhaltende psychische Belastung und wiederholte, oft erfolglose Antibiotika-Therapien, die zur Resistenzbildung (Unwirksamwerden der Antibiotika) beitragen. Die unbegründete Angst vor dem Medikament kann also paradoxerweise mehr Schaden anrichten als das Medikament selbst.
 
-</em><em>Finanzielle Anreize für Alternativbehandlungen.</em><em> Die Akne-Industrie — von „natürlichen“ Hautpflegeprodukten über Nahrungsergänzungsmittel bis hin zu teuren Laserbehandlungen — hat ein wirtschaftliches Interesse daran, dass Patienten Isotretinoin meiden. Wenn die wirksamste Therapie gleichzeitig eine der günstigsten ist (als Generikum weit verbreitet), ist das für Anbieter teurer Alternativen ein Problem. Das bedeutet nicht, dass jede Kritik an Isotretinoin kommerziell motiviert ist — aber es erklärt, warum die Angstnarrative so hartnäckig sind.
+** Finanzielle Anreize für Alternativbehandlungen.** Die Akne-Industrie — von „natürlichen“ Hautpflegeprodukten über Nahrungsergänzungsmittel bis hin zu teuren Laserbehandlungen — hat ein wirtschaftliches Interesse daran, dass Patienten Isotretinoin meiden. Wenn die wirksamste Therapie gleichzeitig eine der günstigsten ist (als Generikum weit verbreitet), ist das für Anbieter teurer Alternativen ein Problem. Das bedeutet nicht, dass jede Kritik an Isotretinoin kommerziell motiviert ist — aber es erklärt, warum die Angstnarrative so hartnäckig sind.
 
 ## Isotretinoin bei Akne: Wann ist es sinnvoll — und wann nicht?
 
-</em><em>Wenn die Akne schwer ist (noduläre oder zystische Akne):</em><em> Bei tiefen, schmerzhaften Knoten und Zysten, die unter der Haut entstehen, ist Isotretinoin laut AAD-Leitlinie (2024) und NICE-Guideline (NG198) die Therapie der ersten Wahl. Hier zu warten, bis Narben entstanden sind, ist medizinisch nicht gerechtfertigt.
+** Wenn die Akne schwer ist (noduläre oder zystische Akne):** Bei tiefen, schmerzhaften Knoten und Zysten, die unter der Haut entstehen, ist Isotretinoin laut AAD-Leitlinie (2024) und NICE-Guideline (NG198) die Therapie der ersten Wahl. Hier zu warten, bis Narben entstanden sind, ist medizinisch nicht gerechtfertigt.
 
-</em><em>Wenn die Akne Narben verursacht:</em><em> Sobald sich echte Aknenarben (atrophe oder hypertrophe Narben — also eingesunkene oder erhabene Narben) bilden, ist schnelles Handeln nötig. Narben sind irreversibel (nicht rückgängig zu machen). Isotretinoin kann das Fortschreiten stoppen. Ein frühzeitiger Einsatz ist hier keine Überbehandlung, sondern Schadensminimierung.
+** Wenn die Akne Narben verursacht:** Sobald sich echte Aknenarben (atrophe oder hypertrophe Narben — also eingesunkene oder erhabene Narben) bilden, ist schnelles Handeln nötig. Narben sind irreversibel (nicht rückgängig zu machen). Isotretinoin kann das Fortschreiten stoppen. Ein frühzeitiger Einsatz ist hier keine Überbehandlung, sondern Schadensminimierung.
 
-</em><em>Wenn die Akne eine erhebliche psychische Belastung verursacht:</em><em> Schwere Akne kann zu sozialem Rückzug, Depression und Angststörungen führen. Die AAD-Leitlinie (2024) betont ausdrücklich, dass psychosoziale Belastung allein eine Indikation (medizinischer Grund) für Isotretinoin sein kann — auch wenn die Akne klinisch „nur“ mittelschwer erscheint.
+** Wenn die Akne eine erhebliche psychische Belastung verursacht:** Schwere Akne kann zu sozialem Rückzug, Depression und Angststörungen führen. Die AAD-Leitlinie (2024) betont ausdrücklich, dass psychosoziale Belastung allein eine Indikation (medizinischer Grund) für Isotretinoin sein kann — auch wenn die Akne klinisch „nur“ mittelschwer erscheint.
 
-</em><em>Wenn Standardtherapien versagt haben:</em><em> Wenn ein Patient zwei oder mehr adäquate Zyklen oraler Antibiotika (typischerweise Doxycyclin) in Kombination mit topischen Retinoiden (Vitamin-A-Säure-Cremes) und Benzoylperoxid ohne ausreichenden Erfolg durchlaufen hat, ist Isotretinoin der logische nächste Schritt. Die NICE-Leitlinie empfiehlt Isotretinoin ab einem Alter von 12 Jahren, wenn Standardtherapien versagt haben.
+** Wenn Standardtherapien versagt haben:** Wenn ein Patient zwei oder mehr adäquate Zyklen oraler Antibiotika (typischerweise Doxycyclin) in Kombination mit topischen Retinoiden (Vitamin-A-Säure-Cremes) und Benzoylperoxid ohne ausreichenden Erfolg durchlaufen hat, ist Isotretinoin der logische nächste Schritt. Die NICE-Leitlinie empfiehlt Isotretinoin ab einem Alter von 12 Jahren, wenn Standardtherapien versagt haben.
 
-</em><em>Wann Isotretinoin definitiv nicht eingesetzt werden darf:</em><em> Bei Schwangerschaft oder geplanter Schwangerschaft — Isotretinoin ist stark teratogen (fruchtschädigend) und verursacht schwere Fehlbildungen. Frauen im gebärfähigen Alter müssen während und mindestens einen Monat nach der Therapie eine zuverlässige Verhütung sicherstellen. Weitere Kontraindikationen (Gründe, die gegen die Anwendung sprechen) sind schwere Leberfunktionsstörungen, stark erhöhte Blutfettwerte (Hyperlipidämie) und gleichzeitige Einnahme von Tetracyclin-Antibiotika (Risiko einer intrakraniellen Druckerhöhung — erhöhter Druck im Schädelinneren). Bei leichter Akne, die auf topische Therapie anspricht, ist Isotretinoin nicht indiziert.
+** Wann Isotretinoin definitiv nicht eingesetzt werden darf:** Bei Schwangerschaft oder geplanter Schwangerschaft — Isotretinoin ist stark teratogen (fruchtschädigend) und verursacht schwere Fehlbildungen. Frauen im gebärfähigen Alter müssen während und mindestens einen Monat nach der Therapie eine zuverlässige Verhütung sicherstellen. Weitere Kontraindikationen (Gründe, die gegen die Anwendung sprechen) sind schwere Leberfunktionsstörungen, stark erhöhte Blutfettwerte (Hyperlipidämie) und gleichzeitige Einnahme von Tetracyclin-Antibiotika (Risiko einer intrakraniellen Druckerhöhung — erhöhter Druck im Schädelinneren). Bei leichter Akne, die auf topische Therapie anspricht, ist Isotretinoin nicht indiziert.
 
 ## Isotretinoin beim Hautarzt: Welche Fragen Sie stellen sollten
 
-        - </em><em>„Macht Isotretinoin depressiv — und wie hoch ist das Risiko wirklich?“</em><em>
-
-<div class="studie">
-<span class="studie-name">Die ehrliche Antwort: Die größte Meta-Analyse mit über 1,6 Millionen Teilnehmern zeigt kein erhöhtes Risiko. Aber wie bei jedem Medikament sollte Ihr Arzt Sie auf mögliche Stimmungsveränderungen hinweisen und regelmäßig nachfragen. Wenn Ihr Arzt Ihnen Isotretinoin allein wegen der Depressions-Angst verweigert, fragen Sie nach den aktuellen Studien.</span>
-<div class="studie-details">- </em><em>„Ist meine Akne schwer genug für Isotretinoin — oder gibt es eine mildere Therapie, die ich noch nicht probiert habe?“</em>*</div>
+- „Macht Isotretinoin depressiv — und wie hoch ist das Risiko wirklich?“
+Die ehrliche Antwort: Die größte Meta-Analyse mit über 1,6 Millionen Teilnehmern zeigt kein erhöhtes Risiko. Aber wie bei jedem Medikament sollte Ihr Arzt Sie auf mögliche Stimmungsveränderungen hinweisen und regelmäßig nachfragen. Wenn Ihr Arzt Ihnen Isotretinoin allein wegen der Depressions-Angst verweigert, fragen Sie nach den aktuellen Studien.
+- „Ist meine Akne schwer genug für Isotretinoin — oder gibt es eine mildere Therapie, die ich noch nicht probiert habe?“
 
 Isotretinoin ist nicht immer die erste Option. Aber wenn Ihre Akne Narben verursacht, Sie psychisch stark belastet oder auf Antibiotika nicht anspricht, kann ein früherer Einsatz sinnvoller sein als monatelanges Warten.
 - **„Wäre eine niedrigere Dosis möglich — und hätte ich dann weniger Nebenwirkungen?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Studien zeigen, dass niedrig dosiertes Isotretinoin ähnlich wirksam ist wie die Standarddosis, aber mit deutlich weniger Nebenwirkungen. Fragen Sie Ihren Arzt, ob ein Niedrigdosis-Schema für Sie in Frage kommt.</span>
-<div class="studie-details">- <em><em>„Welche Laborkontrollen sind nötig — und wie oft?“</em></em></div>
+Studien zeigen, dass niedrig dosiertes Isotretinoin ähnlich wirksam ist wie die Standarddosis, aber mit deutlich weniger Nebenwirkungen. Fragen Sie Ihren Arzt, ob ein Niedrigdosis-Schema für Sie in Frage kommt.
+- **„Welche Laborkontrollen sind nötig — und wie oft?“*
 
 Standard ist eine Kontrolle der Leberwerte und Blutfette vor Therapiebeginn und im Verlauf (typischerweise nach 4–8 Wochen). Ein großes Blutbild ist bei gesunden Patienten laut aktueller Evidenz nicht routinemäßig nötig. Kennen Sie den Überwachungsplan.
 - **„Wie sichere ich die Verhütung — und wie lange nach der Therapie muss ich weiter verhüten?“**
@@ -116,18 +109,12 @@ Für Frauen im gebärfähigen Alter die wichtigste Frage. Isotretinoin verursach
 - **„Wie hoch ist die Wahrscheinlichkeit, dass die Akne nach der Therapie wiederkommt?“**
 Bei den meisten Patienten führt ein Zyklus Isotretinoin zu dauerhafter Remission. Etwa 10–20 % benötigen einen zweiten Zyklus. Fragen Sie, was in Ihrem Fall realistisch zu erwarten ist.
 
-</div>
-
 ## Quellenverzeichnis
 
-        - **Tan NKW, Khoo BZE, Goh CL, Oon HH. (2024).** Risk of Suicide and Psychiatric Disorders Among Isotretinoin Users: A Meta-Analysis. *JAMA Dermatology*, 160(2), 149–159. DOI: 10.1001/jamadermatol.2023.4579
-        - **Huang YC, Cheng YC. (2017).** Isotretinoin treatment for acne and risk of depression: A systematic review and meta-analysis. *Journal of the American Academy of Dermatology*, 76(6), 1068–1076.e9. DOI: 10.1016/j.jaad.2016.12.028
-
-<div class="studie">
-<span class="studie-name">- **Costa CS, Bagatin E, Martimbianco ALC, da Silva EMK, Lúcio MM, Magin P, Riera R. (2018).** Oral isotretinoin for acne. *Cochrane Database of Systematic Reviews*, Issue 11, Art. No.: CD009435. DOI: 10.1002/14651858.CD009435.pub2</span>
-<div class="studie-details">- <em><em>Zaenglein AL, Pathy AL, Schlosser BJ, Alikhan A, Baldwin HE, Berson DS, et al. (2024).</em><em> Guidelines of care for the management of acne vulgaris. </em>Journal of the American Academy of Dermatology</em>, 90(5), 1006.e1–1006.e30. DOI: 10.1016/j.jaad.2023.12.017</div>
+- **Tan NKW, Khoo BZE, Goh CL, Oon HH. (2024).** Risk of Suicide and Psychiatric Disorders Among Isotretinoin Users: A Meta-Analysis. *JAMA Dermatology*, 160(2), 149–159. DOI: 10.1001/jamadermatol.2023.4579
+- **Huang YC, Cheng YC. (2017).** Isotretinoin treatment for acne and risk of depression: A systematic review and meta-analysis. *Journal of the American Academy of Dermatology*, 76(6), 1068–1076.e9. DOI: 10.1016/j.jaad.2016.12.028
+- **Costa CS, Bagatin E, Martimbianco ALC, da Silva EMK, Lúcio MM, Magin P, Riera R. (2018).** Oral isotretinoin for acne. *Cochrane Database of Systematic Reviews*, Issue 11, Art. No.: CD009435. DOI: 10.1002/14651858.CD009435.pub2
+- **Zaenglein AL, Pathy AL, Schlosser BJ, Alikhan A, Baldwin HE, Berson DS, et al. (2024).** Guidelines of care for the management of acne vulgaris. *Journal of the American Academy of Dermatology*, 90(5), 1006.e1–1006.e30. DOI: 10.1016/j.jaad.2023.12.017
 
 - **Daly M, Walsh SB. (2023).** A systematic review of isotretinoin dosing in acne vulgaris. *JEADV Clinical Practice*, 2(3), 452–463. DOI: 10.1002/jvc2.154
 - **National Institute for Health and Care Excellence (NICE). (2021, aktualisiert 2023).** Acne vulgaris: management. NICE guideline NG198. [https://www.nice.org.uk/guidance/ng198](https://www.nice.org.uk/guidance/ng198)
-
-</div>

@@ -96,39 +96,25 @@ Die Evidenz zeigt, dass die Standardlinse für die Mehrheit der Patienten ausgez
 
 ## Katarakt-OP: Welche Fragen Sie Ihrem Augenarzt stellen sollten
 
-        - **„Wann ist der richtige Zeitpunkt für die OP — und orientieren Sie sich dabei nur an meiner Sehschärfe oder auch an meiner Lebensqualität?“**
-
-<div class="studie">
-<span class="studie-name">Die NICE-Leitlinie NG77 ist eindeutig: Die Sehschärfe allein ist kein ausreichendes Kriterium. Wenn Sie im Alltag eingeschränkt sind — beim Lesen, Autofahren, bei der Arbeit — haben Sie Anspruch auf eine OP-Beratung.</span>
-<div class="studie-details">- <em><em>„Welche konkreten Vorteile bietet mir eine Premiumlinse gegenüber der Standardlinse — und welche Nachteile?“</em></em></div>
+- **„Wann ist der richtige Zeitpunkt für die OP — und orientieren Sie sich dabei nur an meiner Sehschärfe oder auch an meiner Lebensqualität?“**
+Die NICE-Leitlinie NG77 ist eindeutig: Die Sehschärfe allein ist kein ausreichendes Kriterium. Wenn Sie im Alltag eingeschränkt sind — beim Lesen, Autofahren, bei der Arbeit — haben Sie Anspruch auf eine OP-Beratung.
+- **„Welche konkreten Vorteile bietet mir eine Premiumlinse gegenüber der Standardlinse — und welche Nachteile?“*
 
 Die ehrliche Antwort: bessere Nahsicht ohne Brille, aber ein erhöhtes Risiko für Halos und Blendung. Wenn Ihr Arzt nur die Vorteile nennt, fragen Sie gezielt nach den Lichtphänomenen.
 - **„Gibt es bei mir Augenerkrankungen, die gegen eine Multifokallinse sprechen?“**
 Makuladegeneration, Glaukom, diabetische Retinopathie oder Hornhauterkrankungen können dazu führen, dass eine Multifokallinse die Sehqualität verschlechtert statt verbessert. Ihr Arzt muss das vor der Linsenwahl ausschließen.
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **„Warum empfehlen Sie mir die Laser-OP statt der Standard-Ultraschall-Methode — und gibt es Studien, die einen Vorteil belegen?“**</span>
-<div class="studie-details">Nach aktuellem Stand (Cochrane Review, Lapp et al. 2023) gibt es keine ausreichende Evidenz für bessere Ergebnisse mit dem Femtosekundenlaser. Wenn Ihr Arzt den Laser empfiehlt, sollte er erklären können, warum — jenseits von Marketingargumenten.</div>
+- **„Warum empfehlen Sie mir die Laser-OP statt der Standard-Ultraschall-Methode — und gibt es Studien, die einen Vorteil belegen?“**
+Nach aktuellem Stand (Cochrane Review, Lapp et al. 2023) gibt es keine ausreichende Evidenz für bessere Ergebnisse mit dem Femtosekundenlaser. Wenn Ihr Arzt den Laser empfiehlt, sollte er erklären können, warum — jenseits von Marketingargumenten.
 
 - **„Was genau kostet die Premiumlinse, und welche Kosten übernimmt meine Krankenkasse?“**
 Transparenz über Kosten ist Ihr Recht. Die gesetzliche Kasse zahlt die Standard-OP mit Monofokallinse vollständig. Alles darüber hinaus ist eine Selbstzahlerleistung. Fragen Sie nach dem Gesamtpreis inklusive aller Nachuntersuchungen.
 - **„Was passiert, wenn ich mit einer Multifokallinse nicht zurechtkomme — kann die Linse ausgetauscht werden?“**
 Ein Linsentausch (IOL-Exchange) ist möglich, aber technisch anspruchsvoller als die Erstimplantation und birgt zusätzliche Risiken. Diese Information sollten Sie vor der Entscheidung haben, nicht danach.
 
-</div>
-
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **de Silva SR, Evans JR, Kirthi V, Ziaei M, Leber M. (2016).** Multifocal versus monofocal intraocular lenses after cataract extraction. *Cochrane Database of Systematic Reviews*, Issue 12, Art. No.: CD003169. DOI: 10.1002/14651858.CD003169.pub4</span>
-<div class="studie-details">- <em><em>Cho BJ, Won JY. (2022).</em><em> Visual Outcomes and Optical Quality of Accommodative, Multifocal, Extended Depth-of-Focus, and Monofocal Intraocular Lenses in Presbyopia-Correcting Cataract Surgery: A Systematic Review and Bayesian Network Meta-analysis. </em>JAMA Ophthalmology</em>, 140(11), 1045–1053. DOI: 10.1001/jamaophthalmol.2022.3667</div>
+- **de Silva SR, Evans JR, Kirthi V, Ziaei M, Leber M. (2016).** Multifocal versus monofocal intraocular lenses after cataract extraction. *Cochrane Database of Systematic Reviews*, Issue 12, Art. No.: CD003169. DOI: 10.1002/14651858.CD003169.pub4
+- **Cho BJ, Won JY. (2022).** Visual Outcomes and Optical Quality of Accommodative, Multifocal, Extended Depth-of-Focus, and Monofocal Intraocular Lenses in Presbyopia-Correcting Cataract Surgery: A Systematic Review and Bayesian Network Meta-analysis. *JAMA Ophthalmology*, , 140(11), 1045–1053. DOI: 10.1001/jamaophthalmol.2022.3667
 
 - **Li Y, Zhang Y, Chen M, Li J. (2024).** Comparative efficacy and safety of all kinds of intraocular lenses in presbyopia-correcting cataract surgery: a systematic review and meta-analysis. *BMC Ophthalmology*, 24, 172. DOI: 10.1186/s12886-024-03446-1
 - **Lapp T, Wacker K, Heinz C, Maier P, Eberwein P, Reinhard T. (2023).** Kataraktoperation – Indikation, Technik und Kunstlinsenauswahl. *Deutsches Ärzteblatt International*, 120, 377–386. DOI: 10.3238/arztebl.m2023.0028
 - **National Institute for Health and Care Excellence (NICE). (2017, aktualisiert 2025).** Cataracts in adults: management. NICE Guideline NG77. [https://www.nice.org.uk/guidance/ng77](https://www.nice.org.uk/guidance/ng77)
-
-</div>

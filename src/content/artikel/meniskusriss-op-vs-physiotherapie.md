@@ -90,30 +90,21 @@ Die Evidenz spricht klar gegen die Routine-OP bei degenerativen Meniskusrissen. 
 ## Meniskusriss: Welche Fragen Sie Ihrem Arzt stellen sollten
 
 - **„Ist mein Meniskusriss traumatisch (akut nach Verletzung) oder degenerativ (abnutzungsbedingt)?“**
-          Die Unterscheidung ist entscheidend: Bei degenerativen Rissen ist Physiotherapie die erste Wahl. Bei traumatischen Rissen mit Blockade kann eine OP sinnvoll sein. Die Behandlung unterscheidet sich grundlegend.
+  Die Unterscheidung ist entscheidend: Bei degenerativen Rissen ist Physiotherapie die erste Wahl. Bei traumatischen Rissen mit Blockade kann eine OP sinnvoll sein. Die Behandlung unterscheidet sich grundlegend.
 - **„Kennen Sie die FIDELITY-Studie, die zeigt, dass die Meniskektomie nicht besser wirkt als eine Schein-OP?“**
-
-<div class="studie">
-<span class="studie-name">Ein Orthopäde, der diese Studie nicht kennt, ist nicht auf dem aktuellen Stand. Sie wurde 2013 im New England Journal of Medicine publiziert und hat die internationalen Leitlinien verändert.</span>
-<div class="studie-details">- <em><em>„Kann mein Meniskus repariert (genäht) werden — oder müsste er teilweise entfernt werden?“</em></em></div>
+Ein Orthopäde, der diese Studie nicht kennt, ist nicht auf dem aktuellen Stand. Sie wurde 2013 im New England Journal of Medicine publiziert und hat die internationalen Leitlinien verändert.
+- **„Kann mein Meniskus repariert (genäht) werden — oder müsste er teilweise entfernt werden?“*
 
 Reparatur erhält das Meniskusgewebe und schützt langfristig besser vor Arthrose als Meniskektomie. Ob eine Reparatur möglich ist, hängt von der Lage des Risses (periphere, gut durchblutete Zone) und dem Risstyp ab.
 - **„Würden Sie mir erst ein strukturiertes Physiotherapie-Programm verschreiben — mindestens 8 bis 12 Wochen?“**
 Die beste verfügbare Evidenz zeigt, dass Physiotherapie der OP gleichwertig ist. Wenn Ihr Arzt sofort zur OP rät, ohne Physiotherapie ernsthaft zu versuchen, holen Sie eine Zweitmeinung ein.
 - **„Welche langfristigen Folgen hat die Meniskektomie — erhöht sie mein Arthrose-Risiko?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Ja, nachweislich (FIDELITY 5-Jahres-Daten, Kamstra et al. Meta-Analyse). Ein ehrlicher Arzt wird das offen ansprechen. Der entfernte Meniskus fehlt als Puffer zwischen den Knochen.</span>
-<div class="studie-details">- <em><em>„Habe ich eine mechanische Blockade — oder sind meine Beschwerden nur Schmerzen?“</em></em></div>
+Ja, nachweislich (FIDELITY 5-Jahres-Daten, Kamstra et al. Meta-Analyse). Ein ehrlicher Arzt wird das offen ansprechen. Der entfernte Meniskus fehlt als Puffer zwischen den Knochen.
+- **„Habe ich eine mechanische Blockade — oder sind meine Beschwerden nur Schmerzen?“*
 
 Eine echte mechanische Blockade (das Knie lässt sich nicht vollständig beugen oder strecken) ist eine klarere OP-Indikation als Schmerzen allein. Schmerzen ohne Blockade sprechen oft gut auf Physiotherapie an.
 - **„Verursacht der Meniskusriss im MRT tatsächlich meine Beschwerden — oder könnte es ein Zufallsbefund sein?“**
 30–40 % der schmerzfreien Erwachsenen haben einen Meniskusriss im MRT. Ein Befund im Bild ist nicht automatisch die Ursache der Schmerzen. Fragen Sie, welche klinischen Tests (McMurray, Thessaly) durchgeführt wurden.
-
-</div>
 
 ## Quellenverzeichnis
 

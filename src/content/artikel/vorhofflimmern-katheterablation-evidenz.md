@@ -95,59 +95,25 @@ Die Evidenz ist nicht für oder gegen die Ablation insgesamt — sie ist für od
 **Wann die Katheterablation nicht indiziert ist:** Bei asymptomatischem Vorhofflimmern, das zufällig entdeckt wird und den Patienten nicht einschränkt, überwiegen die Risiken des Eingriffs den unklaren Nutzen. Bei lang anhaltendem persistierendem Vorhofflimmern (über ein Jahr) mit stark vergrößertem linken Vorhof sind die Erfolgsraten deutlich reduziert. Bei unkontrollierten Risikofaktoren (Adipositas, unbehandeltes Schlafapnoe-Syndrom, exzessiver Alkoholkonsum) sollte zuerst an den Ursachen gearbeitet werden — eine Ablation ohne Lebensstiländerung hat hohe Rezidivraten.
 
 ## Katheterablation beim Kardiologen: Welche Fragen Sie stellen sollten
-
-
-<div class="studie">
-<span class="studie-name">- **„Ist die Katheterablation bei meiner speziellen Situation — paroxysmales oder persistierendes VHF, mit oder ohne Herzinsuffizienz — durch randomisierte Studien belegt?“**</span>
-<div class="studie-details">Die Evidenzlage ist für verschiedene Patientengruppen sehr unterschiedlich. Bei Herzinsuffizienz ist die Datenlage stark, ohne Herzinsuffizienz ist sie weniger eindeutig. Ihr Arzt sollte die für Sie relevante Studienlage kennen.</div>
+- **„Ist die Katheterablation bei meiner speziellen Situation — paroxysmales oder persistierendes VHF, mit oder ohne Herzinsuffizienz — durch randomisierte Studien belegt?“**
+Die Evidenzlage ist für verschiedene Patientengruppen sehr unterschiedlich. Bei Herzinsuffizienz ist die Datenlage stark, ohne Herzinsuffizienz ist sie weniger eindeutig. Ihr Arzt sollte die für Sie relevante Studienlage kennen.
 
 - **„Wie hoch ist die Erfolgsrate in Ihrem Zentrum — und wie definieren Sie Erfolg?“**
 Die Ergebnisse hängen stark von der Erfahrung des Zentrums und des Operateurs ab. Fragen Sie nach der Rezidivrate nach einem Jahr und nach der Rate schwerer Komplikationen. Zentren mit hohem Eingriffsvolumen haben in der Regel bessere Ergebnisse.
 - **„Welche Risiken hat der Eingriff konkret — insbesondere Schlaganfall, Herzbeuteltamponade und Speiseröhren-Komplikationen?“**
 Schwere Komplikationen treten bei 2–4 % der Eingriffe auf. Die seltene, aber potenziell tödliche atrio-ösophageale Fistel (eine Verbindung zwischen Vorhof und Speiseröhre) sollte explizit angesprochen werden.
 - **„Habe ich alle nicht-invasiven Optionen ausgeschöpft — einschließlich Lebensstiländerungen wie Gewichtsreduktion, Alkoholverzicht und Behandlung von Schlafapnoe?“**
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Studien zeigen, dass Gewichtsreduktion um 10 % die VHF-Rezidivrate halbieren kann. Ohne Behandlung der Grundursachen hat auch die Ablation nur begrenzten Erfolg.</span>
-<div class="studie-details">- <em><em>„Kann ich nach der Ablation meine Blutverdünner absetzen?“</em></em></div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">Die ehrliche Antwort ist: wahrscheinlich nicht. Die ESC-Leitlinie 2024 empfiehlt, die Antikoagulation mindestens 2 Monate fortzusetzen und bei erhöhtem Schlaganfallrisiko dauerhaft beizubehalten — unabhängig vom Rhythmusergebnis.</span>
-<div class="studie-details">- <em><em>„Was ist der Plan, wenn die erste Ablation nicht dauerhaft erfolgreich ist?“</em></em></div>
+Studien zeigen, dass Gewichtsreduktion um 10 % die VHF-Rezidivrate halbieren kann. Ohne Behandlung der Grundursachen hat auch die Ablation nur begrenzten Erfolg.
+- **„Kann ich nach der Ablation meine Blutverdünner absetzen?“*
+Die ehrliche Antwort ist: wahrscheinlich nicht. Die ESC-Leitlinie 2024 empfiehlt, die Antikoagulation mindestens 2 Monate fortzusetzen und bei erhöhtem Schlaganfallrisiko dauerhaft beizubehalten — unabhängig vom Rhythmusergebnis.
+- **„Was ist der Plan, wenn die erste Ablation nicht dauerhaft erfolgreich ist?“*
 
 Wiederholungsablationen sind häufig — bei 20–40 % der Patienten ist ein zweiter Eingriff nötig. Ein seriöser Behandlungsplan berücksichtigt dieses Szenario von Anfang an.
 
-</div>
-
 ## Quellenverzeichnis
-
-
-<div class="studie">
-<span class="studie-name">- **Marrouche NF, Brachmann J, Andresen D, et al. (2018).** Catheter Ablation for Atrial Fibrillation with Heart Failure. *New England Journal of Medicine*, 378(5), 417–427. DOI: 10.1056/NEJMoa1707855</span>
-<div class="studie-details">- <em><em>Packer DL, Mark DB, Robb RA, et al. (2019).</em><em> Effect of Catheter Ablation vs Antiarrhythmic Drug Therapy on Mortality, Stroke, Bleeding, and Cardiac Arrest Among Patients With Atrial Fibrillation: The CABANA Randomized Clinical Trial. </em>JAMA</em>, 321(13), 1261–1274. DOI: 10.1001/jama.2019.0693</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Kirchhof P, Camm AJ, Goette A, et al. (2020).** Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. *New England Journal of Medicine*, 383(14), 1305–1316. DOI: 10.1056/NEJMoa2019422</span>
-<div class="studie-details">- <em><em>Catheter and Surgical Ablation for Atrial Fibrillation: A Systematic Review and Meta-analysis. (2025).</em><em> </em>Annals of Internal Medicine</em>, 178, 1138–1149. DOI: 10.7326/ANNALS-25-00253</div>
-
-
-</div>
-
-
-<div class="studie">
-<span class="studie-name">- **Van Gelder IC, Rienstra M, Bunting KV, et al. (2024).** 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS. *European Heart Journal*, 45(36), 3314–3414. DOI: 10.1093/eurheartj/ehae176</span>
-<div class="studie-details">- <em><em>Deutsche Gesellschaft für Kardiologie (DGK). (2025).</em></em> AWMF-S3-Leitlinie Vorhofflimmern, 1. Auflage. AWMF-Registernr.: 019-014. [https://register.awmf.org](https://register.awmf.org/assets/guidelines/019-014l_S3_Vorhofflimmern_2025-07.pdf)</div>
-
-
-</div>
+- **Marrouche NF, Brachmann J, Andresen D, et al. (2018).** Catheter Ablation for Atrial Fibrillation with Heart Failure. *New England Journal of Medicine*, 378(5), 417–427. DOI: 10.1056/NEJMoa1707855
+- **Packer DL, Mark DB, Robb RA, et al. (2019).** Effect of Catheter Ablation vs Antiarrhythmic Drug Therapy on Mortality, Stroke, Bleeding, and Cardiac Arrest Among Patients With Atrial Fibrillation: The CABANA Randomized Clinical Trial. *JAMA*, , 321(13), 1261–1274. DOI: 10.1001/jama.2019.0693
+- **Kirchhof P, Camm AJ, Goette A, et al. (2020).** Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. *New England Journal of Medicine*, 383(14), 1305–1316. DOI: 10.1056/NEJMoa2019422
+- **Catheter and Surgical Ablation for Atrial Fibrillation: A Systematic Review and Meta-analysis. (2025).** *Annals of Internal Medicine*, , 178, 1138–1149. DOI: 10.7326/ANNALS-25-00253
+- **Van Gelder IC, Rienstra M, Bunting KV, et al. (2024).** 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS. *European Heart Journal*, 45(36), 3314–3414. DOI: 10.1093/eurheartj/ehae176
+- *Deutsche Gesellschaft für Kardiologie (DGK). (2025).* AWMF-S3-Leitlinie Vorhofflimmern, 1. Auflage. AWMF-Registernr.: 019-014. [https://register.awmf.org](https://register.awmf.org/assets/guidelines/019-014l_S3_Vorhofflimmern_2025-07.pdf)
