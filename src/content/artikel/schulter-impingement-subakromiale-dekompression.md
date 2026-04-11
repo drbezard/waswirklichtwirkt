@@ -79,7 +79,7 @@ Das sogenannte subakromiale Impingement-Syndrom (Einklemmung von Sehnen und Schl
                     Interpretation: Selbst Patienten, die von Orthopäden bereits für eine OP eingeplant waren, konnten durch konsequente Physiotherapie dauerhaft auf den Eingriff verzichten.
 
             FIMPACT 10-Jahres-Follow-up (2025)</span>
-<div class="studie-details">Beard, D. J. et al. (2018). Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. *The Lancet*, 391(10118), 329–338. DOI: 10.1016/S0140-6736(17)32457-1</div>
+<div class="studie-details">Beard, D. J. et al. (2018). Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. <em>The Lancet</em>, 391(10118), 329–338. DOI: 10.1016/S0140-6736(17)32457-1</div>
 
                 **Warum bestehen Fehlvorstellungen?**
 

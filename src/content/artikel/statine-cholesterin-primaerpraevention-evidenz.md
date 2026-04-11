@@ -32,25 +32,25 @@ Die Statinforschung umfasst über drei Jahrzehnte und Hunderttausende von Studie
 
 <div class="studie">
 <span class="studie-name">Meta-Analyse: CTT Collaborators / Mihaylova et al. (2012)</span>
-<div class="studie-details">Meta-Analyse individueller Patientendaten · *The Lancet* · 27 randomisierte kontrollierte Studien, 174.149 Teilnehmer</div>
+<div class="studie-details">Meta-Analyse individueller Patientendaten · <em>The Lancet</em> · 27 randomisierte kontrollierte Studien, 174.149 Teilnehmer</div>
 
 Dies ist die wichtigste Einzelanalyse zur Statintherapie — und die einzige, die individuelle Patientendaten aus allen großen Studien zusammenführt. Ergebnis: Jede Senkung des LDL-Cholesterins um 1 mmol/L reduziert schwere vaskuläre Ereignisse (Herzinfarkt, Schlaganfall, koronare Revaskularisation) um relativ 21 %, unabhängig vom Ausgangsrisiko. Bei Personen mit einem 5-Jahres-Risiko unter 10 % (also „niedriges Risiko“) betrug die absolute Reduktion schwerer vaskulärer Ereignisse jedoch nur etwa 11 pro 1.000 Behandelte über 5 Jahre. Das bedeutet: Man muss rund 91 Personen fünf Jahre lang behandeln, um ein Ereignis zu verhindern (NNT = 91). Einen Einfluss auf die Gesamtsterblichkeit konnte in dieser Niedrigrisikogruppe nicht sicher nachgewiesen werden.
 
 <div class="studie">
 <span class="studie-name">Cochrane Review: Taylor et al. (2013)</span>
-<div class="studie-details">Cochrane Systematic Review · *Cochrane Database of Systematic Reviews* · 18 RCTs (19 Studienarme), 56.934 Teilnehmer</div>
+<div class="studie-details">Cochrane Systematic Review · <em>Cochrane Database of Systematic Reviews</em> · 18 RCTs (19 Studienarme), 56.934 Teilnehmer</div>
 
 Dieses unabhängige Cochrane Review untersuchte ausschließlich die Primärprävention — also Patienten ohne bekannte Herz-Kreislauf-Erkrankung. Ergebnis: Statine reduzierten die Gesamtsterblichkeit (Odds Ratio 0,86 — also 14 % relative Reduktion), tödliche und nicht-tödliche Herz-Kreislauf-Ereignisse sowie Schlaganfälle. Pro 1.000 Behandelte über 5 Jahre wurden 18 schwere kardiovaskuläre Ereignisse verhindert. Es gab keinen Hinweis auf schwere Schäden wie erhöhtes Krebsrisiko. Der Review betonte jedoch: Der absolute Nutzen ist bei niedrigem Ausgangsrisiko gering, und die Entscheidung zur Therapie sollte auf einer individuellen Risikobewertung basieren — nicht auf dem Cholesterinwert allein.
 
 <div class="studie">
 <span class="studie-name">Meta-Analyse: CTT Collaborators / Herrett et al. (2022)</span>
-<div class="studie-details">Meta-Analyse individueller Patientendaten · *The Lancet* · 19 doppelblinde RCTs, über 123.000 Teilnehmer</div>
+<div class="studie-details">Meta-Analyse individueller Patientendaten · <em>The Lancet</em> · 19 doppelblinde RCTs, über 123.000 Teilnehmer</div>
 
 Diese Analyse untersuchte gezielt die häufigste Sorge von Patienten: Muskelschmerzen unter Statinen. Ergebnis: Im ersten Jahr erhöhten Statine das Risiko für Muskelbeschwerden minimal — von 14,0 % (Placebo) auf 14,8 %. Nach dem ersten Jahr war kein Unterschied mehr nachweisbar. Die Forscher berechneten: Nur bei etwa 1 von 15 Patienten, die Muskelbeschwerden berichten, ist das Statin tatsächlich die Ursache. Der Großteil geht auf den sogenannten Nocebo-Effekt zurück — die Erwartung von Nebenwirkungen verursacht die Beschwerden, nicht das Medikament selbst.
 
 <div class="studie">
 <span class="studie-name">USPSTF Recommendation Statement (2022)</span>
-<div class="studie-details">Evidenzbasierte Empfehlung · *JAMA* · Systematische Evidenzauswertung, über 70.000 Patienten aus 15 Studien</div>
+<div class="studie-details">Evidenzbasierte Empfehlung · <em>JAMA</em> · Systematische Evidenzauswertung, über 70.000 Patienten aus 15 Studien</div>
 
 Die US Preventive Services Task Force — ein unabhängiges Expertengremium — empfiehlt Statine zur Primärprävention bei Erwachsenen (40–75 Jahre) mit mindestens einem Risikofaktor (erhöhtes Cholesterin, Diabetes, Bluthochdruck oder Rauchen) und einem geschätzten 10-Jahres-Risiko von ≥10 % (Grad-B-Empfehlung). Bei einem Risiko von 7,5–9,9 % ist die Empfehlung schwächer (Grad C: „selektiv anbieten“). Die USPSTF stellte fest: 0,4 % weniger Patienten unter Statinen starben als unter Placebo (NNT = 250 über die Studiendauer). Der Nutzen ist also real, aber in absoluten Zahlen bei niedrigem Risiko überschaubar.
 

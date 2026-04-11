@@ -32,31 +32,31 @@ Topische Kortikosteroide sind seit den 1950er-Jahren im Einsatz und gehören zu 
 
 <div class="studie">
 <span class="studie-name">Cochrane Netzwerk-Meta-Analyse: Lax et al. (2024)</span>
-<div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · *Cochrane Database of Systematic Reviews* · 291 randomisierte kontrollierte Studien (RCTs), 45.846 Patienten</div>
+<div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · <em>Cochrane Database of Systematic Reviews</em> · 291 randomisierte kontrollierte Studien (RCTs), 45.846 Patienten</div>
 
 Dies ist die bislang umfassendste Auswertung topischer Behandlungen bei Neurodermitis. Ergebnis: Potente topische Kortikosteroide (Wirkstärke der Klasse III nach europäischer Klassifikation, z. B. Mometasonfuroat oder Betamethasonvalerat) gehörten zusammen mit JAK-Inhibitoren (Januskinase-Hemmer, eine neuere Wirkstoffklasse) und Tacrolimus 0,1 % (ein Calcineurin-Inhibitor, der die Immunreaktion in der Haut hemmt) zu den wirksamsten topischen Therapien. Die Wirksamkeit ist konsistent über zahlreiche Studien hinweg belegt.
 
 <div class="studie">
 <span class="studie-name">Systematische Übersicht zur Langzeitsicherheit: Harvey et al. (2023)</span>
-<div class="studie-details">Systematische Übersicht · *Skin Health and Disease* · 7 Studien (2 RCTs mit n = 2.570, davon 1.288 mit topischen Kortikosteroiden; 5 Beobachtungsstudien)</div>
+<div class="studie-details">Systematische Übersicht · <em>Skin Health and Disease</em> · 7 Studien (2 RCTs mit n = 2.570, davon 1.288 mit topischen Kortikosteroiden; 5 Beobachtungsstudien)</div>
 
 Diese Übersicht untersuchte gezielt die Frage, die Patienten am meisten beschäftigt: Ist Cortison-Creme bei längerer Anwendung gefährlich? Die zentralen Ergebnisse: Zwei große RCTs über 3 und 5 Jahre (bei Kindern) verglichen topische Kortikosteroide mit Calcineurin-Inhibitoren. Intermittierende Anwendung (also: bei Schüben auftragen, dazwischen pausieren) führte zu keinem erhöhten Risiko für Wachstumsstörungen, Hautinfektionen, beeinträchtigte Impfantwort oder Lymphome. In der 5-Jahres-Studie mit 1.213 Kindern, die milde bis mittelstarke Kortikosteroide verwendeten, trat ein einziger Fall von milder Hautatrophie auf. Kein Fall von klinisch relevanter Nebenniereninsuffizienz (Störung der körpereigenen Cortisol-Produktion) wurde beobachtet.
 
 <div class="studie">
 <span class="studie-name">Netzwerk-Meta-Analyse: Chu et al. (2023)</span>
-<div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · *Journal of Allergy and Clinical Immunology* · 219 RCTs, 43.123 Patienten, 68 verschiedene Interventionen</div>
+<div class="studie-details">Systematische Übersicht und Netzwerk-Meta-Analyse · <em>Journal of Allergy and Clinical Immunology</em> · 219 RCTs, 43.123 Patienten, 68 verschiedene Interventionen</div>
 
 Diese Analyse wurde im Rahmen der Leitlinienentwicklung der American Academy of Allergy, Asthma & Immunology (AAAAI) durchgeführt und bewertete alle verfügbaren topischen Therapien hinsichtlich Schweregrad, Juckreiz, Schlafqualität, Lebensqualität, Schübe und Nebenwirkungen. Topische Kortikosteroide waren über alle Endpunkte hinweg eine der wirksamsten Therapieoptionen — und zeigten bei korrekter Anwendung ein günstiges Nutzen-Risiko-Verhältnis.
 
 <div class="studie">
 <span class="studie-name">Cochrane Review: Lax et al. (2022)</span>
-<div class="studie-details">Cochrane Systematic Review · *Cochrane Database of Systematic Reviews* · 104 RCTs, 8.443 Patienten</div>
+<div class="studie-details">Cochrane Systematic Review · <em>Cochrane Database of Systematic Reviews</em> · 104 RCTs, 8.443 Patienten</div>
 
 Dieser Review untersuchte speziell die Frage, wie topische Kortikosteroide bei Ekzemen am besten angewendet werden. Zentrale Ergebnisse: Einmal tägliches Auftragen ist ebenso wirksam wie zweimal tägliches Auftragen. Proaktive Therapie (ein- bis zweimal wöchentliches Auftragen nach Abklingen des Schubs auf ehemals betroffene Stellen) reduziert Rückfälle signifikant gegenüber rein reaktiver Behandlung. Milde bis mittelstarke Präparate sind für die meisten Patienten ausreichend.
 
 <div class="studie">
 <span class="studie-name">AWMF-S3-Leitlinie Atopische Dermatitis, Teil 1 (2023)</span>
-<div class="studie-details">Evidenz- und konsensbasierte Leitlinie · *JDDG: Journal der Deutschen Dermatologischen Gesellschaft* · AWMF-Register Nr. 013-027</div>
+<div class="studie-details">Evidenz- und konsensbasierte Leitlinie · <em>JDDG: Journal der Deutschen Dermatologischen Gesellschaft</em> · AWMF-Register Nr. 013-027</div>
 
 Die aktuelle deutsche S3-Leitlinie — die höchste Evidenzstufe im deutschen Leitliniensystem — empfiehlt topische Kortikosteroide als Erstlinientherapie bei Neurodermitis ab leichtem bis mittlerem Schweregrad. Bei Unverträglichkeit oder an empfindlichen Stellen wie Gesicht, Körperfalten (intertriginöse Areale) und Anogenitalbereich werden Calcineurin-Inhibitoren als Alternative empfohlen.
 

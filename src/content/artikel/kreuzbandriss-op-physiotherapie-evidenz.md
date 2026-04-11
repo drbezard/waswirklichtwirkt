@@ -32,25 +32,25 @@ Die entscheidende Frage in der Medizin ist nicht „Kann man operieren?“, sond
 
 <div class="studie">
 <span class="studie-name">RCT (KANON-Studie): Frobell et al. (2010/2013)</span>
-<div class="studie-details">Randomisierte kontrollierte Studie · *New England Journal of Medicine* (2010) und *BMJ* (2013) · 121 junge, sportlich aktive Patienten mit akutem VKB-Riss</div>
+<div class="studie-details">Randomisierte kontrollierte Studie · <em>New England Journal of Medicine</em> (2010) und <em>BMJ</em> (2013) · 121 junge, sportlich aktive Patienten mit akutem VKB-Riss</div>
 
 Diese schwedische Studie verglich zwei Strategien: sofortige Kreuzband-Rekonstruktion plus Rehabilitation versus zunächst nur Rehabilitation — mit der Option, später doch noch zu operieren, falls das Knie instabil blieb. Ergebnis nach fünf Jahren: Kein Unterschied in der vom Patienten berichteten Kniefunktion (KOOS-Score). Die Differenz betrug nur 2,0 Punkte (95-%-Konfidenzintervall: −8,5 bis 4,5; p = 0,54) — klinisch bedeutungslos. Von den 59 Patienten, die zunächst nur Physiotherapie erhielten, kamen 29 (49 %) dauerhaft ohne OP aus. Die übrigen 30 (51 %) wurden im Verlauf doch operiert, meist wegen anhaltender Instabilität.
 
 <div class="studie">
 <span class="studie-name">RCT (ACL-SNNAP-Studie): Beard et al. (2022)</span>
-<div class="studie-details">Pragmatische randomisierte kontrollierte Studie · *The Lancet*, 400(10352), 605–615 · 320 Patienten mit nicht-akutem VKB-Riss und anhaltender Instabilität, 29 Kliniken (UK)</div>
+<div class="studie-details">Pragmatische randomisierte kontrollierte Studie · <em>The Lancet</em>, 400(10352), 605–615 · 320 Patienten mit nicht-akutem VKB-Riss und anhaltender Instabilität, 29 Kliniken (UK)</div>
 
 Diese britische Studie untersuchte Patienten, die bereits seit mindestens sechs Wochen einen Kreuzbandriss hatten und trotzdem instabile Knie meldeten. Hier war das Ergebnis anders als bei KANON: Die Gruppe mit Kreuzband-Rekonstruktion hatte nach 18 Monaten signifikant bessere Ergebnisse in der Kniefunktion (KOOS4-Score) als die Gruppe mit reiner Rehabilitation. Die OP war zudem kosteneffektiver. Wichtig: Diese Studie untersuchte gezielt Patienten mit anhaltenden Beschwerden — also genau die Gruppe, bei der Physiotherapie allein nicht ausreichte.
 
 <div class="studie">
 <span class="studie-name">Meta-Analyse: Cuzzolin et al. (2021)</span>
-<div class="studie-details">Systematische Übersicht und Meta-Analyse · *Cartilage*, 13(1_suppl), 19476035211046041 · 12 Vergleichsstudien</div>
+<div class="studie-details">Systematische Übersicht und Meta-Analyse · <em>Cartilage</em>, 13(1_suppl), 19476035211046041 · 12 Vergleichsstudien</div>
 
 Diese Meta-Analyse verglich langfristige Ergebnisse von Kreuzband-Rekonstruktion und konservativer Behandlung. Ergebnis: Operierte Patienten hatten eine bessere objektive Kniestabilität und brauchten seltener eine spätere Meniskus-OP (etwa halb so häufig wie Nicht-Operierte). Aber — und das ist der entscheidende Punkt — es gab keinen Unterschied in der Arthrose-Rate (RR = 0,93; p = 0,19), auch nicht bei Studien mit über 10 Jahren Nachbeobachtung. Die OP schützt also nicht vor Arthrose.
 
 <div class="studie">
 <span class="studie-name">Meta-Analyse: Filbay et al. (2025)</span>
-<div class="studie-details">Systematische Übersicht und Meta-Analyse · *Sports Medicine* · 15 Studien (davon 2 RCTs), Rekonstruktion vs. Rehabilitation</div>
+<div class="studie-details">Systematische Übersicht und Meta-Analyse · <em>Sports Medicine</em> · 15 Studien (davon 2 RCTs), Rekonstruktion vs. Rehabilitation</div>
 
 Diese aktuelle Analyse untersuchte, ob operierte Patienten häufiger zum Sport zurückkehren. Ergebnis: Kein signifikanter Unterschied in der Return-to-Sport-Rate und im Aktivitätsniveau zwischen operierten und konservativ behandelten Patienten. Das widerspricht der verbreiteten Annahme, dass eine OP zwingend nötig ist, um wieder Sport treiben zu können.
 
