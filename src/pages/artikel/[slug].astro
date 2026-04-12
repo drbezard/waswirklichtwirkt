@@ -38,8 +38,38 @@ const relatedArticles = allArticles
 const siteUrl = 'https://waswirklichtwirkt.vercel.app';
 const canonicalUrl = `${siteUrl}/artikel/${article.data.slug}/`;
 
-// JSON-LD structured data for Google
-const jsonLd = {
+// Extract FAQ pairs from article body (section with "Fragen" or "fragen" in heading)
+function extractFaq(body: string): Array<{ question: string; answer: string }> {
+  if (!body) return [];
+  // Find the Q&A heading (## or ### with Fragen/fragen)
+  const headingMatch = body.match(/^#{2,3}[^\n]*[Ff]ragen[^\n]*$/m);
+  if (!headingMatch || headingMatch.index === undefined) return [];
+  // Content starts after the heading, ends at next ## heading
+  const afterHeading = body.slice(headingMatch.index + headingMatch[0].length);
+  const endMatch = afterHeading.match(/\n## /);
+  const section = endMatch ? afterHeading.slice(0, endMatch.index) : afterHeading;
+
+  const faqs: Array<{ question: string; answer: string }> = [];
+  // Match pattern: - **"Question"** (allow leading whitespace, various quote styles, and optional trailing *)
+  // Capture until next question or heading
+  const qaRegex = /^\s*- \*\*[„"']?([^\n*]+?)[""'"]?\*\*?\s*(?:\n|\s*—\s*|\s+)([^\n][^\n]*(?:\n(?!\s*- \*\*|^#{1,3} )[^\n]*)*)/gm;
+  let m;
+  while ((m = qaRegex.exec(section)) !== null) {
+    let question = m[1].trim().replace(/[*"'„"]+$/, '').trim();
+    // Ensure question ends with ?
+    if (!question.endsWith('?')) question = question + '?';
+    const answer = m[2].trim().replace(/^[—\-\s]+/, '').trim();
+    if (question && answer && answer.length > 15 && question.length > 5) {
+      faqs.push({ question, answer });
+    }
+  }
+  return faqs;
+}
+
+const faqs = extractFaq(article.body || '');
+
+// Main JSON-LD: MedicalWebPage
+const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
   headline: article.data.title,
@@ -64,7 +94,9 @@ const jsonLd = {
       '@type': 'Person',
       name: article.data.reviewer,
       ...(article.data.reviewerTitle && { jobTitle: article.data.reviewerTitle }),
+      ...(article.data.reviewerBio && { description: article.data.reviewerBio }),
       ...(article.data.reviewerUrl && { url: article.data.reviewerUrl }),
+      ...(article.data.reviewerPhoto && { image: article.data.reviewerPhoto }),
     },
     lastReviewed: article.data.reviewDate || article.data.date,
   }),
@@ -73,6 +105,31 @@ const jsonLd = {
     name: article.data.category,
   },
 };
+
+// Breadcrumb JSON-LD
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Startseite', item: siteUrl + '/' },
+    { '@type': 'ListItem', position: 2, name: article.data.category, item: `${siteUrl}/fachgebiet/${catSlug}/` },
+    { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
+  ],
+};
+
+// FAQ JSON-LD (only if we extracted at least 2 Q&A pairs)
+const faqJsonLd = faqs.length >= 2 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+} : null;
 ---
 
 <Base
@@ -81,7 +138,9 @@ const jsonLd = {
   image={article.data.image}
   canonical={canonicalUrl}
 >
-  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
   <article>
     <!-- Hero Image -->
     {article.data.image && (
@@ -97,6 +156,17 @@ const jsonLd = {
 
     <div class="article-bg">
     <div class="max-w-3xl mx-auto px-5 pt-8 pb-16">
+      <!-- Breadcrumbs -->
+      <nav aria-label="Breadcrumb" class="mb-6 text-sm text-text-muted">
+        <ol class="flex items-center flex-wrap gap-1.5">
+          <li><a href="/" class="hover:text-primary no-underline">Startseite</a></li>
+          <li aria-hidden="true" class="text-border">/</li>
+          <li><a href={`/fachgebiet/${catSlug}`} class="hover:text-primary no-underline">{article.data.category}</a></li>
+          <li aria-hidden="true" class="text-border">/</li>
+          <li class="text-text truncate" aria-current="page">{article.data.title}</li>
+        </ol>
+      </nav>
+
       <!-- Category Badge -->
       <div class="text-center mb-4">
         <a href={`/fachgebiet/${catSlug}`}
@@ -138,6 +208,9 @@ const jsonLd = {
               </div>
               {article.data.reviewerTitle && (
                 <p class="text-sm text-primary mb-2">{article.data.reviewerTitle}</p>
+              )}
+              {article.data.reviewerBio && (
+                <p class="text-sm text-text-secondary leading-relaxed mb-2">{article.data.reviewerBio}</p>
               )}
               {article.data.reviewerUrl && (
                 <a href={article.data.reviewerUrl} target="_blank" rel="noopener noreferrer"
