@@ -100,18 +100,18 @@ Bei klarer Indikation sind PPI hochwirksame Medikamente, deren Nutzen die potenz
 
 ## Protonenpumpenhemmer-Dauertherapie: Welche Fragen Sie Ihrem Arzt stellen sollten
 
-        - **„Warum nehme ich dieses Medikament — und besteht der Grund noch?“**
-          Viele PPI-Verschreibungen beginnen im Krankenhaus oder wegen akuter Beschwerden und werden dann ohne Überprüfung fortgeführt. Ihr Arzt sollte eine klare Diagnose benennen können, die eine Langzeittherapie rechtfertigt.
-        - **„Kann ich versuchen, den PPI schrittweise abzusetzen — und wie mache ich das richtig?“**
-          Abruptes Absetzen kann ein Rebound-Phänomen auslösen. Ein strukturiertes Ausschleichen (Dosis halbieren über 2–4 Wochen, dann Bedarfstherapie) ist der empfohlene Weg.
-        - **„Nehme ich die niedrigste wirksame Dosis?“**
-          Wenn Ihr Arzt 40 mg Pantoprazol verschrieben hat, könnte in vielen Fällen die halbe Dosis (20 mg) ausreichen. Die AGA empfiehlt grundsätzlich die niedrigste wirksame Dosis.
-        - **„Welche Risiken hat die Langzeiteinnahme in meinem konkreten Fall?“**
-          Die Risiken hängen vom individuellen Profil ab. Bei älteren Patienten mit Osteoporose-Risiko oder bei Patienten, die bereits Nierenprobleme haben, ist die Abwägung eine andere als bei einem ansonsten gesunden 40-Jährigen.
-        - **„Gibt es Alternativen — wie H2-Blocker, Antazida oder Lebensstiländerungen?“**
-          Bei leichtem Sodbrennen können Gewichtsreduktion, Hochstellen des Kopfendes, Vermeidung von späten Mahlzeiten und H2-Blocker (wie Ranitidin oder Famotidin) eine PPI-Therapie ersetzen oder ergänzen.
-        - **„Brauche ich zusätzliche Untersuchungen — zum Beispiel eine Magenspiegelung?“**
-          Wenn Sie seit Jahren PPI nehmen, ohne dass jemals eine Magenspiegelung (Gastroskopie) gemacht wurde, könnte eine Abklärung sinnvoll sein — nicht wegen der PPI, sondern weil die Ursache Ihrer Beschwerden noch nicht gesichert ist.
+- **„Warum nehme ich dieses Medikament — und besteht der Grund noch?“**
+Viele PPI-Verschreibungen beginnen im Krankenhaus oder wegen akuter Beschwerden und werden dann ohne Überprüfung fortgeführt. Ihr Arzt sollte eine klare Diagnose benennen können, die eine Langzeittherapie rechtfertigt.
+- **„Kann ich versuchen, den PPI schrittweise abzusetzen — und wie mache ich das richtig?“**
+Abruptes Absetzen kann ein Rebound-Phänomen auslösen. Ein strukturiertes Ausschleichen (Dosis halbieren über 2–4 Wochen, dann Bedarfstherapie) ist der empfohlene Weg.
+- **„Nehme ich die niedrigste wirksame Dosis?“**
+Wenn Ihr Arzt 40 mg Pantoprazol verschrieben hat, könnte in vielen Fällen die halbe Dosis (20 mg) ausreichen. Die AGA empfiehlt grundsätzlich die niedrigste wirksame Dosis.
+- **„Welche Risiken hat die Langzeiteinnahme in meinem konkreten Fall?“**
+Die Risiken hängen vom individuellen Profil ab. Bei älteren Patienten mit Osteoporose-Risiko oder bei Patienten, die bereits Nierenprobleme haben, ist die Abwägung eine andere als bei einem ansonsten gesunden 40-Jährigen.
+- **„Gibt es Alternativen — wie H2-Blocker, Antazida oder Lebensstiländerungen?“**
+Bei leichtem Sodbrennen können Gewichtsreduktion, Hochstellen des Kopfendes, Vermeidung von späten Mahlzeiten und H2-Blocker (wie Ranitidin oder Famotidin) eine PPI-Therapie ersetzen oder ergänzen.
+- **„Brauche ich zusätzliche Untersuchungen — zum Beispiel eine Magenspiegelung?“**
+Wenn Sie seit Jahren PPI nehmen, ohne dass jemals eine Magenspiegelung (Gastroskopie) gemacht wurde, könnte eine Abklärung sinnvoll sein — nicht wegen der PPI, sondern weil die Ursache Ihrer Beschwerden noch nicht gesichert ist.
 
 ## Quellenverzeichnis
 

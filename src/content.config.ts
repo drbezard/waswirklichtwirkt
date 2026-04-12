@@ -15,6 +15,7 @@ const artikel = defineCollection({
     reviewerTitle: z.string().optional(),
     reviewerPhoto: z.string().optional(),
     reviewerUrl: z.string().optional(),
+    reviewerBio: z.string().optional(),
     reviewDate: z.string().optional(),
     prompt: z.string().optional(),
     sources: z.array(z.string()).optional(),

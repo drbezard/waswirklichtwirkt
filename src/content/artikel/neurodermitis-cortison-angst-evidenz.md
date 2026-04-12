@@ -96,20 +96,20 @@ Die Evidenz zeigt, dass Cortison-Cremes bei Neurodermitis die Therapie der erste
 
 ## Cortison-Creme bei Neurodermitis: Welche Fragen Sie Ihrem Arzt stellen sollten
 
-        - **„Welche Stärke hat das Cortison-Präparat, das Sie mir verschreiben — und ist diese Stärke für die betroffene Körperstelle angemessen?“**
-          Kortikosteroide werden in vier Wirkstärkeklassen (I–IV) eingeteilt. Nicht jedes Präparat eignet sich für jede Körperstelle. Ihr Arzt sollte Ihnen erklären können, warum er genau dieses Präparat für genau diese Stelle wählt.
-        - **„Wie viel Creme soll ich auftragen — und gibt es eine einfache Faustregel?“**
-          Die sogenannte Fingertip Unit (FTU, Fingerspitzeneinheit — die Menge Creme, die auf eine Fingerkuppe passt) ist eine bewährte Dosierungshilfe. Zu wenig auftragen ist einer der häufigsten Fehler.
-        - **„Wie lange soll ich die Creme im akuten Schub anwenden — und woran erkenne ich, dass ich aufhören kann?“**
-          Viele Patienten hören auf, sobald der Juckreiz nachlässt — aber die Entzündung unter der Haut kann noch aktiv sein. Ihr Arzt sollte Ihnen klare Kriterien nennen, nicht nur „bis es besser ist“.
-        - **„Sollte ich eine proaktive Erhaltungstherapie machen — also auch nach dem Schub ein- bis zweimal pro Woche dünn auftragen?“**
-          Proaktive Therapie reduziert nachweislich Rückfälle und führt insgesamt zu weniger Cortisonverbrauch. Nicht jeder Arzt spricht dieses Thema von sich aus an.
-        - **„Gibt es Alternativen zu Cortison für empfindliche Stellen wie Gesicht oder Körperfalten?“**
-          Calcineurin-Inhibitoren (Tacrolimus, Pimecrolimus) und neuere Wirkstoffe wie JAK-Inhibitoren sind evidenzbasierte Alternativen. Ihr Arzt sollte diese Optionen kennen und Ihnen erklären können, wann sie sinnvoller sind als Cortison.
-        - **„Welche konkreten Nebenwirkungen muss ich bei diesem Präparat an dieser Körperstelle realistisch befürchten — und welche nicht?“**
-          Ein guter Arzt unterscheidet zwischen theoretischen Risiken und realistischen Risiken bei Ihrer individuellen Anwendung. „Cortison hat Nebenwirkungen“ ist keine ausreichende Aufklärung.
-        - **„Wann sollte ich wiederkommen — und woran erkenne ich, dass die Behandlung nicht ausreicht und ich eine Stufe höher brauche?“**
-          Neurodermitis erfordert oft ein Stufenschema mit regelmäßiger Anpassung. Ein einmaliges Rezept ohne Nachkontrolle reicht bei mittlerer bis schwerer Neurodermitis nicht aus.
+- **„Welche Stärke hat das Cortison-Präparat, das Sie mir verschreiben — und ist diese Stärke für die betroffene Körperstelle angemessen?“**
+Kortikosteroide werden in vier Wirkstärkeklassen (I–IV) eingeteilt. Nicht jedes Präparat eignet sich für jede Körperstelle. Ihr Arzt sollte Ihnen erklären können, warum er genau dieses Präparat für genau diese Stelle wählt.
+- **„Wie viel Creme soll ich auftragen — und gibt es eine einfache Faustregel?“**
+Die sogenannte Fingertip Unit (FTU, Fingerspitzeneinheit — die Menge Creme, die auf eine Fingerkuppe passt) ist eine bewährte Dosierungshilfe. Zu wenig auftragen ist einer der häufigsten Fehler.
+- **„Wie lange soll ich die Creme im akuten Schub anwenden — und woran erkenne ich, dass ich aufhören kann?“**
+Viele Patienten hören auf, sobald der Juckreiz nachlässt — aber die Entzündung unter der Haut kann noch aktiv sein. Ihr Arzt sollte Ihnen klare Kriterien nennen, nicht nur „bis es besser ist“.
+- **„Sollte ich eine proaktive Erhaltungstherapie machen — also auch nach dem Schub ein- bis zweimal pro Woche dünn auftragen?“**
+Proaktive Therapie reduziert nachweislich Rückfälle und führt insgesamt zu weniger Cortisonverbrauch. Nicht jeder Arzt spricht dieses Thema von sich aus an.
+- **„Gibt es Alternativen zu Cortison für empfindliche Stellen wie Gesicht oder Körperfalten?“**
+Calcineurin-Inhibitoren (Tacrolimus, Pimecrolimus) und neuere Wirkstoffe wie JAK-Inhibitoren sind evidenzbasierte Alternativen. Ihr Arzt sollte diese Optionen kennen und Ihnen erklären können, wann sie sinnvoller sind als Cortison.
+- **„Welche konkreten Nebenwirkungen muss ich bei diesem Präparat an dieser Körperstelle realistisch befürchten — und welche nicht?“**
+Ein guter Arzt unterscheidet zwischen theoretischen Risiken und realistischen Risiken bei Ihrer individuellen Anwendung. „Cortison hat Nebenwirkungen“ ist keine ausreichende Aufklärung.
+- **„Wann sollte ich wiederkommen — und woran erkenne ich, dass die Behandlung nicht ausreicht und ich eine Stufe höher brauche?“**
+Neurodermitis erfordert oft ein Stufenschema mit regelmäßiger Anpassung. Ein einmaliges Rezept ohne Nachkontrolle reicht bei mittlerer bis schwerer Neurodermitis nicht aus.
 
 ## Quellenverzeichnis
 - **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Jiyad Z, Flohr C, Thomas KS, Chalmers JR. (2024).** Topical anti-inflammatory treatments for eczema: a Cochrane systematic review and network meta-analysis. *Cochrane Database of Systematic Reviews*. [DOI: 10.1002/14651858.CD015064.pub2](https://doi.org/10.1002/14651858.CD015064.pub2)
