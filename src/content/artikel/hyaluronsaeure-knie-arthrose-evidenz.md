@@ -1,10 +1,11 @@
 ---
-title: "Hyaluronsäure bei Kniearthrose: Was die Evidenz wirklich zeigt"
-slug: "hyaluronsaeure-knie-arthrose-evidenz"
-date: "2026-03-21"
-category: "Orthopädie"
-excerpt: "Hyaluronsäure-Spritzen wirken bei Kniearthrose kaum besser als Placebo."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/hyaluronsaeure-knie-arthrose-evidenz_8214e405.png"
+title: 'Hyaluronsäure bei Kniearthrose: Was die Evidenz wirklich zeigt'
+slug: hyaluronsaeure-knie-arthrose-evidenz
+date: '2026-03-21'
+category: Orthopädie
+excerpt: Hyaluronsäure-Spritzen wirken bei Kniearthrose kaum besser als Placebo.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/hyaluronsaeure-knie-arthrose-evidenz.png
 ---
 
 <section class=”kernaussage”>

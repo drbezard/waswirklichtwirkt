@@ -1,10 +1,13 @@
 ---
-title: "Rückenschmerzen und MRT: Wann Bildgebung schadet"
-slug: "rueckenschmerzen-mrt-bildgebung-evidenz"
-date: "2026-03-30"
-category: "Orthopädie"
-excerpt: "MRT bei Rückenschmerzen zeigt oft Befunde, die keine Schmerzursache sind. Was Studien mit über 3.000 Beschwerdefreien belegen."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/rueckenschmerzen-mrt-bildgebung-evidenz_d1f10d95.png"
+title: 'Rückenschmerzen und MRT: Wann Bildgebung schadet'
+slug: rueckenschmerzen-mrt-bildgebung-evidenz
+date: '2026-03-30'
+category: Orthopädie
+excerpt: >-
+  MRT bei Rückenschmerzen zeigt oft Befunde, die keine Schmerzursache sind. Was
+  Studien mit über 3.000 Beschwerdefreien belegen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/rueckenschmerzen-mrt-bildgebung-evidenz.png
 ---
 
 <section class="kernaussage">

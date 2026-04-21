@@ -1,10 +1,13 @@
 ---
-title: "Isotretinoin bei Akne: Gefährlich oder unterschätzt?"
-slug: "isotretinoin-akne-evidenz"
-date: "2026-04-05"
-category: "Dermatologie"
-excerpt: "Isotretinoin gilt als gefährlich – doch bei schwerer Akne ist es die wirksamste Therapie. Was Studien über Risiken und Nutzen zeigen."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/isotretinoin-akne-evidenz_c44917e9.png"
+title: 'Isotretinoin bei Akne: Gefährlich oder unterschätzt?'
+slug: isotretinoin-akne-evidenz
+date: '2026-04-05'
+category: Dermatologie
+excerpt: >-
+  Isotretinoin gilt als gefährlich – doch bei schwerer Akne ist es die
+  wirksamste Therapie. Was Studien über Risiken und Nutzen zeigen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/isotretinoin-akne-evidenz.png
 ---
 
 <section class="kernaussage">

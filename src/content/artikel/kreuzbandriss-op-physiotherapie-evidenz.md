@@ -1,10 +1,13 @@
 ---
-title: "Kreuzbandriss: Wann ist die OP wirklich nötig?"
-slug: "kreuzbandriss-op-physiotherapie-evidenz"
-date: "2026-03-27"
-category: "Orthopädie"
-excerpt: "Kreuzbandriss bedeutet nicht automatisch OP. Zwei große RCTs zeigen: Physiotherapie ist für viele Patienten gleichwertig."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/kreuzbandriss-op-physiotherapie-evidenz_e79f5cf6.png"
+title: 'Kreuzbandriss: Wann ist die OP wirklich nötig?'
+slug: kreuzbandriss-op-physiotherapie-evidenz
+date: '2026-03-27'
+category: Orthopädie
+excerpt: >-
+  Kreuzbandriss bedeutet nicht automatisch OP. Zwei große RCTs zeigen:
+  Physiotherapie ist für viele Patienten gleichwertig.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/kreuzbandriss-op-physiotherapie-evidenz.png
 ---
 
 <section class="kernaussage">

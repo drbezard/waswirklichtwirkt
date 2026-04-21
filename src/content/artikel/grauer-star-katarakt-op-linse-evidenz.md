@@ -1,10 +1,13 @@
 ---
-title: "Grauer Star OP: Wann sinnvoll, welche Linse?"
-slug: "grauer-star-katarakt-op-linse-evidenz"
-date: "2026-04-06"
-category: "Augenheilkunde"
-excerpt: "Katarakt-OP ist hochwirksam — doch welche Linse brauchen Sie wirklich? Was Studien zu Multifokal- vs. Monofokallinsen zeigen."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/grauer-star-katarakt-op-linse-evidenz_899aa69e.png"
+title: 'Grauer Star OP: Wann sinnvoll, welche Linse?'
+slug: grauer-star-katarakt-op-linse-evidenz
+date: '2026-04-06'
+category: Augenheilkunde
+excerpt: >-
+  Katarakt-OP ist hochwirksam — doch welche Linse brauchen Sie wirklich? Was
+  Studien zu Multifokal- vs. Monofokallinsen zeigen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/grauer-star-katarakt-op-linse-evidenz.png
 ---
 
 <section class="kernaussage">

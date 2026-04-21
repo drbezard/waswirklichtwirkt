@@ -43,6 +43,11 @@ for (const file of files) {
     continue;
   }
 
+  if (data.draft === true) {
+    console.log(`[sync-articles] ${file}: draft:true, nicht synchronisiert.`);
+    continue;
+  }
+
   rows.push({
     slug: String(data.slug),
     title: String(data.title),

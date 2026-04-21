@@ -1,10 +1,15 @@
 ---
-title: "Schulter-Impingement: OP sinnvoll oder Schein-OP?"
-slug: "schulter-impingement-subakromiale-dekompression"
-date: "2026-03-24"
-category: "Orthopädie"
-excerpt: "Die arthroskopische subakromiale Dekompression wirkt nicht besser als eine Schein-OP. Zwei große Placebo-kontrollierte Studien und ein 10-Jahres-Follow-up bestätigen: Physiotherapie ist die empfohlene Erstbehandlung."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/schulter-impingement-subakromiale-dekompression_8bfb7a38.png"
+title: 'Schulter-Impingement: OP sinnvoll oder Schein-OP?'
+slug: schulter-impingement-subakromiale-dekompression
+date: '2026-03-24'
+category: Orthopädie
+excerpt: >-
+  Die arthroskopische subakromiale Dekompression wirkt nicht besser als eine
+  Schein-OP. Zwei große Placebo-kontrollierte Studien und ein
+  10-Jahres-Follow-up bestätigen: Physiotherapie ist die empfohlene
+  Erstbehandlung.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/schulter-impingement-subakromiale-dekompression.png
 ---
 
 <section class="kernaussage">

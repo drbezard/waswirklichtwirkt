@@ -1,10 +1,14 @@
 ---
-title: "Schulter-Impingement: Hilft die OP wirklich?"
-slug: "schulter-impingement-op-evidenz"
-date: "2026-03-17"
-category: "Orthopädie"
-excerpt: "Die subakromiale Dekompression wirkt nicht besser als eine Schein-OP. Zwei Placebo-kontrollierte Studien und ein Cochrane Review belegen: Physiotherapie ist gleichwertig."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/schulter-impingement-op-evidenz_5054e188.png"
+title: 'Schulter-Impingement: Hilft die OP wirklich?'
+slug: schulter-impingement-op-evidenz
+date: '2026-03-17'
+category: Orthopädie
+excerpt: >-
+  Die subakromiale Dekompression wirkt nicht besser als eine Schein-OP. Zwei
+  Placebo-kontrollierte Studien und ein Cochrane Review belegen: Physiotherapie
+  ist gleichwertig.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/schulter-impingement-op-evidenz.png
 ---
 
 <section class="kernaussage">

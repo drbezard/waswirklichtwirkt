@@ -1,10 +1,14 @@
 ---
-title: "Bandscheibenvorfall: OP oder abwarten?"
-slug: "bandscheibenvorfall-op-vs-konservativ"
-date: "2026-03-13"
-category: "Orthopädie"
-excerpt: "Die meisten Bandscheibenvorfälle heilen ohne Operation. Die OP bringt schnellere Schmerzlinderung, aber nach einem Jahr sind die Ergebnisse gleichwertig."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/bandscheibenvorfall-op-vs-konservativ_69096177.png"
+title: 'Bandscheibenvorfall: OP oder abwarten?'
+slug: bandscheibenvorfall-op-vs-konservativ
+date: '2026-03-13'
+category: Orthopädie
+excerpt: >-
+  Die meisten Bandscheibenvorfälle heilen ohne Operation. Die OP bringt
+  schnellere Schmerzlinderung, aber nach einem Jahr sind die Ergebnisse
+  gleichwertig.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/bandscheibenvorfall-op-vs-konservativ.png
 ---
 
 <section class="kernaussage">

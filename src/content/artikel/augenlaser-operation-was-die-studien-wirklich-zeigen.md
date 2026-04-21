@@ -1,10 +1,13 @@
 ---
-title: "Augenlaser-Operation: Was die Studien wirklich zeigen"
-slug: "augenlaser-operation-was-die-studien-wirklich-zeigen"
-date: "2026-03-09"
-category: "Augenheilkunde"
-excerpt: "Evidenzbasierte Analyse der LASIK/LASEK-Operation – Erfolgsraten, Risiken und wer wirklich geeignet ist."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/augenlaser-operation-was-die-studien-wirklich-zeigen_cc4ceaa8.png"
+title: 'Augenlaser-Operation: Was die Studien wirklich zeigen'
+slug: augenlaser-operation-was-die-studien-wirklich-zeigen
+date: '2026-03-09'
+category: Augenheilkunde
+excerpt: >-
+  Evidenzbasierte Analyse der LASIK/LASEK-Operation – Erfolgsraten, Risiken und
+  wer wirklich geeignet ist.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/augenlaser-operation-was-die-studien-wirklich-zeigen.png
 ---
 
 <section class="kernaussage">

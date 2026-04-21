@@ -1,10 +1,13 @@
 ---
-title: "PPI-Langzeiteinnahme: Was die Evidenz wirklich zeigt"
-slug: "protonenpumpenhemmer-langzeiteinnahme-evidenz"
-date: "2026-04-08"
-category: "Innere Medizin"
-excerpt: "Pantoprazol & Co. langfristig: Die Risiken sind geringer als gedacht — aber oft fehlt die Indikation. Was Studien zeigen."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/protonenpumpenhemmer-langzeiteinnahme-evidenz_9645587b.png"
+title: 'PPI-Langzeiteinnahme: Was die Evidenz wirklich zeigt'
+slug: protonenpumpenhemmer-langzeiteinnahme-evidenz
+date: '2026-04-08'
+category: Innere Medizin
+excerpt: >-
+  Pantoprazol & Co. langfristig: Die Risiken sind geringer als gedacht — aber
+  oft fehlt die Indikation. Was Studien zeigen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/protonenpumpenhemmer-langzeiteinnahme-evidenz.png
 ---
 
 <section class="kernaussage">

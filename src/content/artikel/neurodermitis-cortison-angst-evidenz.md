@@ -1,10 +1,13 @@
 ---
-title: "Neurodermitis und Cortison: Schadet die Angst mehr?"
-slug: "neurodermitis-cortison-angst-evidenz"
-date: "2026-04-04"
-category: "Dermatologie"
-excerpt: "Cortison-Angst bei Neurodermitis führt oft zu schlechteren Verläufen. Was 291 Studien über Wirksamkeit und Sicherheit zeigen."
-image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/nvBCD5Lwybycfp3H24L723/neurodermitis-cortison-angst-evidenz_20dbaff1.png"
+title: 'Neurodermitis und Cortison: Schadet die Angst mehr?'
+slug: neurodermitis-cortison-angst-evidenz
+date: '2026-04-04'
+category: Dermatologie
+excerpt: >-
+  Cortison-Angst bei Neurodermitis führt oft zu schlechteren Verläufen. Was 291
+  Studien über Wirksamkeit und Sicherheit zeigen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/neurodermitis-cortison-angst-evidenz.png
 ---
 
 <section class="kernaussage">
