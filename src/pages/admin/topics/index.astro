@@ -26,6 +26,11 @@ const { data: topics = [] } = await query;
 
 let flash: string | null = null;
 
+if (url.searchParams.get('msg') === 'deleted') {
+  const hint = url.searchParams.get('hint');
+  flash = hint ? `Topic endgültig gelöscht.${hint}` : 'Topic endgültig gelöscht.';
+}
+
 if (Astro.request.method === 'POST') {
   const form = await Astro.request.formData();
   const action = String(form.get('action') || '');

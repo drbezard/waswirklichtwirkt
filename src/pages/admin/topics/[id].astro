@@ -3,6 +3,15 @@ export const prerender = false;
 
 import AuthLayout from '../../../layouts/AuthLayout.astro';
 import { createSupabaseServerClient } from '../../../lib/supabase/server';
+import { getSupabaseAdminClient } from '../../../lib/supabase/admin';
+
+// Alle Draft-Markdown-Dateien werden via Vite zur Build-Zeit als Rohtext eingebunden.
+// Das funktioniert auch auf Vercel, weil das Bundle die Dateien als Strings enthält.
+const draftFiles = import.meta.glob<string>('/src/content/drafts/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
 
 const user = Astro.locals.user!;
 const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
@@ -29,6 +38,35 @@ if (Astro.request.method === 'POST') {
       });
       flash = `Status manuell gesetzt: ${newStatus}`;
     }
+  } else if (action === 'delete_permanent') {
+    const confirmText = String(form.get('confirm') || '');
+    const { data: t } = await supabase.from('topics').select('status, title, draft_path').eq('id', id).maybeSingle();
+
+    if (!t) {
+      flash = 'Topic nicht gefunden.';
+    } else if (t.status !== 'discarded') {
+      flash = 'Endgültiges Löschen nur bei Status "discarded" erlaubt.';
+    } else if (confirmText !== 'LÖSCHEN') {
+      flash = 'Bitte "LÖSCHEN" eingeben, um endgültig zu löschen.';
+    } else {
+      const admin = getSupabaseAdminClient();
+      await admin.from('audit_log').insert({
+        actor_id: user.id,
+        action: 'topic.deleted',
+        entity_type: 'topic',
+        entity_id: id,
+        payload: { title: t.title, draft_path: t.draft_path },
+      });
+      const { error: delErr } = await admin.from('topics').delete().eq('id', id);
+      if (delErr) {
+        flash = `Löschen fehlgeschlagen: ${delErr.message}`;
+      } else {
+        const draftHint = t.draft_path
+          ? ` Hinweis: Die Datei "${t.draft_path}" liegt noch im Repo und kann lokal mit "git rm" entfernt werden.`
+          : '';
+        return Astro.redirect(`/admin/topics?msg=deleted${draftHint ? `&hint=${encodeURIComponent(draftHint)}` : ''}`);
+      }
+    }
   }
 }
 
@@ -45,6 +83,17 @@ const [{ data: parent }, { data: revision }, { data: auditLog }] = await Promise
   topic.revision_id ? supabase.from('revisions').select('id, comment, doctor_id').eq('id', topic.revision_id).maybeSingle() : Promise.resolve({ data: null }),
   supabase.from('audit_log').select('action, created_at, payload').eq('entity_type', 'topic').eq('entity_id', id).order('created_at', { ascending: false }).limit(20),
 ]);
+
+let draftContent: string | null = null;
+let draftError: string | null = null;
+if (topic.draft_path) {
+  // draft_path ist z.B. 'src/content/drafts/foo.md' → glob-Key '/src/content/drafts/foo.md'
+  const key = topic.draft_path.startsWith('/') ? topic.draft_path : `/${topic.draft_path}`;
+  draftContent = draftFiles[key] ?? null;
+  if (!draftContent) {
+    draftError = `Datei "${topic.draft_path}" wurde im aktuellen Build nicht gefunden (vielleicht erst nach dem letzten Deploy gepusht).`;
+  }
+}
 ---
 
 <AuthLayout title={topic.title} section="admin" user={user}>
@@ -101,6 +150,24 @@ const [{ data: parent }, { data: revision }, { data: auditLog }] = await Promise
       )}
     </div>
 
+    {(draftContent || draftError) && (
+      <div class="bg-white rounded-2xl border border-border-light p-6 space-y-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-lg font-bold text-text">Draft-Inhalt</h2>
+          {topic.article_slug && (
+            <a href={`/artikel/${topic.article_slug}`} target="_blank" class="text-sm text-primary no-underline">
+              Live-Vorschau ↗
+            </a>
+          )}
+        </div>
+        {draftError ? (
+          <p class="text-sm text-amber-700">{draftError}</p>
+        ) : (
+          <pre class="text-xs whitespace-pre-wrap font-mono p-4 bg-bg-subtle rounded max-h-[600px] overflow-y-auto">{draftContent}</pre>
+        )}
+      </div>
+    )}
+
     {!['discarded'].includes(topic.status) && (
       <div class="bg-white rounded-2xl border border-border-light p-6 space-y-4">
         <h2 class="text-lg font-bold text-text">Admin-Aktionen</h2>
@@ -128,6 +195,33 @@ const [{ data: parent }, { data: revision }, { data: auditLog }] = await Promise
             <button type="submit" class="text-sm text-red-600 hover:text-red-800">Topic verwerfen</button>
           </form>
         )}
+      </div>
+    )}
+
+    {topic.status === 'discarded' && (
+      <div class="bg-red-50 rounded-2xl border border-red-200 p-6 space-y-3">
+        <h2 class="text-lg font-bold text-red-900">Gefahrenzone — Endgültig löschen</h2>
+        <p class="text-sm text-red-800">
+          Das Topic wird unwiderruflich aus der Datenbank entfernt. Eine Notiz mit dem Titel
+          und der Datei-Referenz bleibt im Verlauf erhalten.
+          {topic.draft_path && (
+            <span class="block mt-1">
+              ⚠ Die Markdown-Datei <span class="font-mono text-xs">{topic.draft_path}</span> bleibt
+              im Repo — sie muss manuell mit <span class="font-mono text-xs">git rm</span> entfernt werden.
+            </span>
+          )}
+        </p>
+        <form method="post" onsubmit="return confirm('Wirklich endgültig löschen? Das kann nicht rückgängig gemacht werden.')" class="space-y-2">
+          <input type="hidden" name="action" value="delete_permanent" />
+          <label class="block text-sm">
+            <span class="block text-xs text-red-900 mb-1">Zur Bestätigung "LÖSCHEN" eingeben:</span>
+            <input type="text" name="confirm" required pattern="LÖSCHEN" placeholder="LÖSCHEN"
+              class="w-full max-w-xs px-3 py-1.5 rounded border border-red-300 text-sm bg-white" />
+          </label>
+          <button type="submit" class="px-4 py-1.5 rounded bg-red-600 text-white text-sm font-medium hover:bg-red-700">
+            Endgültig löschen
+          </button>
+        </form>
       </div>
     )}
 
