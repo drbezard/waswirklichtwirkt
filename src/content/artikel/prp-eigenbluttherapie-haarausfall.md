@@ -4,8 +4,7 @@ slug: "prp-eigenbluttherapie-haarausfall"
 date: "2026-04-26"
 category: "Dermatologie"
 excerpt: "PRP-Injektionen in die Kopfhaut können die Haardichte bei erblich bedingtem Haarausfall moderat erhöhen — aber die Wirkung ist temporär, nicht standardisiert und ersetzt keine zugelassene Therapie."
-image: ""
-draft: true
+image: "https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/prp-eigenbluttherapie-haarausfall.jpg"
 tags:
   - dermatologie
   - injektion
