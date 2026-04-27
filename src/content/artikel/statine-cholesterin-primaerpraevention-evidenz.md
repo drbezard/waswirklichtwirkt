@@ -125,3 +125,7 @@ Partizipative Entscheidungsfindung (Shared Decision Making) ist in den Leitlinie
 - **US Preventive Services Task Force. (2022).** Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement. *JAMA*, 328(8), 746–753. [DOI: 10.1001/jama.2022.13044](https://doi.org/10.1001/jama.2022.13044)
 - **Mach F, Baigent C, Catapano AL, et al. / ESC/EAS. (2020).** 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *European Heart Journal*, 41(1), 111–188. [DOI: 10.1093/eurheartj/ehz455](https://doi.org/10.1093/eurheartj/ehz455)(https://doi.org/10.1093/eurheartj/ehz455.) Focused Update 2025: [https://www.escardio.org](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/)
 - *DEGAM / AWMF. (2024).* S3-Leitlinie Hausärztliche Risikoberatung zur kardiovaskulären Prävention. AWMF-Registernummer 053-024, Version 2.3. [https://register.awmf.org](https://register.awmf.org/de/leitlinien/detail/053-024)
+
+## Verwandte Artikel
+
+- [Schlafmittel (Benzodiazepine/Z-Drugs): Wie gefährlich ist Langzeitgebrauch?](/artikel/schlafmittel-benzodiazepine-langzeitgebrauch) — Wie bei Statinen stellt sich auch bei Schlafmitteln die Frage nach dem individuellen Nutzen-Risiko-Verhältnis bei Langzeittherapie.
