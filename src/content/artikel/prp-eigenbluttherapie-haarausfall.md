@@ -191,3 +191,6 @@ Wir glauben an Transparenz. Wenn dieser Artikel etwas falsch darstellt, wollen w
 - Hautkrebsscreening: Rettet es Leben — oder führt es zu Überdiagnosen?  
 - Hyaluronsäure-Filler im Gesicht: Langzeitrisiken und was Patienten nicht gesagt wird  
 ```
+
+---
+**Verwandter Artikel:** [Hyaluronsäure-Spritzen bei Kniearthrose: Was bringen sie wirklich?](/artikel/hyaluronsaeure-kniearthrose) — Ebenfalls eine IGeL-Injektion mit fraglicher Evidenz.

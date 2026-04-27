@@ -141,3 +141,6 @@ Strukturierte Bewegungstherapie, Physiotherapie und bei Bedarf zeitlich begrenzt
 - **Jarvik JG, Hollingworth W, Martin B, Emerson SS, Gray DT, Overman S, Robinson D, Staiger T, Wessbecher F, Sullivan SD, Kreuter W, Deyo RA. (2003).** Rapid magnetic resonance imaging vs radiographs for patients with low back pain: a randomized controlled trial. *JAMA*, 289(21), 2810–2818. [DOI: 10.1001/jama.289.21.2810](https://doi.org/10.1001/jama.289.21.2810)
 - **Webster BS, Bauer AZ, Choi Y, Cifuentes M, Pransky GS. (2013).** Iatrogenic consequences of early magnetic resonance imaging in acute, work-related, disabling low back pain. *Spine*, 38(22), 1939–1946. [DOI: 10.1097/BRS.0b013e3182a42eb6](https://doi.org/10.1097/BRS.0b013e3182a42eb6)
 - **Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF. (2017).** Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage. AWMF-Register Nr. nvl-007. [https://register.awmf.org/de/leitlinien/detail/nvl-007](https://register.awmf.org/de/leitlinien/detail/nvl-007)
+
+---
+**Verwandter Artikel:** [Bandscheibenvorfall: OP oder abwarten?](/artikel/bandscheibenvorfall-op-vs-konservativ) — Was die Evidenz zur Operation bei Bandscheibenvorfall wirklich zeigt.

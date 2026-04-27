@@ -123,3 +123,6 @@ Neurodermitis erfordert oft ein Stufenschema mit regelmäßiger Anpassung. Ein e
 - **Lax SJ, Harvey J, Axon E, Howells L, Sherrat A, Lawton S, Flohr C, Thomas KS, Chalmers JR. (2022).** Strategies for using topical corticosteroids in children and adults with eczema. *Cochrane Database of Systematic Reviews*, , Issue 3, Art. No.: CD013356. [DOI: 10.1002/14651858.CD013356.pub2](https://doi.org/10.1002/14651858.CD013356.pub2)
 - **Werfel T, Heratizadeh A, Aberer W, Augustin M, Biedermann T, Bauer A, et al. (2024).** S3-Leitlinie Atopische Dermatitis: Teil 1 — Allgemeine Aspekte, topische und nichtmedikamentöse Therapien, besondere Patientengruppen. *JDDG: Journal der Deutschen Dermatologischen Gesellschaft*, 22(1), 137–209. AWMF-Register Nr. 013-027. [DOI: 10.1111/ddg.15230_g](https://doi.org/10.1111/ddg.15230_g)
 - **Wollenberg A, Kinberger M, Arents B, Aszodi N, Avila Valle G, Barbarot S, et al. (2025).** European Guideline (EuroGuiDerm) on atopic eczema: Living update. *Journal of the European Academy of Dermatology and Venereology*, . [DOI: 10.1111/jdv.20639](https://doi.org/10.1111/jdv.20639)
+
+---
+**Verwandter Artikel:** [Isotretinoin bei Akne: Gefährlich oder unterschätzt?](/artikel/isotretinoin-akne-evidenz) — Ebenfalls ein Dermatologie-Medikament mit übertriebener Angst in der Öffentlichkeit.
