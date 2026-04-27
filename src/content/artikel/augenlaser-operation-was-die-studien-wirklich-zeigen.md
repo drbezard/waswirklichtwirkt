@@ -98,3 +98,7 @@ Die wichtigste Botschaft der Forschung: Der Erfolg hängt weniger von der Techni
 KI-Prompt anzeigen – selbst nachprüfen
 
 Du bist ein streng wissenschaftlicher, evidenzbasierter medizinischer Redakteur für die Plattform „
+
+## Verwandte Artikel
+
+- [Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?](/artikel/trockene-augen-augentropfen-evidenz) — Trockene Augen sind eine häufige Nebenwirkung nach Augenlaser-Operationen.
