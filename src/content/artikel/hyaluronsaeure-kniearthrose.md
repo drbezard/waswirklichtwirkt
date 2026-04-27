@@ -4,7 +4,8 @@ slug: "hyaluronsaeure-kniearthrose"
 date: "2026-04-26"
 category: "Orthopädie"
 excerpt: "Hyaluronsäure-Spritzen sollen das Knie schmieren und Schmerzen lindern. Doch aktuelle Studien und Leitlinien zeigen: Der Nutzen ist oft minimal, die Risiken real."
-draft: true
+image: "https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/hyaluronsaeure-kniearthrose.jpg"
+
 tags: ["arthrose", "knie", "injektion", "igel"]
 sources:
   - id: rutjes-2012
