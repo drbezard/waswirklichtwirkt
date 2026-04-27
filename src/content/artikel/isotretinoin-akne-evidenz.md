@@ -124,3 +124,6 @@ Bei den meisten Patienten führt ein Zyklus Isotretinoin zu dauerhafter Remissio
 
 - **Daly M, Walsh SB. (2023).** A systematic review of isotretinoin dosing in acne vulgaris. *JEADV Clinical Practice*, 2(3), 452–463. [DOI: 10.1002/jvc2.154](https://doi.org/10.1002/jvc2.154)
 - **National Institute for Health and Care Excellence (NICE). (2021, aktualisiert 2023).** Acne vulgaris: management. NICE guideline NG198. [https://www.nice.org.uk/guidance/ng198](https://www.nice.org.uk/guidance/ng198)
+
+---
+**Verwandter Artikel:** [Neurodermitis und Cortison: Schadet die Angst mehr?](/artikel/neurodermitis-cortison-angst-evidenz) — Ebenfalls ein Dermatologie-Medikament, das oft zu Unrecht gefürchtet wird.

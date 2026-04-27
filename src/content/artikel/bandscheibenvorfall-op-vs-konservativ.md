@@ -119,3 +119,6 @@ Strukturierte Physiotherapie, epidurale Steroidinjektionen, optimierte Schmerzme
 - **Gibson JNA, Waddell G. (2007).** Surgical interventions for lumbar disc prolapse. *Cochrane Database of Systematic Reviews*, Issue 2, Art. No.: CD001350. [DOI: 10.1002/14651858.CD001350.pub4](https://doi.org/10.1002/14651858.CD001350.pub4)
 - **Deutsche Gesellschaft für Orthopädie und Unfallchirurgie (DGOU). (2020).** S2k-Leitlinie: Konservative, operative und rehabilitative Versorgung bei Bandscheibenvorfällen mit radikulärer Symptomatik. AWMF-Register Nr. 033/048. [https://register.awmf.org/de/leitlinien/detail/033-048](https://register.awmf.org/de/leitlinien/detail/033-048)
 - **National Institute for Health and Care Excellence (NICE). (2016, updated 2020).** Low back pain and sciatica in over 16s: assessment and management. NG59. [https://www.nice.org.uk/guidance/ng59](https://www.nice.org.uk/guidance/ng59)
+
+---
+**Verwandter Artikel:** [Rückenschmerzen und MRT: Wann Bildgebung schadet](/artikel/rueckenschmerzen-mrt-bildgebung-evidenz) — Warum ein MRT bei Rückenschmerzen oft mehr schadet als nützt.

@@ -128,3 +128,6 @@ Es gibt kaum Konstellationen, in denen Hyaluronsäure die unangefochtene erste W
 - Pereira et al. (2022). Viscosupplementation for knee osteoarthritis: systematic review and meta-analysis. *BMJ*. DOI: 10.1136/bmj-2022-069722
 - Brophy et al. (2021). Management of Osteoarthritis of the Knee (Non-Arthroplasty). *AAOS Clinical Practice Guideline*. DOI: 10.5435/JAAOS-D-21-01233
 - AWMF (2024). S3-Leitlinie Prävention und Therapie der Gonarthrose. *AWMF Leitlinienregister*. DOI: 10.1002/14651858.CD005321.pub2 (Hinweis: Die Cochrane-DOI dient hier als Platzhalter für die Evidenzbasis der Leitlinie).
+
+---
+**Verwandter Artikel:** [PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?](/artikel/prp-eigenbluttherapie-haarausfall) — Ebenfalls eine IGeL-Injektion mit dünner Evidenz.
