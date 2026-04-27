@@ -126,3 +126,7 @@ Wenn Sie seit Jahren PPI nehmen, ohne dass jemals eine Magenspiegelung (Gastrosk
 - **Xie Y, Bowe B, Yan Y, Xian H, Li T, Al-Aly Z. (2019).** Estimates of all cause mortality and cause specific mortality associated with proton pump inhibitors among US veterans: cohort study. *BMJ*, 365, l1580. [DOI: 10.1136/bmj.l1580](https://doi.org/10.1136/bmj.l1580)
 - **Freedberg DE, Kim LS, Yang YX. (2017).** The Risks and Benefits of Long-term Use of Proton Pump Inhibitors: Expert Review and Best Practice Advice From the American Gastroenterological Association. *Gastroenterology*, 152(4), 706–715. [DOI: 10.1053/j.gastro.2017.01.031](https://doi.org/10.1053/j.gastro.2017.01.031)
 - **Targownik LE, Fisher DA, Saini SD. (2022).** AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. *Gastroenterology*, , 162(4), 1334–1342. [DOI: 10.1053/j.gastro.2021.12.247](https://doi.org/10.1053/j.gastro.2021.12.247)
+
+## Verwandte Artikel
+
+- [Schlafmittel (Benzodiazepine/Z-Drugs): Wie gefährlich ist Langzeitgebrauch?](/artikel/schlafmittel-benzodiazepine-langzeitgebrauch) — Ähnlich wie bei Protonenpumpenhemmern ist auch bei Benzodiazepinen der Langzeitgebrauch ein häufig unterschätztes Problem.
