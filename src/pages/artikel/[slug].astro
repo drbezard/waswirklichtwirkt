@@ -249,10 +249,37 @@ const faqJsonLd = faqs.length >= 2 ? {
       {article.data.sources && article.data.sources.length > 0 && (
         <div class="mt-12 border-t border-border-light pt-8">
           <h2 class="text-lg font-bold text-text mb-4">Quellen</h2>
-          <ol class="space-y-2 text-sm text-text-secondary list-decimal list-inside">
-            {article.data.sources.map((source: string) => (
-              <li class="leading-relaxed">{source}</li>
-            ))}
+          <ol class="space-y-3 text-sm text-text-secondary list-decimal list-outside ml-5">
+            {article.data.sources.map((source) => {
+              if (typeof source === 'string') {
+                return <li class="leading-relaxed">{source}</li>;
+              }
+              const link = source.doi ? `https://doi.org/${source.doi}` : source.url ?? null;
+              const cite = [
+                source.authors,
+                source.journal && (source.year ? `${source.journal} ${source.year}` : source.journal),
+                !source.journal && source.year ? String(source.year) : null,
+                source.n ? `n=${source.n.toLocaleString('de-DE')}` : null,
+              ].filter(Boolean).join(' · ');
+              return (
+                <li class="leading-relaxed">
+                  <div class="font-medium text-text">
+                    {link ? (
+                      <a href={link} target="_blank" rel="noopener noreferrer" class="text-primary no-underline hover:underline">
+                        {source.title ?? link}
+                      </a>
+                    ) : (source.title ?? source.id ?? '—')}
+                    {source.quality === 'high' && (
+                      <span class="ml-2 inline-block text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-green-50 text-green-700 font-semibold">hohe Evidenz</span>
+                    )}
+                  </div>
+                  {cite && <div class="text-xs text-text-muted mt-0.5">{cite}</div>}
+                  {source.key_finding_de && (
+                    <div class="text-xs text-text-secondary mt-1 italic">{source.key_finding_de}</div>
+                  )}
+                </li>
+              );
+            })}
           </ol>
         </div>
       )}
