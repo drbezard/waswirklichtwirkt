@@ -29,3 +29,4 @@ supabase/.temp
 
 # jetbrains setting folder
 .idea/
+.vercel

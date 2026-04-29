@@ -1,0 +1,114 @@
+---
+export const prerender = false;
+
+import AuthLayout from '../../../layouts/AuthLayout.astro';
+import { createSupabaseServerClient } from '../../../lib/supabase/server';
+
+const user = Astro.locals.user!;
+const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
+
+const url = new URL(Astro.request.url);
+const filterStatus = url.searchParams.get('status');
+
+let query = supabase
+  .from('patient_questions')
+  .select('id, question, email, first_name, status, ai_reasoning, duplicate_of_slug, rejection_reason, topic_id, created_at')
+  .order('created_at', { ascending: false })
+  .limit(200);
+
+if (filterStatus) query = query.eq('status', filterStatus);
+
+const { data: questions = [] } = await query;
+
+function timeAgo(iso: string): string {
+  const ms = Date.now() - new Date(iso).getTime();
+  const m = Math.floor(ms / 60000);
+  if (m < 60) return `vor ${m} min`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `vor ${h} Std`;
+  return `vor ${Math.floor(h / 24)} Tagen`;
+}
+
+const STATUS_BADGES: Record<string, string> = {
+  submitted: 'bg-blue-50 text-blue-700',
+  accepted:  'bg-green-50 text-green-700',
+  rejected:  'bg-red-50 text-red-700',
+  duplicate: 'bg-amber-50 text-amber-700',
+};
+
+const STATUS_LABEL: Record<string, string> = {
+  submitted: 'eingereicht',
+  accepted:  'akzeptiert',
+  rejected:  'abgelehnt',
+  duplicate: 'duplikat',
+};
+---
+
+<AuthLayout title="Patientenfragen" section="admin" user={user}>
+  <div class="space-y-6">
+    <div>
+      <h1 class="text-2xl font-bold text-text mb-1">Patientenfragen</h1>
+      <p class="text-text-secondary text-sm">{questions?.length ?? 0} Einträge angezeigt</p>
+    </div>
+
+    <form method="get" class="flex gap-2 flex-wrap items-end">
+      <label class="text-sm">
+        <span class="block text-xs text-text-muted mb-1">Status</span>
+        <select name="status" class="px-3 py-1.5 rounded border border-border-light text-sm bg-white">
+          <option value="">alle</option>
+          {['submitted','accepted','rejected','duplicate'].map(s => (
+            <option value={s} selected={filterStatus === s}>{STATUS_LABEL[s]}</option>
+          ))}
+        </select>
+      </label>
+      <button type="submit" class="px-3 py-1.5 rounded bg-bg-subtle border border-border-light text-sm hover:bg-white">Filtern</button>
+      <a href="/admin/fragen" class="px-3 py-1.5 rounded text-sm text-text-muted hover:text-text no-underline">Reset</a>
+    </form>
+
+    {!questions || questions.length === 0 ? (
+      <div class="bg-white rounded-2xl border border-border-light p-12 text-center text-text-muted">
+        Keine Fragen mit diesen Filtern.
+      </div>
+    ) : (
+      <div class="bg-white rounded-2xl border border-border-light overflow-hidden">
+        <table class="w-full text-sm">
+          <thead class="bg-bg-subtle text-xs uppercase tracking-wider text-text-muted">
+            <tr>
+              <th class="text-left p-3">Frage</th>
+              <th class="text-left p-3">Status</th>
+              <th class="text-left p-3">E-Mail</th>
+              <th class="text-left p-3">Eingereicht</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border-light">
+            {questions.map((q: any) => (
+              <tr class="hover:bg-bg-subtle">
+                <td class="p-3">
+                  <a href={`/admin/fragen/${q.id}`} class="text-text hover:text-primary no-underline font-medium block">
+                    {q.question.length > 100 ? q.question.slice(0, 100) + '…' : q.question}
+                  </a>
+                  {q.duplicate_of_slug && (
+                    <div class="text-xs text-text-muted mt-0.5">→ /artikel/{q.duplicate_of_slug}</div>
+                  )}
+                  {q.topic_id && (
+                    <div class="text-xs text-text-muted mt-0.5">→ Topic: {q.topic_id.slice(0, 8)}…</div>
+                  )}
+                </td>
+                <td class="p-3">
+                  <span class={`text-xs font-semibold px-2 py-0.5 rounded ${STATUS_BADGES[q.status] || ''}`}>
+                    {STATUS_LABEL[q.status] || q.status}
+                  </span>
+                </td>
+                <td class="p-3 text-text-muted text-xs">
+                  {q.first_name && <span class="block text-text">{q.first_name}</span>}
+                  {q.email}
+                </td>
+                <td class="p-3 text-text-muted text-xs">{timeAgo(q.created_at)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </div>
+</AuthLayout>

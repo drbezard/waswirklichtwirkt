@@ -42,6 +42,17 @@ const searchData = sortedArticles.map(a => ({
           </button>
           <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-2 bg-white border border-border rounded-xl shadow-lg z-50 max-h-80 overflow-y-auto"></div>
         </div>
+
+        <div class="mt-8 pt-8 border-t border-border-light">
+          <p class="text-sm text-text-secondary mb-3">Dein Thema fehlt? Stell uns deine Frage:</p>
+          <a
+            href="/frage-stellen"
+            class="inline-flex items-center gap-2 px-7 py-3.5 bg-primary text-white font-semibold rounded-xl hover:bg-primary-dark transition-colors text-base no-underline"
+          >
+            Frage stellen
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </div>
       </div>
     </div>
   </section>
