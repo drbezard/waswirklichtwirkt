@@ -76,6 +76,69 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: trialistscollaborators-2012
+    type: meta-analysis
+    quality: high
+    title: >-
+      The effects of lowering LDL cholesterol with statin therapy in people at
+      low risk of vascular disease: meta-analysis of individual data from 27
+      randomised trials
+    authors: >-
+      Cholesterol Treatment Trialists‘ (CTT) Collaborators, Mihaylova B,
+      Emberson J, Blackwell L, Keech A, Simes J, Barnes EH, Voysey M, Gray A,
+      Collins R, Baigent C
+    journal: The Lancet
+    year: 2012
+    doi: 10.1016/S0140-6736%2812%2960367-5
+  - id: f-2013
+    type: cochrane
+    quality: high
+    title: Statins for the primary prevention of cardiovascular disease
+    authors: >-
+      Taylor F, Huffman MD, Macedo AF, Moore THM, Burke M, Davey Smith G, Ward
+      K, Ebrahim S
+    journal: Cochrane Database of Systematic Reviews
+    year: 2013
+    doi: 10.1002/14651858.CD004816.pub5
+  - id: trialistscollaboration-2022
+    type: meta-analysis
+    quality: high
+    title: >-
+      Effect of statin therapy on muscle symptoms: an individual participant
+      data meta-analysis of large-scale, randomised, double-blind trials
+    authors: >-
+      Cholesterol Treatment Trialists‘ (CTT) Collaboration, Herrett E,
+      Williamson E, Brack K, Beaumont D, Perber L, Smeeth L, et al
+    journal: The Lancet
+    year: 2022
+    doi: 10.1016/S0140-6736%2822%2901545-8
+  - id: force-2022
+    title: >-
+      Statin Use for the Primary Prevention of Cardiovascular Disease in Adults:
+      US Preventive Services Task Force Recommendation Statement
+    authors: US Preventive Services Task Force
+    journal: JAMA
+    year: 2022
+    doi: 10.1001/jama.2022.13044
+  - id: f-2020
+    type: guideline
+    quality: high
+    title: 2019 ESC/EAS Guidelines for the management of dyslipidaemias
+    authors: 'Mach F, Baigent C, Catapano AL, et al. / ESC/EAS'
+    journal: European Heart Journal
+    year: 2020
+    doi: 10.1093/eurheartj/ehz455
+  - id: awmf-2024
+    type: guideline
+    quality: high
+    title: >-
+      * S3-Leitlinie Hausärztliche Risikoberatung zur kardiovaskulären
+      Prävention
+    authors: DEGAM / AWMF
+    journal: AWMF-Registernummer 053-024
+    year: 2024
+    url: 'https://register.awmf.org'
 ---
 <section class="kernaussage">
 
@@ -177,13 +240,3 @@ Die Evidenz zeigt nicht, dass Statine unnütz sind — sie zeigt, dass der Nutze
   Die häufig befürchteten Muskelschmerzen sind in 14 von 15 Fällen nicht durch das Statin verursacht. Echte schwere Muskelschäden (Rhabdomyolyse) betreffen weniger als 1 von 100.000 Behandelten pro Jahr.
 - **„Können wir die Entscheidung gemeinsam treffen — auf Basis meines konkreten Risikos?“**
 Partizipative Entscheidungsfindung (Shared Decision Making) ist in den Leitlinien ausdrücklich vorgesehen. Sie haben das Recht, den absoluten Nutzen und die Risiken zu kennen, bevor Sie sich für oder gegen eine lebenslange Therapie entscheiden.
-
-## Quellenverzeichnis
-
-- **Cholesterol Treatment Trialists‘ (CTT) Collaborators, Mihaylova B, Emberson J, Blackwell L, Keech A, Simes J, Barnes EH, Voysey M, Gray A, Collins R, Baigent C. (2012).** The effects of lowering LDL cholesterol with statin therapy in people at low risk of vascular disease: meta-analysis of individual data from 27 randomised trials. *The Lancet*, 380(9841), 581–590. [DOI: 10.1016/S0140-6736(12)60367-5](https://doi.org/10.1016/S0140-6736%2812%2960367-5)
-- **Taylor F, Huffman MD, Macedo AF, Moore THM, Burke M, Davey Smith G, Ward K, Ebrahim S. (2013).** Statins for the primary prevention of cardiovascular disease. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD004816. [DOI: 10.1002/14651858.CD004816.pub5](https://doi.org/10.1002/14651858.CD004816.pub5)
-- **Cholesterol Treatment Trialists‘ (CTT) Collaboration, Herrett E, Williamson E, Brack K, Beaumont D, Perber L, Smeeth L, et al. (2022).** Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials. *The Lancet*, , 400(10355), 832–845. [DOI: 10.1016/S0140-6736(22)01545-8](https://doi.org/10.1016/S0140-6736%2822%2901545-8)
-
-- **US Preventive Services Task Force. (2022).** Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement. *JAMA*, 328(8), 746–753. [DOI: 10.1001/jama.2022.13044](https://doi.org/10.1001/jama.2022.13044)
-- **Mach F, Baigent C, Catapano AL, et al. / ESC/EAS. (2020).** 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *European Heart Journal*, 41(1), 111–188. [DOI: 10.1093/eurheartj/ehz455](https://doi.org/10.1093/eurheartj/ehz455)(https://doi.org/10.1093/eurheartj/ehz455.) Focused Update 2025: [https://www.escardio.org](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/)
-- *DEGAM / AWMF. (2024).* S3-Leitlinie Hausärztliche Risikoberatung zur kardiovaskulären Prävention. AWMF-Registernummer 053-024, Version 2.3. [https://register.awmf.org](https://register.awmf.org/de/leitlinien/detail/053-024)

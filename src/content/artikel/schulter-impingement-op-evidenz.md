@@ -77,6 +77,51 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: dj-2018
+    type: rct
+    quality: medium
+    title: >-
+      Arthroscopic subacromial decompression for subacromial shoulder pain
+      (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled,
+      three-group, randomised surgical trial
+    authors: 'Beard DJ, Rees JL, Cook JA, et al'
+    journal: The Lancet
+    year: 2018
+    doi: 10.1016/S0140-6736%2817%2932457-1
+  - id: m-2018
+    title: >-
+      Subacromial decompression versus diagnostic arthroscopy for shoulder
+      impingement: randomised, placebo surgery controlled clinical trial
+    authors: 'Paavola M, Malmivaara A, Taimela S, et al'
+    journal: BMJ
+    year: 2018
+    doi: 10.1136/bmj.k2860
+  - id: m-2021
+    title: >-
+      Subacromial decompression versus diagnostic arthroscopy for shoulder
+      impingement: a 5-year follow-up of a randomised, placebo surgery
+      controlled clinical trial
+    authors: 'Paavola M, Kanto K, Ranstam J, et al'
+    journal: British Journal of Sports Medicine
+    year: 2021
+    doi: 10.1136/bjsports-2020-102216
+  - id: tv-2019
+    type: cochrane
+    quality: high
+    title: Subacromial decompression surgery for rotator cuff disease
+    authors: 'Karjalainen TV, Jain NB, Page CM, et al'
+    journal: Cochrane Database of Systematic Reviews
+    year: 2019
+    doi: 10.1002/14651858.CD005619.pub3
+  - id: unfallchirurgie-2021
+    type: guideline
+    quality: high
+    title: 'S2e-Leitlinie: Subakromiales Impingement'
+    authors: Deutsche Gesellschaft für Orthopädie und Unfallchirurgie (DGOU)
+    journal: 'AWMF-Register Nr. 033/056. ['
+    year: 2021
+    url: 'https://register.awmf.org/033-056'
 ---
 <section class="kernaussage">
 
@@ -177,11 +222,3 @@ Auch „kleine“ arthroskopische Eingriffe haben Risiken: Frozen Shoulder (3 % 
 - **„Würden Sie mir ein strukturiertes Physiotherapie-Programm verschreiben, bevor wir über eine OP sprechen?“*
 
 Die beste verfügbare Evidenz zeigt, dass Übungstherapie genauso wirksam ist wie die OP. Wenn Ihr Arzt sofort zur OP rät, ohne Physiotherapie ernsthaft zu versuchen, holen Sie eine Zweitmeinung ein.
-
-## Quellenverzeichnis
-
-- **Beard DJ, Rees JL, Cook JA, et al. (2018).** Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial. *The Lancet*, 391(10118), 329–338. [DOI: 10.1016/S0140-6736(17)32457-1](https://doi.org/10.1016/S0140-6736%2817%2932457-1)
-- **Paavola M, Malmivaara A, Taimela S, et al. (2018).** Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: randomised, placebo surgery controlled clinical trial. *BMJ*, 362:k2860. [DOI: 10.1136/bmj.k2860](https://doi.org/10.1136/bmj.k2860)
-- **Paavola M, Kanto K, Ranstam J, et al. (2021).** Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: a 5-year follow-up of a randomised, placebo surgery controlled clinical trial. *British Journal of Sports Medicine*, 55(2), 99–107. [DOI: 10.1136/bjsports-2020-102216](https://doi.org/10.1136/bjsports-2020-102216)
-- **Karjalainen TV, Jain NB, Page CM, et al. (2019).** Subacromial decompression surgery for rotator cuff disease. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD005619. [DOI: 10.1002/14651858.CD005619.pub3](https://doi.org/10.1002/14651858.CD005619.pub3)
-- **Deutsche Gesellschaft für Orthopädie und Unfallchirurgie (DGOU). (2021).** S2e-Leitlinie: Subakromiales Impingement. AWMF-Register Nr. 033/056. [https://register.awmf.org/033-056](https://register.awmf.org/assets/guidelines/033-056l_S2e_subacromiales_Impingement_2021-12_01.pdf)

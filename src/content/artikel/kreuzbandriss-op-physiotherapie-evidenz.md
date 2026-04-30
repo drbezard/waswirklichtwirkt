@@ -75,6 +75,72 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: rb-2010
+    type: rct
+    quality: medium
+    title: A Randomized Trial of Treatment for Acute Anterior Cruciate Ligament Tears
+    authors: 'Frobell RB, Roos EM, Roos HP, Ranstam J, Lohmander LS'
+    journal: New England Journal of Medicine
+    year: 2010
+    doi: 10.1056/NEJMoa0907797
+  - id: rb-2013
+    title: >-
+      Treatment for acute anterior cruciate ligament tear: five year outcome of
+      randomised trial
+    authors: 'Frobell RB, Roos HP, Roos EM, Roemer FW, Ranstam J, Lohmander LS'
+    journal: BMJ
+    year: 2013
+    doi: 10.1136/bmj.f232
+  - id: dj-2022
+    title: >-
+      Rehabilitation versus surgical reconstruction for non-acute anterior
+      cruciate ligament injury (ACL SNNAP): a pragmatic randomised controlled
+      trial
+    authors: 'Beard DJ, Davies LJ, Cook JA, Stokes J, Leal J, Fletcher H, Abram S, et al'
+    journal: The Lancet
+    year: 2022
+    doi: 10.1016/S0140-6736%2822%2901424-6
+  - id: m-2021
+    type: meta-analysis
+    quality: high
+    title: >-
+      Anterior Cruciate Ligament Reconstruction versus Nonoperative Treatment:
+      Better Function and Less Secondary Meniscectomies But No Difference in
+      Knee Osteoarthritis — A Meta-Analysis
+    authors: 'Cuzzolin M, Previtali D, Zaffagnini S, Deabate L, Candrian C, Filardo G'
+    journal: Cartilage
+    year: 2021
+    doi: 10.1177/19476035211046041
+  - id: sr-2025
+    type: meta-analysis
+    quality: high
+    title: >-
+      No Difference in Return-to-Sport Rate or Activity Level in People with ACL
+      Injury Managed with ACL Reconstruction or Rehabilitation Alone: A
+      Systematic Review and Meta-Analysis
+    authors: 'Filbay SR, Bullock G, Russell S, et al'
+    journal: Sports Medicine
+    year: 2025
+    doi: 10.1007/s40279-025-02268-5
+  - id: surgeons-2022
+    type: guideline
+    quality: high
+    title: >-
+      * Management of Anterior Cruciate Ligament Injuries: Evidence-Based
+      Clinical Practice Guideline
+    authors: American Academy of Orthopaedic Surgeons (AAOS)
+    journal: '['
+    year: 2022
+    url: 'https://www.aaos.org/aclcpg'
+  - id: awmf-2019
+    type: guideline
+    quality: high
+    title: S1-Leitlinie Vordere Kreuzbandruptur
+    authors: AWMF
+    journal: 'Registernummer 187-012. ['
+    year: 2019
+    url: 'https://register.awmf.org/de/leitlinien/detail/187-012'
 ---
 <section class="kernaussage">
 
@@ -179,13 +245,3 @@ Die ehrliche Antwort ist: Nein. Meta-Analysen zeigen keine Unterschiede in der A
 Die AAOS empfiehlt körpereigenes Gewebe (Autograft) statt Spendergewebe (Allograft), besonders bei jungen Patienten. Falls Ihr Arzt ein Allograft vorschlägt, sollten Sie nach der Begründung fragen.
 - **„Wie sieht die Rehabilitation nach der OP aus — und wie lange dauert es realistisch, bis ich wieder Sport machen kann?“**
 Die Rückkehr zum Kontaktsport dauert nach einer Kreuzband-OP in der Regel 9 bis 12 Monate. Wenn Ihr Arzt deutlich kürzere Zeiträume verspricht, ist Vorsicht geboten.
-
-## Quellenverzeichnis
-
-- **Frobell RB, Roos EM, Roos HP, Ranstam J, Lohmander LS. (2010).** A Randomized Trial of Treatment for Acute Anterior Cruciate Ligament Tears. *New England Journal of Medicine*, 363(4), 331–342. [DOI: 10.1056/NEJMoa0907797](https://doi.org/10.1056/NEJMoa0907797)
-- **Frobell RB, Roos HP, Roos EM, Roemer FW, Ranstam J, Lohmander LS. (2013).** Treatment for acute anterior cruciate ligament tear: five year outcome of randomised trial. *BMJ*, 346, f232. [DOI: 10.1136/bmj.f232](https://doi.org/10.1136/bmj.f232)
-- **Beard DJ, Davies LJ, Cook JA, Stokes J, Leal J, Fletcher H, Abram S, et al. (2022).** Rehabilitation versus surgical reconstruction for non-acute anterior cruciate ligament injury (ACL SNNAP): a pragmatic randomised controlled trial. *The Lancet*, 400(10352), 605–615. [DOI: 10.1016/S0140-6736(22)01424-6](https://doi.org/10.1016/S0140-6736%2822%2901424-6)
-- **Cuzzolin M, Previtali D, Zaffagnini S, Deabate L, Candrian C, Filardo G. (2021).** Anterior Cruciate Ligament Reconstruction versus Nonoperative Treatment: Better Function and Less Secondary Meniscectomies But No Difference in Knee Osteoarthritis — A Meta-Analysis. *Cartilage*, , 13(1_suppl), 19476035211046041. [DOI: 10.1177/19476035211046041](https://doi.org/10.1177/19476035211046041)
-- **Filbay SR, Bullock G, Russell S, et al. (2025).** No Difference in Return-to-Sport Rate or Activity Level in People with ACL Injury Managed with ACL Reconstruction or Rehabilitation Alone: A Systematic Review and Meta-Analysis. *Sports Medicine*, 55, 2191–2205. [DOI: 10.1007/s40279-025-02268-5](https://doi.org/10.1007/s40279-025-02268-5)
-- *American Academy of Orthopaedic Surgeons (AAOS). (2022).* Management of Anterior Cruciate Ligament Injuries: Evidence-Based Clinical Practice Guideline. [https://www.aaos.org/aclcpg](https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/aclcpg.pdf)
-- **AWMF. (2019, derzeit in Überarbeitung).** S1-Leitlinie Vordere Kreuzbandruptur. Registernummer 187-012. [https://register.awmf.org/de/leitlinien/detail/187-012](https://register.awmf.org/de/leitlinien/detail/187-012)

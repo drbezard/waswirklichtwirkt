@@ -75,6 +75,57 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: p-2019
+    type: rct
+    quality: medium
+    title: >-
+      Safety of Proton Pump Inhibitors Based on a Large, Multi-Year, Randomized
+      Trial of Patients Receiving Rivaroxaban or Aspirin
+    authors: >-
+      Moayyedi P, Eikelboom JW, Bosch J, Connolly SJ, Dyal L, Shestakovska O,
+      Leong D, Anand SS, Störk S, Branch KRH, Bhatt DL, Verma S, Hart RG, Yusuf
+      S; COMPASS Investigators
+    journal: Gastroenterology
+    year: 2019
+    doi: 10.1053/j.gastro.2019.05.056
+  - id: em-2021
+    type: meta-analysis
+    quality: high
+    title: >-
+      Umbrella review of 42 systematic reviews with meta-analyses: the safety of
+      proton pump inhibitors
+    authors: 'Salvo EM, Ferko NC, Cash SB, Gonzalez A, Kahrilas PJ'
+    journal: Alimentary Pharmacology & Therapeutics
+    year: 2021
+    doi: 10.1111/apt.16407
+  - id: y-2019
+    type: observational
+    quality: medium
+    title: >-
+      Estimates of all cause mortality and cause specific mortality associated
+      with proton pump inhibitors among US veterans: cohort study
+    authors: 'Xie Y, Bowe B, Yan Y, Xian H, Li T, Al-Aly Z'
+    journal: BMJ
+    year: 2019
+    doi: 10.1136/bmj.l1580
+  - id: de-2017
+    title: >-
+      The Risks and Benefits of Long-term Use of Proton Pump Inhibitors: Expert
+      Review and Best Practice Advice From the American Gastroenterological
+      Association
+    authors: 'Freedberg DE, Kim LS, Yang YX'
+    journal: Gastroenterology
+    year: 2017
+    doi: 10.1053/j.gastro.2017.01.031
+  - id: le-2022
+    title: >-
+      AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors:
+      Expert Review
+    authors: 'Targownik LE, Fisher DA, Saini SD'
+    journal: Gastroenterology
+    year: 2022
+    doi: 10.1053/j.gastro.2021.12.247
 ---
 <section class="kernaussage">
 
@@ -180,11 +231,3 @@ Die Risiken hängen vom individuellen Profil ab. Bei älteren Patienten mit Oste
 Bei leichtem Sodbrennen können Gewichtsreduktion, Hochstellen des Kopfendes, Vermeidung von späten Mahlzeiten und H2-Blocker (wie Ranitidin oder Famotidin) eine PPI-Therapie ersetzen oder ergänzen.
 - **„Brauche ich zusätzliche Untersuchungen — zum Beispiel eine Magenspiegelung?“**
 Wenn Sie seit Jahren PPI nehmen, ohne dass jemals eine Magenspiegelung (Gastroskopie) gemacht wurde, könnte eine Abklärung sinnvoll sein — nicht wegen der PPI, sondern weil die Ursache Ihrer Beschwerden noch nicht gesichert ist.
-
-## Quellenverzeichnis
-
-- **Moayyedi P, Eikelboom JW, Bosch J, Connolly SJ, Dyal L, Shestakovska O, Leong D, Anand SS, Störk S, Branch KRH, Bhatt DL, Verma S, Hart RG, Yusuf S; COMPASS Investigators. (2019).** Safety of Proton Pump Inhibitors Based on a Large, Multi-Year, Randomized Trial of Patients Receiving Rivaroxaban or Aspirin. *Gastroenterology*, 157(3), 682–691.e2. [DOI: 10.1053/j.gastro.2019.05.056](https://doi.org/10.1053/j.gastro.2019.05.056)
-- **Salvo EM, Ferko NC, Cash SB, Gonzalez A, Kahrilas PJ. (2021).** Umbrella review of 42 systematic reviews with meta-analyses: the safety of proton pump inhibitors. *Alimentary Pharmacology & Therapeutics*, 54, 129–143. [DOI: 10.1111/apt.16407](https://doi.org/10.1111/apt.16407)
-- **Xie Y, Bowe B, Yan Y, Xian H, Li T, Al-Aly Z. (2019).** Estimates of all cause mortality and cause specific mortality associated with proton pump inhibitors among US veterans: cohort study. *BMJ*, 365, l1580. [DOI: 10.1136/bmj.l1580](https://doi.org/10.1136/bmj.l1580)
-- **Freedberg DE, Kim LS, Yang YX. (2017).** The Risks and Benefits of Long-term Use of Proton Pump Inhibitors: Expert Review and Best Practice Advice From the American Gastroenterological Association. *Gastroenterology*, 152(4), 706–715. [DOI: 10.1053/j.gastro.2017.01.031](https://doi.org/10.1053/j.gastro.2017.01.031)
-- **Targownik LE, Fisher DA, Saini SD. (2022).** AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. *Gastroenterology*, , 162(4), 1334–1342. [DOI: 10.1053/j.gastro.2021.12.247](https://doi.org/10.1053/j.gastro.2021.12.247)

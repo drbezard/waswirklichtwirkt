@@ -55,6 +55,47 @@ prompt: >-
   Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte
   Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient
   würde sagen „jetzt verstehe ich meine Optionen".
+sources:
+  - id: e-2025
+    type: meta-analysis
+    quality: high
+    title: >-
+      Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review
+      and Meta-Analysis of Clinical Evidence
+    authors: Anitua E et al
+    journal: Dermatology and Therapy
+    year: 2025
+    doi: 10.1007/s13555-025-01542-8
+  - id: m-2024
+    type: meta-analysis
+    quality: high
+    title: >-
+      Effectiveness of Platelet-Rich Plasma in the Treatment of Androgenic
+      Alopecia: A Meta-Analysis
+    authors: 'Li M, Qu K, Lei Q et al'
+    journal: Aesthetic Plastic Surgery
+    year: 2024
+    doi: 10.1007/s00266-023-03603-9
+  - id: x-2023
+    type: meta-analysis
+    quality: high
+    title: >-
+      Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and
+      Meta-Analysis of Randomized Controlled Trials
+    authors: 'Zhang X, Ji Y, Zhou M, et al'
+    journal: Journal of Cutaneous Medicine and Surgery
+    year: 2023
+    doi: 10.1177/12034754231191461
+  - id: p-2015
+    type: rct
+    quality: medium
+    title: >-
+      The Effect of Platelet-Rich Plasma in Hair Regrowth: A Randomized
+      Placebo-Controlled Trial
+    authors: 'Gentile P, Garcovich S, Bielli A, et al'
+    journal: Stem Cells Translational Medicine
+    year: 2015
+    doi: 10.5966/sctm.2015-0107
 ---
 <section class="kernaussage">
 PRP-Injektionen (plättchenreiches Plasma aus Eigenblut) erhöhen bei erblich bedingtem Haarausfall die Haardichte im Mittel um etwa 20–25 Haare/cm² gegenüber Placebo (NNT ca. 7–10 für einen messbaren Haardichtezuwachs). Die Wirkung ist moderat, temporär (Effekt lässt ohne Wiederholungen nach 3–6 Monaten nach) und stark abhängig von der Aufbereitungsmethode. Es gibt kein standardisiertes Herstellungsverfahren, keine zugelassene Dosierung und keine Langzeitdaten über mehrere Jahre. Die Haardicke wird nicht signifikant verbessert. PRP ersetzt keine zugelassenen Therapien wie Minoxidil oder Finasterid. Die deutsche S3-Leitlinie bewertet die Evidenz als eingeschränkt und spricht keine aktive Empfehlung aus. PRP ist eine Selbstzahlerleistung (150–500 Euro pro Sitzung), deren Nutzen im Vergleich zu Kosten und Aufwand kritisch abzuwägen ist.
@@ -163,11 +204,3 @@ PRP ist kein Wundermittel, aber in bestimmten Situationen eine vertretbare Zusat
 
 - **„Ist PRP bei meinem Haarausfallstadium aussichtsreich?"**  
   Bei fortgeschrittenem Haarausfall ohne Follikel ist kein Nutzen belegt. Ihr Arzt sollte dies ehrlich einschätzen.
-
-## Quellenverzeichnis
-
-- Anitua E et al. (2025). Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatology and Therapy*. DOI: [10.1007/s13555-025-01542-8](https://doi.org/10.1007/s13555-025-01542-8)  
-- Li M, Qu K, Lei Q et al. (2024). Effectiveness of Platelet-Rich Plasma in the Treatment of Androgenic Alopecia: A Meta-Analysis. *Aesthetic Plastic Surgery*, 48, 977–984. DOI: [10.1007/s00266-023-03603-9](https://doi.org/10.1007/s00266-023-03603-9)  
-- Zhang X, Ji Y, Zhou M, et al. (2023). Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. *Journal of Cutaneous Medicine and Surgery*, 27(5), 504–508. DOI: 10.1177/12034754231191461  
-- Gentile P, Garcovich S, Bielli A, et al. (2015). The Effect of Platelet-Rich Plasma in Hair Regrowth: A Randomized Placebo-Controlled Trial. *Stem Cells Translational Medicine*, 4(11), 1317–1323. DOI: 10.5966/sctm.2015-0107  
-- AWMF S3-Leitlinie Androgenetische Alopezie. Diagnostik und Therapie der androgenetischen Alopezie. Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften. https://register.awmf.org

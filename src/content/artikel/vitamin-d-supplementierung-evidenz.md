@@ -76,6 +76,49 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: je-2019
+    title: Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease
+    authors: 'Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al'
+    journal: New England Journal of Medicine
+    year: 2019
+    doi: 10.1056/NEJMoa1809944
+  - id: mj-2018
+    type: meta-analysis
+    quality: high
+    title: >-
+      Effects of vitamin D supplementation on musculoskeletal health: a
+      systematic review, meta-analysis, and trial sequential analysis
+    authors: 'Bolland MJ, Grey A, Avenell A'
+    journal: The Lancet Diabetes & Endocrinology
+    year: 2018
+    doi: 10.1016/S2213-8587%2818%2930265-1
+  - id: g-2014
+    type: cochrane
+    quality: high
+    title: Vitamin D supplementation for prevention of mortality in adults
+    authors: >-
+      Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti
+      RG et al
+    journal: Cochrane Database of Systematic Reviews
+    year: 2014
+    doi: 10.1002/14651858.CD007470.pub3
+  - id: mb-2024
+    type: guideline
+    quality: high
+    title: >-
+      Vitamin D for the Prevention of Disease: An Endocrine Society Clinical
+      Practice Guideline
+    authors: 'Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al'
+    journal: Journal of Clinical Endocrinology & Metabolism
+    year: 2024
+    doi: 10.1210/clinem/dgae290
+  - id: bund-2022
+    title: 'Früherkennungsuntersuchung auf Vitamin-D-Mangel — Bewertung: unklar'
+    authors: IGeL-Monitor / Medizinischer Dienst Bund
+    journal: '['
+    year: 2022
+    url: 'https://www.igel-monitor.de'
 ---
 <section class="kernaussage">
 
@@ -184,11 +227,3 @@ Grenzwerte variieren zwischen 20 und 30 ng/ml, je nach Labor und Leitlinie. Die 
 Hochdosierte Vitamin-D-Einnahme kann zu Hyperkalzämie führen. Fragen Sie nach der empfohlenen Tagesdosis (600–800 IE für die meisten Erwachsenen) und ob eine höhere Dosis wirklich nötig ist.
 - **„Zahlt meine Krankenkasse diesen Test und das Präparat — und wenn nicht, warum nicht?“**
 Gesetzliche Kassen übernehmen den Vitamin-D-Test nur bei begründetem Verdacht. Wenn die Kasse nicht zahlt, hat das einen evidenzbasierten Grund: Der Nutzen ist bei Gesunden nicht belegt.
-
-## Quellenverzeichnis
-- **Manson JE, Cook NR, Lee IM, Christen W, Bassuk SS, Mora S et al. (2019).** Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. *New England Journal of Medicine*, 380(1), 33–44. [DOI: 10.1056/NEJMoa1809944](https://doi.org/10.1056/NEJMoa1809944)
-- **Bolland MJ, Grey A, Avenell A. (2018).** Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. *The Lancet Diabetes & Endocrinology*, , 6(11), 847–858. [DOI: 10.1016/S2213-8587(18)30265-1](https://doi.org/10.1016/S2213-8587%2818%2930265-1)
-- **Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG et al. (2014).** Vitamin D supplementation for prevention of mortality in adults. *Cochrane Database of Systematic Reviews*, Issue 1, Art. No.: CD007470. [DOI: 10.1002/14651858.CD007470.pub3](https://doi.org/10.1002/14651858.CD007470.pub3)
-- **Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M et al. (2024).** Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. *Journal of Clinical Endocrinology & Metabolism*, , 109(8), 1907–1947. [DOI: 10.1210/clinem/dgae290](https://doi.org/10.1210/clinem/dgae290)
-
-- **IGeL-Monitor / Medizinischer Dienst Bund. (2022).** Früherkennungsuntersuchung auf Vitamin-D-Mangel — Bewertung: unklar. [https://www.igel-monitor.de](https://www.igel-monitor.de/igel-a-z/igel/show/frueherkennungsuntersuchung-auf-vitamin-d-mangel.html)

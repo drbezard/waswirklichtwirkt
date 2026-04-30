@@ -77,6 +77,72 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: r-2013
+    title: >-
+      Arthroscopic partial meniscectomy versus sham surgery for a degenerative
+      meniscal tear
+    authors: 'Sihvonen R, Paavola M, Malmivaara A, et al'
+    journal: New England Journal of Medicine
+    year: 2013
+    doi: 10.1056/NEJMoa1305189
+  - id: r-2020
+    title: >-
+      Arthroscopic partial meniscectomy for a degenerative meniscus tear: 5-year
+      follow-up of the FIDELITY randomised clinical trial
+    authors: 'Sihvonen R, Paavola M, Malmivaara A, et al'
+    journal: JAMA
+    year: 2020
+    doi: 10.1001/jama.2019.20896
+  - id: st-2024
+    type: rct
+    quality: medium
+    title: >-
+      Effect of physical therapy vs arthroscopic partial meniscectomy in people
+      with degenerative meniscal tears: 5-year follow-up of the ESCAPE
+      randomized clinical trial
+    authors: 'Skou ST, Ulrich LE, Dalgas U, et al'
+    journal: JAMA Network Open
+    year: 2024
+    doi: 10.1001/jamanetworkopen.2024.19631
+  - id: d-2022
+    type: cochrane
+    quality: high
+    title: >-
+      Arthroscopic surgery for degenerative knee disease (osteoarthritis
+      including degenerative meniscal tears)
+    authors: 'O’Connor D, Bowman S, Crossley KM, et al'
+    journal: Cochrane Database of Systematic Reviews
+    year: 2022
+    doi: 10.1002/14651858.CD014328.pub2
+  - id: bl-2024
+    type: meta-analysis
+    quality: high
+    title: >-
+      Long-term effects of exercise therapy versus arthroscopic partial
+      meniscectomy for degenerative meniscal tear: A meta-analysis of randomized
+      controlled trials
+    authors: 'Kamstra BL, Rao K, Andersen MD, et al'
+    journal: Osteoarthritis and Cartilage
+    year: 2024
+  - id: a-2012
+    title: >-
+      Prevalence of abnormalities in knees detected by MRI in adults without
+      knee osteoarthritis: population based observational study (Framingham
+      Osteoarthritis Study)
+    authors: 'Guermazi A, Niu J, Hayashi D, et al'
+    journal: BMJ
+    year: 2012
+    doi: 10.1136/bmj.e5339
+  - id: surgeons-2024
+    type: guideline
+    quality: high
+    title: >-
+      Clinical practice guideline for management of acute isolated meniscal
+      pathology
+    authors: American Academy of Orthopaedic Surgeons (AAOS)
+    journal: Journal of the American Academy of Orthopaedic Surgeons
+    year: 2024
 ---
 <section class="kernaussage">
 
@@ -176,13 +242,3 @@ Ja, nachweislich (FIDELITY 5-Jahres-Daten, Kamstra et al. Meta-Analyse). Ein ehr
 Eine echte mechanische Blockade (das Knie lässt sich nicht vollständig beugen oder strecken) ist eine klarere OP-Indikation als Schmerzen allein. Schmerzen ohne Blockade sprechen oft gut auf Physiotherapie an.
 - **„Verursacht der Meniskusriss im MRT tatsächlich meine Beschwerden — oder könnte es ein Zufallsbefund sein?“**
 30–40 % der schmerzfreien Erwachsenen haben einen Meniskusriss im MRT. Ein Befund im Bild ist nicht automatisch die Ursache der Schmerzen. Fragen Sie, welche klinischen Tests (McMurray, Thessaly) durchgeführt wurden.
-
-## Quellenverzeichnis
-
-- **Sihvonen R, Paavola M, Malmivaara A, et al. (2013).** Arthroscopic partial meniscectomy versus sham surgery for a degenerative meniscal tear. *New England Journal of Medicine*, 369(26), 2515–2524. [DOI: 10.1056/NEJMoa1305189](https://doi.org/10.1056/NEJMoa1305189)
-- **Sihvonen R, Paavola M, Malmivaara A, et al. (2020).** Arthroscopic partial meniscectomy for a degenerative meniscus tear: 5-year follow-up of the FIDELITY randomised clinical trial. *JAMA*, 323(2), 134–142. [DOI: 10.1001/jama.2019.20896](https://doi.org/10.1001/jama.2019.20896)
-- **Skou ST, Ulrich LE, Dalgas U, et al. (2024).** Effect of physical therapy vs arthroscopic partial meniscectomy in people with degenerative meniscal tears: 5-year follow-up of the ESCAPE randomized clinical trial. *JAMA Network Open*, 7(6), e2419631. [DOI: 10.1001/jamanetworkopen.2024.19631](https://doi.org/10.1001/jamanetworkopen.2024.19631)
-- **O’Connor D, Bowman S, Crossley KM, et al. (2022).** Arthroscopic surgery for degenerative knee disease (osteoarthritis including degenerative meniscal tears). *Cochrane Database of Systematic Reviews*, Issue 3, CD014328. [DOI: 10.1002/14651858.CD014328.pub2](https://doi.org/10.1002/14651858.CD014328.pub2)
-- **Kamstra BL, Rao K, Andersen MD, et al. (2024).** Long-term effects of exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear: A meta-analysis of randomized controlled trials. *Osteoarthritis and Cartilage*, 32(7), 857–866.
-- **Guermazi A, Niu J, Hayashi D, et al. (2012).** Prevalence of abnormalities in knees detected by MRI in adults without knee osteoarthritis: population based observational study (Framingham Osteoarthritis Study). *BMJ*, 345, e5339. [DOI: 10.1136/bmj.e5339](https://doi.org/10.1136/bmj.e5339)
-- **American Academy of Orthopaedic Surgeons (AAOS). (2024).** Clinical practice guideline for management of acute isolated meniscal pathology. *Journal of the American Academy of Orthopaedic Surgeons*, 32(13), 641–652.

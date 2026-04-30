@@ -77,6 +77,63 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: jn-2006
+    type: rct
+    quality: medium
+    title: >-
+      Surgical vs nonoperative treatment for lumbar disk herniation: the Spine
+      Patient Outcomes Research Trial (SPORT): a randomized trial
+    authors: 'Weinstein JN, Tosteson TD, Lurie JD, et al'
+    journal: JAMA
+    year: 2006
+    doi: 10.1001/jama.296.20.2441
+  - id: jn-2008
+    title: >-
+      Surgical versus nonoperative treatment for lumbar disc herniation:
+      four-year results for the Spine Patient Outcomes Research Trial (SPORT)
+    authors: 'Weinstein JN, Lurie JD, Tosteson TD, et al'
+    journal: Spine
+    year: 2008
+    doi: 10.1097/BRS.0b013e31818ed8f4
+  - id: jd-2014
+    title: >-
+      Surgical versus nonoperative treatment for lumbar disc herniation:
+      eight-year results for the Spine Patient Outcomes Research Trial (SPORT)
+    authors: 'Lurie JD, Tosteson TD, Tosteson AN, et al'
+    journal: Spine
+    year: 2014
+    doi: 10.1097/BRS.0000000000000088
+  - id: wc-2007
+    title: Surgery versus prolonged conservative treatment for sciatica
+    authors: 'Peul WC, van Houwelingen HC, van den Hout WB, et al'
+    journal: New England Journal of Medicine
+    year: 2007
+    doi: 10.1056/NEJMoa064039
+  - id: jna-2007
+    type: cochrane
+    quality: high
+    title: Surgical interventions for lumbar disc prolapse
+    authors: 'Gibson JNA, Waddell G'
+    journal: Cochrane Database of Systematic Reviews
+    year: 2007
+    doi: 10.1002/14651858.CD001350.pub4
+  - id: unfallchirurgie-2020
+    type: guideline
+    quality: high
+    title: >-
+      S2k-Leitlinie: Konservative, operative und rehabilitative Versorgung bei
+      Bandscheibenvorfällen mit radikulärer Symptomatik
+    authors: Deutsche Gesellschaft für Orthopädie und Unfallchirurgie (DGOU)
+    journal: 'AWMF-Register Nr. 033/048. ['
+    year: 2020
+    url: 'https://register.awmf.org/de/leitlinien/detail/033-048'
+  - id: excellence-2016
+    title: 'Low back pain and sciatica in over 16s: assessment and management'
+    authors: National Institute for Health and Care Excellence (NICE)
+    journal: 'NG59. ['
+    year: 2016
+    url: 'https://www.nice.org.uk/guidance/ng59'
 ---
 <section class="kernaussage">
 
@@ -171,13 +228,3 @@ Die Leitlinien empfehlen 6–12 Wochen. Wenn Ihr Arzt nach 2–3 Wochen zur OP r
 Mögliche Komplikationen: Infektion, Nervenschäden, Narbengewebe (Epiduralfibrose), erneuter Vorfall am selben Segment (Rezidiv-Rate 5–15 %). Bei einem Eingriff, der langfristig keine besseren Ergebnisse liefert als Abwarten, sollte jedes Risiko sorgfältig abgewogen werden.
 - **„Welche konservativen Optionen haben wir noch nicht ausgeschöpft?“**
 Strukturierte Physiotherapie, epidurale Steroidinjektionen, optimierte Schmerzmedikation, psychologische Unterstützung bei Schmerzkatastrophisierung — oft gibt es noch unversuchte Ansätze, bevor eine OP nötig wird.
-
-## Quellenverzeichnis
-
-- **Weinstein JN, Tosteson TD, Lurie JD, et al. (2006).** Surgical vs nonoperative treatment for lumbar disk herniation: the Spine Patient Outcomes Research Trial (SPORT): a randomized trial. *JAMA*, 296(20), 2441–2450. [DOI: 10.1001/jama.296.20.2441](https://doi.org/10.1001/jama.296.20.2441)
-- **Weinstein JN, Lurie JD, Tosteson TD, et al. (2008).** Surgical versus nonoperative treatment for lumbar disc herniation: four-year results for the Spine Patient Outcomes Research Trial (SPORT). *Spine*, 33(25), 2789–2800. [DOI: 10.1097/BRS.0b013e31818ed8f4](https://doi.org/10.1097/BRS.0b013e31818ed8f4)
-- **Lurie JD, Tosteson TD, Tosteson AN, et al. (2014).** Surgical versus nonoperative treatment for lumbar disc herniation: eight-year results for the Spine Patient Outcomes Research Trial (SPORT). *Spine*, 39(1), 3–16. [DOI: 10.1097/BRS.0000000000000088](https://doi.org/10.1097/BRS.0000000000000088)
-- **Peul WC, van Houwelingen HC, van den Hout WB, et al. (2007).** Surgery versus prolonged conservative treatment for sciatica. *New England Journal of Medicine*, 356(22), 2245–2256. [DOI: 10.1056/NEJMoa064039](https://doi.org/10.1056/NEJMoa064039)
-- **Gibson JNA, Waddell G. (2007).** Surgical interventions for lumbar disc prolapse. *Cochrane Database of Systematic Reviews*, Issue 2, Art. No.: CD001350. [DOI: 10.1002/14651858.CD001350.pub4](https://doi.org/10.1002/14651858.CD001350.pub4)
-- **Deutsche Gesellschaft für Orthopädie und Unfallchirurgie (DGOU). (2020).** S2k-Leitlinie: Konservative, operative und rehabilitative Versorgung bei Bandscheibenvorfällen mit radikulärer Symptomatik. AWMF-Register Nr. 033/048. [https://register.awmf.org/de/leitlinien/detail/033-048](https://register.awmf.org/de/leitlinien/detail/033-048)
-- **National Institute for Health and Care Excellence (NICE). (2016, updated 2020).** Low back pain and sciatica in over 16s: assessment and management. NG59. [https://www.nice.org.uk/guidance/ng59](https://www.nice.org.uk/guidance/ng59)

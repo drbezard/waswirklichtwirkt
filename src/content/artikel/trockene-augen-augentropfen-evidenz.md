@@ -53,6 +53,53 @@ prompt: >-
   Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte
   Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient
   würde sagen „jetzt verstehe ich meine Optionen".
+sources:
+  - id: ad-2016
+    type: cochrane
+    quality: high
+    title: Over the counter (OTC) artificial tear drops for dry eye syndrome
+    authors: 'Pucker AD, Ng SM, Nichols JJ'
+    journal: Cochrane Database of Systematic Reviews
+    year: 2016
+    doi: 10.1002/14651858.CD009729.pub2
+  - id: l-2017
+    title: TFOS DEWS II Management and Therapy Report
+    authors: >-
+      Jones L, Downie LE, Korb D, Benitez-del-Castillo JM, Dana R, Deng SX, et
+      al
+    journal: The Ocular Surface
+    year: 2017
+    doi: 10.1016/j.jtos.2017.05.006
+  - id: kh-2015
+    type: meta-analysis
+    quality: high
+    title: >-
+      Efficacy and Safety of Topical 0.05% Cyclosporine Eye Drops in the
+      Treatment of Dry Eye Syndrome: A Systematic Review and Meta-analysis
+    authors: 'Wan KH, Chen LJ, Young AL'
+    journal: The Ocular Surface
+    year: 2015
+    doi: 10.1016/j.jtos.2014.12.006
+  - id: m-2022
+    type: meta-analysis
+    quality: high
+    title: >-
+      Comparison of seven cyclosporine A formulations for dry eye disease: A
+      systematic review and network meta-analysis
+    authors: 'Shao M, Xie H, Zhu J, Sun C, Chen S, Wang Y, et al'
+    journal: Frontiers in Pharmacology
+    year: 2022
+    doi: 10.3389/fphar.2022.882803
+  - id: jap-2019
+    type: meta-analysis
+    quality: high
+    title: >-
+      Effectiveness of using preservative-free artificial tears versus preserved
+      lubricants for the treatment of dry eyes: a systematic review
+    authors: 'Gomes JAP, Santo RM'
+    journal: Arquivos Brasileiros de Oftalmologia
+    year: 2019
+    doi: 10.5935/0004-2749.20190097
 ---
 <section class="kernaussage">
 Die meisten frei verkäuflichen Augentropfen bei trockenen Augen lindern Symptome kurzfristig, jedoch ist keine Formulierung einer anderen eindeutig überlegen, und keine heilt die Grunderkrankung. Ein Cochrane Review mit 43 randomisierten Studien und 3.497 Teilnehmern zeigt eine insgesamt niedrige Evidenzqualität und geringe Unterschiede zwischen Produkten. Entscheidend sind regelmäßige Anwendung, korrekte Diagnose der Ursache und der Verzicht auf Konservierungsmittel bei häufiger Anwendung. Die internationale TFOS DEWS II-Leitlinie empfiehlt Tränenersatzmittel als Basistherapie (Stufe 1), betont jedoch, dass bei mittelschwerem bis schwerem Verlauf verschreibungspflichtige entzündungshemmende Augentropfen wie Cyclosporin (NNT ≈ 6 für symptomatische Verbesserung) wirksamer sind als Tränenersatz allein.
@@ -147,11 +194,3 @@ Augentropfen sind keine Wundermittel, aber in bestimmten Situationen sinnvoll:
 
 - **„Welche nicht-medikamentösen Maßnahmen empfehlen Sie?“**  
   Lidpflege, warme Kompressen, Luftfeuchtigkeit und Bildschirmpausen sind wichtige Therapiebausteine.
-
-## Quellenverzeichnis
-
-- Pucker AD, Ng SM, Nichols JJ. (2016). Over the counter (OTC) artificial tear drops for dry eye syndrome. Cochrane Database of Systematic Reviews, Issue 2, Art. No.: CD009729. DOI: 10.1002/14651858.CD009729.pub2  
-- Jones L, Downie LE, Korb D, Benitez-del-Castillo JM, Dana R, Deng SX, et al. (2017). TFOS DEWS II Management and Therapy Report. The Ocular Surface, 15(3), 575–628. DOI: [10.1016/j.jtos.2017.05.006](https://doi.org/10.1016/j.jtos.2017.05.006)  
-- Wan KH, Chen LJ, Young AL. (2015). Efficacy and Safety of Topical 0.05% Cyclosporine Eye Drops in the Treatment of Dry Eye Syndrome: A Systematic Review and Meta-analysis. The Ocular Surface, 13(3), 213–225. DOI: [10.1016/j.jtos.2014.12.006](https://doi.org/10.1016/j.jtos.2014.12.006)  
-- Shao M, Xie H, Zhu J, Sun C, Chen S, Wang Y, et al. (2022). Comparison of seven cyclosporine A formulations for dry eye disease: A systematic review and network meta-analysis. Frontiers in Pharmacology, 13, 882803. DOI: [10.3389/fphar.2022.882803](https://doi.org/10.3389/fphar.2022.882803)  
-- Gomes JAP, Santo RM. (2019). Effectiveness of using preservative-free artificial tears versus preserved lubricants for the treatment of dry eyes: a systematic review. Arquivos Brasileiros de Oftalmologia, 82(5), 436–445. DOI: [10.5935/0004-2749.20190097](https://doi.org/10.5935/0004-2749.20190097)
