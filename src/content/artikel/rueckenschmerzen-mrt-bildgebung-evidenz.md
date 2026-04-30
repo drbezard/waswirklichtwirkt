@@ -13,8 +13,70 @@ tags:
   - ruecken
   - wirbelsaeule
   - screening
----
+prompt: >-
+  Du bist medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie
+  Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst
+  ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn
+  ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne
+  Abschwächung.
 
+
+  Schreibe einen evidenzbasierten Patientenartikel auf Deutsch (Sie-Form,
+  2.500–3.500 Wörter) zum Thema:
+
+  **Rückenschmerzen und MRT: Wann Bildgebung schadet**
+
+
+  Struktur:
+
+  (1) KERNAUSSAGE (max. 200 Wörter) — eine glasklare Aussage zur Evidenzlage,
+  Hauptaussage zuerst, einfache Sprache.
+
+  (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.500–2.000 Wörter) —
+  häufigste Patientenannahme vs. beste Evidenz; alle relevanten
+  Cochrane-Reviews, Meta-Analysen und Leitlinien zum Thema mit Studienname,
+  Erstautor, Journal, Jahr, Studiendesign, Teilnehmerzahl und Kernergebnis;
+  Fachbegriffe sofort in Klammern erklären; erklären, warum Fehlvorstellungen
+  bestehen (Placebo, Regression zur Mitte, finanzielle Anreize, widersprüchliche
+  Leitlinien).
+
+  (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete
+  Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen
+  Formulierungen.
+
+  (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen
+  mit Erklärung, warum sie wichtig sind.
+
+  (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen,
+  RCTs, aktuelle Leitlinien führender Fachgesellschaften. Jede DOI muss unter
+  https://doi.org/ resolvable sein.
+
+
+  Quellen-Anforderung: so viele Studien wie nötig, um die Evidenzlage abzudecken
+  — keine fixe Zahl. Pflicht sind alle aktuellen Cochrane-Reviews, Meta-Analysen
+  und Leitlinien zum Thema; RCTs nur, wenn keine Synthese existiert;
+  Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben
+  Vorrang.
+
+
+  Stilregeln: Deutsch, Sie-Form. Direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
+  Seiten darstellen.
+
+
+  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
+  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
+  Sprache (verständlich für Klasse 9).
+
+
+  Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
+  erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
+  verstehe ich meine Optionen".
+---
 <section class="kernaussage">
 
 Ein MRT bei unkomplizierten Rückenschmerzen verbessert weder Ihre Schmerzen noch Ihre Genesung — es kann Ihren Verlauf sogar verschlechtern.
@@ -72,7 +134,7 @@ In dieser Studie wurden Patienten mit Rückenschmerzen per Zufall entweder einem
 </div>
 
 <div class="studie">
-<span class="studie-name">Kohortenstudie: Webster et al. (2013)</span>
+<span class="studie-name">Webster et al. (2013)</span>
 <div class="studie-details">Retrospektive Kohortenstudie · <em>Spine</em>, 38(22), 1939–1946 · 1.770 Patienten mit arbeitsbedingten Rückenschmerzen</div>
 
 Diese Studie untersuchte die Folgen eines frühen MRTs (innerhalb von 30 Tagen nach Schmerzbeginn) bei akuten, arbeitsbedingten Rückenschmerzen. Die Ergebnisse sind alarmierend: Patienten mit frühem MRT waren im Median 174 Tage arbeitsunfähig — gegenüber nur 21 Tagen bei Patienten ohne frühes MRT. Sie erhielten häufiger Wirbelsäuleninjektionen (11,4 % vs. 0,8 %) und Operationen (3,4 % vs. 0,1 %). Die Behandlungskosten waren fast dreimal so hoch (21.282 vs. 7.198 US-Dollar). Die Autoren sprechen von einem „starken iatrogenen Effekt“ (iatrogen = durch die medizinische Behandlung selbst verursacht) des frühen MRTs.

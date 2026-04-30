@@ -233,17 +233,43 @@ const faqJsonLd = faqs.length >= 2 ? {
         <Content />
       </div>
 
-      <!-- KI-Prompt (wenn vorhanden) -->
+      <!-- Verifikations-Prompt: Leser kann den Artikel mit jeder KI nachprüfen -->
       {article.data.prompt && (
-        <details class="mt-14 border border-border-light rounded-2xl overflow-hidden">
-          <summary class="px-6 py-4 bg-bg-subtle cursor-pointer text-sm font-medium text-text hover:bg-gray-100 transition-colors">
-            KI-Prompt anzeigen (Transparenz)
-          </summary>
-          <div class="px-6 py-5 text-sm text-text-secondary bg-white whitespace-pre-wrap font-mono leading-relaxed">
-            {article.data.prompt}
+        <section class="mt-14 border border-border-light rounded-2xl overflow-hidden bg-white">
+          <header class="px-6 py-5 bg-bg-subtle border-b border-border-light">
+            <h2 class="text-lg font-bold text-text">Diesen Artikel selbst überprüfen</h2>
+            <p class="text-sm text-text-secondary mt-1.5 leading-relaxed">
+              Kopiere den folgenden Prompt in ChatGPT, Claude oder eine andere KI deiner Wahl.
+              Du bekommst eine unabhängige Zweitmeinung, die du mit diesem Artikel vergleichen kannst.
+            </p>
+          </header>
+          <div class="relative">
+            <button
+              type="button"
+              data-copy-target="article-verify-prompt"
+              class="copy-prompt-btn absolute top-3 right-3 px-3 py-1.5 text-xs font-medium bg-white border border-border-light rounded-lg hover:bg-bg-subtle transition-colors"
+            >
+              Prompt kopieren
+            </button>
+            <pre id="article-verify-prompt" class="px-6 py-5 pr-32 text-sm text-text-secondary whitespace-pre-wrap font-mono leading-relaxed overflow-x-auto m-0">{article.data.prompt}</pre>
           </div>
-        </details>
+        </section>
       )}
+      <script is:inline>
+        document.querySelectorAll('.copy-prompt-btn').forEach((btn) => {
+          btn.addEventListener('click', async () => {
+            const id = btn.getAttribute('data-copy-target');
+            const el = id ? document.getElementById(id) : null;
+            const text = el ? el.textContent || '' : '';
+            try {
+              await navigator.clipboard.writeText(text);
+              const original = btn.textContent;
+              btn.textContent = 'Kopiert ✓';
+              setTimeout(() => { btn.textContent = original; }, 1500);
+            } catch (e) {}
+          });
+        });
+      </script>
 
       <!-- Quellen (wenn vorhanden) -->
       {article.data.sources && article.data.sources.length > 0 && (
