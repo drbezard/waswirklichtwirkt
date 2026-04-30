@@ -1,30 +1,64 @@
 ---
-title: "PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?"
-slug: "prp-eigenbluttherapie-haarausfall"
-date: "2026-04-26"
-category: "Dermatologie"
-excerpt: "PRP-Injektionen in die Kopfhaut können die Haardichte bei erblich bedingtem Haarausfall moderat erhöhen — aber die Wirkung ist temporär, nicht standardisiert und ersetzt keine zugelassene Therapie."
-image: "https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/prp-eigenbluttherapie-haarausfall.jpg"
+title: 'PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?'
+slug: prp-eigenbluttherapie-haarausfall
+date: '2026-04-26'
+category: Dermatologie
+excerpt: >-
+  PRP-Injektionen in die Kopfhaut können die Haardichte bei erblich bedingtem
+  Haarausfall moderat erhöhen — aber die Wirkung ist temporär, nicht
+  standardisiert und ersetzt keine zugelassene Therapie.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/prp-eigenbluttherapie-haarausfall.jpg
 tags:
   - dermatologie
   - injektion
   - igel
   - placebo-kontrolliert
+prompt: >-
+  Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige,
+  werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und
+  gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch
+  — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du
+  das ohne Abschwächung.
+
+
+  Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum
+  Thema:  
+
+  **PRP-Eigenbluttherapie bei erblich bedingtem Haarausfall: Wirksam oder teures
+  Placebo?**  
+
+  Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur
+  Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN
+  — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme
+  vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal,
+  Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären;
+  erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL?
+  (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv
+  unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN
+  SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5)
+  QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews,
+  Leitlinien.
+
+
+  Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt", Benennung von Interessenkonflikten,
+  bei widersprüchlicher Datenlage beide Seiten darstellen.
+
+
+  Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit
+  vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle
+  Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte
+  Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient
+  würde sagen „jetzt verstehe ich meine Optionen".
 ---
-
-## PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?
-
-Zuletzt aktualisiert: April 2026 · Lesezeit: ca. 10 Minuten ·  
-**Evidenzcheck:**  
-Geprüft anhand aktueller Meta-Analysen und Leitlinien
-
-===== 1. KERNAUSSAGE =====
-
 <section class="kernaussage">
 PRP-Injektionen (plättchenreiches Plasma aus Eigenblut) erhöhen bei erblich bedingtem Haarausfall die Haardichte im Mittel um etwa 20–25 Haare/cm² gegenüber Placebo (NNT ca. 7–10 für einen messbaren Haardichtezuwachs). Die Wirkung ist moderat, temporär (Effekt lässt ohne Wiederholungen nach 3–6 Monaten nach) und stark abhängig von der Aufbereitungsmethode. Es gibt kein standardisiertes Herstellungsverfahren, keine zugelassene Dosierung und keine Langzeitdaten über mehrere Jahre. Die Haardicke wird nicht signifikant verbessert. PRP ersetzt keine zugelassenen Therapien wie Minoxidil oder Finasterid. Die deutsche S3-Leitlinie bewertet die Evidenz als eingeschränkt und spricht keine aktive Empfehlung aus. PRP ist eine Selbstzahlerleistung (150–500 Euro pro Sitzung), deren Nutzen im Vergleich zu Kosten und Aufwand kritisch abzuwägen ist.
 </section>
-
-===== 2. WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN =====
 
 ## PRP bei Haarausfall: Was Patienten glauben — und was die Studien zeigen
 
@@ -90,8 +124,6 @@ https://register.awmf.org
 
 - **Fehlende Standardisierung:** Unterschiedliche Aufbereitungsmethoden, Aktivierungsverfahren und Injektionsschemata führen zu variabler Wirksamkeit. Positive Studienergebnisse sind nicht automatisch auf jede Praxis übertragbar.
 
-===== 3. WANN IST ES DOCH SINNVOLL? =====
-
 ## PRP bei Haarausfall: Wann ist es doch sinnvoll?
 
 PRP ist kein Wundermittel, aber in bestimmten Situationen eine vertretbare Zusatztherapie:
@@ -111,8 +143,6 @@ PRP ist kein Wundermittel, aber in bestimmten Situationen eine vertretbare Zusat
 - Blutgerinnungsstörungen oder Antikoagulation  
 - Autoimmunerkrankungen der Kopfhaut (z. B. Alopecia areata; hier ist die Evidenzlage anders)  
 - Unrealistischen Erwartungen (kein vollständiger Haarwuchs, nur moderate Verdichtung)
-
-===== 4. WAS SIE IHREN ARZT FRAGEN SOLLTEN =====
 
 ## PRP-Behandlung beim Dermatologen: Welche Fragen Sie stellen sollten
 
@@ -134,8 +164,6 @@ PRP ist kein Wundermittel, aber in bestimmten Situationen eine vertretbare Zusat
 - **„Ist PRP bei meinem Haarausfallstadium aussichtsreich?"**  
   Bei fortgeschrittenem Haarausfall ohne Follikel ist kein Nutzen belegt. Ihr Arzt sollte dies ehrlich einschätzen.
 
-===== 5. QUELLENVERZEICHNIS =====
-
 ## Quellenverzeichnis
 
 - Anitua E et al. (2025). Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatology and Therapy*. DOI: [10.1007/s13555-025-01542-8](https://doi.org/10.1007/s13555-025-01542-8)  
@@ -143,51 +171,3 @@ PRP ist kein Wundermittel, aber in bestimmten Situationen eine vertretbare Zusat
 - Zhang X, Ji Y, Zhou M, et al. (2023). Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. *Journal of Cutaneous Medicine and Surgery*, 27(5), 504–508. DOI: 10.1177/12034754231191461  
 - Gentile P, Garcovich S, Bielli A, et al. (2015). The Effect of Platelet-Rich Plasma in Hair Regrowth: A Randomized Placebo-Controlled Trial. *Stem Cells Translational Medicine*, 4(11), 1317–1323. DOI: 10.5966/sctm.2015-0107  
 - AWMF S3-Leitlinie Androgenetische Alopezie. Diagnostik und Therapie der androgenetischen Alopezie. Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften. https://register.awmf.org
-
-===== 6. EXPERTEN-REVIEW =====
-
-## Experten-Review
-
-Dieser Artikel wurde geprüft von:
-
-[Name des Facharztes/der Fachärztin]  
-[Fachgebiet, Qualifikation]  
-[Praxis/Klinik, Ort]  
-[Link zur Praxis-Homepage]
-
-„[Platz für ein 1–2-Satz-Statement des Reviewers zum Artikel]"
-
-(Hinweis: Dieser Abschnitt wird nach dem ärztlichen Review ausgefüllt.)
-
-### Ergänzung des prüfenden Facharztes
-
-[Hier kann der Reviewer zusätzliche Anweisungen, fachliche Schwerpunkte oder Korrekturen eintragen, die bei der Artikelerstellung berücksichtigt werden sollen. Wenn nichts ergänzt wird, bleibt dieser Abschnitt leer.]
-
-===== 7. ÜBERPRÜFUNGS-PROMPT =====
-
-## Überprüfen Sie diesen Artikel selbst
-
-Kopieren Sie den folgenden Prompt in ChatGPT, Claude oder eine andere KI Ihrer Wahl:
-
-Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne Abschwächung.
-
-Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum Thema:  
-**PRP-Eigenbluttherapie bei erblich bedingtem Haarausfall: Wirksam oder teures Placebo?**  
-Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal, Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären; erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5) QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews, Leitlinien.
-
-Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung zwischen „belegt"/„unklar"/„widerlegt", Benennung von Interessenkonflikten, bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient würde sagen „jetzt verstehe ich meine Optionen".
-
-Ergänzung des prüfenden Facharztes: Keine Ergänzung hinzugefügt.
-
-Wir glauben an Transparenz. Wenn dieser Artikel etwas falsch darstellt, wollen wir, dass Sie es herausfinden.
-
-===== INTERNE VERLINKUNG =====
-
-### Verwandte Artikel
-
-- Neurodermitis und Cortison: Warum die Cortison-Angst oft mehr schadet als die Creme  
-- Hautkrebsscreening: Rettet es Leben — oder führt es zu Überdiagnosen?  
-- Hyaluronsäure-Filler im Gesicht: Langzeitrisiken und was Patienten nicht gesagt wird  
-```

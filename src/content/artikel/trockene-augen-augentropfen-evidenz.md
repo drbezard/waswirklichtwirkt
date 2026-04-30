@@ -1,29 +1,62 @@
 ---
-title: "Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?"
-slug: "trockene-augen-augentropfen-evidenz"
-date: "2026-04-26"
-category: "Augenheilkunde"
-excerpt: "Die meisten frei verkäuflichen Augentropfen bei trockenen Augen lindern Symptome — aber keine Formulierung ist einer anderen klar überlegen, und keine kann die Erkrankung heilen."
-image: "https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/trockene-augen-augentropfen-evidenz.jpg"
+title: 'Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?'
+slug: trockene-augen-augentropfen-evidenz
+date: '2026-04-26'
+category: Augenheilkunde
+excerpt: >-
+  Die meisten frei verkäuflichen Augentropfen bei trockenen Augen lindern
+  Symptome — aber keine Formulierung ist einer anderen klar überlegen, und keine
+  kann die Erkrankung heilen.
+image: >-
+  https://qyaivjcczncckifsrrps.supabase.co/storage/v1/object/public/article-images/trockene-augen-augentropfen-evidenz.jpg
 tags:
   - augenheilkunde
   - auge
   - igel
+prompt: >-
+  Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige,
+  werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und
+  gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch
+  — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du
+  das ohne Abschwächung.
+
+
+  Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum
+  Thema:  
+
+  **Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?**  
+
+  Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur
+  Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN
+  — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme
+  vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal,
+  Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären;
+  erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL?
+  (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv
+  unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN
+  SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5)
+  QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews,
+  Leitlinien.
+
+
+  Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt", Benennung von Interessenkonflikten,
+  bei widersprüchlicher Datenlage beide Seiten darstellen.
+
+
+  Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit
+  vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle
+  Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte
+  Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient
+  würde sagen „jetzt verstehe ich meine Optionen".
 ---
-
-## Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?
-
-Zuletzt aktualisiert: April 2026 · Lesezeit: ca. 10 Minuten ·  
-**Evidenzcheck:**  
-Geprüft anhand aktueller Meta-Analysen und Leitlinien
-
-===== 1. KERNAUSSAGE =====
-
 <section class="kernaussage">
 Die meisten frei verkäuflichen Augentropfen bei trockenen Augen lindern Symptome kurzfristig, jedoch ist keine Formulierung einer anderen eindeutig überlegen, und keine heilt die Grunderkrankung. Ein Cochrane Review mit 43 randomisierten Studien und 3.497 Teilnehmern zeigt eine insgesamt niedrige Evidenzqualität und geringe Unterschiede zwischen Produkten. Entscheidend sind regelmäßige Anwendung, korrekte Diagnose der Ursache und der Verzicht auf Konservierungsmittel bei häufiger Anwendung. Die internationale TFOS DEWS II-Leitlinie empfiehlt Tränenersatzmittel als Basistherapie (Stufe 1), betont jedoch, dass bei mittelschwerem bis schwerem Verlauf verschreibungspflichtige entzündungshemmende Augentropfen wie Cyclosporin (NNT ≈ 6 für symptomatische Verbesserung) wirksamer sind als Tränenersatz allein.
 </section>
-
-===== 2. WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN =====
 
 ## Augentropfen bei trockenen Augen: Was Patienten glauben — und was die Studien zeigen
 
@@ -79,8 +112,6 @@ Kein signifikanter Unterschied in der Wirksamkeit zwischen konservierungsmittelf
 - **Marketing:** Viele Produkte werben mit vermeintlich überlegenen Formulierungen ohne belastbare Evidenz.
 - **Ursachenübersehen:** Ohne Diagnostik wird nur das Symptom behandelt, nicht die häufig zugrundeliegende Meibom-Drüsen-Dysfunktion, die besser mit Lidpflege adressiert wird.
 
-===== 3. WANN IST ES DOCH SINNVOLL? =====
-
 ## Augentropfen bei trockenen Augen: Wann sind sie doch sinnvoll?
 
 Augentropfen sind keine Wundermittel, aber in bestimmten Situationen sinnvoll:
@@ -96,8 +127,6 @@ Augentropfen sind keine Wundermittel, aber in bestimmten Situationen sinnvoll:
 
 - **Wann Tropfen nicht ausreichen:**  
   Bei schwerem Sicca-Syndrom mit Hornhautschäden, Sjögren-Syndrom oder persistierenden Beschwerden trotz Tropftherapie sind verschreibungspflichtige Medikamente, Tränenpunktverschlüsse oder Eigenserumtropfen notwendig. Eine augenärztliche Mitbehandlung ist unverzichtbar.
-
-===== 4. WAS SIE IHREN ARZT FRAGEN SOLLTEN =====
 
 ## Trockene Augen beim Augenarzt: Welche Fragen Sie stellen sollten
 
@@ -119,60 +148,10 @@ Augentropfen sind keine Wundermittel, aber in bestimmten Situationen sinnvoll:
 - **„Welche nicht-medikamentösen Maßnahmen empfehlen Sie?“**  
   Lidpflege, warme Kompressen, Luftfeuchtigkeit und Bildschirmpausen sind wichtige Therapiebausteine.
 
-===== 5. QUELLENVERZEICHNIS =====
-
 ## Quellenverzeichnis
 
 - Pucker AD, Ng SM, Nichols JJ. (2016). Over the counter (OTC) artificial tear drops for dry eye syndrome. Cochrane Database of Systematic Reviews, Issue 2, Art. No.: CD009729. DOI: 10.1002/14651858.CD009729.pub2  
 - Jones L, Downie LE, Korb D, Benitez-del-Castillo JM, Dana R, Deng SX, et al. (2017). TFOS DEWS II Management and Therapy Report. The Ocular Surface, 15(3), 575–628. DOI: [10.1016/j.jtos.2017.05.006](https://doi.org/10.1016/j.jtos.2017.05.006)  
 - Wan KH, Chen LJ, Young AL. (2015). Efficacy and Safety of Topical 0.05% Cyclosporine Eye Drops in the Treatment of Dry Eye Syndrome: A Systematic Review and Meta-analysis. The Ocular Surface, 13(3), 213–225. DOI: [10.1016/j.jtos.2014.12.006](https://doi.org/10.1016/j.jtos.2014.12.006)  
 - Shao M, Xie H, Zhu J, Sun C, Chen S, Wang Y, et al. (2022). Comparison of seven cyclosporine A formulations for dry eye disease: A systematic review and network meta-analysis. Frontiers in Pharmacology, 13, 882803. DOI: [10.3389/fphar.2022.882803](https://doi.org/10.3389/fphar.2022.882803)  
-- Gomes JAP, Santo RM. (2019). Effectiveness of using preservative-free artificial tears versus preserved lubricants for the treatment of dry eyes: a systematic review. Arquivos Brasileiros de Oftalmologia, 82(5), 436–445. DOI: [10.5935/0004-2749.20190097](https://doi.org/10.5935/0004-2749.20190097)  
-
-===== 6. EXPERTEN-REVIEW =====
-
-## Experten-Review
-
-Dieser Artikel wurde geprüft von:
-
-[Name des Facharztes/der Fachärztin]  
-[Fachgebiet, Qualifikation]  
-[Praxis/Klinik, Ort]  
-[Link zur Praxis-Homepage]
-
-„[Platz für ein 1–2-Satz-Statement des Reviewers zum Artikel]"
-
-(Hinweis: Dieser Abschnitt wird nach dem ärztlichen Review ausgefüllt.)
-
-### Ergänzung des prüfenden Facharztes
-
-[Hier kann der Reviewer zusätzliche Anweisungen, fachliche Schwerpunkte oder Korrekturen eintragen, die bei der Artikelerstellung berücksichtigt werden sollen. Wenn nichts ergänzt wird, bleibt dieser Abschnitt leer.]
-
-===== 7. ÜBERPRÜFUNGS-PROMPT =====
-
-## Überprüfen Sie diesen Artikel selbst
-
-Kopieren Sie den folgenden Prompt in ChatGPT, Claude oder eine andere KI Ihrer Wahl:
-
-Du bist ein medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne Abschwächung.
-
-Schreibe einen evidenzbasierten Patientenartikel (1.800–2.200 Wörter) zum Thema:  
-**Trockene Augen: Welche Augentropfen helfen wirklich — und welche nicht?**  
-Struktur: (1) KERNAUSSAGE (max. 200 Wörter) — eine klare Aussage zur Evidenzlage, Hauptaussage zuerst, einfache Sprache. (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.000–1.200 Wörter) — häufigste Patientenannahme vs. beste Evidenz, 3–5 Schlüsselstudien mit Studienname, Erstautor, Journal, Jahr, Design, Teilnehmerzahl, Kernergebnis; Fachbegriffe sofort erklären; erklären warum Fehlvorstellungen bestehen. (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen Formulierungen. (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung. (5) QUELLENVERZEICHNIS — nur Primärquellen: RCTs, Meta-Analysen, Cochrane Reviews, Leitlinien.
-
-Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter Behandlungen. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung zwischen „belegt"/„unklar"/„widerlegt", Benennung von Interessenkonflikten, bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-Qualitätskontrolle: Mindestens 3 konkrete RCTs oder Meta-Analysen mit vollständiger Zitation. Jede medizinische Behauptung mit Quelle belegt. Alle Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient würde sagen „jetzt verstehe ich meine Optionen".
-
-Ergänzung des prüfenden Facharztes: Keine Ergänzung hinzugefügt.
-
-Wir glauben an Transparenz. Wenn dieser Artikel etwas falsch darstellt, wollen wir, dass Sie es herausfinden.
-
-===== INTERNE VERLINKUNG =====
-
-### Verwandte Artikel
-
-- Blaulichtfilter-Brillen: Augenschutz oder Marketing?  
-- Grauer Star (Katarakt): Wann ist die OP sinnvoll — und welche Linse brauche ich?  
-- Augentraining und Sehübungen gegen Kurzsichtigkeit: Was sagt die Evidenz?  
-```
+- Gomes JAP, Santo RM. (2019). Effectiveness of using preservative-free artificial tears versus preserved lubricants for the treatment of dry eyes: a systematic review. Arquivos Brasileiros de Oftalmologia, 82(5), 436–445. DOI: [10.5935/0004-2749.20190097](https://doi.org/10.5935/0004-2749.20190097)

@@ -12,8 +12,70 @@ tags:
   - innere-medizin
   - ppi
   - medikament
----
+prompt: >-
+  Du bist medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie
+  Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst
+  ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn
+  ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne
+  Abschwächung.
 
+
+  Schreibe einen evidenzbasierten Patientenartikel auf Deutsch (Sie-Form,
+  2.500–3.500 Wörter) zum Thema:
+
+  **PPI-Langzeiteinnahme: Was die Evidenz wirklich zeigt**
+
+
+  Struktur:
+
+  (1) KERNAUSSAGE (max. 200 Wörter) — eine glasklare Aussage zur Evidenzlage,
+  Hauptaussage zuerst, einfache Sprache.
+
+  (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.500–2.000 Wörter) —
+  häufigste Patientenannahme vs. beste Evidenz; alle relevanten
+  Cochrane-Reviews, Meta-Analysen und Leitlinien zum Thema mit Studienname,
+  Erstautor, Journal, Jahr, Studiendesign, Teilnehmerzahl und Kernergebnis;
+  Fachbegriffe sofort in Klammern erklären; erklären, warum Fehlvorstellungen
+  bestehen (Placebo, Regression zur Mitte, finanzielle Anreize, widersprüchliche
+  Leitlinien).
+
+  (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete
+  Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen
+  Formulierungen.
+
+  (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen
+  mit Erklärung, warum sie wichtig sind.
+
+  (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen,
+  RCTs, aktuelle Leitlinien führender Fachgesellschaften. Jede DOI muss unter
+  https://doi.org/ resolvable sein.
+
+
+  Quellen-Anforderung: so viele Studien wie nötig, um die Evidenzlage abzudecken
+  — keine fixe Zahl. Pflicht sind alle aktuellen Cochrane-Reviews, Meta-Analysen
+  und Leitlinien zum Thema; RCTs nur, wenn keine Synthese existiert;
+  Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben
+  Vorrang.
+
+
+  Stilregeln: Deutsch, Sie-Form. Direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
+  Seiten darstellen.
+
+
+  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
+  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
+  Sprache (verständlich für Klasse 9).
+
+
+  Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
+  erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
+  verstehe ich meine Optionen".
+---
 <section class="kernaussage">
 
 Protonenpumpenhemmer wie Pantoprazol oder Omeprazol sind bei klarer Indikation auch langfristig deutlich sicherer als ihr Ruf — aber bei bis zu zwei Dritteln aller Langzeitanwender fehlt ein dokumentierter Grund für die Einnahme.
@@ -55,7 +117,7 @@ Dieses Review fasste die gesamte verfügbare Meta-Analytik zusammen. Ergebnis: S
 </div>
 
 <div class="studie">
-<span class="studie-name">Kohortenstudie: Xie et al. (2019)</span>
+<span class="studie-name">Xie et al. (2019)</span>
 <div class="studie-details">Retrospektive Kohortenstudie des US-Veteranen-Systems · <em>BMJ</em> · 157.625 PPI-Anwender vs. 56.842 H2-Blocker-Anwender</div>
 
 Diese vielzitierte Studie fand 45,2 zusätzliche Todesfälle pro 1.000 PPI-Anwender über einen Beobachtungszeitraum von mehreren Jahren, insbesondere durch Herz-Kreislauf-Erkrankungen, Nierenerkrankungen und Krebs. Allerdings: Die Studie verglich PPI-Anwender mit H2-Blocker-Anwendern (nicht mit Nicht-Anwendern) in einer Population von überwiegend älteren, multimorbiden (an mehreren Erkrankungen gleichzeitig leidenden) Veteranen. Die Ergebnisse widersprechen direkt dem COMPASS-Trial, was stark darauf hindeutet, dass die beobachteten Unterschiede durch die unterschiedliche Krankheitslast der Gruppen erklärt werden — nicht durch die PPI selbst.
