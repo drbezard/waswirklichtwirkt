@@ -76,6 +76,53 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: w-2015
+    title: >-
+      Systematic Literature Review of Imaging Features of Spinal Degeneration in
+      Asymptomatic Populations
+    authors: >-
+      Brinjikji W, Luetmer PH, Comstock B, Bresnahan BW, Chen LE, Deyo RA,
+      Halabi S, Turner JA, Avins AL, James K, Wald JT, Kallmes DF, Jarvik JG
+    journal: American Journal of Neuroradiology (AJNR)
+    year: 2015
+    doi: 10.3174/ajnr.A4173
+  - id: r-2009
+    type: meta-analysis
+    quality: high
+    title: 'Imaging strategies for low-back pain: systematic review and meta-analysis'
+    authors: 'Chou R, Fu R, Carrino JA, Deyo RA'
+    journal: The Lancet
+    year: 2009
+    doi: 10.1016/S0140-6736%2809%2960172-0
+  - id: jg-2003
+    type: rct
+    quality: medium
+    title: >-
+      Rapid magnetic resonance imaging vs radiographs for patients with low back
+      pain: a randomized controlled trial
+    authors: >-
+      Jarvik JG, Hollingworth W, Martin B, Emerson SS, Gray DT, Overman S,
+      Robinson D, Staiger T, Wessbecher F, Sullivan SD, Kreuter W, Deyo RA
+    journal: JAMA
+    year: 2003
+    doi: 10.1001/jama.289.21.2810
+  - id: bs-2013
+    title: >-
+      Iatrogenic consequences of early magnetic resonance imaging in acute,
+      work-related, disabling low back pain
+    authors: 'Webster BS, Bauer AZ, Choi Y, Cifuentes M, Pransky GS'
+    journal: Spine
+    year: 2013
+    doi: 10.1097/BRS.0b013e3182a42eb6
+  - id: bundesarztekammer-2017
+    type: guideline
+    quality: high
+    title: 'Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2'
+    authors: 'Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF'
+    journal: 'Auflage. AWMF-Register Nr. nvl-007. ['
+    year: 2017
+    url: 'https://register.awmf.org/de/leitlinien/detail/nvl-007'
 ---
 <section class="kernaussage">
 
@@ -195,11 +242,3 @@ Die NVL ist die höchste deutsche Leitlinie zu diesem Thema. Sie empfiehlt bei n
 
 - **„Welche nicht-bildgebenden Maßnahmen kann ich in den nächsten Wochen ergreifen, bevor wir über ein MRT nachdenken?“**
 Strukturierte Bewegungstherapie, Physiotherapie und bei Bedarf zeitlich begrenzte Schmerzmedikation sind die evidenzbasierte Erstbehandlung. In den meisten Fällen bessern sich die Schmerzen damit deutlich.
-
-## Quellenverzeichnis
-- **Brinjikji W, Luetmer PH, Comstock B, Bresnahan BW, Chen LE, Deyo RA, Halabi S, Turner JA, Avins AL, James K, Wald JT, Kallmes DF, Jarvik JG. (2015).** Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations. *American Journal of Neuroradiology (AJNR)*, 36(4), 811–816. [DOI: 10.3174/ajnr.A4173](https://doi.org/10.3174/ajnr.A4173)
-- **Chou R, Fu R, Carrino JA, Deyo RA. (2009).** Imaging strategies for low-back pain: systematic review and meta-analysis. *The Lancet*, , 373(9662), 463–472. [DOI: 10.1016/S0140-6736(09)60172-0](https://doi.org/10.1016/S0140-6736%2809%2960172-0)
-
-- **Jarvik JG, Hollingworth W, Martin B, Emerson SS, Gray DT, Overman S, Robinson D, Staiger T, Wessbecher F, Sullivan SD, Kreuter W, Deyo RA. (2003).** Rapid magnetic resonance imaging vs radiographs for patients with low back pain: a randomized controlled trial. *JAMA*, 289(21), 2810–2818. [DOI: 10.1001/jama.289.21.2810](https://doi.org/10.1001/jama.289.21.2810)
-- **Webster BS, Bauer AZ, Choi Y, Cifuentes M, Pransky GS. (2013).** Iatrogenic consequences of early magnetic resonance imaging in acute, work-related, disabling low back pain. *Spine*, 38(22), 1939–1946. [DOI: 10.1097/BRS.0b013e3182a42eb6](https://doi.org/10.1097/BRS.0b013e3182a42eb6)
-- **Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF. (2017).** Nationale VersorgungsLeitlinie Nicht-spezifischer Kreuzschmerz, 2. Auflage. AWMF-Register Nr. nvl-007. [https://register.awmf.org/de/leitlinien/detail/nvl-007](https://register.awmf.org/de/leitlinien/detail/nvl-007)

@@ -75,6 +75,51 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: sr-2016
+    type: cochrane
+    quality: high
+    title: Multifocal versus monofocal intraocular lenses after cataract extraction
+    authors: 'de Silva SR, Evans JR, Kirthi V, Ziaei M, Leber M'
+    journal: Cochrane Database of Systematic Reviews
+    year: 2016
+    doi: 10.1002/14651858.CD003169.pub4
+  - id: bj-2022
+    type: meta-analysis
+    quality: high
+    title: >-
+      Visual Outcomes and Optical Quality of Accommodative, Multifocal, Extended
+      Depth-of-Focus, and Monofocal Intraocular Lenses in Presbyopia-Correcting
+      Cataract Surgery: A Systematic Review and Bayesian Network Meta-analysis
+    authors: 'Cho BJ, Won JY'
+    journal: JAMA Ophthalmology
+    year: 2022
+    doi: 10.1001/jamaophthalmol.2022.3667
+  - id: y-2024
+    type: meta-analysis
+    quality: high
+    title: >-
+      Comparative efficacy and safety of all kinds of intraocular lenses in
+      presbyopia-correcting cataract surgery: a systematic review and
+      meta-analysis
+    authors: 'Li Y, Zhang Y, Chen M, Li J'
+    journal: BMC Ophthalmology
+    year: 2024
+    doi: 10.1186/s12886-024-03446-1
+  - id: t-2023
+    title: 'Kataraktoperation – Indikation, Technik und Kunstlinsenauswahl'
+    authors: 'Lapp T, Wacker K, Heinz C, Maier P, Eberwein P, Reinhard T'
+    journal: Deutsches Ärzteblatt International
+    year: 2023
+    doi: 10.3238/arztebl.m2023.0028
+  - id: excellence-2017
+    type: guideline
+    quality: high
+    title: 'Cataracts in adults: management'
+    authors: National Institute for Health and Care Excellence (NICE)
+    journal: 'NICE Guideline NG77. ['
+    year: 2017
+    url: 'https://www.nice.org.uk/guidance/ng77'
 ---
 <section class="kernaussage">
 
@@ -178,11 +223,3 @@ Nach aktuellem Stand (Cochrane Review, Lapp et al. 2023) gibt es keine ausreiche
 Transparenz über Kosten ist Ihr Recht. Die gesetzliche Kasse zahlt die Standard-OP mit Monofokallinse vollständig. Alles darüber hinaus ist eine Selbstzahlerleistung. Fragen Sie nach dem Gesamtpreis inklusive aller Nachuntersuchungen.
 - **„Was passiert, wenn ich mit einer Multifokallinse nicht zurechtkomme — kann die Linse ausgetauscht werden?“**
 Ein Linsentausch (IOL-Exchange) ist möglich, aber technisch anspruchsvoller als die Erstimplantation und birgt zusätzliche Risiken. Diese Information sollten Sie vor der Entscheidung haben, nicht danach.
-
-## Quellenverzeichnis
-- **de Silva SR, Evans JR, Kirthi V, Ziaei M, Leber M. (2016).** Multifocal versus monofocal intraocular lenses after cataract extraction. *Cochrane Database of Systematic Reviews*, Issue 12, Art. No.: CD003169. [DOI: 10.1002/14651858.CD003169.pub4](https://doi.org/10.1002/14651858.CD003169.pub4)
-- **Cho BJ, Won JY. (2022).** Visual Outcomes and Optical Quality of Accommodative, Multifocal, Extended Depth-of-Focus, and Monofocal Intraocular Lenses in Presbyopia-Correcting Cataract Surgery: A Systematic Review and Bayesian Network Meta-analysis. *JAMA Ophthalmology*, , 140(11), 1045–1053. [DOI: 10.1001/jamaophthalmol.2022.3667](https://doi.org/10.1001/jamaophthalmol.2022.3667)
-
-- **Li Y, Zhang Y, Chen M, Li J. (2024).** Comparative efficacy and safety of all kinds of intraocular lenses in presbyopia-correcting cataract surgery: a systematic review and meta-analysis. *BMC Ophthalmology*, 24, 172. [DOI: 10.1186/s12886-024-03446-1](https://doi.org/10.1186/s12886-024-03446-1)
-- **Lapp T, Wacker K, Heinz C, Maier P, Eberwein P, Reinhard T. (2023).** Kataraktoperation – Indikation, Technik und Kunstlinsenauswahl. *Deutsches Ärzteblatt International*, 120, 377–386. [DOI: 10.3238/arztebl.m2023.0028](https://doi.org/10.3238/arztebl.m2023.0028)
-- **National Institute for Health and Care Excellence (NICE). (2017, aktualisiert 2025).** Cataracts in adults: management. NICE Guideline NG77. [https://www.nice.org.uk/guidance/ng77](https://www.nice.org.uk/guidance/ng77)

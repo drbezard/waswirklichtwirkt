@@ -75,6 +75,55 @@ prompt: >-
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle; Fachbegriffe
   erklärt. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt
   verstehe ich meine Optionen".
+sources:
+  - id: nf-2018
+    title: Catheter Ablation for Atrial Fibrillation with Heart Failure
+    authors: 'Marrouche NF, Brachmann J, Andresen D, et al'
+    journal: New England Journal of Medicine
+    year: 2018
+    doi: 10.1056/NEJMoa1707855
+  - id: dl-2019
+    type: rct
+    quality: medium
+    title: >-
+      Effect of Catheter Ablation vs Antiarrhythmic Drug Therapy on Mortality,
+      Stroke, Bleeding, and Cardiac Arrest Among Patients With Atrial
+      Fibrillation: The CABANA Randomized Clinical Trial
+    authors: 'Packer DL, Mark DB, Robb RA, et al'
+    journal: JAMA
+    year: 2019
+    doi: 10.1001/jama.2019.0693
+  - id: p-2020
+    title: Early Rhythm-Control Therapy in Patients with Atrial Fibrillation
+    authors: 'Kirchhof P, Camm AJ, Goette A, et al'
+    journal: New England Journal of Medicine
+    year: 2020
+    doi: 10.1056/NEJMoa2019422
+  - id: meta-analysis-2025
+    title: '*Annals of Internal Medicine*, , 178, 1138–1149'
+    authors: >-
+      Catheter and Surgical Ablation for Atrial Fibrillation: A Systematic
+      Review and Meta-analysis
+    year: 2025
+    doi: 10.7326/ANNALS-25-00253
+  - id: ic-2024
+    type: guideline
+    quality: high
+    title: >-
+      2024 ESC Guidelines for the management of atrial fibrillation developed in
+      collaboration with EACTS
+    authors: 'Van Gelder IC, Rienstra M, Bunting KV, et al'
+    journal: European Heart Journal
+    year: 2024
+    doi: 10.1093/eurheartj/ehae176
+  - id: kardiologie-2025
+    type: guideline
+    quality: high
+    title: '* AWMF-S3-Leitlinie Vorhofflimmern, 1'
+    authors: Deutsche Gesellschaft für Kardiologie (DGK)
+    journal: 'Auflage. AWMF-Registernr.: 019-014. ['
+    year: 2025
+    url: 'https://register.awmf.org'
 ---
 <section class="kernaussage">
 
@@ -177,11 +226,3 @@ Die ehrliche Antwort ist: wahrscheinlich nicht. Die ESC-Leitlinie 2024 empfiehlt
 - **„Was ist der Plan, wenn die erste Ablation nicht dauerhaft erfolgreich ist?“*
 
 Wiederholungsablationen sind häufig — bei 20–40 % der Patienten ist ein zweiter Eingriff nötig. Ein seriöser Behandlungsplan berücksichtigt dieses Szenario von Anfang an.
-
-## Quellenverzeichnis
-- **Marrouche NF, Brachmann J, Andresen D, et al. (2018).** Catheter Ablation for Atrial Fibrillation with Heart Failure. *New England Journal of Medicine*, 378(5), 417–427. [DOI: 10.1056/NEJMoa1707855](https://doi.org/10.1056/NEJMoa1707855)
-- **Packer DL, Mark DB, Robb RA, et al. (2019).** Effect of Catheter Ablation vs Antiarrhythmic Drug Therapy on Mortality, Stroke, Bleeding, and Cardiac Arrest Among Patients With Atrial Fibrillation: The CABANA Randomized Clinical Trial. *JAMA*, , 321(13), 1261–1274. [DOI: 10.1001/jama.2019.0693](https://doi.org/10.1001/jama.2019.0693)
-- **Kirchhof P, Camm AJ, Goette A, et al. (2020).** Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. *New England Journal of Medicine*, 383(14), 1305–1316. [DOI: 10.1056/NEJMoa2019422](https://doi.org/10.1056/NEJMoa2019422)
-- **Catheter and Surgical Ablation for Atrial Fibrillation: A Systematic Review and Meta-analysis. (2025).** *Annals of Internal Medicine*, , 178, 1138–1149. [DOI: 10.7326/ANNALS-25-00253](https://doi.org/10.7326/ANNALS-25-00253)
-- **Van Gelder IC, Rienstra M, Bunting KV, et al. (2024).** 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS. *European Heart Journal*, 45(36), 3314–3414. [DOI: 10.1093/eurheartj/ehae176](https://doi.org/10.1093/eurheartj/ehae176)
-- *Deutsche Gesellschaft für Kardiologie (DGK). (2025).* AWMF-S3-Leitlinie Vorhofflimmern, 1. Auflage. AWMF-Registernr.: 019-014. [https://register.awmf.org](https://register.awmf.org/assets/guidelines/019-014l_S3_Vorhofflimmern_2025-07.pdf)

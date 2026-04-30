@@ -53,6 +53,57 @@ prompt: >-
   Fachbegriffe erklärt. Sowohl kritische Bewertung als auch berechtigte
   Ausnahmen enthalten. Ein Facharzt würde sagen „fair dargestellt", ein Patient
   würde sagen „jetzt verstehe ich meine Optionen".
+sources:
+  - id: m-2022
+    type: meta-analysis
+    quality: high
+    title: >-
+      Vasectomy and Risk of Prostate Cancer: A Systematic Review and
+      Meta-analysis
+    authors: >-
+      Baboudjian M, Gondran-Tellier B, Boccon-Gibod A, Madeuf A, Lechevallier E,
+      Karsenty G
+    journal: European Urology Open Science
+    year: 2022
+    doi: 10.1016/j.euros.2022.05.006
+  - id: a-2020
+    type: observational
+    quality: medium
+    title: 'Vasectomy and Prostate Cancer Risk: A 38-Year Nationwide Cohort Study'
+    authors: 'Husby A, Wohlfahrt J, Melbye M'
+    journal: 'JNCI: Journal of the National Cancer Institute'
+    year: 2020
+    doi: 10.1093/jnci/djz099
+  - id: x-2025
+    title: >-
+      Vasectomy and prostate cancer risk: a pooled of cohort studies and
+      Mendelian randomization analysis
+    authors: Wang X et al
+    journal: BMC Cancer
+    year: 2025
+    doi: 10.1186/s12885-025-13750-8
+  - id: pj-2025
+    title: The review of the long-term health risks associated with vasectomy
+    authors: 'Cheng PJ, Jiang T, Pourabhari Langroudi A, Chen A, Basran S, Eisenberg ML'
+    journal: International Journal of Impotence Research
+    year: 2025
+    doi: 10.1038/s41443-025-01043-4
+  - id: association-2026
+    type: guideline
+    quality: high
+    title: 'Vasectomy: AUA Guideline'
+    authors: American Urological Association (AUA)
+    journal: Journal of Urology
+    year: 2026
+    url: 'https://www.auanet.org/guidelines/vasectomy-guideline'
+  - id: j-2020
+    type: meta-analysis
+    quality: high
+    title: 'Incidence of Post-Vasectomy Pain: Systematic Review and Meta-Analysis'
+    authors: 'Tian J, Ren C, Li M'
+    journal: International Journal of Environmental Research and Public Health
+    year: 2020
+    doi: 10.3390/ijerph17051788
 ---
 <section class="kernaussage">
 Die Vasektomie ist nach aktuellem Forschungsstand eine sichere Methode der dauerhaften Verhütung — ohne überzeugende Belege für schwerwiegende Langzeitfolgen.Diese Einschätzung stützt sich auf Daten von über 16 Millionen Männern aus systematischen Reviews und Meta-Analysen sowie auf die aktuelle Leitlinie der American Urological Association (AUA, 2026). Kein kausaler Zusammenhang wurde nachgewiesen — weder mit Prostatakrebs noch mit Herz-Kreislauf-Erkrankungen, Demenz, Testosteronmangel oder Hodenkrebs. Die einzige klinisch relevante Langzeitfolge, die in Studien konsistent auftritt, ist das Post-Vasektomie-Schmerzsyndrom (PVPS): Etwa 5 % der Männer entwickeln chronische Hodenschmerzen, die länger als drei Monate anhalten. Bei 1–2 % beeinträchtigen diese Schmerzen die Lebensqualität dauerhaft. Über dieses reale Risiko sollte jeder Mann vor dem Eingriff aufgeklärt werden — über die unbelegten Mythen hingegen nicht.
@@ -158,12 +209,3 @@ Wann eine Vasektomie definitiv nicht durchgeführt werden sollte:Bei akuter Infe
 - „Wie wird kontrolliert, ob der Eingriff erfolgreich war?"Nach der Vasektomie muss ein Spermiogramm (Untersuchung des Ejakulats auf verbliebene Spermien) durchgeführt werden — üblicherweise nach 8–16 Wochen oder 20–25 Ejakulationen. Bis zum bestätigten Ergebnis muss weiter verhütet werden.
 - „Wie realistisch ist eine Rückoperation, falls ich es mir anders überlege?"Ehrlichkeit ist hier wichtig. Die Vasovasostomie hat gute Erfolgsraten in den ersten Jahren, aber der Erfolg nimmt mit der Zeit ab. Schwangerschaftsraten nach Refertilisierung sind deutlich niedriger als Durchgängigkeitsraten. Die Vasektomie sollte als dauerhaft betrachtet werden.
 - „Gibt es medizinische Gründe, die in meinem Fall gegen eine Vasektomie sprechen?"Bei aktiven Infektionen, bestimmten anatomischen Besonderheiten oder Gerinnungsstörungen kann eine Verschiebung oder Anpassung des Eingriffs nötig sein. Ihr Arzt sollte Ihre Vorgeschichte kennen.
-
-## Quellenverzeichnis
-
-- Baboudjian M, Gondran-Tellier B, Boccon-Gibod A, Madeuf A, Lechevallier E, Karsenty G. (2022).Vasectomy and Risk of Prostate Cancer: A Systematic Review and Meta-analysis.European Urology Open Science, 41, 35–44. DOI: [10.1016/j.euros.2022.05.006](https://doi.org/10.1016/j.euros.2022.05.006)
-- Husby A, Wohlfahrt J, Melbye M. (2020).Vasectomy and Prostate Cancer Risk: A 38-Year Nationwide Cohort Study.JNCI: Journal of the National Cancer Institute, 112(1), 71–77. DOI: 10.1093/jnci/djz099
-- Wang X et al. (2025).Vasectomy and prostate cancer risk: a pooled of cohort studies and Mendelian randomization analysis.BMC Cancer, 25, 332. DOI: [10.1186/s12885-025-13750-8](https://doi.org/10.1186/s12885-025-13750-8)
-- Cheng PJ, Jiang T, Pourabhari Langroudi A, Chen A, Basran S, Eisenberg ML. (2025).The review of the long-term health risks associated with vasectomy.International Journal of Impotence Research. DOI: [10.1038/s41443-025-01043-4](https://doi.org/10.1038/s41443-025-01043-4)
-- American Urological Association (AUA). (2026).Vasectomy: AUA Guideline.Journal of Urology.https://www.auanet.org/guidelines/vasectomy-guideline
-- Tian J, Ren C, Li M. (2020).Incidence of Post-Vasectomy Pain: Systematic Review and Meta-Analysis.International Journal of Environmental Research and Public Health, 17(5), 1788. DOI: 10.3390/ijerph17051788
