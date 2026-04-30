@@ -2,13 +2,13 @@
 key: manus_review_publish
 title: "Manus: Review + Veröffentlichung"
 description: "Wie Manus den finalen DOI-Check macht und den polierten Artikel veröffentlicht"
-version: 4
-updated_at: 2026-04-26 20:00:00+00
-synced_at: 2026-04-27T10:35:00.554Z
+version: 5
+updated_at: 2026-04-30 09:00:00.000000+00
+synced_at: 2026-04-30T09:00:00.000Z
 ---
 # Manus: Review + Veröffentlichung
 
-Letzte Verteidigungslinie gegen Halluzinationen und Fehler.
+Letzte Verteidigungslinie gegen Halluzinationen, Format-Drift und Quellen-Lücken.
 
 ## Wann du läufst
 
@@ -28,16 +28,48 @@ Wenn ein Topic Status `polished` hat.
 
 ### b) Frontmatter validieren
 
-- Pflicht: `title`, `slug`, `date`, `category`, `excerpt`, `image`, `tags`
+- Pflicht: `title`, `slug`, `date`, `category`, `excerpt`, `image`, `tags`, `prompt`,
+  `seoTitle`, `seoDescription`
+- `category:` exakt aus erlaubter Fachgebiete-Liste (siehe Drafting-Prompt)
 - Slug eindeutig (außer `type: refresh`)
 - Tags alle aus `tags_vocabulary`
+- `prompt:` darf NICHT generisch sein. Verwerfen wenn:
+  - leer oder kürzer als 200 Zeichen
+  - enthält die Phrase „Dieser Artikel wurde von Manus AI" oder „basierend auf den
+    aktuellsten wissenschaftlichen Studien"
+  - enthält nicht mindestens einen Anker, der den Artikel-Titel oder eine konkrete
+    Schlüsselstudie aus dem Artikel referenziert
 
-### c) HTML validieren
+### c) Body-Format validieren
 
 - Jede `<div class="studie">` geschlossen
-- Kernaussage-Section vorhanden
+- Kernaussage-Section vorhanden (`<section class="kernaussage">`)
+- **Verboten** im Body (Auto-Reject + zurück auf `drafted`):
+  - `===== ` oder `===== INTERNE VERLINKUNG =====` und ähnliche Marker
+  - Heading `## Quellen` oder `## Quellenverzeichnis` (Quellen kommen aus `sources:`)
+  - Heading `## Experten-Review` (Reviewer kommt live aus Server-Island)
+  - Heading `## Überprüfen Sie diesen Artikel selbst` oder „Diesen Artikel selbst
+    überprüfen" (kommt vom Renderer aus `prompt:`)
+  - Heading `### Verwandte Artikel` (kommt vom Renderer aus Tag-Jaccard)
+  - Reviewer-Platzhalter wie „[Platz für ein 1–2-Satz-Statement des Reviewers …]" oder
+    „### Ergänzung des prüfenden Facharztes"
 
-### d) Hero-Bild hochladen (falls `image:` leer)
+### d) Studien-Box-Headlines validieren
+
+Jeder `<span class="studie-name">…</span>` muss mit einem **Eigennamen** beginnen, nicht
+mit einem generischen Studientyp-Prefix. Verboten als Anfang:
+- `Beobachtungsstudie:`
+- `Kohortenstudie:`
+- `Prospektive Kohortenstudie:`
+- `Studie:`
+- `RCT:`
+
+Erlaubt sind: Autor-Form (`Lax et al. (2024) — …`), Org-Form (`AAD Clinical Practice
+Guideline (2024)`), Report-Form (`TFOS DEWS II Management and Therapy Report (2017)`).
+
+Bei Verletzung → Topic zurück auf `drafted` mit Notiz, welche Box.
+
+### e) Hero-Bild hochladen (falls `image:` leer)
 
 - 1600×900 px, fotorealistisch, ruhig, medizinisch-professionell
 - Keine Patienten-Gesichter, keine blutigen Motive
@@ -54,7 +86,7 @@ Body (multipart/form-data): slug=<slug>, file=<Bild>
 
 Antwort 201 enthält `url` — direkt ins Frontmatter `image:` übernehmen.
 
-### e) Veröffentlichen
+### f) Veröffentlichen
 
 1. `draft: true` entfernen
 2. Datei verschieben: `src/content/drafts/<slug>.md` → `src/content/artikel/<slug>.md`
@@ -64,7 +96,7 @@ Antwort 201 enthält `url` — direkt ins Frontmatter `image:` übernehmen.
    - `type=refresh`: `Refresh: <titel>`
 4. Push auf `main` (Push-Rechte am Repo `drbezard/waswirktwirklich` nötig)
 
-### f) Topic-Status
+### g) Topic-Status
 
 `POST /api/manus/topics/<id>/transition` mit
 `{new_status: "published", article_slug: "<slug>", tags: [...]}`
@@ -80,7 +112,8 @@ prüfen, ob Verweis sinnvoll. Wenn ja: kleiner PR `Link added: <neu> from <alt>`
 ## Verbote
 
 - Kein Publish ohne komplette DOI-Verifikation
+- Kein Publish bei generischem `prompt:`-Feld
+- Kein Publish bei verbotenen Body-Sections (siehe c)
 - Kein Slug-Konflikt (außer refresh)
 - Kein Tag außerhalb Vokabular
 - Bei pausierter Pipeline: nichts schreiben
-
