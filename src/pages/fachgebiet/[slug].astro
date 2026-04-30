@@ -2,33 +2,31 @@
 import Base from '../../layouts/Base.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { SPECIALTIES, SPECIALTY_BY_SLUG } from '../../lib/specialties';
 
 export async function getStaticPaths() {
   const allArticles = await getCollection('artikel', ({ data }) => !data.draft);
 
-  const categoryMap = new Map<string, typeof allArticles>();
-  allArticles.forEach(a => {
-    const cat = a.data.category;
-    if (!categoryMap.has(cat)) categoryMap.set(cat, []);
-    categoryMap.get(cat)!.push(a);
-  });
-
-  return Array.from(categoryMap.entries()).map(([name, articles]) => {
-    const slug = name.toLowerCase().replace(/\s+/g, '-').replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue');
+  return SPECIALTIES.map((s) => {
+    const articles = allArticles
+      .filter((a) => a.data.category === s.name)
+      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
     return {
-      params: { slug },
+      params: { slug: s.slug },
       props: {
-        categoryName: name,
-        articles: articles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()),
+        categoryName: s.name,
+        description: s.description,
+        articles,
       },
     };
   });
 }
 
-const { categoryName, articles } = Astro.props;
+const { categoryName, description, articles } = Astro.props;
+const empty = articles.length === 0;
 ---
 
-<Base title={categoryName} description={`Alle evidenzbasierten Artikel zum Fachgebiet ${categoryName}.`}>
+<Base title={categoryName} description={`Evidenzbasierte Patientenartikel zum Fachgebiet ${categoryName}.`}>
   <section class="py-12 md:py-16">
     <div class="max-w-4xl mx-auto px-5">
       <a href="/fachgebiete" class="text-sm font-medium text-primary hover:text-primary-dark transition-colors no-underline mb-6 inline-block">
@@ -36,20 +34,38 @@ const { categoryName, articles } = Astro.props;
       </a>
 
       <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">{categoryName}</h1>
-      <p class="text-text-secondary mb-10">{articles.length} {articles.length === 1 ? 'Artikel' : 'Artikel'} in diesem Fachgebiet.</p>
+      <p class="text-text-secondary mb-2 leading-relaxed">{description}</p>
+      <p class="text-text-muted text-sm mb-10">
+        {empty
+          ? 'Noch keine Artikel in diesem Fachgebiet.'
+          : `${articles.length} ${articles.length === 1 ? 'Artikel' : 'Artikel'} in diesem Fachgebiet.`}
+      </p>
 
-      <div class="space-y-4">
-        {articles.map((article: any) => (
-          <ArticleCard
-            title={article.data.title}
-            slug={article.data.slug}
-            date={article.data.date}
-            category={article.data.category}
-            excerpt={article.data.excerpt}
-            image={article.data.image}
-          />
-        ))}
-      </div>
+      {empty ? (
+        <div class="rounded-2xl border border-border-light bg-bg-card p-8 md:p-10 text-center">
+          <p class="text-text-secondary leading-relaxed mb-6">
+            Du suchst Evidenz zu einem konkreten Thema in <strong class="text-text">{categoryName}</strong>?
+            Stell deine Frage — wir prüfen jeden Vorschlag und schreiben den passenden Artikel.
+          </p>
+          <a href="/frage-stellen" class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-xl hover:bg-primary-dark transition-colors no-underline text-base">
+            Frage stellen
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </div>
+      ) : (
+        <div class="space-y-4">
+          {articles.map((article: any) => (
+            <ArticleCard
+              title={article.data.title}
+              slug={article.data.slug}
+              date={article.data.date}
+              category={article.data.category}
+              excerpt={article.data.excerpt}
+              image={article.data.image}
+            />
+          ))}
+        </div>
+      )}
     </div>
   </section>
 </Base>
