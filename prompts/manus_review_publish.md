@@ -2,9 +2,9 @@
 key: manus_review_publish
 title: "Manus: Review + Veröffentlichung"
 description: "Wie Manus den finalen DOI-Check macht und den polierten Artikel veröffentlicht"
-version: 6
-updated_at: 2026-05-02 18:00:00.000000+00
-synced_at: 2026-05-02T18:00:00.000Z
+version: 7
+updated_at: 2026-05-02 22:30:00.000000+00
+synced_at: 2026-05-02T22:30:00.000Z
 ---
 # Manus: Review + Veröffentlichung
 
@@ -47,10 +47,17 @@ Wenn ein Topic Status `polished` hat.
   - enthält nicht den Strukturblock mit (1) KERNAUSSAGE / (2) WAS PATIENTEN GLAUBEN /
     (3) WANN IST ES DOCH SINNVOLL? / (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN /
     (5) QUELLENVERZEICHNIS
+  - enthält SEO-Anweisungen (Wörter „SEO", „Meta-Description", „Keyword-Variation",
+    „60 Zeichen", „160 Zeichen") — die gehören in `seoTitle:`/`seoDescription:`,
+    nicht in den Wiederherstellungs-Prompt
+  - referenziert „Manus AI", „Was Wirkt Wirklich" oder „unsere Plattform" — der
+    Prompt soll generisch funktionieren
 
 ### c) Body-Format validieren
 
-- Jede `<div class="studie">` geschlossen
+- Jede `<div class="studie">` geschlossen — Anzahl `<div class="studie">` muss exakt
+  Anzahl matchender `</div>` in passender Reihenfolge entsprechen. Bei nicht balancierten
+  Tags → Topic zurück auf `drafted` (sonst kaskadierende Verschachtelung im Render)
 - Kernaussage-Section vorhanden (`<section class="kernaussage">`)
 - **Verboten** im Body (Auto-Reject + zurück auf `drafted`):
   - `===== ` oder `===== INTERNE VERLINKUNG =====` und ähnliche Marker

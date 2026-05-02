@@ -52,7 +52,7 @@ prompt: >-
   https://doi.org/ resolvable sein.
 
 
-  Erwartete Schlüsselbefunde (als Vergleichsbasis für die KI):
+  Erwartete Schlüsselbefunde (als inhaltliche Vergleichsbasis):
 
   - Brinjikji et al. (2015), systematische Literaturübersicht in 33 Studien mit
   3.110 beschwerdefreien Personen: Bandscheibenvorwölbungen sind bei 30 % der
@@ -91,17 +91,6 @@ prompt: >-
   Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
   zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
   Seiten darstellen.
-
-
-  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
-  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
-  Sprache (verständlich für Klasse 9).
-
-
-  Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs
-  müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel
-  wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht
-  kommentieren.
 
 
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle
@@ -256,6 +245,8 @@ Die Studien hatten unterschiedliche Designs, aber überwiegend eine hohe methodi
 
 Die klinische Relevanz ist erheblich: Die routinemäßige Bildgebung bei unkomplizierten Rückenschmerzen verbessert weder den Verlauf noch die Behandlungsergebnisse und ist daher nicht zu empfehlen.
 
+</div>
+
 <div class="studie">
 <span class="studie-name">Jarvik et al. (2003) — JAMA-RCT zu MRT vs. Röntgen bei Rückenschmerz</span>
 <div class="studie-details">Randomisierte kontrollierte Studie · JAMA · 380 Patienten</div>
@@ -263,6 +254,8 @@ Die klinische Relevanz ist erheblich: Die routinemäßige Bildgebung bei unkompl
 Diese Studie verglich zwei Gruppen von Patienten mit Rückenschmerzen: eine erhielt kurzfristig ein MRT, die andere nur eine Röntgenaufnahme. Nach einem Jahr gab es keine Unterschiede in der rückenbezogenen Behinderung oder Schmerzintensität. Auffällig war jedoch, dass in der MRT-Gruppe deutlich mehr Operationen durchgeführt wurden — ohne dass dies einen positiven Einfluss auf den Verlauf hatte.
 
 Diese Studie illustriert das Phänomen der „diagnostischen Kaskade“: Mehr Diagnostik führt nicht automatisch zu besseren Ergebnissen, sondern häufig zu mehr Interventionen, die Risiken und Kosten erhöhen. Die Verblindung war wie meist bei Bildgebungsstudien nicht möglich, was eine potenzielle Verzerrung darstellt. Dennoch sind die Ergebnisse robust und belegen die geringe Nützlichkeit eines frühen MRTs.
+
+</div>
 
 <div class="studie">
 <span class="studie-name">Webster et al. (2013) — Kohortenstudie zu iatrogenen Folgen früher MRT</span>
@@ -272,6 +265,8 @@ Die retrospektive Kohortenstudie analysierte die Auswirkungen eines frühen MRT 
 
 Da es sich um eine retrospektive Studie handelt, sind Kausalitäten schwer zu beweisen. Ein Bias könnte darin liegen, dass Patienten mit schwereren Symptomen eher ein MRT erhielten. Dennoch stimmen die Ergebnisse mit den RCTs überein und weisen auf negative Folgen eines frühen MRTs hin.
 
+</div>
+
 <div class="studie">
 <span class="studie-name">Nationale VersorgungsLeitlinie Kreuzschmerz (2017)</span>
 <div class="studie-details">S3-Leitlinie · Bundesärztekammer, Kassenärztliche Bundesvereinigung, AWMF</div>
@@ -279,6 +274,8 @@ Da es sich um eine retrospektive Studie handelt, sind Kausalitäten schwer zu be
 Die Nationale VersorgungsLeitlinie (NVL) Kreuzschmerz fasst den aktuellen wissenschaftlichen Konsens zusammen und empfiehlt klar: Bei nicht-spezifischem Kreuzschmerz soll keine Bildgebung in den ersten 4–6 Wochen erfolgen, sofern keine Red Flags vorliegen. Erst wenn sich die Beschwerden trotz leitliniengerechter Therapie nicht bessern oder sich Warnzeichen zeigen, ist eine Bildgebung indiziert.
 
 Diese Leitlinie basiert auf einem umfangreichen Review der Literatur und berücksichtigt auch gesundheitspolitische Aspekte wie Kosten und Nutzen. Die Empfehlungen sind somit evidenzbasiert und praxisrelevant.
+
+</div>
 
 ### Psychologische Aspekte: Placebo, Nocebo und Arzt-Patienten-Interaktion
 

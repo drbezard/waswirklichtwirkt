@@ -30,16 +30,12 @@ Struktur:
 (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung, warum sie wichtig sind.
 (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen, RCTs, aktuelle Leitlinien führender Fachgesellschaften. Jede DOI muss unter https://doi.org/ resolvable sein.
 
-Erwartete Schlüsselbefunde (als Vergleichsbasis für die KI):
+Erwartete Schlüsselbefunde (als inhaltliche Vergleichsbasis):
 ${findingsList}
 
 Quellen-Anforderung: alle aktuellen Cochrane-Reviews + Meta-Analysen + Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert; Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben Vorrang. Hierarchie bei Konflikten: Cochrane > aktuelle Leitlinie > Netzwerk-Meta-Analyse > Meta-Analyse > einzelner RCT > Kohortenstudie.
 
 Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160 Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache Sprache (verständlich für Klasse 9).
-
-Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht kommentieren.
 
 Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle Fachbegriffe in Klammern erklärt; sowohl kritische Bewertung als auch berechtigte Ausnahmen darstellen. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt verstehe ich meine Optionen".`;
 }
