@@ -13,11 +13,103 @@ tags:
   - auge
   - operation
 prompt: >-
-  Du bist ein streng wissenschaftlicher, evidenzbasierter medizinischer Redakteur für die Plattform "Was Wirkt Wirklich".
-  Du überprüfst den Artikel "Augenlaser-Operation: Was die Studien wirklich zeigen".
-  Bitte verifiziere anhand der zitierten FDA-PROWL-Studie (Eydelman et al., 2017) sowie der Metaanalyse von Sandoval et al. (2019),
-  ob die Aussagen zu den Erfolgsraten bei Kurzsichtigkeit sowie den Nebenwirkungen (trockene Augen, visuelle Phänomene)
-  korrekt und ausgewogen wiedergegeben sind.
+  Du bist medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie
+  Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst
+  ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn
+  ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne
+  Abschwächung.
+
+
+  Schreibe einen evidenzbasierten Patientenartikel auf Deutsch (Sie-Form,
+  2.500–3.500 Wörter) zum Thema:
+
+  **Augenlaser-Operation: Was die Studien wirklich zeigen**
+
+
+  Struktur:
+
+  (1) KERNAUSSAGE (max. 200 Wörter) — eine glasklare Aussage zur Evidenzlage,
+  Hauptaussage zuerst, einfache Sprache.
+
+  (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.500–2.000 Wörter) —
+  häufigste Patientenannahme vs. beste Evidenz; alle relevanten
+  Cochrane-Reviews, Meta-Analysen und Leitlinien zum Thema mit Studienname,
+  Erstautor, Journal, Jahr, Studiendesign, Teilnehmerzahl und Kernergebnis;
+  Fachbegriffe sofort in Klammern erklären; erklären, warum Fehlvorstellungen
+  bestehen (Placebo, Regression zur Mitte, finanzielle Anreize, widersprüchliche
+  Leitlinien).
+
+  (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete
+  Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen
+  Formulierungen.
+
+  (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen
+  mit Erklärung, warum sie wichtig sind.
+
+  (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen,
+  RCTs, aktuelle Leitlinien führender Fachgesellschaften. Jede DOI muss unter
+  https://doi.org/ resolvable sein.
+
+
+  Erwartete Schlüsselbefunde (als Vergleichsbasis für die KI):
+
+  - Shortt et al. (2022), Cochrane-Review zu LASIK vs. Brille/Kontaktlinsen:
+  LASIK ist effektiv zur Korrektur von Kurzsichtigkeit bis ca. -12 Dioptrien;
+  92–96 % der Patienten erreichen unkorrigierte Sehschärfe von 20/20 oder
+  besser.
+
+  - Eydelman et al. (2017), PROWL-Studie der FDA mit 574 Patienten: hohe
+  Zufriedenheit, aber 43 % berichteten 6 Monate postoperativ über neu
+  aufgetretene Blendempfindlichkeit, 46 % über Halos um Lichtquellen — gerade
+  beim Nachtsehen relevant.
+
+  - Stulting et al. (2018), prospektive Studie zu topographie-gesteuerter LASIK:
+  hohe Genauigkeit der Refraktionskorrektur, aber visuelle Nebenphänomene
+  (Glare, Halos, Starbursts) bleiben ein Risiko, das auch moderne Verfahren
+  nicht eliminiert haben.
+
+  - Sandoval et al. (2019), Übersicht zu LASIK-Komplikationen: trockene Augen
+  sind das häufigste Problem nach LASIK — bis zu 40 % in den ersten 6 Monaten;
+  bei einem Teil der Patienten persistieren die Beschwerden über Jahre und
+  werden zu chronischer Sicca-Symptomatik.
+
+  - Patientenauswahl: dünne Hornhaut (< 480 µm), Keratokonus-Verdacht,
+  Schwangerschaft, instabile Refraktion, schwere trockene Augen-Symptomatik vor
+  OP sind Kontraindikationen — ein gewissenhafter Operateur lehnt diese
+  Patienten ab, statt sie zu operieren.
+
+
+  Quellen-Anforderung: alle aktuellen Cochrane-Reviews + Meta-Analysen +
+  Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert;
+  Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben
+  Vorrang. Hierarchie bei Konflikten: Cochrane > aktuelle Leitlinie >
+  Netzwerk-Meta-Analyse > Meta-Analyse > einzelner RCT > Kohortenstudie.
+
+
+  Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
+  Seiten darstellen.
+
+
+  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
+  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
+  Sprache (verständlich für Klasse 9).
+
+
+  Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs
+  müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel
+  wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht
+  kommentieren.
+
+
+  Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle
+  Fachbegriffe in Klammern erklärt; sowohl kritische Bewertung als auch
+  berechtigte Ausnahmen darstellen. Ein Facharzt würde sagen „fair dargestellt",
+  ein Patient „jetzt verstehe ich meine Optionen".
 seoTitle: 'Augenlaser-Operation: Was die Studien wirklich zeigen'
 seoDescription: >-
   Evidenzbasierte Analyse der LASIK/LASEK-Operation – Erfolgsraten, Risiken und
@@ -27,54 +119,60 @@ sources:
     type: cochrane
     quality: high
     title: >-
-      Laser-assisted in-situ keratomileusis (LASIK) versus photorefractive keratectomy (PRK) for myopia
-    authors: 'Shortt AJ et al.'
+      Laser-assisted in-situ keratomileusis (LASIK) versus photorefractive
+      keratectomy (PRK) for myopia
+    authors: Shortt AJ et al.
     journal: Cochrane Database of Systematic Reviews
     year: 2022
     doi: 10.1002/14651858.CD005135.pub3
     doi_verified: true
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      LASIK ist effektiv zur Korrektur von Kurzsichtigkeit bis -12 Dioptrien, 92-96% erreichen 20/20 Sehschärfe.
+      LASIK ist effektiv zur Korrektur von Kurzsichtigkeit bis -12 Dioptrien,
+      92-96% erreichen 20/20 Sehschärfe.
   - id: prowl-2017
     type: observational
     quality: high
     title: >-
-      Symptoms and Satisfaction of Patients in the Patient-Reported Outcomes With Laser In Situ Keratomileusis (PROWL) Studies
-    authors: 'Eydelman M et al.'
+      Symptoms and Satisfaction of Patients in the Patient-Reported Outcomes
+      With Laser In Situ Keratomileusis (PROWL) Studies
+    authors: Eydelman M et al.
     journal: JAMA Ophthalmology
     year: 2017
     doi: 10.1001/jamaophthalmol.2016.4587
     doi_verified: false
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      Hohe Zufriedenheit, aber 43% berichteten über neue Blendempfindlichkeit und 46% über Halos.
+      Hohe Zufriedenheit, aber 43% berichteten über neue Blendempfindlichkeit
+      und 46% über Halos.
   - id: stulting-2018
     type: observational
     quality: medium
     title: >-
-      Results of topography-guided laser in situ keratomileusis custom ablation treatment with a refractive excimer laser
-    authors: 'Stulting RD et al.'
+      Results of topography-guided laser in situ keratomileusis custom ablation
+      treatment with a refractive excimer laser
+    authors: Stulting RD et al.
     journal: Journal of Cataract & Refractive Surgery
     year: 2018
     doi: 10.1016/j.jcrs.2018.05.021
     doi_verified: false
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      Topographie-gesteuerte LASIK zeigt gute Ergebnisse, aber visuelle Phänomene bleiben ein Risiko.
+      Topographie-gesteuerte LASIK zeigt gute Ergebnisse, aber visuelle
+      Phänomene bleiben ein Risiko.
   - id: sandoval-2019
     type: meta-analysis
     quality: high
-    title: >-
-      Modern Laser In Situ Keratomileusis Outcomes
-    authors: 'Sandoval HP et al.'
+    title: Modern Laser In Situ Keratomileusis Outcomes
+    authors: Sandoval HP et al.
     journal: Journal of Cataract & Refractive Surgery
     year: 2019
     doi: 10.1016/j.jcrs.2018.08.025
     doi_verified: false
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      Trockene Augen sind das häufigste Problem nach LASIK (bis zu 40% in den ersten 6 Monaten).
+      Trockene Augen sind das häufigste Problem nach LASIK (bis zu 40% in den
+      ersten 6 Monaten).
 ---
 <section class="kernaussage">
 Die Augenlaser-Chirurgie ist bei richtiger Patientenauswahl ein gut untersuchter, effektiver Eingriff — aber die Werbung verschweigt die Risiken. Ein Cochrane-Review mit über 4.500 Augen bestätigt: LASIK korrigiert Kurzsichtigkeit bis -12 Dioptrien effektiv. 92–96 % der geeigneten Patienten erreichen eine Sehschärfe von 20/20 ohne Brille. Gleichzeitig zeigt die FDA-PROWL-Studie: 43 % berichten über neue Blendempfindlichkeit, 46 % über Halos. Trockene Augen betreffen bis zu 40 % der Patienten in den ersten 6 Monaten, bei 5–10 % dauerhaft. Die wichtigste Erkenntnis der Forschung: Der Erfolg hängt weniger von der Technik ab als von der sorgfältigen Patientenauswahl. Eine zweite unabhängige Meinung vor dem Eingriff ist keine Vorsicht — sie ist evidenzbasierte Medizin.
@@ -99,7 +197,7 @@ Für Patienten ist es deshalb essenziell, sich nicht nur von Werbeversprechen le
 Die Augenlaser-Operation, insbesondere LASIK, ist einer der am besten untersuchten elektiven chirurgischen Eingriffe. Die wissenschaftliche Evidenz basiert auf tausenden Studien, darunter randomisierte kontrollierte Studien (RCTs), Beobachtungsstudien und systematische Übersichten. Ein besonders gewichtiger Meilenstein ist der Cochrane-Review von Shortt et al. (2022), der 35 RCTs mit über 4.500 behandelten Augen zusammenfasst.
 
 <div class="studie">
-<span class="studie-name">Shortt et al. (2022)</span>
+<span class="studie-name">Shortt et al. (2022) — Cochrane-Review zur LASIK-Wirksamkeit</span>
 <div class="studie-details">Cochrane Database of Systematic Reviews · Cochrane-Review · 35 RCTs, über 4.500 Augen</div>
 
 LASIK ist effektiv zur Korrektur von Kurzsichtigkeit bis -12 Dioptrien, 92-96% erreichen 20/20 Sehschärfe.
@@ -120,7 +218,7 @@ Dennoch sind einige Aspekte kritisch zu hinterfragen:
 Trotz dieser Limitationen liefert der Review solide Hinweise, dass LASIK bei sorgfältiger Patientenauswahl effektiv Kurzsichtigkeit korrigiert.
 
 <div class="studie">
-<span class="studie-name">Eydelman et al. (2017)</span>
+<span class="studie-name">Eydelman et al. (2017) — PROWL-Studie der FDA zu LASIK-Nebenwirkungen</span>
 <div class="studie-details">JAMA Ophthalmology · Beobachtungsstudie (PROWL) · 574 Patienten</div>
 
 Eine der größten Langzeitstudien der FDA zeigte nach 3 Monaten, dass 95,4% der Patienten eine Sehschärfe von 20/20 (1,0) oder besser erreichten. Gleichzeitig berichteten jedoch 43% der Patienten über neue Blendempfindlichkeit und 46% über Halos um Lichtquellen.
@@ -149,7 +247,7 @@ Diese visuellen Phänomene können die Lebensqualität erheblich beeinträchtige
 Dennoch liefert die PROWL-Studie wichtige Hinweise, dass die Risiken visueller Nebenwirkungen nach LASIK nicht trivial sind und Patienten darüber ehrlich aufgeklärt werden sollten.
 
 <div class="studie">
-<span class="studie-name">Sandoval et al. (2019)</span>
+<span class="studie-name">Sandoval et al. (2019) — Übersicht zu LASIK-Komplikationen</span>
 <div class="studie-details">Journal of Cataract & Refractive Surgery · Meta-Analyse</div>
 
 Trockene Augen sind das häufigste Problem nach LASIK (bis zu 40% in den ersten 6 Monaten). Bei den meisten bessert sich dies nach 6-12 Monaten, bei 5-10% persistiert das Problem dauerhaft.
@@ -173,7 +271,7 @@ Die LASIK-Operation schneidet einen Hornhaut-Flap, der Nervenfasern durchtrennt,
 Diese Daten verdeutlichen, dass trockene Augen nicht als „kleines“ Nebenwirkungsproblem abgetan werden dürfen, sondern eine ernsthafte Komplikation mit Einfluss auf die Lebensqualität darstellen.
 
 <div class="studie">
-<span class="studie-name">Stulting et al. (2018)</span>
+<span class="studie-name">Stulting et al. (2018) — Studie zu topographie-gesteuerter LASIK</span>
 <div class="studie-details">Journal of Cataract & Refractive Surgery · Beobachtungsstudie</div>
 
 Topographie-gesteuerte LASIK zeigt gute Ergebnisse, aber visuelle Phänomene bleiben ein Risiko.
