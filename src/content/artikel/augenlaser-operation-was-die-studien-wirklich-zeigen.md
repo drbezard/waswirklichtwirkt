@@ -51,7 +51,7 @@ prompt: >-
   https://doi.org/ resolvable sein.
 
 
-  Erwartete Schlüsselbefunde (als Vergleichsbasis für die KI):
+  Erwartete Schlüsselbefunde (als inhaltliche Vergleichsbasis):
 
   - Shortt et al. (2022), Cochrane-Review zu LASIK vs. Brille/Kontaktlinsen:
   LASIK ist effektiv zur Korrektur von Kurzsichtigkeit bis ca. -12 Dioptrien;
@@ -93,17 +93,6 @@ prompt: >-
   Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
   zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
   Seiten darstellen.
-
-
-  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
-  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
-  Sprache (verständlich für Klasse 9).
-
-
-  Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs
-  müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel
-  wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht
-  kommentieren.
 
 
   Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle

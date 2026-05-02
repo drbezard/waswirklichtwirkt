@@ -2,9 +2,9 @@
 key: manus_drafting
 title: "Manus: Artikel-Draft"
 description: "Wie Manus einen evidenzbasierten Patientenartikel schreibt — autonom, mit Live-Recherche"
-version: 4
-updated_at: 2026-05-02 18:00:00.000000+00
-synced_at: 2026-05-02T18:00:00.000Z
+version: 5
+updated_at: 2026-05-02 22:30:00.000000+00
+synced_at: 2026-05-02T22:30:00.000Z
 ---
 # Manus: Artikel-Draft
 
@@ -197,9 +197,17 @@ Jeder `prompt:` MUSS enthalten:
 3. **Struktur** (nummeriert, mit Wortzahlen): Kernaussage / Was Patienten glauben — und was die Studien zeigen / Wann ist es doch sinnvoll? / Was Sie Ihren Arzt fragen sollten / Quellenverzeichnis.
 4. **Stilregeln**: Deutsch, Sie-Form, kritisch, respektvoll. Verbote: Marketing, unbelegte Statistiken, Verharmlosung, Empfehlungen ohne Quelle.
 5. **Quellen-Anforderung**: alle aktuellen Cochrane-Reviews + Meta-Analysen + Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert; Beobachtungsstudien nur als Ergänzung.
-6. **SEO-Anforderung**: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160 Zeichen; H2/H3 mit Keyword-Variationen.
-7. **Erwartete Schlüsselbefunde** als Anker: 3–5 konkrete Bullet-Points mit Studien-Eigennamen + Kernergebnis (jeder Bullet = 1 Satz). Diese Befunde MÜSSEN der Leser-KI als „so sollte es ungefähr aussehen"-Vergleichsbasis dienen.
-8. **Qualitätskontrolle**: jede Behauptung mit Quelle; Fachbegriffe in Klammern erklären; alle DOIs müssen unter https://doi.org/ resolvable sein.
+6. **Erwartete Schlüsselbefunde** als Anker: 3–5 konkrete Bullet-Points mit Studien-Eigennamen + Kernergebnis (jeder Bullet = 1 Satz). Diese Befunde dienen der Leser-KI als inhaltliche Vergleichsbasis.
+7. **Qualitätskontrolle**: jede Behauptung mit Quelle; Fachbegriffe in Klammern erklären; alle DOIs müssen unter https://doi.org/ resolvable sein.
+
+**Was NICHT in den `prompt:`-Wert gehört** (gehören in andere Frontmatter-Felder bzw.
+sind interne Konzepte):
+
+- ❌ SEO-Vorgaben (Titel-Länge, Meta-Description, Keyword-Dichte) — die stehen in
+  `seoTitle:`/`seoDescription:` und sind eine Publishing-Sache, keine Schreib-Anleitung
+- ❌ Self-References auf Manus AI oder „Was Wirkt Wirklich" — der Prompt soll generisch
+  funktionieren, egal wer ihn ausführt
+- ❌ Workflow-Anweisungen wie „push die Datei via Git" — der Leser-KI ist das egal
 
 **Mindestlänge des `prompt:`-Werts: 1.200 Zeichen.** Kürzere Werte werden von
 `manus_review_publish` zurückgewiesen.
@@ -223,19 +231,15 @@ Struktur:
 (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen mit Erklärung.
 (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen, RCTs, aktuelle Leitlinien.
 
-Erwartete Schlüsselbefunde (als Vergleichsbasis):
+Erwartete Schlüsselbefunde (als inhaltliche Vergleichsbasis):
 - Pucker et al. (2016) Cochrane-Review: für rezeptfreie künstliche Tränen ist die Evidenz schwach und uneinheitlich.
 - TFOS DEWS II (2017) Konsensus-Report: Stufentherapie nach Schweregrad, Lipidschicht-Defizit braucht andere Tropfen als wässriges Defizit.
 - Cyclosporin A (Wan 2015 Meta-Analyse, Shao 2022 Netzwerk-MA): wirksam bei mittelschwerer bis schwerer Erkrankung, aber Wirkungseintritt erst nach 3-6 Monaten.
 - Konservierungsmittel (Gomes 2019 Übersicht): Benzalkoniumchlorid in Dauertropfen schädigt die Hornhaut zusätzlich — bei häufiger Anwendung (>4×/Tag) immer konservierungsmittelfrei.
 
+Quellen-Anforderung: alle aktuellen Cochrane-Reviews + Meta-Analysen + Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert; Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben Vorrang. Hierarchie bei Konflikten: Cochrane > aktuelle Leitlinie > Netzwerk-Meta-Analyse > Meta-Analyse > einzelner RCT > Kohortenstudie.
+
 Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache, unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne Studienbeleg, Verharmlosung von Risiken. Gefordert: Jede Behauptung mit Quelle, klare Unterscheidung „belegt"/„unklar"/„widerlegt", bei widersprüchlicher Datenlage beide Seiten darstellen.
-
-Quellen-Anforderung: alle aktuellen Cochrane-Reviews + Meta-Analysen + Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert; Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben Vorrang.
-
-SEO: Titel max. 60 Z. mit Hauptkeyword vorne; Description max. 160 Z. mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache Sprache (Klasse 9).
-
-Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht kommentieren.
 
 Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle Fachbegriffe in Klammern erklärt; sowohl kritische Bewertung als auch berechtigte Ausnahmen. Ein Facharzt würde sagen „fair dargestellt", ein Patient „jetzt verstehe ich meine Optionen".
 ```
@@ -247,9 +251,13 @@ Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle Fachbe
 3. Trage in **Erwartete Schlüsselbefunde** 3–5 konkrete Bullets ein, mit
    Studien-Eigennamen, Methode (z.B. „Cochrane-Review", „Meta-Analyse aus 2024",
    „RCT, n=380") und Kernergebnis in einem Satz. Diese Bullets ersetzen den Trockene-Augen-Block.
-4. Lass den Rest unverändert (Stilregeln, Quellen-Anforderung, SEO, Verbote, Qualitätskontrolle).
-5. Prüfe: ≥ 1.200 Zeichen, kein Vorkommen von „verifiziere", „überprüfe ob die Aussage",
-   „Faktencheck", „Bitte prüfe".
+4. Lass den Rest unverändert (Stilregeln, Quellen-Anforderung, Qualitätskontrolle).
+5. Prüfe vor dem Speichern:
+   - ≥ 1.200 Zeichen
+   - kein Vorkommen von „verifiziere", „überprüfe ob die Aussage", „Faktencheck", „Bitte prüfe"
+   - keine SEO-Anweisungen (gehören in `seoTitle:` / `seoDescription:`)
+   - kein Verweis auf „Manus AI", „Was Wirkt Wirklich" oder unsere Plattform — der Prompt
+     soll generisch funktionieren
 
 ## Inline-Querverweise
 
