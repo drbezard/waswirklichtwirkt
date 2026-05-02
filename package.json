@@ -12,7 +12,9 @@
   "scripts": {
     "dev": "astro dev",
     "sync:articles": "node scripts/sync-articles.mjs",
-    "build": "node scripts/sync-articles.mjs && astro build",
+    "seo:lint": "node scripts/seo-lint.mjs",
+    "seo:lint:strict": "node scripts/seo-lint.mjs --strict",
+    "build": "node scripts/sync-articles.mjs && node scripts/seo-lint.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
