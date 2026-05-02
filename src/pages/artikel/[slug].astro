@@ -151,6 +151,12 @@ const faqJsonLd = faqs.length >= 2 ? {
   description={article.data.seoDescription || article.data.excerpt}
   image={article.data.image}
   canonical={canonicalUrl}
+  ogType="article"
+  noBrandSuffix={true}
+  publishedTime={article.data.date}
+  modifiedTime={article.data.date}
+  articleSection={article.data.category}
+  articleTags={article.data.tags}
 >
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
