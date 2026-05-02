@@ -2,6 +2,15 @@
 import Base from '../../layouts/Base.astro';
 import ReviewerBadge from '../../components/ReviewerBadge.astro';
 import { getCollection, render } from 'astro:content';
+import {
+  buildMedicalWebPage,
+  buildArticle,
+  buildBreadcrumb,
+  buildFaqPage,
+  PUBLISHER_ORG_SCHEMA,
+  BRAND_ORG_SCHEMA,
+  SITE_URL,
+} from '../../lib/schema';
 
 export async function getStaticPaths() {
   const articles = await getCollection('artikel', ({ data }) => !data.draft);
@@ -57,9 +66,8 @@ const relatedHeading = useTagBased
   ? 'Verwandte Artikel'
   : `Weitere Artikel aus ${article.data.category}`;
 
-// Canonical URL
-const siteUrl = 'https://waswirktwirklich.com';
-const canonicalUrl = `${siteUrl}/artikel/${article.data.slug}/`;
+// Canonical URL — siteUrl als Single Source of Truth aus lib/schema
+const canonicalUrl = `${SITE_URL}/artikel/${article.data.slug}/`;
 
 // Extract FAQ pairs from article body (section with "Fragen" or "fragen" in heading)
 function extractFaq(body: string): Array<{ question: string; answer: string }> {
@@ -89,61 +97,30 @@ function extractFaq(body: string): Array<{ question: string; answer: string }> {
   return faqs;
 }
 
-const faqs = extractFaq(article.body || '');
+// FAQ-Quelle: Vorzug für strukturierte `faqItems` aus dem Frontmatter,
+// Fallback auf Regex-Extraktion aus dem Body.
+const faqs = (article.data.faqItems && article.data.faqItems.length >= 2)
+  ? article.data.faqItems
+  : extractFaq(article.body || '');
 
-// Main JSON-LD: MedicalWebPage
-// Hinweis: reviewedBy fehlt bewusst — Verifizierungs-Status kommt jetzt live
-// aus Supabase via Server Island, nicht mehr aus Markdown-Frontmatter.
-const articleJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'MedicalWebPage',
-  headline: article.data.title,
-  description: article.data.excerpt,
-  datePublished: article.data.date,
-  dateModified: article.data.date,
-  inLanguage: 'de-DE',
-  url: canonicalUrl,
-  ...(article.data.image && { image: article.data.image }),
-  author: {
-    '@type': 'Organization',
-    name: 'Was Wirkt Wirklich',
-    url: siteUrl,
-  },
-  publisher: {
-    '@type': 'Organization',
-    name: 'Was Wirkt Wirklich',
-    url: siteUrl,
-  },
-  about: {
-    '@type': 'MedicalCondition',
-    name: article.data.category,
-  },
+// JSON-LD-Schemas via Helper-Modul.
+const articleData = {
+  title: article.data.title,
+  slug: article.data.slug,
+  date: article.data.date,
+  category: article.data.category,
+  excerpt: article.data.excerpt,
+  image: article.data.image,
+  tags: article.data.tags,
+  mainKeyword: article.data.mainKeyword,
+  secondaryKeywords: article.data.secondaryKeywords,
+  reviewer: article.data.reviewer,
 };
 
-// Breadcrumb JSON-LD
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Startseite', item: siteUrl + '/' },
-    { '@type': 'ListItem', position: 2, name: article.data.category, item: `${siteUrl}/fachgebiet/${catSlug}/` },
-    { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
-  ],
-};
-
-// FAQ JSON-LD (only if we extracted at least 2 Q&A pairs)
-const faqJsonLd = faqs.length >= 2 ? {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer,
-    },
-  })),
-} : null;
+const medicalWebPageJsonLd = buildMedicalWebPage(articleData, canonicalUrl);
+const articleJsonLd = buildArticle(articleData, canonicalUrl);
+const breadcrumbJsonLd = buildBreadcrumb(articleData, canonicalUrl, catSlug);
+const faqJsonLd = buildFaqPage(faqs);
 ---
 
 <Base
@@ -158,9 +135,13 @@ const faqJsonLd = faqs.length >= 2 ? {
   articleSection={article.data.category}
   articleTags={article.data.tags}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(medicalWebPageJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
+  <script type="application/ld+json" set:html={JSON.stringify(PUBLISHER_ORG_SCHEMA)} />
+  <script type="application/ld+json" set:html={JSON.stringify(BRAND_ORG_SCHEMA)} />
+
   <article>
     <!-- Hero Image -->
     {article.data.image && (
