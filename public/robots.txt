@@ -1,0 +1,11 @@
+# Was Wirkt Wirklich — Robots-Konfiguration
+User-agent: *
+Allow: /
+
+# Interne Bereiche aus dem Index halten
+Disallow: /admin/
+Disallow: /arzt/
+Disallow: /auth/
+Disallow: /api/
+
+Sitemap: https://waswirktwirklich.com/sitemap-index.xml
