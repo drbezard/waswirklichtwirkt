@@ -37,33 +37,80 @@ const readingTime = Math.max(5, Math.ceil(wordCount / 200));
 // Category-Slug aus dem Whitelist-Helper — eine einzige Quelle der Wahrheit
 const catSlug = specialtySlug(article.data.category);
 
-// Related articles: Jaccard-Score auf Tags, Fallback gleiche Kategorie, max 3
-function jaccardScore(a: string[] | undefined, b: string[] | undefined): number {
-  if (!a || !b || a.length === 0 || b.length === 0) return 0;
-  const sa = new Set(a), sb = new Set(b);
+// Related-Articles-Score: gewichtete Summe aus
+//   α · Tag-Jaccard + β · Keyword-Token-Jaccard + γ · Kategorie-Match
+// Defaults aus Plan: 0.5 / 0.4 / 0.1.
+const RELATED_ALPHA = 0.5;
+const RELATED_BETA = 0.4;
+const RELATED_GAMMA = 0.1;
+const RELATED_MIN = 3;
+const RELATED_MAX = 5;
+
+function jaccardSets(a: Set<string>, b: Set<string>): number {
+  if (a.size === 0 || b.size === 0) return 0;
   let inter = 0;
-  for (const t of sa) if (sb.has(t)) inter++;
-  const union = sa.size + sb.size - inter;
+  for (const t of a) if (b.has(t)) inter++;
+  const union = a.size + b.size - inter;
   return union === 0 ? 0 : inter / union;
 }
 
-const ownTags = article.data.tags;
+function tagSet(data: any): Set<string> {
+  return new Set((data.tags ?? []).map((t: string) => t.toLowerCase().trim()));
+}
+
+// mainKeyword + secondaryKeywords werden tokenisiert, Stop-Tokens kürzer als
+// 3 Zeichen werden weggelassen.
+function keywordTokenSet(data: any): Set<string> {
+  const out = new Set<string>();
+  const all: string[] = [
+    data.mainKeyword,
+    ...(data.secondaryKeywords ?? []),
+  ].filter(Boolean);
+  for (const kw of all) {
+    for (const tok of kw.toLowerCase().split(/[\s\-_/,]+/)) {
+      if (tok.length >= 3) out.add(tok);
+    }
+  }
+  return out;
+}
+
+function relatednessScore(self: any, other: any): number {
+  const tag = jaccardSets(tagSet(self), tagSet(other));
+  const kw = jaccardSets(keywordTokenSet(self), keywordTokenSet(other));
+  const cat = self.category === other.category ? 1 : 0;
+  return RELATED_ALPHA * tag + RELATED_BETA * kw + RELATED_GAMMA * cat;
+}
+
 const scored = allArticles
   .filter((a) => a.data.slug !== article.data.slug)
-  .map((a) => ({ article: a, score: jaccardScore(ownTags, a.data.tags) }));
+  .map((a) => ({ article: a, score: relatednessScore(article.data, a.data) }))
+  .filter((s) => s.score > 0)
+  .sort((a, b) => b.score - a.score);
 
-const tagBased = scored.filter((s) => s.score > 0).sort((a, b) => b.score - a.score).slice(0, 3);
+// Bis zu RELATED_MAX nehmen; wenn weniger als RELATED_MIN → mit den
+// jüngsten Artikeln derselben Kategorie auffüllen.
+const picked = [...scored.slice(0, RELATED_MAX)];
+if (picked.length < RELATED_MIN) {
+  const seen = new Set(picked.map((s) => s.article.data.slug));
+  const fillers = allArticles
+    .filter((a) =>
+      a.data.slug !== article.data.slug &&
+      a.data.category === article.data.category &&
+      !seen.has(a.data.slug)
+    )
+    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+  for (const f of fillers) {
+    picked.push({ article: f, score: 0 });
+    if (picked.length >= RELATED_MIN) break;
+  }
+}
 
-const useTagBased = tagBased.length >= 2;
-const relatedArticles = useTagBased
-  ? tagBased.map((s) => s.article)
-  : allArticles
-      .filter((a) => a.data.slug !== article.data.slug && a.data.category === article.data.category)
-      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-      .slice(0, 3);
-const relatedHeading = useTagBased
-  ? 'Verwandte Artikel'
-  : `Weitere Artikel aus ${article.data.category}`;
+const relatedArticles = picked.map((s) => s.article);
+
+const allFromCategory = picked.every((s) => s.score === 0);
+const relatedHeading = allFromCategory && relatedArticles.length > 0
+  ? `Weitere Artikel aus ${article.data.category}`
+  : 'Verwandte Artikel';
 
 // Canonical URL — siteUrl als Single Source of Truth aus lib/schema
 const canonicalUrl = `${SITE_URL}/artikel/${article.data.slug}/`;
