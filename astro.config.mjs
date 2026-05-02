@@ -7,15 +7,18 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
 
-// Slug-Helper für Fachgebiete (deckungsgleich mit src/lib/specialties.ts)
+// Slug-Helper für Fachgebiete (deckungsgleich mit src/lib/specialties.ts —
+// bei Änderungen auch dort nachziehen)
 function categorySlug(name) {
   return name
     .toLowerCase()
-    .replace(/\s+/g, '-')
     .replace(/ä/g, 'ae')
     .replace(/ö/g, 'oe')
     .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss');
+    .replace(/ß/g, 'ss')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
 }
 
 // Beim Config-Load: aus den Markdown-Frontmatter `date`-Felder zwei Maps bauen,
@@ -99,6 +102,11 @@ export default defineConfig({
   // Hybrid mode: statische Seiten standardmäßig,
   // /arzt/* und /admin/* setzen per `export const prerender = false` auf SSR
   output: 'static',
+  // 301-Weiterleitungen für korrigierte Slugs.
+  // Doppel-Bindestrich aus PR #19 (kinder- und Jugendmedizin) → korrekter Slug
+  redirects: {
+    '/fachgebiet/kinder--und-jugendmedizin': '/fachgebiet/kinder-und-jugendmedizin',
+  },
   adapter: vercel({
     webAnalytics: { enabled: false },
     imageService: false,
