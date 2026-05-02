@@ -17,11 +17,16 @@ export interface Specialty {
 function toSlug(name: string): string {
   return name
     .toLowerCase()
-    .replace(/\s+/g, '-')
     .replace(/ä/g, 'ae')
     .replace(/ö/g, 'oe')
     .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss');
+    .replace(/ß/g, 'ss')
+    .replace(/\s+/g, '-')
+    // Mehrfach-Bindestriche kollabieren (z.B. "Kinder- und Jugendmedizin"
+    // wurde sonst zu "kinder--und-jugendmedizin")
+    .replace(/-+/g, '-')
+    // Führende/abschließende Bindestriche entfernen
+    .replace(/^-|-$/g, '');
 }
 
 const ENTRIES: Array<[string, string]> = [

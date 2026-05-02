@@ -11,6 +11,7 @@ import {
   BRAND_ORG_SCHEMA,
   SITE_URL,
 } from '../../lib/schema';
+import { specialtySlug } from '../../lib/specialties';
 
 export async function getStaticPaths() {
   const articles = await getCollection('artikel', ({ data }) => !data.draft);
@@ -33,10 +34,8 @@ const formattedDate = new Date(article.data.date).toLocaleDateString('de-DE', {
 const wordCount = article.body ? article.body.split(/\s+/).length : 0;
 const readingTime = Math.max(5, Math.ceil(wordCount / 200));
 
-// Category slug helper
-const catSlug = article.data.category.toLowerCase()
-  .replace(/\s+/g, '-')
-  .replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue');
+// Category-Slug aus dem Whitelist-Helper — eine einzige Quelle der Wahrheit
+const catSlug = specialtySlug(article.data.category);
 
 // Related articles: Jaccard-Score auf Tags, Fallback gleiche Kategorie, max 3
 function jaccardScore(a: string[] | undefined, b: string[] | undefined): number {
