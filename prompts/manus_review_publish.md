@@ -2,9 +2,9 @@
 key: manus_review_publish
 title: "Manus: Review + Veröffentlichung"
 description: "Wie Manus den finalen DOI-Check macht und den polierten Artikel veröffentlicht"
-version: 5
-updated_at: 2026-04-30 09:00:00.000000+00
-synced_at: 2026-04-30T09:00:00.000Z
+version: 6
+updated_at: 2026-05-02 18:00:00.000000+00
+synced_at: 2026-05-02T18:00:00.000Z
 ---
 # Manus: Review + Veröffentlichung
 
@@ -33,12 +33,20 @@ Wenn ein Topic Status `polished` hat.
 - `category:` exakt aus erlaubter Fachgebiete-Liste (siehe Drafting-Prompt)
 - Slug eindeutig (außer `type: refresh`)
 - Tags alle aus `tags_vocabulary`
-- `prompt:` darf NICHT generisch sein. Verwerfen wenn:
-  - leer oder kürzer als 200 Zeichen
+- `prompt:` darf NICHT generisch und nicht als Verifikations-Fragebogen formuliert sein.
+  Verwerfen wenn eines davon zutrifft:
+  - kürzer als 1.200 Zeichen
   - enthält die Phrase „Dieser Artikel wurde von Manus AI" oder „basierend auf den
     aktuellsten wissenschaftlichen Studien"
-  - enthält nicht mindestens einen Anker, der den Artikel-Titel oder eine konkrete
-    Schlüsselstudie aus dem Artikel referenziert
+  - enthält die Wörter „verifiziere", „überprüfe ob die Aussage", „Faktencheck",
+    „Bitte prüfe ob" — das wäre ein Verifikations-Fragebogen, nicht der geforderte
+    Wiederherstellungs-Prompt
+  - enthält NICHT die Anker-Phrase „Schreibe einen evidenzbasierten Patientenartikel" oder
+    keinen exakten Artikel-Titel zwischen `**…**`
+  - enthält keinen Abschnitt „Erwartete Schlüsselbefunde" mit ≥ 3 konkreten Studien-Bullets
+  - enthält nicht den Strukturblock mit (1) KERNAUSSAGE / (2) WAS PATIENTEN GLAUBEN /
+    (3) WANN IST ES DOCH SINNVOLL? / (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN /
+    (5) QUELLENVERZEICHNIS
 
 ### c) Body-Format validieren
 
@@ -58,14 +66,16 @@ Wenn ein Topic Status `polished` hat.
 
 Jeder `<span class="studie-name">…</span>` muss mit einem **Eigennamen** beginnen, nicht
 mit einem generischen Studientyp-Prefix. Verboten als Anfang:
-- `Beobachtungsstudie:`
-- `Kohortenstudie:`
-- `Prospektive Kohortenstudie:`
-- `Studie:`
-- `RCT:`
+- `Beobachtungsstudie:`, `Kohortenstudie:`, `Prospektive Kohortenstudie:`, `Studie:`, `RCT:`,
+  `Meta-Analyse:`, `Cochrane Review:`, `Systematischer Review:`
 
-Erlaubt sind: Autor-Form (`Lax et al. (2024) — …`), Org-Form (`AAD Clinical Practice
-Guideline (2024)`), Report-Form (`TFOS DEWS II Management and Therapy Report (2017)`).
+Bei Autor-Studien (Form `<Erstautor> et al. (<Jahr>)`) ist ein Untertitel-Hinweis Pflicht
+— die reine Autor-Jahr-Form ohne Untertitel ist nichtssagend und wird zurückgewiesen.
+Pflicht-Format: `<Erstautor> et al. (<Jahr>) — <kurzer Studientitel-Hinweis>`.
+
+Erlaubt ohne Untertitel sind nur Leitlinien-/Org-Form (`AAD Clinical Practice Guideline
+(2024)`, `Nationale VersorgungsLeitlinie Kreuzschmerz (2017)`) und Report-Form
+(`TFOS DEWS II Management and Therapy Report (2017)`).
 
 Bei Verletzung → Topic zurück auf `drafted` mit Notiz, welche Box.
 

@@ -15,11 +15,98 @@ tags:
   - igel
   - placebo-kontrolliert
 prompt: >-
-  Du bist ein streng wissenschaftlicher, evidenzbasierter medizinischer Redakteur für die Plattform "Was Wirkt Wirklich".
-  Du überprüfst den Artikel "PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?".
-  Bitte verifiziere anhand der zitierten Meta-Analyse von Anitua et al. (2025) sowie der AWMF-S3-Leitlinie Androgenetische Alopezie,
-  ob die Aussagen zur Wirksamkeit von PRP (moderate Erhöhung der Haardichte, aber fehlende Standardisierung und keine aktive Leitlinien-Empfehlung)
-  korrekt wiedergegeben sind.
+  Du bist medizinischer Wissenschaftsjournalist für eine unabhängige, werbefreie
+  Plattform. Du verkaufst nichts, hast keinen Interessenkonflikt und gibst
+  ausschließlich wieder, was die Evidenz hergibt. Du bist extrem kritisch — wenn
+  ein Verfahren in Studien nicht besser wirkt als Placebo, schreibst du das ohne
+  Abschwächung.
+
+
+  Schreibe einen evidenzbasierten Patientenartikel auf Deutsch (Sie-Form,
+  2.500–3.500 Wörter) zum Thema:
+
+  **PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?**
+
+
+  Struktur:
+
+  (1) KERNAUSSAGE (max. 200 Wörter) — eine glasklare Aussage zur Evidenzlage,
+  Hauptaussage zuerst, einfache Sprache.
+
+  (2) WAS PATIENTEN GLAUBEN — UND WAS DIE STUDIEN ZEIGEN (1.500–2.000 Wörter) —
+  häufigste Patientenannahme vs. beste Evidenz; alle relevanten
+  Cochrane-Reviews, Meta-Analysen und Leitlinien zum Thema mit Studienname,
+  Erstautor, Journal, Jahr, Studiendesign, Teilnehmerzahl und Kernergebnis;
+  Fachbegriffe sofort in Klammern erklären; erklären, warum Fehlvorstellungen
+  bestehen (Placebo, Regression zur Mitte, finanzielle Anreize, widersprüchliche
+  Leitlinien).
+
+  (3) WANN IST ES DOCH SINNVOLL? (300–400 Wörter) — konkrete
+  Wenn-Dann-Kriterien, Notfall/dringend/elektiv unterscheiden, keine vagen
+  Formulierungen.
+
+  (4) WAS SIE IHREN ARZT FRAGEN SOLLTEN (200–300 Wörter) — 5–7 konkrete Fragen
+  mit Erklärung, warum sie wichtig sind.
+
+  (5) QUELLENVERZEICHNIS — nur Primärquellen: Cochrane Reviews, Meta-Analysen,
+  RCTs, aktuelle Leitlinien führender Fachgesellschaften. Jede DOI muss unter
+  https://doi.org/ resolvable sein.
+
+
+  Erwartete Schlüsselbefunde (als Vergleichsbasis für die KI):
+
+  - Anitua et al. (2025), Meta-Analyse zu PRP bei Alopezie: aktiviertes
+  plättchenreiches Plasma erhöht die Haardichte gegenüber Placebo signifikant,
+  aber die Effektstärke ist heterogen und hängt stark vom
+  Aufbereitungs-Protokoll ab — es gibt keine standardisierte Methode.
+
+  - Li et al. (2024), systematische Übersicht: PRP erhöht die Haardichte, zeigt
+  aber keine signifikante Verbesserung des Haardurchmessers; die Wirkung ist
+  temporär und Auffrisch-Sitzungen sind erforderlich.
+
+  - AWMF-S3-Leitlinie Androgenetische Alopezie (2024): PRP wird als
+  experimentelle Option erwähnt — wegen eingeschränkter Evidenz und fehlender
+  Standardisierung wird KEINE aktive Empfehlung ausgesprochen.
+  Erstlinientherapie bleibt Minoxidil (topisch) bzw. Finasterid (systemisch,
+  beim Mann).
+
+  - Vergleich mit zugelassenen Therapien: PRP ist eine IGeL-Leistung (200–500 €
+  pro Sitzung, 3–6 Sitzungen jährlich). Minoxidil 5 % topisch kostet ca. 20
+  €/Monat und hat in mehreren RCTs eine konsistentere und besser belegte
+  Wirksamkeit gezeigt.
+
+
+  Quellen-Anforderung: alle aktuellen Cochrane-Reviews + Meta-Analysen +
+  Leitlinien zum Thema; RCTs nur wenn keine Synthese existiert;
+  Beobachtungsstudien nur als Ergänzung. Studien mit hoher Evidenzqualität haben
+  Vorrang. Hierarchie bei Konflikten: Cochrane > aktuelle Leitlinie >
+  Netzwerk-Meta-Analyse > Meta-Analyse > einzelner RCT > Kohortenstudie.
+
+
+  Stilregeln: Deutsch, Sie-Form. Tonfall: direkt, kritisch, respektvoll — nie
+  herablassend, nie alarmistisch, nie verharmlosend. Verboten: Marketingsprache,
+  unbelegte Statistiken, Absolutismen ohne Evidenz, Empfehlungen ohne
+  Studienbeleg, Verharmlosung von Risiken, Verteufelung evidenzbasierter
+  Behandlungen. Gefordert: jede Behauptung mit Quelle, klare Unterscheidung
+  zwischen „belegt"/„unklar"/„widerlegt"; bei widersprüchlicher Datenlage beide
+  Seiten darstellen.
+
+
+  SEO: Titel max. 60 Zeichen mit Hauptkeyword vorne; Meta-Description max. 160
+  Zeichen mit Nutzen-Versprechen; H2/H3 mit Keyword-Variationen; einfache
+  Sprache (verständlich für Klasse 9).
+
+
+  Verbote: keine erfundenen Studien; keine Empfehlung ohne Quelle; alle DOIs
+  müssen unter https://doi.org/ resolvable sein. Keine Sätze wie „Dieser Artikel
+  wurde von Manus AI verfasst" — der Prompt soll einen Artikel ERZEUGEN, nicht
+  kommentieren.
+
+
+  Qualitätskontrolle: jede medizinische Behauptung mit Quelle belegt; alle
+  Fachbegriffe in Klammern erklärt; sowohl kritische Bewertung als auch
+  berechtigte Ausnahmen darstellen. Ein Facharzt würde sagen „fair dargestellt",
+  ein Patient „jetzt verstehe ich meine Optionen".
 seoTitle: 'PRP-Eigenbluttherapie bei Haarausfall: Wirksam oder teures Placebo?'
 seoDescription: >-
   PRP-Injektionen in die Kopfhaut können die Haardichte bei erblich bedingtem
@@ -39,7 +126,8 @@ sources:
     doi_verified: true
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      Aktiviertes PRP erhöhte die Haardichte signifikant gegenüber Placebo, aber es fehlte an Standardisierung.
+      Aktiviertes PRP erhöhte die Haardichte signifikant gegenüber Placebo, aber
+      es fehlte an Standardisierung.
   - id: m-2024
     type: meta-analysis
     quality: high
@@ -53,19 +141,23 @@ sources:
     doi_verified: true
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      PRP erhöhte die Haardichte signifikant gegenüber Placebo, jedoch keine signifikante Verbesserung der Haardicke.
+      PRP erhöhte die Haardichte signifikant gegenüber Placebo, jedoch keine
+      signifikante Verbesserung der Haardicke.
   - id: awmf-s3
     type: guideline
     quality: high
-    title: 'S3-Leitlinie Androgenetische Alopezie'
-    authors: 'Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)'
-    journal: 'AWMF-Register'
+    title: S3-Leitlinie Androgenetische Alopezie
+    authors: >-
+      Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen
+      Fachgesellschaften (AWMF)
+    journal: AWMF-Register
     year: 2024
     url: 'https://register.awmf.org'
     doi_verified: true
     doi_checked_at: '2026-05-02T16:00:00Z'
     key_finding_de: >-
-      PRP wird als mögliche Therapieoption erwähnt, jedoch mit eingeschränkter Evidenz. Es wird keine aktive Empfehlung ausgesprochen.
+      PRP wird als mögliche Therapieoption erwähnt, jedoch mit eingeschränkter
+      Evidenz. Es wird keine aktive Empfehlung ausgesprochen.
 ---
 <section class="kernaussage">
 PRP-Injektionen (plättchenreiches Plasma aus Eigenblut) erhöhen bei erblich bedingtem Haarausfall die Haardichte im Mittel um etwa 20–25 Haare/cm² gegenüber Placebo (NNT ca. 7–10 für einen messbaren Haardichtezuwachs). Die Wirkung ist moderat, temporär (Effekt lässt ohne Wiederholungen nach 3–6 Monaten nach) und stark abhängig von der Aufbereitungsmethode. Es gibt kein standardisiertes Herstellungsverfahren, keine zugelassene Dosierung und keine Langzeitdaten über mehrere Jahre. Die Haardicke wird nicht signifikant verbessert. PRP ersetzt keine zugelassenen Therapien wie Minoxidil oder Finasterid. Die deutsche S3-Leitlinie bewertet die Evidenz als eingeschränkt und spricht keine aktive Empfehlung aus. PRP ist eine Selbstzahlerleistung (150–500 Euro pro Sitzung), deren Nutzen im Vergleich zu Kosten und Aufwand kritisch abzuwägen ist.
@@ -94,7 +186,7 @@ Ein zentrales Problem ist die fehlende Standardisierung: Es gibt zahlreiche vers
 Zudem fehlen Langzeitstudien über mehrere Jahre, um die Nachhaltigkeit der Wirkung und mögliche Langzeitrisiken zu beurteilen.
 
 <div class="studie">
-<span class="studie-name">Anitua et al. (2025)</span>  
+<span class="studie-name">Anitua et al. (2025) — Meta-Analyse zu PRP bei Alopezie</span>  
 <div class="studie-details">Systematische Übersicht und Meta-Analyse · Dermatology and Therapy · 43 RCTs, 1.877 Teilnehmer</div>
 
 Diese umfassende Meta-Analyse wertete 43 randomisierte kontrollierte Studien (RCTs) mit fast 1.900 Teilnehmern aus. Die Ergebnisse zeigten, dass aktiviertes PRP (also PRP, das vor der Injektion mit Kalzium oder anderen Substanzen aktiviert wurde, um die Freisetzung von Wachstumsfaktoren zu stimulieren) die Haardichte signifikant gegenüber Placebo erhöhte. Die mittlere absolute Zunahme betrug etwa 20–25 Haare/cm².
@@ -111,7 +203,7 @@ Die Meta-Analyse von Anitua et al. ist methodisch solide, da sie nur RCTs einsch
 Zudem wird die klinische Relevanz der statistisch signifikanten Zunahme von 20–25 Haaren/cm² nicht ausreichend diskutiert. Für viele Patienten dürfte dieser moderate Zuwachs nicht den hohen Aufwand und die Kosten rechtfertigen.
 
 <div class="studie">
-<span class="studie-name">Li et al. (2024)</span>  
+<span class="studie-name">Li et al. (2024) — Systematische Übersicht zu PRP-Wirkung auf Haardichte</span>  
 <div class="studie-details">Systematische Übersicht und Meta-Analyse · Aesthetic Plastic Surgery, 48:977–984 · 10 RCTs, 555 Behandlungseinheiten</div>
 
 Diese Meta-Analyse umfasst 10 RCTs mit insgesamt 555 Behandlungseinheiten und bestätigt die Ergebnisse: PRP erhöhte die Haardichte im Mittel um 25,09 Haare/cm² (95%-Konfidenzintervall: 9,03–41,15) gegenüber Placebo. Die Haardicke wurde statistisch nicht signifikant verbessert (p > 0,05). Interessanterweise zeigten Subgruppenanalysen, dass Männer stärker von PRP profitieren als gemischte Gruppen aus Männern und Frauen.
